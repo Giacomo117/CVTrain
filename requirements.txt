@@ -1,0 +1,5 @@
+opencv-python~=4.9.0.80
+numpy~=1.26.4
+imblearn~=0.0
+scikit-learn~=1.4.2
+tensorflow~=2.16.1

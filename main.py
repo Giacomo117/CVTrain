@@ -5,6 +5,9 @@ from imblearn.over_sampling import RandomOverSampler
 from sklearn.model_selection import train_test_split
 from tensorflow.keras import layers, models
 from tensorflow.keras.callbacks import TensorBoard
+from keras.models import Sequential, Model
+from keras.layers import Activation, Convolution2D,MaxPooling2D,BatchNormalization, Flatten, Dense, Dropout
+from keras.layers.advanced_activations import LeakyReLU
 
 # Definizione della funzione per caricare le immagini e le etichette
 print("Inizio esecuzione del codice")
@@ -53,18 +56,54 @@ X_train_resampled = X_train_resampled.reshape(-1, 64, 64, 3)
 
 # Definizione del modello CNN
 def create_model(input_shape):
-    model = models.Sequential([
-        layers.Conv2D(32, (3, 3), activation='relu', input_shape=input_shape),
-        layers.MaxPooling2D((2, 2)),
-        layers.Conv2D(64, (3, 3), activation='relu'),
-        layers.MaxPooling2D((2, 2)),
-        layers.Conv2D(128, (3, 3), activation='relu'),
-        layers.MaxPooling2D((2, 2)),
-        layers.Flatten(),
-        layers.Dense(128, activation='relu'),
-        layers.Dropout(0.5),
-        layers.Dense(2, activation='softmax')  # Due classi: occhi aperti e occhi chiusi
-    ])
+    model = Sequential()
+    model.add(Convolution2D(32, (3, 3), padding='same', use_bias=False, input_shape=(96, 96, 1)))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(Convolution2D(32, (3, 3), padding='same', use_bias=False))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Convolution2D(64, (3, 3), padding='same', use_bias=False))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(Convolution2D(64, (3, 3), padding='same', use_bias=False))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Convolution2D(96, (3, 3), padding='same', use_bias=False))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(Convolution2D(96, (3, 3), padding='same', use_bias=False))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Convolution2D(128, (3, 3), padding='same', use_bias=False))
+    # model.add(BatchNormalization())
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(Convolution2D(128, (3, 3), padding='same', use_bias=False))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Convolution2D(256, (3, 3), padding='same', use_bias=False))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(Convolution2D(256, (3, 3), padding='same', use_bias=False))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(MaxPooling2D(pool_size=(2, 2)))
+    model.add(Convolution2D(512, (3, 3), padding='same', use_bias=False))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(Convolution2D(512, (3, 3), padding='same', use_bias=False))
+    model.add(LeakyReLU(alpha=0.1))
+    model.add(BatchNormalization())
+    model.add(Flatten())
+    model.add(Dense(512, activation='relu'))
+    model.add(Dropout(0.1))
+    model.add(Dense(30))
+    model.summary()
     return model
 
 

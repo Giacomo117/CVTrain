@@ -22,7 +22,7 @@ def load_dataset(dataset_dir):
             for image_file in os.listdir(subject_dir):
                 if image_file.endswith(".png"):
                     image_path = os.path.join(subject_dir, image_file)
-                    image = load_img(image_path, target_size=(224, 224))  # Regola la dimensione dell'immagine come necessario
+                    image = load_img(image_path, target_size=(84, 84))  # Regola la dimensione dell'immagine come necessario
                     image_array = img_to_array(image)
                     images.append(image_array)
 

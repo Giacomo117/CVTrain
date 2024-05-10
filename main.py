@@ -1,104 +1,111 @@
 import os
-import cv2
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 import numpy as np
-from imblearn.over_sampling import RandomOverSampler
 from sklearn.model_selection import train_test_split
-from tensorflow.keras import layers, models
-from tensorflow.keras.callbacks import TensorBoard
-from keras.models import Sequential, Model
-from keras.layers import Activation, Convolution2D,MaxPooling2D,BatchNormalization, Flatten, Dense, Dropout
-from keras.layers.advanced_activations import LeakyReLU
+from tensorflow.keras.preprocessing.image import load_img, img_to_array
+from keras.models import Sequential
+from keras.layers import Convolution2D, MaxPooling2D, BatchNormalization, Flatten, Dense, Dropout, LeakyReLU
 
-# Definizione della funzione per caricare le immagini e le etichette
-print("Inizio esecuzione del codice")
+# Funzione per caricare le immagini e le etichette
 
+# Percorso del dataset
+dataset_dir = r'C:\Users\39329\Desktop\Progetto CV\mrlEyes_2018_01\mrlEyes_2018_01'
 
-def load_data(data_dir):
+print("Inizio esecuzione codice")
+def load_dataset(dataset_dir):
     images = []
     labels = []
 
-    # Percorri le cartelle Drowsy e Non_Drowsy
-    for label, category in enumerate(['Non_Drowsy', 'Drowsy']):
-        folder_path = os.path.join(data_dir, category)
-        for filename in os.listdir(folder_path):
-            image_path = os.path.join(folder_path, filename)
-            image = cv2.imread(image_path)
-            if image is None:
-                print(f"Impossibile caricare l'immagine: {image_path}")
-            # else:
-            # print(f"Caricata l'immagine: {image_path}")
-            image = cv2.resize(image, (64, 64))  # Ridimensiona l'immagine se necessario
-            images.append(image)
-            labels.append(label)
+    for folder in os.listdir(dataset_dir):
+        if folder.startswith("s"):  # Ignora eventuali file nascosti
+            subject_dir = os.path.join(dataset_dir, folder)
+            for image_file in os.listdir(subject_dir):
+                if image_file.endswith(".png"):
+                    image_path = os.path.join(subject_dir, image_file)
+                    image = load_img(image_path, target_size=(224, 224))  # Regola la dimensione dell'immagine come necessario
+                    image_array = img_to_array(image)
+                    images.append(image_array)
 
-    # Converte le liste in numpy arrays
-    images = np.array(images)
-    labels = np.array(labels)
+                    # Ottieni le etichette dall'immagine
+                    parts = image_file.split('_')
+                    gender = int(parts[2])
+                    eye_state = int(parts[3])
+                    labels.append((gender, eye_state))
 
-    return images, labels
+    return np.array(images), np.array(labels)
 
 
-# Caricamento dei dati
-data_dir = "C:/Users/39329/Desktop/Progetto CV/archive/Driver Drowsiness Dataset (DDD)"
-images, labels = load_data(data_dir)
 
-# Normalizzazione delle immagini
-images = images / 255.0
+# Carica il dataset
+images, labels = load_dataset(dataset_dir)
 
-# Dividi il dataset in training set e test set
-X_train, X_test, y_train, y_test = train_test_split(images, labels, test_size=0.2, random_state=42)
+# Divisione in set di addestramento, test e validazione
+X_train, X_test_val, y_train, y_test_val = train_test_split(images, labels, test_size=0.2, random_state=42)
+X_val, X_test, y_val, y_test = train_test_split(X_test_val, y_test_val, test_size=0.5, random_state=42)
 
-# Bilanciamento delle classi con oversampling
-oversampler = RandomOverSampler(random_state=42)
-X_train_resampled, y_train_resampled = oversampler.fit_resample(X_train.reshape(-1, 64 * 64 * 3), y_train)
-X_train_resampled = X_train_resampled.reshape(-1, 64, 64, 3)
+# Stampa delle dimensioni dei set
+print("Dimensioni Train Set:", X_train.shape, y_train.shape)
+print("Dimensioni Validation Set:", X_val.shape, y_val.shape)
+print("Dimensioni Test Set:", X_test.shape, y_test.shape)
 
 
 # Definizione del modello CNN
 def create_model(input_shape):
     model = Sequential()
-    model.add(Convolution2D(32, (3, 3), padding='same', use_bias=False, input_shape=(96, 96, 1)))
+    ## 001
+    model.add(Convolution2D(32, (3, 3), padding='same', use_bias=False, input_shape=input_shape))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
+    ## 002
     model.add(Convolution2D(32, (3, 3), padding='same', use_bias=False))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
+    ## 003
     model.add(Convolution2D(64, (3, 3), padding='same', use_bias=False))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
+    ## 004
     model.add(Convolution2D(64, (3, 3), padding='same', use_bias=False))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
+    ## 005
     model.add(Convolution2D(96, (3, 3), padding='same', use_bias=False))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
+    ## 006
     model.add(Convolution2D(96, (3, 3), padding='same', use_bias=False))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
+    ## 007
     model.add(Convolution2D(128, (3, 3), padding='same', use_bias=False))
-    # model.add(BatchNormalization())
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
+    ## 008
     model.add(Convolution2D(128, (3, 3), padding='same', use_bias=False))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
+    ## 009
     model.add(Convolution2D(256, (3, 3), padding='same', use_bias=False))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
+    ## 010
     model.add(Convolution2D(256, (3, 3), padding='same', use_bias=False))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
+    ## 011
     model.add(Convolution2D(512, (3, 3), padding='same', use_bias=False))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
+    ## 012
     model.add(Convolution2D(512, (3, 3), padding='same', use_bias=False))
     model.add(LeakyReLU(alpha=0.1))
     model.add(BatchNormalization())
+    # MLP
     model.add(Flatten())
     model.add(Dense(512, activation='relu'))
     model.add(Dropout(0.1))
@@ -108,7 +115,7 @@ def create_model(input_shape):
 
 
 # Addestramento del modello
-input_shape = (64, 64, 3)  # Dimensioni delle immagini
+input_shape = (224, 224, 3)  # Dimensioni delle immagini
 cnn_model = create_model(input_shape)
 print('Modello creato')
 
@@ -119,10 +126,10 @@ cnn_model.compile(optimizer='adam',
 
 # Addestramento del modello
 print('Inizio addestramento')
-history = cnn_model.fit(X_train_resampled, y_train_resampled,
+history = cnn_model.fit(X_train, y_train,
                         epochs=5,
                         batch_size=32,
-                        validation_data=(X_test, y_test))
+                        validation_data=(X_val, y_val))
 
 # Salvataggio del modello
 model_dir = "C:/Users/39329/Desktop/Progetto CV"

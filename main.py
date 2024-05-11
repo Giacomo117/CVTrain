@@ -1,6 +1,7 @@
 import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 import numpy as np
+import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from keras.models import Sequential
@@ -50,78 +51,79 @@ print("Dimensioni Test Set:", X_test.shape, y_test.shape)
 
 
 # Definizione del modello CNN
-def create_model(input_shape):
+def create_model(input_shape, num_classes):
     model = Sequential()
     ## 001
     model.add(Convolution2D(32, (3, 3), padding='same', use_bias=False, input_shape=input_shape))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     ## 002
     model.add(Convolution2D(32, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ## 003
     model.add(Convolution2D(64, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     ## 004
     model.add(Convolution2D(64, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ## 005
     model.add(Convolution2D(96, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     ## 006
     model.add(Convolution2D(96, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ## 007
     model.add(Convolution2D(128, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     ## 008
     model.add(Convolution2D(128, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ## 009
     model.add(Convolution2D(256, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     ## 010
     model.add(Convolution2D(256, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ## 011
     model.add(Convolution2D(512, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     ## 012
     model.add(Convolution2D(512, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(alpha=0.1))
+    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
     model.add(BatchNormalization())
     # MLP
     model.add(Flatten())
-    model.add(Dense(512, activation='relu'))
+    model.add(Dense(25088, activation='relu'))
     model.add(Dropout(0.1))
-    model.add(Dense(30))
+    model.add(Dense(num_classes, activation='softmax'))
     model.summary()
     return model
 
 
 # Addestramento del modello
-input_shape = (224, 224, 3)  # Dimensioni delle immagini
-cnn_model = create_model(input_shape)
+input_shape = (84, 84, 3)  # Dimensioni delle immagini
+num_classes = 2
+cnn_model = create_model(input_shape, num_classes)
 print('Modello creato')
 
 # Compilazione del modello
 cnn_model.compile(optimizer='adam',
-                  loss='sparse_categorical_crossentropy',  # Usa sparse_categorical_crossentropy
+                  loss='binary_crossentropy',  # Cambiato a binary_crossentropy per problemi di classificazione binaria
                   metrics=['accuracy'])
 
 # Addestramento del modello

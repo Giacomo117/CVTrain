@@ -9,8 +9,8 @@ Steps
   
   ServerV2 --> in queue for training
 
-5) convert.py --> converte il .keras del server al .h5 che serve 
-6) launch.py --> main che, dati i modelli, usa tutto real-time sulla telecamera del computer
+4) convert.py --> converte il .keras del server al .h5 che serve 
+5) launch.py --> main che, dati i modelli, usa tutto real-time sulla telecamera del computer
 
 Cambiare directory da cui prende le immagini
 Eye Detection

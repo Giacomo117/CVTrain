@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="aimagelab-srv-00.ing.unimore.it" id="1dbbbb7c-5c9d-4396-bb69-a4bb5e287856" port="22" customName="aimagelab-srv-00.ing.unimore.it" nameFormat="CUSTOM" username="greggianini" useOpenSSHConfig="true">
+        <option name="customName" value="aimagelab-srv-00.ing.unimore.it" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

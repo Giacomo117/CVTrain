@@ -1,5 +1,4 @@
 Cambiare directory da cui prende le immagini
-Dataset usato: DDD
-https://www.kaggle.com/datasets/ismailnasri20/driver-drowsiness-dataset-ddd
-
+Eye Detection
+Dataset usato: mrlEyes-2018 (80000 immagini) con data augmentation 1:5)
 pip install -r requirements.txt

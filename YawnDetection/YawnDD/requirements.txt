@@ -1,0 +1,6 @@
+patool
+requests
+tqdm
+tensorflow
+pillow
+scipy

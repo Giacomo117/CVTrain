@@ -1,57 +1,16 @@
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import GlobalAveragePooling2D, Dense, Dropout
+from tensorflow.keras.applications.mobilenet import MobileNet, preprocess_input
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import Callback
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
-import os
 
 from tqdm import tqdm
 
-
-# class CustomDataGen:
-#     def __init__(self, directory, batch_size=32, image_size=(64, 64)):
-#         self.directory = directory
-#         self.batch_size = batch_size
-#         self.image_size = image_size
-#         self.image_filenames = os.listdir(directory)
-#         self.index = 0
-
-#     def __next__(self):
-#         batch_images = []
-#         batch_labels = []
-
-#         for i in range(self.batch_size):
-#             if self.index >= len(self.image_filenames):
-#                 self.index = 0
-
-#             image_filename = self.image_filenames[self.index]
-#             image_path = os.path.join(self.directory, image_filename)
-#             image = load_img(image_path, target_size=self.image_size)
-#             image = img_to_array(image) / 255.0  # normalize pixel values
-
-#             if "Yawning" in image_filename:
-#                 label = [1, 0]  # "Yawning"
-#             else:
-#                 label = [0, 1]  # "No Yawning"
-
-#             batch_images.append(image)
-#             batch_labels.append(label)
-
-#             self.index += 1
-
-#         return np.array(batch_images), np.array(batch_labels)
-    
-#     def __len__(self):
-#         return (len(self.image_filenames) + self.batch_size - 1) // self.batch_size
-
-#     def __iter__(self):
-#         return self
 print("Inizio dello script")
 
 # Definizione della callback per la barra di avanzamento
 class TqdmProgressCallback(Callback):
-
     def on_train_begin(self, logs=None):
         self.epochs = self.params['epochs']
 
@@ -65,37 +24,54 @@ class TqdmProgressCallback(Callback):
     def on_epoch_end(self, epoch, logs=None):
         self.pbar.close()
 
-print("Definizione del modello")
-# Definizione del modello
-model = Sequential([
-    Conv2D(32, (3, 3), activation='relu', input_shape=(64, 64, 3)),  # Primo strato convoluzionale
-    MaxPooling2D(pool_size=(2, 2)),  # Primo strato di pooling
-    Conv2D(64, (3, 3), activation='relu'),  # Secondo strato convoluzionale
-    MaxPooling2D(pool_size=(2, 2)),  # Secondo strato di pooling
-    Conv2D(128, (3, 3), activation='relu'),  # Terzo strato convoluzionale
-    MaxPooling2D(pool_size=(2, 2)),  # Terzo strato di pooling
-    Flatten(),  # Strato per appiattire l'input
-    Dense(128, activation='relu'),  # Strato completamente connesso
-    Dropout(0.5),  # Strato di dropout per prevenire l'overfitting
-    Dense(2, activation='softmax')  # Strato di output
-])
+print("Caricamento del modello MobileNet pre-addestrato")
+# Caricamento del modello MobileNet pre-addestrato
+base_model = MobileNet(weights='imagenet', include_top=False, input_shape=(64, 64, 3))  # Assicurati che input_shape corrisponda al tuo target_size
+
+# Congelamento dei pesi del modello base
+for layer in base_model.layers:
+    layer.trainable = False
+
+# Aggiunta dei nuovi strati in cima al modello
+x = base_model.output
+x = GlobalAveragePooling2D()(x)
+x = Dense(128, activation='relu')(x)  # Aggiungi un nuovo strato completamente connesso
+x = Dropout(0.5)(x)  # Aggiungi un nuovo strato di dropout per prevenire l'overfitting
+predictions = Dense(2, activation='softmax')(x)  # Strato di output per 2 classi
+
+# Definizione del nuovo modello
+model = Model(inputs=base_model.input, outputs=predictions)
 
 print("Compilazione del modello")
 # Compilazione del modello
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
-print("Generazione dei dati per l'addestramento")
-# Generatore di dati per l'addestramento
+print("Preparazione dei generatori di dati")
+# Preparazione dei generatori di dati con preprocess_input
 train_datagen = ImageDataGenerator(
-    rescale=1./255,  # Ridimensionamento delle immagini
-    shear_range=0.2,  # Range per le trasformazioni di shear
-    zoom_range=0.2,  # Range per lo zoom
-    horizontal_flip=True,  # Abilita il flip orizzontale
-    validation_split=0.2  # Percentuale di dati da usare come validazione
+    preprocessing_function=preprocess_input,  # Usa la funzione di preprocessamento fornita da MobileNet
+    shear_range=0.2,
+    zoom_range=0.2,
+    horizontal_flip=True,
+    validation_split=0.2
 )
 
-print("Generazione dei dati per l'addestramento")
-# Generatore di dati per l'addestramento
+# train_generator = train_datagen.flow_from_directory(
+#     './annotated_frames',
+#     target_size=(64, 64),
+#     batch_size=32,
+#     class_mode='categorical',
+#     subset='training'
+# )
+
+# validation_generator = train_datagen.flow_from_directory(
+#     './annotated_frames',
+#     target_size=(64, 64),
+#     batch_size=32,
+#     class_mode='categorical',
+#     subset='validation'
+# )
+
 train_generator = train_datagen.flow_from_directory(
     './annotated_frames',
     target_size=(64, 64),
@@ -118,12 +94,21 @@ print("Addestramento del modello")
 # Addestramento del modello
 model.fit(
     train_generator,
-    steps_per_epoch=len(train_generator),
-    epochs=25,
+    steps_per_epoch=int(train_generator.samples/train_generator.batch_size) - 1,
+    epochs=10,
     validation_data=validation_generator,
-    validation_steps=len(validation_generator),
-    callbacks=[TqdmProgressCallback()]  # Aggiunta della callback per la barra di avanzamento
+    validation_steps=int(validation_generator.samples/validation_generator.batch_size) - 1,
+    callbacks=[TqdmProgressCallback()]
 )
+
+# model.fit(
+#     train_generator,
+#     steps_per_epoch=len(train_generator),
+#     epochs=25,
+#     validation_data=validation_generator,
+#     validation_steps=len(validation_generator),
+#     callbacks=[TqdmProgressCallback()]
+# )
 
 print("Valutazione del modello")
 # Valutazione del modello
@@ -132,6 +117,6 @@ print(f"Accuratezza della validazione: {accuracy}")
 
 print("Salvataggio del modello")
 # Salvataggio del modello
-model.save('yawn_detection_model.h5')
+model.save('yawn_detection_model_mobilenet.h5')
 
 print("Fine dello script")

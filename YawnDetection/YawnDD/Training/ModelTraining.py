@@ -4,7 +4,7 @@ from tensorflow.keras.layers import GlobalAveragePooling2D, Dense, Dropout
 from tensorflow.keras.applications.mobilenet import MobileNet, preprocess_input
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import Callback
-
+import numpy as np
 from tqdm import tqdm
 
 print("Inizio dello script")
@@ -56,22 +56,6 @@ train_datagen = ImageDataGenerator(
     validation_split=0.2
 )
 
-# train_generator = train_datagen.flow_from_directory(
-#     './annotated_frames',
-#     target_size=(64, 64),
-#     batch_size=32,
-#     class_mode='categorical',
-#     subset='training'
-# )
-
-# validation_generator = train_datagen.flow_from_directory(
-#     './annotated_frames',
-#     target_size=(64, 64),
-#     batch_size=32,
-#     class_mode='categorical',
-#     subset='validation'
-# )
-
 train_generator = train_datagen.flow_from_directory(
     './annotated_frames',
     target_size=(64, 64),
@@ -114,6 +98,46 @@ print("Valutazione del modello")
 # Valutazione del modello
 loss, accuracy = model.evaluate(validation_generator)
 print(f"Accuratezza della validazione: {accuracy}")
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
+
+# Generate predictions on the validation set
+validation_predictions = model.predict(validation_generator)
+predicted_classes = np.argmax(validation_predictions, axis=1)
+
+# True classes
+true_classes = validation_generator.classes
+
+# Calculate the confusion matrix
+cm = confusion_matrix(true_classes, predicted_classes)
+
+# Plot the confusion matrix
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=validation_generator.class_indices.keys(), yticklabels=validation_generator.class_indices.keys())
+plt.title('Confusion Matrix')
+plt.xlabel('Predicted Class')
+plt.ylabel('True Class')
+plt.savefig('confusion_matrix.png')
+plt.close()
+
+# Calculate precision and recall
+# precision = precision_score(true_classes, predicted_classes, average='macro')
+# recall = recall_score(true_classes, predicted_classes, average='macro')
+
+# print(f"Precision: {precision}")
+# print(f"Recall: {recall}")
+
+# Plot heatmap of predictions
+# plt.figure(figsize=(12, 6))
+# sns.heatmap(validation_predictions, cmap='viridis', xticklabels=validation_generator.class_indices.keys())
+# plt.title('Prediction Heatmap')
+# plt.xlabel('Class')
+# plt.ylabel('Sample')
+# plt.savefig('prediction_heatmap.png')
+# plt.close()
+
 
 print("Salvataggio del modello")
 # Salvataggio del modello

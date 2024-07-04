@@ -10,7 +10,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
 # Carica il modello
-model = load_model("C:/Users/39329/Desktop/Progetto CV/model.h5")
+model = load_model("C:/Users/39329/Desktop/Progetto CV/Eyes_Model.h5")
 
 # Variabile globale per il video capture
 cap = cv2.VideoCapture(0)
@@ -54,6 +54,8 @@ def display_video():
 
         # Mostra il frame
         cv2.imshow('frame', frame)
+
+        #cv2.imshow('eye',eye)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             running = False

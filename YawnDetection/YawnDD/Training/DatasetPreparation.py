@@ -52,17 +52,17 @@ def extract_frames(video_path, output_dir, yawning=False):
             )
 
             # If no face is detected, save the full frame or skip saving
-            if len(faces) == 0:
-                output_filepath = os.path.join(output_dir, class_dir, f"{os.path.basename(video_path)}_frame_{count}{yawning_suffix}.jpg")
-                cv2.imwrite(output_filepath, image)
-            else:
-                for (x, y, w, h) in faces:
-                    # Ensure the detected face is a reasonable size
-                    if w > 50 and h > 50:  # Only consider faces larger than 50x50 pixels
-                        face = image[y:y+h, x:x+w]
-                        output_filepath = os.path.join(output_dir, class_dir, f"{os.path.basename(video_path)}_frame_{count}{yawning_suffix}.jpg")
-                        cv2.imwrite(output_filepath, face)
-                        break  # Save only the first detected face
+            # if len(faces) == 0:
+            #     output_filepath = os.path.join(output_dir, class_dir, f"{os.path.basename(video_path)}_frame_{count}{yawning_suffix}.jpg")
+            #     cv2.imwrite(output_filepath, image)
+            # else:
+            for (x, y, w, h) in faces:
+                # Ensure the detected face is a reasonable size
+                if w > 50 and h > 50:  # Only consider faces larger than 50x50 pixels
+                    face = image[y:y+h, x:x+w]
+                    output_filepath = os.path.join(output_dir, class_dir, f"{os.path.basename(video_path)}_frame_{count}{yawning_suffix}.jpg")
+                    cv2.imwrite(output_filepath, face)
+                    break  # Save only the first detected face
 
             success, image = video_capture.read()
             count += 1

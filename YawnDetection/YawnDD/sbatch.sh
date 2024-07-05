@@ -9,4 +9,5 @@
 #SBATCH --output="logs/promptingmobile.log"
 #SBATCH --error="logs/promptingmobile.log"
 cd /homes/slugli/CVTrain/YawnDetection/YawnDD
+#python /homes/slugli/CVTrain/YawnDetection/YawnDD/Training/DatasetPreparation.py 
 python /homes/slugli/CVTrain/YawnDetection/YawnDD/Training/ModelTraining.py

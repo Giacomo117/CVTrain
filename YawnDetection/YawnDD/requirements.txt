@@ -1,0 +1,9 @@
+patool
+requests
+tqdm
+tensorflow
+pillow
+scipy
+matplotlib
+seaborn
+opencv-python

@@ -1,0 +1,164 @@
+import tensorflow as tf
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import GlobalAveragePooling2D, Dense, Dropout, Conv2D
+from tensorflow.keras.applications.mobilenet import MobileNet, preprocess_input
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.callbacks import Callback, EarlyStopping
+from sklearn.utils.class_weight import compute_class_weight
+from sklearn.metrics import classification_report, confusion_matrix, precision_score, recall_score, f1_score
+import numpy as np
+from tqdm import tqdm
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+print("Inizio dello script")
+
+# Definizione della callback per la barra di avanzamento
+class TqdmProgressCallback(Callback):
+    def on_train_begin(self, logs=None):
+        self.epochs = self.params['epochs']
+
+    def on_epoch_begin(self, epoch, logs=None):
+        print(f'Inizio epoca {epoch+1}/{self.epochs}')
+        self.pbar = tqdm(total=self.params['steps'], position=0, leave=True)
+
+    def on_batch_end(self, batch, logs=None):
+        self.pbar.update()
+
+    def on_epoch_end(self, epoch, logs=None):
+        self.pbar.close()
+
+print("Caricamento del modello MobileNet pre-addestrato")
+# Caricamento del modello MobileNet pre-addestrato
+base_model = MobileNet(weights='imagenet', include_top=False, input_shape=(64, 64, 3))
+
+# Congelamento dei pesi del modello base
+for layer in base_model.layers:
+    layer.trainable = False
+
+# Aggiunta di un layer Conv2D per convertire 1 canale in 3 canali
+input_layer = tf.keras.layers.Input(shape=(64, 64, 1))
+x = Conv2D(3, (3, 3), padding='same', activation='relu')(input_layer)
+
+# Aggiunta dei nuovi strati in cima al modello
+x = base_model(x)
+x = GlobalAveragePooling2D()(x)
+x = Dense(128, activation='relu')(x)  # Aggiungi un nuovo strato completamente connesso
+x = Dropout(0.5)(x)  # Aggiungi un nuovo strato di dropout per prevenire l'overfitting
+predictions = Dense(2, activation='softmax')(x)  # Strato di output per 2 classi
+
+# Definizione del nuovo modello
+model = Model(inputs=input_layer, outputs=predictions)
+
+print("Compilazione del modello")
+# Compilazione del modello
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+print("Preparazione dei generatori di dati")
+# Preparazione dei generatori di dati con preprocess_input
+train_datagen = ImageDataGenerator(
+    rescale=1./255,
+    shear_range=0.2,
+    zoom_range=0.2,
+    horizontal_flip=True,
+    validation_split=0.2
+)
+
+train_generator = train_datagen.flow_from_directory(
+    './annotated_frames',
+    target_size=(64, 64),
+    batch_size=32,
+    color_mode='grayscale',
+    class_mode='categorical',
+    subset='training'
+)
+
+print("Generazione dei dati per la validazione")
+# Generatore di dati per la validazione
+validation_generator = train_datagen.flow_from_directory(
+    './annotated_frames',
+    target_size=(64, 64),
+    batch_size=32,
+    color_mode='grayscale',
+    class_mode='categorical',
+    subset='validation'
+)
+
+# Compute class weights
+class_weights = compute_class_weight('balanced', classes=np.unique(train_generator.classes), y=train_generator.classes)
+class_weights = dict(enumerate(class_weights))
+
+print("Addestramento del modello")
+# Aggiunta di early stopping
+early_stopping = EarlyStopping(monitor='val_loss', patience=3, restore_best_weights=True)
+
+# Addestramento del modello
+model.fit(
+    train_generator,
+    steps_per_epoch=int(train_generator.samples/train_generator.batch_size) - 1,
+    epochs=10,
+    validation_data=validation_generator,
+    validation_steps=int(validation_generator.samples/validation_generator.batch_size) - 1,
+    class_weight=class_weights,
+    callbacks=[TqdmProgressCallback(), early_stopping]
+)
+
+# Fine-tuning: Unfreeze the last few layers of the base model and recompile
+for layer in base_model.layers[-10:]:
+    layer.trainable = True
+
+model.compile(optimizer=tf.keras.optimizers.Adam(1e-5), loss='categorical_crossentropy', metrics=['accuracy'])
+
+# Continue training with fine-tuning
+model.fit(
+    train_generator,
+    steps_per_epoch=int(train_generator.samples/train_generator.batch_size) - 1,
+    epochs=5,
+    validation_data=validation_generator,
+    validation_steps=int(validation_generator.samples/validation_generator.batch_size) - 1,
+    class_weight=class_weights,
+    callbacks=[TqdmProgressCallback(), early_stopping]
+)
+
+print("Valutazione del modello")
+# Valutazione del modello
+loss, accuracy = model.evaluate(validation_generator)
+print(f"Accuratezza della validazione: {accuracy}")
+
+# Generate predictions on the validation set
+validation_predictions = model.predict(validation_generator)
+predicted_classes = np.argmax(validation_predictions, axis=1)
+
+# True classes
+true_classes = validation_generator.classes
+
+# Classification report
+report = classification_report(true_classes, predicted_classes, target_names=validation_generator.class_indices.keys())
+print(report)
+
+# Calculate the confusion matrix
+cm = confusion_matrix(true_classes, predicted_classes)
+
+# Plot the confusion matrix
+plt.figure(figsize=(8, 6))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=validation_generator.class_indices.keys(), yticklabels=validation_generator.class_indices.keys())
+plt.title('Confusion Matrix')
+plt.xlabel('Predicted Class')
+plt.ylabel('True Class')
+plt.savefig('confusion_matrix.png')
+plt.close()
+
+# Calculate precision and recall
+precision = precision_score(true_classes, predicted_classes, average='macro')
+recall = recall_score(true_classes, predicted_classes, average='macro')
+f1 = f1_score(true_classes, predicted_classes, average='macro')
+
+print(f"Precision: {precision}")
+print(f"Recall: {recall}")
+print(f"F1 Score: {f1}")
+
+print("Salvataggio del modello")
+# Salvataggio del modello
+model.save('yawn_detection_model_mobilenet_grayscale.h5')
+
+print("Fine dello script")

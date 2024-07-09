@@ -66,13 +66,44 @@ def capture_frames():
             if current_frame is not None:
                 frame_display = current_frame.copy()
                 for (x, y, w, h), yawn_label in faces_data.values():
-                    cv2.rectangle(frame_display, (x, y), (x+w, y+h), (0, 255, 0), 2)
-                    cv2.putText(frame_display, yawn_label, (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 0), 2, cv2.LINE_AA)
+                    # Calculate the radius for the rounded corners
+                    radius = int(0.15 * min(w, h))
+
+                    # Draw the four sides of the rectangle
+                    cv2.line(frame_display, (x + radius, y), (x + w - radius, y), (55, 215, 255), 2)
+                    cv2.line(frame_display, (x + radius, y + h), (x + w - radius, y + h), (55, 215, 255), 2)
+                    cv2.line(frame_display, (x, y + radius), (x, y + h - radius), (55, 215, 255), 2)
+                    cv2.line(frame_display, (x + w, y + radius), (x + w, y + h - radius), (55, 215, 255), 2)
+
+                    # Draw the four rounded corners
+                    cv2.ellipse(frame_display, (x + radius, y + radius), (radius, radius), 180, 0, 90, (55, 215, 255), 2)
+                    cv2.ellipse(frame_display, (x + w - radius, y + radius), (radius, radius), 270, 0, 90, (55, 215, 255), 2)
+                    cv2.ellipse(frame_display, (x + radius, y + h - radius), (radius, radius), 90, 0, 90, (55, 215, 255), 2)
+                    cv2.ellipse(frame_display, (x + w - radius, y + h - radius), (radius, radius), 0, 0, 90, (55, 215, 255), 2)
+                    cv2.putText(frame_display, yawn_label, (x, y-10), cv2.FONT_HERSHEY_COMPLEX, 0.9, (55, 215, 255), 2, cv2.LINE_AA)
 
                 for eye_list in eyes_data.values():
                     for (ex, ey, ew, eh), eye_label in eye_list:
-                        cv2.rectangle(frame_display, (ex, ey), (ex+ew, ey+eh), (255, 0, 0), 2)
-                        cv2.putText(frame_display, eye_label, (ex, ey-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2, cv2.LINE_AA)
+                        radius = int(0.15 * min(ew, eh))
+
+                        # Top horizontal line
+                        cv2.line(frame_display, (ex + radius, ey), (ex + ew - radius, ey), (200,200,200), 2)
+                        # Bottom horizontal line
+                        cv2.line(frame_display, (ex + radius, ey + eh), (ex + ew - radius, ey + eh), (200,200,200), 2)
+                        # Left vertical line
+                        cv2.line(frame_display, (ex, ey + radius), (ex, ey + eh - radius), (200,200,200), 2)
+                        # Right vertical line
+                        cv2.line(frame_display, (ex + ew, ey + radius), (ex + ew, ey + eh - radius), (200,200,200), 2)
+
+                        # Top-left corner
+                        cv2.ellipse(frame_display, (ex + radius, ey + radius), (radius, radius), 180, 0, 90, (200,200,200), 2)
+                        # Top-right corner
+                        cv2.ellipse(frame_display, (ex + ew - radius, ey + radius), (radius, radius), 270, 0, 90, (200,200,200), 2)
+                        # Bottom-left corner
+                        cv2.ellipse(frame_display, (ex + radius, ey + eh - radius), (radius, radius), 90, 0, 90, (200,200,200), 2)
+                        # Bottom-right corner
+                        cv2.ellipse(frame_display, (ex + ew - radius, ey + eh - radius), (radius, radius), 0, 0, 90, (200,200,200), 2)
+                        cv2.putText(frame_display, eye_label, (ex, ey-10), cv2.FONT_HERSHEY_COMPLEX, 0.5, (200,200,200), 2, cv2.LINE_AA)
 
                 cv2.imshow('Yawn and Eyes Detection', frame_display)
 

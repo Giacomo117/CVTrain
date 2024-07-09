@@ -4,6 +4,7 @@ import numpy as np
 import cv2
 
 # Load the trained model
+# model = load_model('yawn_detection_model_mobilenet_grayscale.h5')
 model = load_model('yawn_detection_model_mobilenet.h5')
 
 # Load the Haar Cascade classifier for face detection

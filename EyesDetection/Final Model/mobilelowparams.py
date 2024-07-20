@@ -7,7 +7,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.regularizers import l2
 import tensorflow as tf
 
-# Definisci la directory del dataset con percorsi assoluti
+# Directory for Dataset
 base_dir = "/homes/greggianini/DDP"
 
 # Verifica se la directory esiste
@@ -16,8 +16,8 @@ if not os.path.exists(base_dir):
     raise FileNotFoundError(f"No such file or directory: '{base_dir}'")
 
 # Definisci il numero di epoche e il batch size
-epochs = 30  # Ridotto il numero di epoche
-batch_size = 32  # Puoi sperimentare con 32 o 64
+epochs = 30
+batch_size = 32
 
 # Utilizza ImageDataGenerator per dividere i dati in training, validation e test
 datagen = ImageDataGenerator(
@@ -70,7 +70,6 @@ hmodel = Dense(2, activation='softmax')(hmodel)
 
 model = Model(inputs=bmodel.input, outputs=hmodel)
 
-# Sblocca meno strati del modello pre-addestrato per ridurre il numero di parametri
 for layer in bmodel.layers[:-50]:  # Congela più layer del modello pre-addestrato
     layer.trainable = False
 for layer in bmodel.layers[-50:]:

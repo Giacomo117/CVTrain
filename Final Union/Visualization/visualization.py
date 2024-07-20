@@ -6,8 +6,8 @@ import numpy as np
 import cv2
 
 # Load the trained models
-yawn_model = load_model('./Models/yawn_detection_model_mobilenet.h5')
-eyes_model = load_model('./Models/eyes_model.h5')
+yawn_model = load_model('C:/Users/39329/PycharmProjects/CVprova1/Final Union/Models/yawn_detection_model_mobilenet.h5')
+eyes_model = load_model('C:/Users/39329/PycharmProjects/CVprova1/Final Union/Models/eyes_model.h5')
 
 # Load the Haar Cascade classifier for face and eye detection
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')

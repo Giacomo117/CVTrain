@@ -1,5 +1,5 @@
 import os
-import shutil # for progress bar
+import shutil
 import glob
 from tqdm import tqdm
 

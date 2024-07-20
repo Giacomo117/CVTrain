@@ -7,7 +7,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.regularizers import l2
 import tensorflow as tf
 
-# Definisci la directory del dataset con percorsi assoluti
+# Directory for Dataset
 base_dir = "/homes/greggianini/DDP"
 
 # Verifica se la directory esiste
@@ -19,7 +19,6 @@ if not os.path.exists(base_dir):
 epochs = 50
 batch_size = 32
 
-# Utilizza ImageDataGenerator per dividere i dati in training, validation e test
 datagen = ImageDataGenerator(
     rescale=1./255,
     rotation_range=40,
@@ -73,7 +72,6 @@ hmodel = Dense(2, activation='softmax')(hmodel)
 
 model = Model(inputs=bmodel.input, outputs=hmodel)
 
-# Sblocca più strati del modello pre-addestrato per il fine-tuning
 for layer in bmodel.layers[:-20]:  # Congela più layer del modello pre-addestrato
     layer.trainable = False
 for layer in bmodel.layers[-20:]:
@@ -103,7 +101,7 @@ model.compile(
     metrics=['accuracy']
 )
 
-# Utilizza tf.data.Dataset per ripetere i dati
+
 train_dataset = tf.data.Dataset.from_generator(
     lambda: train_data,
     output_signature=(

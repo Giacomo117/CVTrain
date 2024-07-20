@@ -7,7 +7,6 @@ from tensorflow.keras.preprocessing.image import load_img, img_to_array
 from keras.models import Sequential
 from keras.layers import Convolution2D, MaxPooling2D, BatchNormalization, Flatten, Dense, Dropout, LeakyReLU
 
-# Funzione per caricare le immagini e le etichette
 
 # Percorso del dataset
 dataset_dir = r'C:\Users\39329\Desktop\Progetto CV\mrlEyes_2018_01\mrlEyes_2018_01'
@@ -55,56 +54,55 @@ def create_model(input_shape, num_classes):
     model = Sequential()
     ## 001
     model.add(Convolution2D(32, (3, 3), padding='same', use_bias=False, input_shape=input_shape))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     ## 002
     model.add(Convolution2D(32, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ## 003
     model.add(Convolution2D(64, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     ## 004
     model.add(Convolution2D(64, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ## 005
     model.add(Convolution2D(96, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
-    model.add(BatchNormalization())
+    model.add(LeakyReLU(negative_slope=0.1))
     ## 006
     model.add(Convolution2D(96, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ## 007
     model.add(Convolution2D(128, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     ## 008
     model.add(Convolution2D(128, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ## 009
     model.add(Convolution2D(256, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     ## 010
     model.add(Convolution2D(256, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     model.add(MaxPooling2D(pool_size=(2, 2)))
     ## 011
     model.add(Convolution2D(512, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     ## 012
     model.add(Convolution2D(512, (3, 3), padding='same', use_bias=False))
-    model.add(LeakyReLU(negative_slope=0.1))  # Modifica alpha in negative_slope
+    model.add(LeakyReLU(negative_slope=0.1))
     model.add(BatchNormalization())
     # MLP
     model.add(Flatten())
@@ -116,14 +114,14 @@ def create_model(input_shape, num_classes):
 
 
 # Addestramento del modello
-input_shape = (84, 84, 3)  # Dimensioni delle immagini
+input_shape = (84, 84, 3)
 num_classes = 2
 cnn_model = create_model(input_shape, num_classes)
 print('Modello creato')
 
 # Compilazione del modello
 cnn_model.compile(optimizer='adam',
-                  loss='binary_crossentropy',  # Cambiato a binary_crossentropy per problemi di classificazione binaria
+                  loss='binary_crossentropy',
                   metrics=['accuracy'])
 
 # Addestramento del modello

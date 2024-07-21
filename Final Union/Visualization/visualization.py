@@ -4,10 +4,11 @@ import torch.nn as nn
 from tensorflow.keras.models import load_model
 import numpy as np
 import cv2
-
 import torch
 from facenet_pytorch import MTCNN
 from torchvision.models import resnet50
+
+import json
 
 # Load the trained models
 yawn_model = load_model('Models/yawn_detection_model_mobilenet.h5')
@@ -37,6 +38,10 @@ mtcnn = MTCNN(keep_all=True, device='cpu')
 # Load the Haar Cascade classifier for face and eye detection
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
+
+
+logging_file_path = 'detection_log.txt'
+json_logging_file_path = 'detection_log.json'
 
 # Function to preprocess the input frame for the yawn detection model
 def preprocess_for_yawn(frame):
@@ -73,13 +78,13 @@ face_id_counter = 0
 
 # Function to read frames from the webcam
 def capture_frames():
-    global current_frame
+    global current_frame, should_terminate
     cap = cv2.VideoCapture(0)
     if not cap.isOpened():
         print("Error: Could not open webcam.")
         exit()
 
-    while True:
+    while not should_terminate:
         ret, frame = cap.read()
         if not ret:
             print("Error: Could not read frame.")
@@ -138,6 +143,7 @@ def capture_frames():
                 cv2.imshow('Yawn, Eyes, and Keypoints Detection', frame_display)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
+            should_terminate = True
             break
 
     cap.release()
@@ -217,11 +223,92 @@ def process_keypoints(faces, frame):
     with result_lock:
         keypoints_data = new_keypoints_data
 
+# Function to log the details
+def log_details():
+    with result_lock:
+        for face_id, ((x, y, w, h), yawn_label) in faces_data.items():
+            eye_list = eyes_data.get(face_id, [])
+            keypoints = keypoints_data.get(face_id, [])
+            
+            # Prepare log message as a text file
+            log_message = f"Face ID: {face_id}\n"
+            log_message += f"  - Face Position: (x: {x}, y: {y}, w: {w}, h: {h})\n"
+            log_message += f"  - Yawning: {yawn_label}\n"
+            log_message += f"  - Eyes:\n"
+            if eye_list:
+                for (ex, ey, ew, eh), eye_label in eye_list:
+                    log_message += f"    - Eye Position: (x: {ex}, y: {ey}, w: {ew}, h: {eh}), Label: {eye_label}\n"
+            else:
+                log_message += "    - No eyes detected, considered closed\n"
+            
+            if len(eye_list) == 1:
+                log_message += "    - One eye detected, considered the other as closed\n"
+
+            log_message += f"  - Keypoints:\n"
+            if len(keypoints) > 0:
+                for (kx, ky) in keypoints:
+                    log_message += f"    - Keypoint Position: (x: {kx}, y: {ky})\n"
+
+                # Example geometric description
+                eye_to_eye_distance = np.linalg.norm(np.array(keypoints[42]) - np.array(keypoints[39]))
+                nose_to_chin_distance = np.linalg.norm(np.array(keypoints[33]) - np.array(keypoints[8]))
+                log_message += f"    - Eye-to-eye distance: {eye_to_eye_distance:.2f}\n"
+                log_message += f"    - Nose-to-chin distance: {nose_to_chin_distance:.2f}\n"
+            else:
+                log_message += "    - No keypoints detected\n"
+            
+            print("log_message: ", log_message)
+            with open(logging_file_path, 'a') as log_file:
+                log_file.write(log_message)
+                log_file.write("\n")
+                log_file.close()
+
+            # Prepare the log message as a dictionary for JSON serialization
+            log_data = {
+                "Face ID": face_id,
+                "Face Position": {"x": int(x), "y": int(y), "w": int(w), "h": int(h)},
+                "Yawning": yawn_label,
+                "Eyes": [],
+                "Keypoints": []
+            }
+            
+            if eye_list:
+                for (ex, ey, ew, eh), eye_label in eye_list:
+                    log_data["Eyes"].append({
+                        "Eye Position": {"x": int(ex), "y": int(ey), "w": int(ew), "h": int(eh)},
+                        "Label": eye_label
+                    })
+            else:
+                log_data["Eyes"].append("No eyes detected, considered closed")
+            
+            if len(eye_list) == 1:
+                log_data["Eyes"].append("One eye detected, considered the other as closed")
+            
+            if keypoints:
+                for (kx, ky) in keypoints:
+                    log_data["Keypoints"].append({"x": float(kx), "y": float(ky)})
+                
+                # Example geometric description
+                eye_to_eye_distance = float(np.linalg.norm(np.array(keypoints[42]) - np.array(keypoints[39])))
+                nose_to_chin_distance = float(np.linalg.norm(np.array(keypoints[33]) - np.array(keypoints[8])))
+                log_data["Geometrics"] = {
+                    "Eye-to-eye distance": eye_to_eye_distance,
+                    "Nose-to-chin distance": nose_to_chin_distance
+                }
+            else:
+                log_data["Keypoints"].append("No keypoints detected")
+            
+            # Write the structured log data to the JSON log file
+            with open(json_logging_file_path, 'a') as json_log_file:
+                json.dump(log_data, json_log_file)
+                json_log_file.write("\n")  # For readability in the JSON log file
+                json_log_file.close()
+
 # Function to process frames
 def process_frames():
-    global faces_data, eyes_data, keypoints_data, face_id_counter
+    global faces_data, eyes_data, keypoints_data, face_id_counter, should_terminate
 
-    while True:
+    while not should_terminate:
         with frame_lock:
             if current_frame is None:
                 continue
@@ -242,6 +329,9 @@ def process_frames():
         eye_thread.join()
         keypoints_thread.join()
 
+        log_details()
+
+should_terminate = False
 # Start the threads
 capture_thread = threading.Thread(target=capture_frames)
 process_thread = threading.Thread(target=process_frames)

@@ -1,1 +1,0 @@
-Haar cascade with opencv are ineffective for lips detection.

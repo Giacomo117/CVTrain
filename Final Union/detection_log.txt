@@ -46002,3 +46002,5911 @@ Face ID: 327
     - Nose-to-chin distance: 38.78
     - Face rotation angle: 0.04
 
+Face ID: 3
+  - Keypoints:
+    - Eye-to-eye distance: 25.27
+    - Nose-to-chin distance: 42.07
+    - Face rotation angle: -0.03
+
+Face ID: 1
+  - Face Position: (x: 395, y: 201, w: 124, h: 124)
+  - Yawning: Yawning
+
+Face ID: 2
+  - Eyes:
+    - Eye Position: (x: 431, y: 230, w: 39, h: 39), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 4
+  - Face Position: (x: 395, y: 208, w: 119, h: 119)
+  - Yawning: Yawning
+
+Face ID: 6
+  - Keypoints:
+    - Eye-to-eye distance: 29.00
+    - Nose-to-chin distance: 42.55
+    - Face rotation angle: 0.06
+
+Face ID: 5
+  - Eyes:
+    - Eye Position: (x: 466, y: 243, w: 25, h: 25), Label: Closed
+    - Eye Position: (x: 415, y: 230, w: 42, h: 42), Label: Open
+
+Face ID: 7
+  - Face Position: (x: 370, y: 204, w: 119, h: 119)
+  - Yawning: Yawning
+
+Face ID: 8
+  - Eyes:
+    - Eye Position: (x: 390, y: 237, w: 25, h: 25), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 9
+  - Keypoints:
+    - Eye-to-eye distance: 31.17
+    - Nose-to-chin distance: 44.36
+    - Face rotation angle: 0.03
+
+Face ID: 10
+  - Face Position: (x: 370, y: 204, w: 117, h: 117)
+  - Yawning: Not Yawning
+
+Face ID: 12
+  - Keypoints:
+    - Eye-to-eye distance: 31.32
+    - Nose-to-chin distance: 43.99
+    - Face rotation angle: 0.04
+
+Face ID: 11
+  - Eyes:
+    - Eye Position: (x: 387, y: 235, w: 29, h: 29), Label: Open
+    - Eye Position: (x: 440, y: 238, w: 24, h: 24), Label: Open
+
+Face ID: 13
+  - Face Position: (x: 374, y: 204, w: 117, h: 117)
+  - Yawning: Not Yawning
+
+Face ID: 15
+  - Keypoints:
+    - Eye-to-eye distance: 31.16
+    - Nose-to-chin distance: 45.09
+    - Face rotation angle: 0.02
+
+Face ID: 14
+  - Eyes:
+    - Eye Position: (x: 390, y: 234, w: 29, h: 29), Label: Open
+    - Eye Position: (x: 441, y: 238, w: 23, h: 23), Label: Open
+
+Face ID: 16
+  - Face Position: (x: 374, y: 203, w: 119, h: 119)
+  - Yawning: Not Yawning
+
+Face ID: 18
+  - Keypoints:
+    - Eye-to-eye distance: 31.07
+    - Nose-to-chin distance: 45.15
+    - Face rotation angle: 0.03
+
+Face ID: 17
+  - Eyes:
+    - Eye Position: (x: 394, y: 237, w: 24, h: 24), Label: Open
+    - Eye Position: (x: 444, y: 239, w: 23, h: 23), Label: Open
+
+Face ID: 19
+  - Face Position: (x: 377, y: 199, w: 122, h: 122)
+  - Yawning: Not Yawning
+
+Face ID: 20
+  - Eyes:
+    - Eye Position: (x: 396, y: 230, w: 33, h: 33), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 21
+  - Keypoints:
+    - Eye-to-eye distance: 31.28
+    - Nose-to-chin distance: 44.74
+    - Face rotation angle: 0.03
+
+Face ID: 22
+  - Face Position: (x: 381, y: 201, w: 120, h: 120)
+  - Yawning: Not Yawning
+
+Face ID: 23
+  - Eyes:
+    - Eye Position: (x: 398, y: 229, w: 35, h: 35), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 24
+  - Keypoints:
+    - Eye-to-eye distance: 30.84
+    - Nose-to-chin distance: 46.10
+    - Face rotation angle: 0.04
+
+Face ID: 25
+  - Face Position: (x: 380, y: 200, w: 121, h: 121)
+  - Yawning: Not Yawning
+
+Face ID: 26
+  - Eyes:
+    - Eye Position: (x: 398, y: 229, w: 36, h: 36), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 27
+  - Keypoints:
+    - Eye-to-eye distance: 30.52
+    - Nose-to-chin distance: 44.08
+    - Face rotation angle: 0.03
+
+Face ID: 28
+  - Face Position: (x: 380, y: 200, w: 121, h: 121)
+  - Yawning: Not Yawning
+
+Face ID: 30
+  - Keypoints:
+    - Eye-to-eye distance: 30.90
+    - Nose-to-chin distance: 44.97
+    - Face rotation angle: 0.04
+
+Face ID: 29
+  - Eyes:
+    - Eye Position: (x: 397, y: 229, w: 34, h: 34), Label: Closed
+    - Eye Position: (x: 447, y: 232, w: 30, h: 30), Label: Open
+
+Face ID: 31
+  - Face Position: (x: 379, y: 202, w: 120, h: 120)
+  - Yawning: Not Yawning
+
+Face ID: 33
+  - Keypoints:
+    - Eye-to-eye distance: 30.99
+    - Nose-to-chin distance: 45.18
+    - Face rotation angle: 0.04
+
+Face ID: 32
+  - Eyes:
+    - Eye Position: (x: 399, y: 236, w: 24, h: 24), Label: Open
+    - Eye Position: (x: 447, y: 238, w: 24, h: 24), Label: Open
+
+Face ID: 34
+  - Face Position: (x: 381, y: 202, w: 119, h: 119)
+  - Yawning: Not Yawning
+
+Face ID: 35
+  - Eyes:
+    - Eye Position: (x: 398, y: 231, w: 35, h: 35), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 36
+  - Keypoints:
+    - Eye-to-eye distance: 30.68
+    - Nose-to-chin distance: 44.59
+    - Face rotation angle: 0.04
+
+Face ID: 37
+  - Face Position: (x: 380, y: 201, w: 122, h: 122)
+  - Yawning: Not Yawning
+
+Face ID: 39
+  - Keypoints:
+    - Eye-to-eye distance: 31.37
+    - Nose-to-chin distance: 45.53
+    - Face rotation angle: 0.04
+
+Face ID: 38
+  - Eyes:
+    - Eye Position: (x: 398, y: 231, w: 33, h: 33), Label: Open
+    - Eye Position: (x: 447, y: 234, w: 30, h: 30), Label: Open
+
+Face ID: 40
+  - Face Position: (x: 401, y: 202, w: 121, h: 121)
+  - Yawning: Yawning
+
+Face ID: 41
+  - Eyes:
+    - Eye Position: (x: 440, y: 229, w: 40, h: 40), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 42
+  - Keypoints:
+    - Eye-to-eye distance: 24.61
+    - Nose-to-chin distance: 40.90
+    - Face rotation angle: 0.05
+
+Face ID: 43
+  - Face Position: (x: 414, y: 205, w: 121, h: 121)
+  - Yawning: Yawning
+
+Face ID: 44
+  - Eyes:
+    - Eye Position: (x: 454, y: 234, w: 38, h: 38), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 45
+  - Keypoints:
+    - Eye-to-eye distance: 24.40
+    - Nose-to-chin distance: 43.19
+    - Face rotation angle: 0.11
+
+Face ID: 47
+  - Eyes:
+    - Eye Position: (x: 456, y: 232, w: 42, h: 42), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 46
+  - Face Position: (x: 421, y: 209, w: 113, h: 113)
+  - Yawning: Not Yawning
+
+Face ID: 48
+  - Keypoints:
+    - Eye-to-eye distance: 23.12
+    - Nose-to-chin distance: 41.13
+    - Face rotation angle: 0.12
+
+Face ID: 49
+  - Face Position: (x: 414, y: 206, w: 107, h: 107)
+  - Yawning: Yawning
+
+Face ID: 50
+  - Eyes:
+    - Eye Position: (x: 454, y: 230, w: 42, h: 42), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 51
+  - Keypoints:
+    - Eye-to-eye distance: 20.82
+    - Nose-to-chin distance: 42.54
+    - Face rotation angle: 0.13
+
+Face ID: 52
+  - Face Position: (x: 416, y: 203, w: 122, h: 122)
+  - Yawning: Yawning
+
+Face ID: 53
+  - Eyes:
+    - Eye Position: (x: 455, y: 229, w: 42, h: 42), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 54
+  - Keypoints:
+    - Eye-to-eye distance: 23.74
+    - Nose-to-chin distance: 41.08
+    - Face rotation angle: 0.09
+
+Face ID: 55
+  - Face Position: (x: 418, y: 204, w: 123, h: 123)
+  - Yawning: Yawning
+
+Face ID: 56
+  - Eyes:
+    - Eye Position: (x: 456, y: 228, w: 44, h: 44), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 57
+  - Keypoints:
+    - Eye-to-eye distance: 23.97
+    - Nose-to-chin distance: 42.77
+    - Face rotation angle: 0.08
+
+Face ID: 58
+  - Face Position: (x: 410, y: 205, w: 112, h: 112)
+  - Yawning: Yawning
+
+Face ID: 59
+  - Eyes:
+    - Eye Position: (x: 458, y: 231, w: 43, h: 43), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 60
+  - Keypoints:
+    - Eye-to-eye distance: 19.70
+    - Nose-to-chin distance: 39.10
+    - Face rotation angle: 0.10
+
+Face ID: 61
+  - Face Position: (x: 414, y: 206, w: 118, h: 118)
+  - Yawning: Yawning
+
+Face ID: 62
+  - Eyes:
+    - Eye Position: (x: 457, y: 232, w: 42, h: 42), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 63
+  - Keypoints:
+    - Eye-to-eye distance: 22.77
+    - Nose-to-chin distance: 42.33
+    - Face rotation angle: 0.11
+
+Face ID: 64
+  - Face Position: (x: 411, y: 205, w: 119, h: 119)
+  - Yawning: Yawning
+
+Face ID: 65
+  - Eyes:
+    - Eye Position: (x: 452, y: 232, w: 43, h: 43), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 66
+  - Keypoints:
+    - Eye-to-eye distance: 22.90
+    - Nose-to-chin distance: 40.07
+    - Face rotation angle: 0.09
+
+Face ID: 67
+  - Face Position: (x: 411, y: 209, w: 114, h: 114)
+  - Yawning: Yawning
+
+Face ID: 68
+  - Eyes:
+    - Eye Position: (x: 454, y: 238, w: 39, h: 39), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 69
+  - Keypoints:
+    - Eye-to-eye distance: 22.40
+    - Nose-to-chin distance: 40.92
+    - Face rotation angle: 0.08
+
+Face ID: 70
+  - Face Position: (x: 418, y: 212, w: 112, h: 112)
+  - Yawning: Yawning
+
+Face ID: 71
+  - Eyes:
+    - Eye Position: (x: 455, y: 240, w: 37, h: 37), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 72
+  - Keypoints:
+    - Eye-to-eye distance: 23.57
+    - Nose-to-chin distance: 39.48
+    - Face rotation angle: 0.10
+
+Face ID: 73
+  - Face Position: (x: 410, y: 210, w: 118, h: 118)
+  - Yawning: Yawning
+
+Face ID: 74
+  - Eyes:
+    - Eye Position: (x: 448, y: 237, w: 42, h: 42), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 75
+  - Keypoints:
+    - Eye-to-eye distance: 23.82
+    - Nose-to-chin distance: 42.81
+    - Face rotation angle: 0.10
+
+Face ID: 77
+  - Eyes:
+    - Eye Position: (x: 439, y: 233, w: 38, h: 38), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 76
+  - Face Position: (x: 403, y: 206, w: 124, h: 124)
+  - Yawning: Yawning
+
+Face ID: 78
+  - Keypoints:
+    - Eye-to-eye distance: 25.89
+    - Nose-to-chin distance: 44.34
+    - Face rotation angle: 0.11
+
+Face ID: 80
+  - Eyes:
+    - Eye Position: (x: 442, y: 234, w: 40, h: 40), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 79
+  - Face Position: (x: 404, y: 207, w: 119, h: 119)
+  - Yawning: Yawning
+
+Face ID: 81
+  - Keypoints:
+    - Eye-to-eye distance: 23.89
+    - Nose-to-chin distance: 42.21
+    - Face rotation angle: 0.11
+
+Face ID: 82
+  - Face Position: (x: 412, y: 210, w: 121, h: 121)
+  - Yawning: Yawning
+
+Face ID: 83
+  - Eyes:
+    - Eye Position: (x: 452, y: 238, w: 42, h: 42), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 84
+  - Keypoints:
+    - Eye-to-eye distance: 25.22
+    - Nose-to-chin distance: 42.89
+    - Face rotation angle: 0.13
+
+Face ID: 85
+  - Face Position: (x: 416, y: 209, w: 121, h: 121)
+  - Yawning: Yawning
+
+Face ID: 86
+  - Eyes:
+    - Eye Position: (x: 457, y: 239, w: 40, h: 40), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 87
+  - Keypoints:
+    - Eye-to-eye distance: 24.44
+    - Nose-to-chin distance: 41.28
+    - Face rotation angle: 0.13
+
+Face ID: 89
+  - Eyes:
+    - Eye Position: (x: 389, y: 234, w: 33, h: 33), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 88
+  - Face Position: (x: 372, y: 200, w: 127, h: 127)
+  - Yawning: Yawning
+
+Face ID: 90
+  - Keypoints:
+    - Eye-to-eye distance: 33.37
+    - Nose-to-chin distance: 46.09
+    - Face rotation angle: -0.06
+
+Face ID: 91
+  - Face Position: (x: 396, y: 197, w: 132, h: 132)
+  - Yawning: Not Yawning
+
+Face ID: 92
+  - Eyes:
+    - Eye Position: (x: 473, y: 234, w: 29, h: 29), Label: Open
+    - Eye Position: (x: 416, y: 231, w: 35, h: 35), Label: Open
+
+Face ID: 93
+  - Keypoints:
+    - Eye-to-eye distance: 34.29
+    - Nose-to-chin distance: 45.45
+    - Face rotation angle: 0.01
+
+Face ID: 94
+  - Face Position: (x: 395, y: 200, w: 136, h: 136)
+  - Yawning: Yawning
+
+Face ID: 96
+  - Keypoints:
+    - Eye-to-eye distance: 33.76
+    - Nose-to-chin distance: 48.26
+    - Face rotation angle: -0.00
+
+Face ID: 95
+  - Eyes:
+    - Eye Position: (x: 413, y: 231, w: 37, h: 37), Label: Open
+    - Eye Position: (x: 468, y: 230, w: 38, h: 38), Label: Open
+
+Face ID: 97
+  - Face Position: (x: 394, y: 203, w: 131, h: 131)
+  - Yawning: Yawning
+
+Face ID: 99
+  - Keypoints:
+    - Eye-to-eye distance: 34.81
+    - Nose-to-chin distance: 46.71
+    - Face rotation angle: 0.01
+
+Face ID: 98
+  - Eyes:
+    - Eye Position: (x: 466, y: 233, w: 36, h: 36), Label: Open
+    - Eye Position: (x: 412, y: 233, w: 36, h: 36), Label: Open
+
+Face ID: 100
+  - Face Position: (x: 395, y: 202, w: 130, h: 130)
+  - Yawning: Not Yawning
+
+Face ID: 102
+  - Keypoints:
+    - Eye-to-eye distance: 34.91
+    - Nose-to-chin distance: 45.69
+    - Face rotation angle: 0.02
+
+Face ID: 101
+  - Eyes:
+    - Eye Position: (x: 414, y: 234, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 468, y: 234, w: 36, h: 36), Label: Open
+
+Face ID: 103
+  - Face Position: (x: 394, y: 201, w: 133, h: 133)
+  - Yawning: Yawning
+
+Face ID: 104
+  - Eyes:
+    - Eye Position: (x: 411, y: 232, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 469, y: 235, w: 30, h: 30), Label: Open
+
+Face ID: 105
+  - Keypoints:
+    - Eye-to-eye distance: 34.44
+    - Nose-to-chin distance: 46.28
+    - Face rotation angle: 0.01
+
+Face ID: 106
+  - Face Position: (x: 395, y: 201, w: 133, h: 133)
+  - Yawning: Yawning
+
+Face ID: 107
+  - Eyes:
+    - Eye Position: (x: 473, y: 238, w: 26, h: 26), Label: Open
+    - Eye Position: (x: 414, y: 233, w: 33, h: 33), Label: Open
+
+Face ID: 108
+  - Keypoints:
+    - Eye-to-eye distance: 34.41
+    - Nose-to-chin distance: 47.36
+    - Face rotation angle: 0.00
+
+Face ID: 109
+  - Face Position: (x: 394, y: 201, w: 134, h: 134)
+  - Yawning: Yawning
+
+Face ID: 111
+  - Keypoints:
+    - Eye-to-eye distance: 34.09
+    - Nose-to-chin distance: 47.12
+    - Face rotation angle: 0.01
+
+Face ID: 110
+  - Eyes:
+    - Eye Position: (x: 414, y: 235, w: 32, h: 32), Label: Open
+    - Eye Position: (x: 470, y: 234, w: 33, h: 33), Label: Open
+
+Face ID: 112
+  - Face Position: (x: 393, y: 200, w: 136, h: 136)
+  - Yawning: Yawning
+
+Face ID: 114
+  - Keypoints:
+    - Eye-to-eye distance: 35.13
+    - Nose-to-chin distance: 48.47
+    - Face rotation angle: 0.01
+
+Face ID: 113
+  - Eyes:
+    - Eye Position: (x: 411, y: 230, w: 38, h: 38), Label: Open
+    - Eye Position: (x: 464, y: 229, w: 39, h: 39), Label: Open
+
+Face ID: 115
+  - Face Position: (x: 394, y: 200, w: 133, h: 133)
+  - Yawning: Yawning
+
+Face ID: 117
+  - Keypoints:
+    - Eye-to-eye distance: 34.35
+    - Nose-to-chin distance: 48.15
+    - Face rotation angle: 0.01
+
+Face ID: 116
+  - Eyes:
+    - Eye Position: (x: 413, y: 232, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 466, y: 232, w: 35, h: 35), Label: Open
+
+Face ID: 118
+  - Face Position: (x: 395, y: 203, w: 131, h: 131)
+  - Yawning: Yawning
+
+Face ID: 120
+  - Keypoints:
+    - Eye-to-eye distance: 34.02
+    - Nose-to-chin distance: 48.44
+    - Face rotation angle: -0.00
+
+Face ID: 119
+  - Eyes:
+    - Eye Position: (x: 411, y: 231, w: 37, h: 37), Label: Open
+    - Eye Position: (x: 467, y: 232, w: 35, h: 35), Label: Open
+
+Face ID: 121
+  - Face Position: (x: 395, y: 200, w: 133, h: 133)
+  - Yawning: Not Yawning
+
+Face ID: 123
+  - Keypoints:
+    - Eye-to-eye distance: 34.79
+    - Nose-to-chin distance: 48.32
+    - Face rotation angle: 0.01
+
+Face ID: 122
+  - Eyes:
+    - Eye Position: (x: 412, y: 233, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 467, y: 231, w: 35, h: 35), Label: Open
+
+Face ID: 124
+  - Face Position: (x: 395, y: 202, w: 132, h: 132)
+  - Yawning: Yawning
+
+Face ID: 126
+  - Keypoints:
+    - Eye-to-eye distance: 33.85
+    - Nose-to-chin distance: 47.91
+    - Face rotation angle: 0.00
+
+Face ID: 125
+  - Eyes:
+    - Eye Position: (x: 412, y: 232, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 467, y: 229, w: 38, h: 38), Label: Open
+
+Face ID: 127
+  - Face Position: (x: 395, y: 200, w: 134, h: 134)
+  - Yawning: Yawning
+
+Face ID: 129
+  - Keypoints:
+    - Eye-to-eye distance: 34.60
+    - Nose-to-chin distance: 47.20
+    - Face rotation angle: 0.02
+
+Face ID: 128
+  - Eyes:
+    - Eye Position: (x: 415, y: 234, w: 33, h: 33), Label: Open
+    - Eye Position: (x: 471, y: 234, w: 32, h: 32), Label: Open
+
+Face ID: 130
+  - Face Position: (x: 396, y: 201, w: 134, h: 134)
+  - Yawning: Yawning
+
+Face ID: 132
+  - Keypoints:
+    - Eye-to-eye distance: 35.34
+    - Nose-to-chin distance: 46.98
+    - Face rotation angle: 0.01
+
+Face ID: 131
+  - Eyes:
+    - Eye Position: (x: 472, y: 235, w: 32, h: 32), Label: Open
+    - Eye Position: (x: 415, y: 233, w: 36, h: 36), Label: Open
+
+Face ID: 133
+  - Face Position: (x: 395, y: 201, w: 133, h: 133)
+  - Yawning: Yawning
+
+Face ID: 135
+  - Keypoints:
+    - Eye-to-eye distance: 35.17
+    - Nose-to-chin distance: 47.16
+    - Face rotation angle: 0.02
+
+Face ID: 134
+  - Eyes:
+    - Eye Position: (x: 415, y: 234, w: 34, h: 34), Label: Open
+    - Eye Position: (x: 473, y: 235, w: 32, h: 32), Label: Open
+
+Face ID: 136
+  - Face Position: (x: 395, y: 201, w: 133, h: 133)
+  - Yawning: Yawning
+
+Face ID: 138
+  - Keypoints:
+    - Eye-to-eye distance: 34.28
+    - Nose-to-chin distance: 47.66
+    - Face rotation angle: 0.02
+
+Face ID: 137
+  - Eyes:
+    - Eye Position: (x: 415, y: 232, w: 36, h: 36), Label: Open
+    - Eye Position: (x: 468, y: 232, w: 37, h: 37), Label: Open
+
+Face ID: 139
+  - Face Position: (x: 396, y: 201, w: 132, h: 132)
+  - Yawning: Not Yawning
+
+Face ID: 141
+  - Keypoints:
+    - Eye-to-eye distance: 34.13
+    - Nose-to-chin distance: 46.06
+    - Face rotation angle: 0.01
+
+Face ID: 140
+  - Eyes:
+    - Eye Position: (x: 469, y: 234, w: 32, h: 32), Label: Open
+    - Eye Position: (x: 414, y: 232, w: 36, h: 36), Label: Open
+
+Face ID: 142
+  - Face Position: (x: 395, y: 198, w: 137, h: 137)
+  - Yawning: Yawning
+
+Face ID: 144
+  - Keypoints:
+    - Eye-to-eye distance: 34.28
+    - Nose-to-chin distance: 46.41
+    - Face rotation angle: 0.02
+
+Face ID: 143
+  - Eyes:
+    - Eye Position: (x: 416, y: 232, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 475, y: 235, w: 31, h: 31), Label: Open
+
+Face ID: 145
+  - Face Position: (x: 396, y: 200, w: 135, h: 135)
+  - Yawning: Yawning
+
+Face ID: 147
+  - Keypoints:
+    - Eye-to-eye distance: 34.48
+    - Nose-to-chin distance: 46.87
+    - Face rotation angle: 0.02
+
+Face ID: 146
+  - Eyes:
+    - Eye Position: (x: 416, y: 232, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 474, y: 236, w: 30, h: 30), Label: Open
+
+Face ID: 149
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 148
+  - Face Position: (x: 411, y: 218, w: 128, h: 128)
+  - Yawning: Yawning
+
+Face ID: 150
+  - Keypoints:
+    - Eye-to-eye distance: 26.84
+    - Nose-to-chin distance: 46.08
+    - Face rotation angle: 0.11
+
+Face ID: 152
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 151
+  - Face Position: (x: 405, y: 218, w: 125, h: 125)
+  - Yawning: Yawning
+
+Face ID: 153
+  - Keypoints:
+    - Eye-to-eye distance: 25.94
+    - Nose-to-chin distance: 42.25
+    - Face rotation angle: 0.11
+
+Face ID: 155
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 154
+  - Face Position: (x: 420, y: 220, w: 126, h: 126)
+  - Yawning: Yawning
+
+Face ID: 156
+  - Keypoints:
+    - Eye-to-eye distance: 26.15
+    - Nose-to-chin distance: 42.09
+    - Face rotation angle: 0.14
+
+Face ID: 158
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 157
+  - Face Position: (x: 437, y: 226, w: 107, h: 107)
+  - Yawning: Not Yawning
+
+Face ID: 159
+  - Keypoints:
+    - Eye-to-eye distance: 22.65
+    - Nose-to-chin distance: 42.05
+    - Face rotation angle: 0.15
+
+Face ID: 161
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 160
+  - Face Position: (x: 435, y: 224, w: 114, h: 114)
+  - Yawning: Not Yawning
+
+Face ID: 162
+  - Keypoints:
+    - Eye-to-eye distance: 23.71
+    - Nose-to-chin distance: 44.07
+    - Face rotation angle: 0.10
+
+Face ID: 164
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 163
+  - Face Position: (x: 428, y: 217, w: 124, h: 124)
+  - Yawning: Yawning
+
+Face ID: 165
+  - Keypoints:
+    - Eye-to-eye distance: 28.86
+    - Nose-to-chin distance: 48.65
+    - Face rotation angle: 0.16
+
+Face ID: 166
+  - Face Position: (x: 416, y: 209, w: 130, h: 130)
+  - Yawning: Yawning
+
+Face ID: 167
+  - Eyes:
+    - Eye Position: (x: 444, y: 240, w: 32, h: 32), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 168
+  - Keypoints:
+    - Eye-to-eye distance: 32.13
+    - Nose-to-chin distance: 45.25
+    - Face rotation angle: 0.14
+
+Face ID: 169
+  - Face Position: (x: 390, y: 201, w: 129, h: 129)
+  - Yawning: Yawning
+
+Face ID: 170
+  - Eyes:
+    - Eye Position: (x: 405, y: 225, w: 42, h: 42), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 171
+  - Keypoints:
+    - Eye-to-eye distance: 34.01
+    - Nose-to-chin distance: 49.14
+    - Face rotation angle: 0.02
+
+Face ID: 172
+  - Face Position: (x: 317, y: 158, w: 152, h: 152)
+  - Yawning: Yawning
+
+Face ID: 174
+  - Keypoints:
+    - Eye-to-eye distance: 38.80
+    - Nose-to-chin distance: 50.94
+    - Face rotation angle: -0.08
+
+Face ID: 173
+  - Eyes:
+    - Eye Position: (x: 399, y: 192, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 341, y: 199, w: 39, h: 39), Label: Open
+
+Face ID: 175
+  - Face Position: (x: 266, y: 126, w: 242, h: 242)
+  - Yawning: Yawning
+
+Face ID: 176
+  - Eyes:
+    - Eye Position: (x: 313, y: 195, w: 48, h: 48), Label: Open
+    - Eye Position: (x: 402, y: 188, w: 50, h: 50), Label: Open
+
+Face ID: 177
+  - Keypoints:
+    - Eye-to-eye distance: 60.71
+    - Nose-to-chin distance: 81.58
+    - Face rotation angle: -0.02
+
+Face ID: 178
+  - Face Position: (x: 305, y: 136, w: 245, h: 245)
+  - Yawning: Not Yawning
+
+Face ID: 179
+  - Eyes:
+    - Eye Position: (x: 357, y: 203, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 446, y: 201, w: 51, h: 51), Label: Open
+
+Face ID: 180
+  - Keypoints:
+    - Eye-to-eye distance: 59.27
+    - Nose-to-chin distance: 82.58
+    - Face rotation angle: 0.01
+
+Face ID: 181
+  - Face Position: (x: 311, y: 139, w: 240, h: 240)
+  - Yawning: Not Yawning
+
+Face ID: 183
+  - Keypoints:
+    - Eye-to-eye distance: 58.48
+    - Nose-to-chin distance: 80.68
+    - Face rotation angle: 0.01
+
+Face ID: 182
+  - Eyes:
+    - Eye Position: (x: 359, y: 204, w: 48, h: 48), Label: Open
+    - Eye Position: (x: 447, y: 201, w: 51, h: 51), Label: Open
+
+Face ID: 184
+  - Face Position: (x: 308, y: 138, w: 238, h: 238)
+  - Yawning: Not Yawning
+
+Face ID: 186
+  - Keypoints:
+    - Eye-to-eye distance: 57.79
+    - Nose-to-chin distance: 79.62
+    - Face rotation angle: 0.01
+
+Face ID: 185
+  - Eyes:
+    - Eye Position: (x: 358, y: 205, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 444, y: 200, w: 53, h: 53), Label: Open
+
+Face ID: 187
+  - Face Position: (x: 310, y: 138, w: 241, h: 241)
+  - Yawning: Not Yawning
+
+Face ID: 189
+  - Keypoints:
+    - Eye-to-eye distance: 58.41
+    - Nose-to-chin distance: 80.60
+    - Face rotation angle: 0.01
+
+Face ID: 188
+  - Eyes:
+    - Eye Position: (x: 445, y: 200, w: 52, h: 52), Label: Open
+    - Eye Position: (x: 359, y: 204, w: 49, h: 49), Label: Open
+
+Face ID: 190
+  - Face Position: (x: 311, y: 139, w: 237, h: 237)
+  - Yawning: Not Yawning
+
+Face ID: 192
+  - Keypoints:
+    - Eye-to-eye distance: 57.28
+    - Nose-to-chin distance: 80.48
+    - Face rotation angle: 0.01
+
+Face ID: 191
+  - Eyes:
+    - Eye Position: (x: 448, y: 201, w: 50, h: 50), Label: Open
+    - Eye Position: (x: 359, y: 203, w: 49, h: 49), Label: Open
+
+Face ID: 193
+  - Face Position: (x: 311, y: 139, w: 244, h: 244)
+  - Yawning: Not Yawning
+
+Face ID: 195
+  - Keypoints:
+    - Eye-to-eye distance: 57.93
+    - Nose-to-chin distance: 82.99
+    - Face rotation angle: 0.01
+
+Face ID: 194
+  - Eyes:
+    - Eye Position: (x: 448, y: 199, w: 53, h: 53), Label: Open
+    - Eye Position: (x: 360, y: 203, w: 50, h: 50), Label: Open
+
+Face ID: 196
+  - Face Position: (x: 311, y: 139, w: 240, h: 240)
+  - Yawning: Not Yawning
+
+Face ID: 198
+  - Keypoints:
+    - Eye-to-eye distance: 57.13
+    - Nose-to-chin distance: 82.27
+    - Face rotation angle: 0.01
+
+Face ID: 197
+  - Eyes:
+    - Eye Position: (x: 445, y: 199, w: 53, h: 53), Label: Open
+    - Eye Position: (x: 356, y: 199, w: 55, h: 55), Label: Open
+
+Face ID: 199
+  - Face Position: (x: 392, y: 122, w: 211, h: 211)
+  - Yawning: Not Yawning
+
+Face ID: 201
+  - Keypoints:
+    - Eye-to-eye distance: 54.98
+    - Nose-to-chin distance: 78.80
+    - Face rotation angle: 0.03
+
+Face ID: 200
+  - Eyes:
+    - Eye Position: (x: 429, y: 173, w: 51, h: 51), Label: Open
+    - Eye Position: (x: 517, y: 175, w: 49, h: 49), Label: Open
+
+Face ID: 202
+  - Face Position: (x: 436, y: 141, w: 187, h: 187)
+  - Yawning: Yawning
+
+Face ID: 204
+  - Keypoints:
+    - Eye-to-eye distance: 50.19
+    - Nose-to-chin distance: 74.60
+    - Face rotation angle: 0.07
+
+Face ID: 203
+  - Eyes:
+    - Eye Position: (x: 460, y: 183, w: 52, h: 52), Label: Open
+    - Eye Position: (x: 551, y: 192, w: 45, h: 45), Label: Open
+
+Face ID: 205
+  - Face Position: (x: 412, y: 143, w: 204, h: 204)
+  - Yawning: Not Yawning
+
+Face ID: 207
+  - Keypoints:
+    - Eye-to-eye distance: 52.40
+    - Nose-to-chin distance: 76.26
+    - Face rotation angle: 0.05
+
+Face ID: 206
+  - Eyes:
+    - Eye Position: (x: 447, y: 192, w: 51, h: 51), Label: Open
+    - Eye Position: (x: 535, y: 192, w: 53, h: 53), Label: Open
+
+Face ID: 208
+  - Face Position: (x: 400, y: 146, w: 213, h: 213)
+  - Yawning: Not Yawning
+
+Face ID: 210
+  - Keypoints:
+    - Eye-to-eye distance: 54.52
+    - Nose-to-chin distance: 75.99
+    - Face rotation angle: 0.02
+
+Face ID: 209
+  - Eyes:
+    - Eye Position: (x: 437, y: 197, w: 51, h: 51), Label: Open
+    - Eye Position: (x: 523, y: 197, w: 53, h: 53), Label: Open
+
+Face ID: 211
+  - Face Position: (x: 353, y: 155, w: 208, h: 208)
+  - Yawning: Yawning
+
+Face ID: 213
+  - Keypoints:
+    - Eye-to-eye distance: 49.83
+    - Nose-to-chin distance: 66.44
+    - Face rotation angle: 0.03
+
+Face ID: 212
+  - Eyes:
+    - Eye Position: (x: 473, y: 207, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 393, y: 211, w: 45, h: 45), Label: Open
+
+Face ID: 214
+  - Face Position: (x: 370, y: 163, w: 190, h: 190)
+  - Yawning: Yawning
+
+Face ID: 216
+  - Keypoints:
+    - Eye-to-eye distance: 48.74
+    - Nose-to-chin distance: 60.81
+    - Face rotation angle: 0.03
+
+Face ID: 215
+  - Eyes:
+    - Eye Position: (x: 467, y: 208, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 382, y: 214, w: 46, h: 46), Label: Open
+
+Face ID: 217
+  - Face Position: (x: 358, y: 160, w: 206, h: 206)
+  - Yawning: Yawning
+
+Face ID: 219
+  - Keypoints:
+    - Eye-to-eye distance: 52.96
+    - Nose-to-chin distance: 67.25
+    - Face rotation angle: 0.01
+
+Face ID: 218
+  - Eyes:
+    - Eye Position: (x: 468, y: 210, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 383, y: 213, w: 47, h: 47), Label: Closed
+
+Face ID: 220
+  - Face Position: (x: 342, y: 156, w: 221, h: 221)
+  - Yawning: Yawning
+
+Face ID: 222
+  - Keypoints:
+    - Eye-to-eye distance: 55.49
+    - Nose-to-chin distance: 71.27
+    - Face rotation angle: 0.00
+
+Face ID: 221
+  - Eyes:
+    - Eye Position: (x: 466, y: 210, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 382, y: 214, w: 46, h: 46), Label: Open
+
+Face ID: 223
+  - Face Position: (x: 344, y: 157, w: 218, h: 218)
+  - Yawning: Yawning
+
+Face ID: 225
+  - Keypoints:
+    - Eye-to-eye distance: 54.35
+    - Nose-to-chin distance: 71.66
+    - Face rotation angle: 0.01
+
+Face ID: 224
+  - Eyes:
+    - Eye Position: (x: 501, y: 315, w: 53, h: 53), Label: Closed
+    - Eye Position: (x: 467, y: 210, w: 50, h: 50), Label: Open
+
+Face ID: 226
+  - Face Position: (x: 341, y: 157, w: 220, h: 220)
+  - Yawning: Yawning
+
+Face ID: 228
+  - Keypoints:
+    - Eye-to-eye distance: 54.35
+    - Nose-to-chin distance: 71.91
+    - Face rotation angle: -0.00
+
+Face ID: 227
+  - Eyes:
+    - Eye Position: (x: 501, y: 315, w: 55, h: 55), Label: Closed
+    - Eye Position: (x: 467, y: 211, w: 48, h: 48), Label: Open
+
+Face ID: 229
+  - Face Position: (x: 344, y: 158, w: 214, h: 214)
+  - Yawning: Yawning
+
+Face ID: 231
+  - Keypoints:
+    - Eye-to-eye distance: 54.35
+    - Nose-to-chin distance: 68.74
+    - Face rotation angle: -0.01
+
+Face ID: 230
+  - Eyes:
+    - Eye Position: (x: 383, y: 214, w: 48, h: 48), Label: Open
+    - Eye Position: (x: 465, y: 209, w: 51, h: 51), Label: Open
+
+Face ID: 232
+  - Face Position: (x: 348, y: 159, w: 215, h: 215)
+  - Yawning: Yawning
+
+Face ID: 234
+  - Keypoints:
+    - Eye-to-eye distance: 55.44
+    - Nose-to-chin distance: 72.89
+    - Face rotation angle: 0.01
+
+Face ID: 233
+  - Eyes:
+    - Eye Position: (x: 502, y: 316, w: 53, h: 53), Label: Closed
+    - Eye Position: (x: 464, y: 209, w: 52, h: 52), Label: Open
+
+Face ID: 235
+  - Face Position: (x: 338, y: 147, w: 222, h: 222)
+  - Yawning: Yawning
+
+Face ID: 237
+  - Keypoints:
+    - Eye-to-eye distance: 54.24
+    - Nose-to-chin distance: 71.35
+    - Face rotation angle: 0.00
+
+Face ID: 236
+  - Eyes:
+    - Eye Position: (x: 461, y: 203, w: 50, h: 50), Label: Open
+    - Eye Position: (x: 377, y: 207, w: 51, h: 51), Label: Closed
+
+Face ID: 238
+  - Face Position: (x: 309, y: 128, w: 174, h: 174)
+  - Yawning: Yawning
+
+Face ID: 240
+  - Keypoints:
+    - Eye-to-eye distance: 44.02
+    - Nose-to-chin distance: 62.82
+    - Face rotation angle: -0.16
+
+Face ID: 239
+  - Eyes:
+    - Eye Position: (x: 335, y: 184, w: 38, h: 38), Label: Closed
+    - Eye Position: (x: 405, y: 169, w: 41, h: 41), Label: Open
+
+Face ID: 241
+  - Face Position: (x: 306, y: 163, w: 140, h: 140)
+  - Yawning: Yawning
+
+Face ID: 242
+  - Eyes:
+    - Eye Position: (x: 396, y: 188, w: 47, h: 47), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 243
+  - Keypoints:
+    - Eye-to-eye distance: 17.98
+    - Nose-to-chin distance: 31.08
+    - Face rotation angle: 0.05
+
+Face ID: 244
+  - Face Position: (x: 449, y: 172, w: 138, h: 138)
+  - Yawning: Not Yawning
+
+Face ID: 245
+  - Eyes:
+    - Eye Position: (x: 478, y: 207, w: 36, h: 36), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 246
+  - Keypoints:
+    - Eye-to-eye distance: 31.13
+    - Nose-to-chin distance: 53.41
+    - Face rotation angle: -0.07
+
+Face ID: 247
+  - Face Position: (x: 398, y: 177, w: 130, h: 130)
+  - Yawning: Not Yawning
+
+Face ID: 249
+  - Keypoints:
+    - Eye-to-eye distance: 34.16
+    - Nose-to-chin distance: 45.92
+    - Face rotation angle: -0.04
+
+Face ID: 248
+  - Eyes:
+    - Eye Position: (x: 478, y: 216, w: 24, h: 24), Label: Closed
+    - Eye Position: (x: 416, y: 209, w: 36, h: 36), Label: Open
+
+Face ID: 250
+  - Face Position: (x: 363, y: 193, w: 136, h: 136)
+  - Yawning: Not Yawning
+
+Face ID: 251
+  - Eyes:
+    - Eye Position: (x: 381, y: 229, w: 37, h: 37), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 252
+  - Keypoints:
+    - Eye-to-eye distance: 34.91
+    - Nose-to-chin distance: 45.32
+    - Face rotation angle: -0.09
+
+Face ID: 254
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 253
+  - Face Position: (x: 384, y: 199, w: 131, h: 131)
+  - Yawning: Yawning
+
+Face ID: 255
+  - Keypoints:
+    - Eye-to-eye distance: 31.83
+    - Nose-to-chin distance: 41.53
+    - Face rotation angle: -0.01
+
+Face ID: 257
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 256
+  - Face Position: (x: 413, y: 211, w: 118, h: 118)
+  - Yawning: Yawning
+
+Face ID: 258
+  - Keypoints:
+    - Eye-to-eye distance: 26.33
+    - Nose-to-chin distance: 39.51
+    - Face rotation angle: 0.09
+
+Face ID: 260
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 259
+  - Face Position: (x: 420, y: 206, w: 124, h: 124)
+  - Yawning: Yawning
+
+Face ID: 261
+  - Keypoints:
+    - Eye-to-eye distance: 26.54
+    - Nose-to-chin distance: 43.40
+    - Face rotation angle: 0.10
+
+Face ID: 263
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 262
+  - Face Position: (x: 448, y: 208, w: 126, h: 126)
+  - Yawning: Yawning
+
+Face ID: 264
+  - Keypoints:
+    - Eye-to-eye distance: 26.53
+    - Nose-to-chin distance: 43.34
+    - Face rotation angle: 0.13
+
+Face ID: 266
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 265
+  - Face Position: (x: 450, y: 201, w: 132, h: 132)
+  - Yawning: Yawning
+
+Face ID: 267
+  - Keypoints:
+    - Eye-to-eye distance: 28.48
+    - Nose-to-chin distance: 41.91
+    - Face rotation angle: 0.07
+
+Face ID: 269
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 268
+  - Face Position: (x: 445, y: 197, w: 124, h: 124)
+  - Yawning: Not Yawning
+
+Face ID: 270
+  - Keypoints:
+    - Eye-to-eye distance: 24.86
+    - Nose-to-chin distance: 43.38
+    - Face rotation angle: 0.06
+
+Face ID: 272
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 271
+  - Face Position: (x: 447, y: 200, w: 148, h: 148)
+  - Yawning: Yawning
+
+Face ID: 273
+  - Keypoints:
+    - Eye-to-eye distance: 28.53
+    - Nose-to-chin distance: 43.86
+    - Face rotation angle: 0.18
+
+Face ID: 274
+  - Face Position: (x: 395, y: 200, w: 127, h: 127)
+  - Yawning: Not Yawning
+
+Face ID: 276
+  - Keypoints:
+    - Eye-to-eye distance: 31.73
+    - Nose-to-chin distance: 46.40
+    - Face rotation angle: 0.03
+
+Face ID: 275
+  - Eyes:
+    - Eye Position: (x: 468, y: 240, w: 24, h: 24), Label: Open
+    - Eye Position: (x: 416, y: 232, w: 32, h: 32), Label: Open
+
+Face ID: 277
+  - Face Position: (x: 325, y: 205, w: 128, h: 128)
+  - Yawning: Not Yawning
+
+Face ID: 279
+  - Keypoints:
+    - Eye-to-eye distance: 32.91
+    - Nose-to-chin distance: 43.08
+    - Face rotation angle: -0.03
+
+Face ID: 278
+  - Eyes:
+    - Eye Position: (x: 347, y: 242, w: 30, h: 30), Label: Open
+    - Eye Position: (x: 402, y: 240, w: 28, h: 28), Label: Open
+
+Face ID: 280
+  - Face Position: (x: 299, y: 211, w: 141, h: 141)
+  - Yawning: Not Yawning
+
+Face ID: 282
+  - Keypoints:
+    - Eye-to-eye distance: 37.00
+    - Nose-to-chin distance: 46.26
+    - Face rotation angle: -0.04
+
+Face ID: 281
+  - Eyes:
+    - Eye Position: (x: 376, y: 244, w: 37, h: 37), Label: Open
+    - Eye Position: (x: 320, y: 251, w: 32, h: 32), Label: Open
+
+Face ID: 283
+  - Face Position: (x: 316, y: 209, w: 148, h: 148)
+  - Yawning: Not Yawning
+
+Face ID: 285
+  - Keypoints:
+    - Eye-to-eye distance: 38.36
+    - Nose-to-chin distance: 47.20
+    - Face rotation angle: -0.03
+
+Face ID: 284
+  - Eyes:
+    - Eye Position: (x: 398, y: 246, w: 37, h: 37), Label: Open
+    - Eye Position: (x: 339, y: 250, w: 35, h: 35), Label: Open
+
+Face ID: 286
+  - Face Position: (x: 316, y: 212, w: 142, h: 142)
+  - Yawning: Not Yawning
+
+Face ID: 288
+  - Keypoints:
+    - Eye-to-eye distance: 37.18
+    - Nose-to-chin distance: 48.68
+    - Face rotation angle: -0.03
+
+Face ID: 287
+  - Eyes:
+    - Eye Position: (x: 396, y: 246, w: 36, h: 36), Label: Open
+    - Eye Position: (x: 337, y: 251, w: 35, h: 35), Label: Closed
+
+Face ID: 289
+  - Face Position: (x: 317, y: 211, w: 145, h: 145)
+  - Yawning: Yawning
+
+Face ID: 290
+  - Eyes:
+    - Eye Position: (x: 337, y: 249, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 393, y: 241, w: 40, h: 40), Label: Open
+
+Face ID: 291
+  - Keypoints:
+    - Eye-to-eye distance: 37.61
+    - Nose-to-chin distance: 49.32
+    - Face rotation angle: -0.03
+
+Face ID: 292
+  - Face Position: (x: 326, y: 200, w: 128, h: 128)
+  - Yawning: Not Yawning
+
+Face ID: 293
+  - Eyes:
+    - Eye Position: (x: 342, y: 231, w: 35, h: 35), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 294
+  - Keypoints:
+    - Eye-to-eye distance: 33.49
+    - Nose-to-chin distance: 46.08
+    - Face rotation angle: -0.03
+
+Face ID: 295
+  - Face Position: (x: 342, y: 192, w: 114, h: 114)
+  - Yawning: Not Yawning
+
+Face ID: 296
+  - Eyes:
+    - Eye Position: (x: 359, y: 214, w: 45, h: 45), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 297
+  - Keypoints:
+    - Eye-to-eye distance: 27.05
+    - Nose-to-chin distance: 41.28
+    - Face rotation angle: -0.06
+
+Face ID: 298
+  - Face Position: (x: 375, y: 184, w: 120, h: 120)
+  - Yawning: Not Yawning
+
+Face ID: 299
+  - Eyes:
+    - Eye Position: (x: 408, y: 212, w: 35, h: 35), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 300
+  - Keypoints:
+    - Eye-to-eye distance: 24.55
+    - Nose-to-chin distance: 40.81
+    - Face rotation angle: 0.03
+
+Face ID: 301
+  - Face Position: (x: 372, y: 180, w: 129, h: 129)
+  - Yawning: Yawning
+
+Face ID: 302
+  - Eyes:
+    - Eye Position: (x: 408, y: 212, w: 36, h: 36), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 303
+  - Keypoints:
+    - Eye-to-eye distance: 27.30
+    - Nose-to-chin distance: 44.85
+    - Face rotation angle: 0.04
+
+Face ID: 304
+  - Face Position: (x: 383, y: 187, w: 121, h: 121)
+  - Yawning: Yawning
+
+Face ID: 305
+  - Eyes:
+    - Eye Position: (x: 409, y: 217, w: 30, h: 30), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 306
+  - Keypoints:
+    - Eye-to-eye distance: 26.83
+    - Nose-to-chin distance: 44.27
+    - Face rotation angle: 0.07
+
+Face ID: 307
+  - Face Position: (x: 368, y: 189, w: 118, h: 118)
+  - Yawning: Not Yawning
+
+Face ID: 308
+  - Eyes:
+    - Eye Position: (x: 387, y: 221, w: 28, h: 28), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 309
+  - Keypoints:
+    - Eye-to-eye distance: 30.59
+    - Nose-to-chin distance: 44.50
+    - Face rotation angle: 0.01
+
+Face ID: 3
+  - Keypoints:
+    - Eye-to-eye distance: 32.15
+    - Nose-to-chin distance: 44.36
+    - Face rotation angle: -0.19
+
+Face ID: 1
+  - Face Position: (x: 332, y: 176, w: 127, h: 127)
+  - Yawning: Yawning
+
+Face ID: 2
+  - Eyes:
+    - Eye Position: (x: 347, y: 216, w: 32, h: 32), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 4
+  - Face Position: (x: 234, y: 113, w: 188, h: 188)
+  - Yawning: Yawning
+
+Face ID: 6
+  - Keypoints:
+    - Eye-to-eye distance: 48.34
+    - Nose-to-chin distance: 68.42
+    - Face rotation angle: -0.03
+
+Face ID: 5
+  - Eyes:
+    - Eye Position: (x: 262, y: 167, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 341, y: 164, w: 43, h: 43), Label: Open
+
+Face ID: 7
+  - Face Position: (x: 236, y: 116, w: 191, h: 191)
+  - Yawning: Yawning
+
+Face ID: 9
+  - Keypoints:
+    - Eye-to-eye distance: 48.95
+    - Nose-to-chin distance: 70.95
+    - Face rotation angle: -0.01
+
+Face ID: 8
+  - Eyes:
+    - Eye Position: (x: 267, y: 169, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 346, y: 164, w: 45, h: 45), Label: Open
+
+Face ID: 10
+  - Face Position: (x: 239, y: 115, w: 191, h: 191)
+  - Yawning: Yawning
+
+Face ID: 12
+  - Keypoints:
+    - Eye-to-eye distance: 49.11
+    - Nose-to-chin distance: 68.90
+    - Face rotation angle: -0.01
+
+Face ID: 11
+  - Eyes:
+    - Eye Position: (x: 269, y: 168, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 347, y: 166, w: 44, h: 44), Label: Open
+
+Face ID: 13
+  - Face Position: (x: 223, y: 112, w: 193, h: 193)
+  - Yawning: Yawning
+
+Face ID: 15
+  - Keypoints:
+    - Eye-to-eye distance: 49.01
+    - Nose-to-chin distance: 69.19
+    - Face rotation angle: -0.05
+
+Face ID: 14
+  - Eyes:
+    - Eye Position: (x: 255, y: 168, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 331, y: 162, w: 45, h: 45), Label: Open
+
+Face ID: 16
+  - Face Position: (x: 177, y: 114, w: 195, h: 195)
+  - Yawning: Yawning
+
+Face ID: 18
+  - Keypoints:
+    - Eye-to-eye distance: 49.62
+    - Nose-to-chin distance: 68.43
+    - Face rotation angle: -0.01
+
+Face ID: 17
+  - Eyes:
+    - Eye Position: (x: 212, y: 173, w: 42, h: 42), Label: Open
+    - Eye Position: (x: 289, y: 167, w: 44, h: 44), Label: Open
+
+Face ID: 19
+  - Face Position: (x: 202, y: 104, w: 198, h: 198)
+  - Yawning: Not Yawning
+
+Face ID: 21
+  - Keypoints:
+    - Eye-to-eye distance: 49.96
+    - Nose-to-chin distance: 68.65
+    - Face rotation angle: 0.12
+
+Face ID: 20
+  - Eyes:
+    - Eye Position: (x: 241, y: 155, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 318, y: 162, w: 46, h: 46), Label: Open
+
+Face ID: 22
+  - Face Position: (x: 253, y: 114, w: 196, h: 196)
+  - Yawning: Yawning
+
+Face ID: 24
+  - Keypoints:
+    - Eye-to-eye distance: 50.66
+    - Nose-to-chin distance: 69.59
+    - Face rotation angle: 0.03
+
+Face ID: 23
+  - Eyes:
+    - Eye Position: (x: 285, y: 168, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 365, y: 170, w: 45, h: 45), Label: Open
+
+Face ID: 25
+  - Face Position: (x: 233, y: 107, w: 188, h: 188)
+  - Yawning: Yawning
+
+Face ID: 27
+  - Keypoints:
+    - Eye-to-eye distance: 49.73
+    - Nose-to-chin distance: 66.09
+    - Face rotation angle: -0.11
+
+Face ID: 26
+  - Eyes:
+    - Eye Position: (x: 338, y: 152, w: 47, h: 47), Label: Open
+    - Eye Position: (x: 259, y: 163, w: 47, h: 47), Label: Open
+
+Face ID: 28
+  - Face Position: (x: 205, y: 108, w: 194, h: 194)
+  - Yawning: Not Yawning
+
+Face ID: 30
+  - Keypoints:
+    - Eye-to-eye distance: 49.17
+    - Nose-to-chin distance: 69.85
+    - Face rotation angle: 0.16
+
+Face ID: 29
+  - Eyes:
+    - Eye Position: (x: 241, y: 156, w: 42, h: 42), Label: Open
+    - Eye Position: (x: 318, y: 167, w: 45, h: 45), Label: Open
+
+Face ID: 31
+  - Face Position: (x: 268, y: 121, w: 178, h: 178)
+  - Yawning: Yawning
+
+Face ID: 33
+  - Keypoints:
+    - Eye-to-eye distance: 46.47
+    - Nose-to-chin distance: 67.76
+    - Face rotation angle: 0.11
+
+Face ID: 32
+  - Eyes:
+    - Eye Position: (x: 291, y: 164, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 368, y: 170, w: 46, h: 46), Label: Open
+
+Face ID: 34
+  - Face Position: (x: 229, y: 108, w: 192, h: 192)
+  - Yawning: Yawning
+
+Face ID: 36
+  - Keypoints:
+    - Eye-to-eye distance: 49.31
+    - Nose-to-chin distance: 69.53
+    - Face rotation angle: -0.14
+
+Face ID: 35
+  - Eyes:
+    - Eye Position: (x: 258, y: 168, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 336, y: 153, w: 47, h: 47), Label: Open
+
+Face ID: 37
+  - Face Position: (x: 222, y: 111, w: 187, h: 187)
+  - Yawning: Yawning
+
+Face ID: 39
+  - Keypoints:
+    - Eye-to-eye distance: 48.58
+    - Nose-to-chin distance: 68.23
+    - Face rotation angle: 0.08
+
+Face ID: 38
+  - Eyes:
+    - Eye Position: (x: 254, y: 161, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 329, y: 165, w: 45, h: 45), Label: Open
+
+Face ID: 40
+  - Face Position: (x: 234, y: 110, w: 194, h: 194)
+  - Yawning: Yawning
+
+Face ID: 42
+  - Keypoints:
+    - Eye-to-eye distance: 49.61
+    - Nose-to-chin distance: 69.63
+    - Face rotation angle: 0.07
+
+Face ID: 41
+  - Eyes:
+    - Eye Position: (x: 268, y: 163, w: 42, h: 42), Label: Open
+    - Eye Position: (x: 348, y: 166, w: 44, h: 44), Label: Open
+
+Face ID: 43
+  - Face Position: (x: 235, y: 110, w: 196, h: 196)
+  - Yawning: Yawning
+
+Face ID: 45
+  - Keypoints:
+    - Eye-to-eye distance: 50.12
+    - Nose-to-chin distance: 70.49
+    - Face rotation angle: 0.02
+
+Face ID: 44
+  - Eyes:
+    - Eye Position: (x: 270, y: 163, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 347, y: 164, w: 45, h: 45), Label: Open
+
+Face ID: 46
+  - Face Position: (x: 234, y: 110, w: 198, h: 198)
+  - Yawning: Yawning
+
+Face ID: 48
+  - Keypoints:
+    - Eye-to-eye distance: 49.34
+    - Nose-to-chin distance: 71.02
+    - Face rotation angle: 0.04
+
+Face ID: 47
+  - Eyes:
+    - Eye Position: (x: 270, y: 163, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 348, y: 164, w: 45, h: 45), Label: Open
+
+Face ID: 49
+  - Face Position: (x: 239, y: 112, w: 192, h: 192)
+  - Yawning: Not Yawning
+
+Face ID: 51
+  - Keypoints:
+    - Eye-to-eye distance: 49.35
+    - Nose-to-chin distance: 69.25
+    - Face rotation angle: -0.01
+
+Face ID: 50
+  - Eyes:
+    - Eye Position: (x: 350, y: 164, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 269, y: 164, w: 45, h: 45), Label: Closed
+
+Face ID: 52
+  - Face Position: (x: 230, y: 106, w: 186, h: 186)
+  - Yawning: Not Yawning
+
+Face ID: 54
+  - Keypoints:
+    - Eye-to-eye distance: 47.02
+    - Nose-to-chin distance: 63.64
+    - Face rotation angle: -0.03
+
+Face ID: 53
+  - Eyes:
+    - Eye Position: (x: 334, y: 152, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 261, y: 157, w: 45, h: 45), Label: Open
+
+Face ID: 55
+  - Face Position: (x: 232, y: 107, w: 182, h: 182)
+  - Yawning: Yawning
+
+Face ID: 57
+  - Keypoints:
+    - Eye-to-eye distance: 46.93
+    - Nose-to-chin distance: 63.32
+    - Face rotation angle: -0.02
+
+Face ID: 56
+  - Eyes:
+    - Eye Position: (x: 262, y: 157, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 334, y: 151, w: 47, h: 47), Label: Open
+
+Face ID: 58
+  - Face Position: (x: 238, y: 107, w: 182, h: 182)
+  - Yawning: Yawning
+
+Face ID: 60
+  - Keypoints:
+    - Eye-to-eye distance: 46.36
+    - Nose-to-chin distance: 65.25
+    - Face rotation angle: -0.01
+
+Face ID: 59
+  - Eyes:
+    - Eye Position: (x: 265, y: 157, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 340, y: 151, w: 47, h: 47), Label: Open
+
+Face ID: 61
+  - Face Position: (x: 245, y: 103, w: 183, h: 183)
+  - Yawning: Not Yawning
+
+Face ID: 63
+  - Keypoints:
+    - Eye-to-eye distance: 47.58
+    - Nose-to-chin distance: 65.64
+    - Face rotation angle: -0.00
+
+Face ID: 62
+  - Eyes:
+    - Eye Position: (x: 273, y: 153, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 346, y: 150, w: 47, h: 47), Label: Open
+
+Face ID: 64
+  - Face Position: (x: 235, y: 107, w: 182, h: 182)
+  - Yawning: Yawning
+
+Face ID: 66
+  - Keypoints:
+    - Eye-to-eye distance: 46.58
+    - Nose-to-chin distance: 64.33
+    - Face rotation angle: -0.00
+
+Face ID: 65
+  - Eyes:
+    - Eye Position: (x: 264, y: 156, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 338, y: 153, w: 44, h: 44), Label: Open
+
+Face ID: 67
+  - Face Position: (x: 230, y: 102, w: 186, h: 186)
+  - Yawning: Yawning
+
+Face ID: 69
+  - Keypoints:
+    - Eye-to-eye distance: 47.83
+    - Nose-to-chin distance: 66.27
+    - Face rotation angle: -0.02
+
+Face ID: 68
+  - Eyes:
+    - Eye Position: (x: 261, y: 154, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 336, y: 152, w: 46, h: 46), Label: Open
+
+Face ID: 70
+  - Face Position: (x: 227, y: 112, w: 179, h: 179)
+  - Yawning: Not Yawning
+
+Face ID: 72
+  - Keypoints:
+    - Eye-to-eye distance: 46.58
+    - Nose-to-chin distance: 63.55
+    - Face rotation angle: -0.03
+
+Face ID: 71
+  - Eyes:
+    - Eye Position: (x: 255, y: 161, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 328, y: 155, w: 46, h: 46), Label: Open
+
+Face ID: 73
+  - Face Position: (x: 187, y: 108, w: 219, h: 219)
+  - Yawning: Yawning
+
+Face ID: 74
+  - Eyes:
+    - Eye Position: (x: 311, y: 171, w: 46, h: 46), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 75
+  - Keypoints:
+    - Eye-to-eye distance: 41.06
+    - Nose-to-chin distance: 62.93
+    - Face rotation angle: -0.02
+
+Face ID: 76
+  - Face Position: (x: 206, y: 124, w: 173, h: 173)
+  - Yawning: Not Yawning
+
+Face ID: 78
+  - Keypoints:
+    - Eye-to-eye distance: 42.77
+    - Nose-to-chin distance: 59.04
+    - Face rotation angle: -0.11
+
+Face ID: 77
+  - Eyes:
+    - Eye Position: (x: 235, y: 171, w: 44, h: 44), Label: Closed
+    - Eye Position: (x: 293, y: 160, w: 54, h: 54), Label: Open
+
+Face ID: 79
+  - Face Position: (x: 205, y: 115, w: 182, h: 182)
+  - Yawning: Not Yawning
+
+Face ID: 81
+  - Keypoints:
+    - Eye-to-eye distance: 47.73
+    - Nose-to-chin distance: 66.28
+    - Face rotation angle: -0.04
+
+Face ID: 80
+  - Eyes:
+    - Eye Position: (x: 235, y: 165, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 305, y: 157, w: 51, h: 51), Label: Open
+
+Face ID: 82
+  - Face Position: (x: 204, y: 111, w: 187, h: 187)
+  - Yawning: Not Yawning
+
+Face ID: 84
+  - Keypoints:
+    - Eye-to-eye distance: 47.87
+    - Nose-to-chin distance: 64.28
+    - Face rotation angle: -0.04
+
+Face ID: 83
+  - Eyes:
+    - Eye Position: (x: 306, y: 157, w: 50, h: 50), Label: Open
+    - Eye Position: (x: 238, y: 164, w: 47, h: 47), Label: Closed
+
+Face ID: 85
+  - Face Position: (x: 206, y: 113, w: 184, h: 184)
+  - Yawning: Yawning
+
+Face ID: 87
+  - Keypoints:
+    - Eye-to-eye distance: 47.69
+    - Nose-to-chin distance: 65.05
+    - Face rotation angle: -0.05
+
+Face ID: 86
+  - Eyes:
+    - Eye Position: (x: 237, y: 164, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 306, y: 157, w: 51, h: 51), Label: Open
+
+Face ID: 88
+  - Face Position: (x: 204, y: 110, w: 188, h: 188)
+  - Yawning: Yawning
+
+Face ID: 90
+  - Keypoints:
+    - Eye-to-eye distance: 48.17
+    - Nose-to-chin distance: 66.09
+    - Face rotation angle: -0.05
+
+Face ID: 89
+  - Eyes:
+    - Eye Position: (x: 237, y: 163, w: 46, h: 46), Label: Closed
+    - Eye Position: (x: 308, y: 157, w: 50, h: 50), Label: Open
+
+Face ID: 91
+  - Face Position: (x: 206, y: 112, w: 185, h: 185)
+  - Yawning: Yawning
+
+Face ID: 93
+  - Keypoints:
+    - Eye-to-eye distance: 48.31
+    - Nose-to-chin distance: 63.48
+    - Face rotation angle: -0.05
+
+Face ID: 92
+  - Eyes:
+    - Eye Position: (x: 307, y: 156, w: 51, h: 51), Label: Open
+    - Eye Position: (x: 236, y: 163, w: 47, h: 47), Label: Open
+
+Face ID: 94
+  - Face Position: (x: 204, y: 104, w: 181, h: 181)
+  - Yawning: Not Yawning
+
+Face ID: 95
+  - Eyes:
+    - Eye Position: (x: 235, y: 156, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 305, y: 150, w: 48, h: 48), Label: Open
+
+Face ID: 96
+  - Keypoints:
+    - Eye-to-eye distance: 45.98
+    - Nose-to-chin distance: 60.16
+    - Face rotation angle: -0.05
+
+Face ID: 97
+  - Face Position: (x: 228, y: 128, w: 162, h: 162)
+  - Yawning: Not Yawning
+
+Face ID: 99
+  - Keypoints:
+    - Eye-to-eye distance: 43.14
+    - Nose-to-chin distance: 57.09
+    - Face rotation angle: -0.01
+
+Face ID: 98
+  - Eyes:
+    - Eye Position: (x: 252, y: 172, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 316, y: 169, w: 43, h: 43), Label: Open
+
+Face ID: 100
+  - Face Position: (x: 228, y: 143, w: 163, h: 163)
+  - Yawning: Not Yawning
+
+Face ID: 102
+  - Keypoints:
+    - Eye-to-eye distance: 44.40
+    - Nose-to-chin distance: 58.05
+    - Face rotation angle: -0.01
+
+Face ID: 101
+  - Eyes:
+    - Eye Position: (x: 250, y: 181, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 315, y: 177, w: 47, h: 47), Label: Closed
+
+Face ID: 103
+  - Face Position: (x: 229, y: 104, w: 162, h: 162)
+  - Yawning: Not Yawning
+
+Face ID: 105
+  - Keypoints:
+    - Eye-to-eye distance: 42.42
+    - Nose-to-chin distance: 56.65
+    - Face rotation angle: -0.02
+
+Face ID: 104
+  - Eyes:
+    - Eye Position: (x: 255, y: 152, w: 39, h: 39), Label: Open
+    - Eye Position: (x: 318, y: 148, w: 42, h: 42), Label: Open
+
+Face ID: 106
+  - Face Position: (x: 230, y: 92, w: 167, h: 167)
+  - Yawning: Not Yawning
+
+Face ID: 108
+  - Keypoints:
+    - Eye-to-eye distance: 44.96
+    - Nose-to-chin distance: 62.91
+    - Face rotation angle: -0.01
+
+Face ID: 107
+  - Eyes:
+    - Eye Position: (x: 258, y: 141, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 325, y: 138, w: 43, h: 43), Label: Open
+
+Face ID: 109
+  - Face Position: (x: 232, y: 95, w: 165, h: 165)
+  - Yawning: Not Yawning
+
+Face ID: 111
+  - Keypoints:
+    - Eye-to-eye distance: 44.29
+    - Nose-to-chin distance: 60.43
+    - Face rotation angle: -0.02
+
+Face ID: 110
+  - Eyes:
+    - Eye Position: (x: 326, y: 139, w: 42, h: 42), Label: Open
+    - Eye Position: (x: 258, y: 142, w: 42, h: 42), Label: Open
+
+Face ID: 112
+  - Face Position: (x: 232, y: 95, w: 165, h: 165)
+  - Yawning: Not Yawning
+
+Face ID: 114
+  - Keypoints:
+    - Eye-to-eye distance: 44.01
+    - Nose-to-chin distance: 58.95
+    - Face rotation angle: -0.01
+
+Face ID: 113
+  - Eyes:
+    - Eye Position: (x: 258, y: 142, w: 42, h: 42), Label: Open
+    - Eye Position: (x: 326, y: 140, w: 42, h: 42), Label: Open
+
+Face ID: 115
+  - Face Position: (x: 231, y: 89, w: 169, h: 169)
+  - Yawning: Not Yawning
+
+Face ID: 117
+  - Keypoints:
+    - Eye-to-eye distance: 44.23
+    - Nose-to-chin distance: 60.42
+    - Face rotation angle: 0.00
+
+Face ID: 116
+  - Eyes:
+    - Eye Position: (x: 327, y: 136, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 259, y: 138, w: 41, h: 41), Label: Open
+
+Face ID: 118
+  - Face Position: (x: 237, y: 105, w: 171, h: 171)
+  - Yawning: Not Yawning
+
+Face ID: 120
+  - Keypoints:
+    - Eye-to-eye distance: 46.07
+    - Nose-to-chin distance: 59.04
+    - Face rotation angle: 0.01
+
+Face ID: 119
+  - Eyes:
+    - Eye Position: (x: 263, y: 151, w: 42, h: 42), Label: Open
+    - Eye Position: (x: 332, y: 149, w: 45, h: 45), Label: Open
+
+Face ID: 121
+  - Face Position: (x: 235, y: 98, w: 175, h: 175)
+  - Yawning: Not Yawning
+
+Face ID: 123
+  - Keypoints:
+    - Eye-to-eye distance: 45.91
+    - Nose-to-chin distance: 60.02
+    - Face rotation angle: -0.03
+
+Face ID: 122
+  - Eyes:
+    - Eye Position: (x: 263, y: 150, w: 42, h: 42), Label: Open
+    - Eye Position: (x: 332, y: 147, w: 43, h: 43), Label: Open
+
+Face ID: 124
+  - Face Position: (x: 232, y: 82, w: 169, h: 169)
+  - Yawning: Not Yawning
+
+Face ID: 126
+  - Keypoints:
+    - Eye-to-eye distance: 46.24
+    - Nose-to-chin distance: 62.33
+    - Face rotation angle: -0.01
+
+Face ID: 125
+  - Eyes:
+    - Eye Position: (x: 258, y: 130, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 328, y: 128, w: 44, h: 44), Label: Open
+
+Face ID: 127
+  - Face Position: (x: 229, y: 83, w: 174, h: 174)
+  - Yawning: Not Yawning
+
+Face ID: 129
+  - Keypoints:
+    - Eye-to-eye distance: 46.02
+    - Nose-to-chin distance: 64.15
+    - Face rotation angle: -0.00
+
+Face ID: 128
+  - Eyes:
+    - Eye Position: (x: 257, y: 133, w: 42, h: 42), Label: Open
+    - Eye Position: (x: 328, y: 131, w: 42, h: 42), Label: Open
+
+Face ID: 130
+  - Face Position: (x: 230, y: 86, w: 169, h: 169)
+  - Yawning: Not Yawning
+
+Face ID: 132
+  - Keypoints:
+    - Eye-to-eye distance: 45.86
+    - Nose-to-chin distance: 61.76
+    - Face rotation angle: 0.00
+
+Face ID: 131
+  - Eyes:
+    - Eye Position: (x: 256, y: 134, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 327, y: 134, w: 42, h: 42), Label: Open
+
+Face ID: 133
+  - Face Position: (x: 230, y: 85, w: 172, h: 172)
+  - Yawning: Not Yawning
+
+Face ID: 135
+  - Keypoints:
+    - Eye-to-eye distance: 46.10
+    - Nose-to-chin distance: 64.64
+    - Face rotation angle: 0.00
+
+Face ID: 134
+  - Eyes:
+    - Eye Position: (x: 256, y: 134, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 327, y: 131, w: 44, h: 44), Label: Open
+
+Face ID: 136
+  - Face Position: (x: 233, y: 86, w: 172, h: 172)
+  - Yawning: Not Yawning
+
+Face ID: 138
+  - Keypoints:
+    - Eye-to-eye distance: 45.69
+    - Nose-to-chin distance: 64.16
+    - Face rotation angle: 0.01
+
+Face ID: 137
+  - Eyes:
+    - Eye Position: (x: 259, y: 134, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 329, y: 132, w: 44, h: 44), Label: Open
+
+Face ID: 139
+  - Face Position: (x: 232, y: 97, w: 155, h: 155)
+  - Yawning: Not Yawning
+
+Face ID: 141
+  - Keypoints:
+    - Eye-to-eye distance: 42.13
+    - Nose-to-chin distance: 56.07
+    - Face rotation angle: -0.01
+
+Face ID: 140
+  - Eyes:
+    - Eye Position: (x: 254, y: 137, w: 42, h: 42), Label: Closed
+    - Eye Position: (x: 317, y: 135, w: 43, h: 43), Label: Open
+
+Face ID: 142
+  - Face Position: (x: 233, y: 99, w: 157, h: 157)
+  - Yawning: Yawning
+
+Face ID: 144
+  - Keypoints:
+    - Eye-to-eye distance: 41.56
+    - Nose-to-chin distance: 61.51
+    - Face rotation angle: -0.01
+
+Face ID: 143
+  - Eyes:
+    - Eye Position: (x: 263, y: 148, w: 27, h: 27), Label: Open
+    - Eye Position: (x: 320, y: 138, w: 41, h: 41), Label: Open
+
+Face ID: 145
+  - Face Position: (x: 227, y: 83, w: 172, h: 172)
+  - Yawning: Not Yawning
+
+Face ID: 147
+  - Keypoints:
+    - Eye-to-eye distance: 44.85
+    - Nose-to-chin distance: 60.11
+    - Face rotation angle: -0.02
+
+Face ID: 146
+  - Eyes:
+    - Eye Position: (x: 323, y: 131, w: 40, h: 40), Label: Open
+    - Eye Position: (x: 257, y: 135, w: 37, h: 37), Label: Open
+
+Face ID: 148
+  - Face Position: (x: 217, y: 65, w: 189, h: 189)
+  - Yawning: Yawning
+
+Face ID: 150
+  - Keypoints:
+    - Eye-to-eye distance: 48.92
+    - Nose-to-chin distance: 70.35
+    - Face rotation angle: -0.01
+
+Face ID: 149
+  - Eyes:
+    - Eye Position: (x: 327, y: 120, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 250, y: 123, w: 43, h: 43), Label: Open
+
+Face ID: 151
+  - Face Position: (x: 214, y: 64, w: 201, h: 201)
+  - Yawning: Not Yawning
+
+Face ID: 153
+  - Keypoints:
+    - Eye-to-eye distance: 51.10
+    - Nose-to-chin distance: 72.36
+    - Face rotation angle: -0.02
+
+Face ID: 152
+  - Eyes:
+    - Eye Position: (x: 249, y: 124, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 330, y: 121, w: 46, h: 46), Label: Open
+
+Face ID: 154
+  - Face Position: (x: 216, y: 67, w: 200, h: 200)
+  - Yawning: Yawning
+
+Face ID: 156
+  - Keypoints:
+    - Eye-to-eye distance: 51.85
+    - Nose-to-chin distance: 73.49
+    - Face rotation angle: -0.02
+
+Face ID: 155
+  - Eyes:
+    - Eye Position: (x: 251, y: 125, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 331, y: 123, w: 47, h: 47), Label: Open
+
+Face ID: 157
+  - Face Position: (x: 217, y: 65, w: 201, h: 201)
+  - Yawning: Yawning
+
+Face ID: 159
+  - Keypoints:
+    - Eye-to-eye distance: 51.62
+    - Nose-to-chin distance: 76.33
+    - Face rotation angle: -0.00
+
+Face ID: 158
+  - Eyes:
+    - Eye Position: (x: 252, y: 126, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 332, y: 125, w: 45, h: 45), Label: Open
+
+Face ID: 160
+  - Face Position: (x: 209, y: 66, w: 194, h: 194)
+  - Yawning: Yawning
+
+Face ID: 162
+  - Keypoints:
+    - Eye-to-eye distance: 50.95
+    - Nose-to-chin distance: 67.17
+    - Face rotation angle: -0.00
+
+Face ID: 161
+  - Eyes:
+    - Eye Position: (x: 277, y: 180, w: 23, h: 23), Label: Open
+    - Eye Position: (x: 323, y: 122, w: 44, h: 44), Label: Open
+
+Face ID: 163
+  - Face Position: (x: 204, y: 69, w: 191, h: 191)
+  - Yawning: Yawning
+
+Face ID: 165
+  - Keypoints:
+    - Eye-to-eye distance: 50.69
+    - Nose-to-chin distance: 68.68
+    - Face rotation angle: -0.00
+
+Face ID: 164
+  - Eyes:
+    - Eye Position: (x: 317, y: 124, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 234, y: 126, w: 44, h: 44), Label: Open
+
+Face ID: 166
+  - Face Position: (x: 207, y: 68, w: 192, h: 192)
+  - Yawning: Yawning
+
+Face ID: 168
+  - Keypoints:
+    - Eye-to-eye distance: 50.95
+    - Nose-to-chin distance: 69.61
+    - Face rotation angle: 0.00
+
+Face ID: 167
+  - Eyes:
+    - Eye Position: (x: 238, y: 126, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 321, y: 125, w: 44, h: 44), Label: Open
+
+Face ID: 169
+  - Face Position: (x: 206, y: 66, w: 196, h: 196)
+  - Yawning: Yawning
+
+Face ID: 171
+  - Keypoints:
+    - Eye-to-eye distance: 51.19
+    - Nose-to-chin distance: 67.83
+    - Face rotation angle: 0.01
+
+Face ID: 170
+  - Eyes:
+    - Eye Position: (x: 238, y: 126, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 322, y: 126, w: 42, h: 42), Label: Open
+
+Face ID: 172
+  - Face Position: (x: 206, y: 74, w: 188, h: 188)
+  - Yawning: Yawning
+
+Face ID: 173
+  - Eyes:
+    - Eye Position: (x: 235, y: 133, w: 42, h: 42), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 174
+  - Keypoints:
+    - Eye-to-eye distance: 51.84
+    - Nose-to-chin distance: 69.11
+    - Face rotation angle: 0.00
+
+Face ID: 176
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 175
+  - Face Position: (x: 208, y: 75, w: 189, h: 189)
+  - Yawning: Yawning
+
+Face ID: 177
+  - Keypoints:
+    - Eye-to-eye distance: 50.87
+    - Nose-to-chin distance: 72.16
+    - Face rotation angle: -0.00
+
+Face ID: 178
+  - Face Position: (x: 210, y: 70, w: 197, h: 197)
+  - Yawning: Yawning
+
+Face ID: 179
+  - Eyes:
+    - Eye Position: (x: 243, y: 136, w: 37, h: 37), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 180
+  - Keypoints:
+    - Eye-to-eye distance: 51.78
+    - Nose-to-chin distance: 70.49
+    - Face rotation angle: -0.01
+
+Face ID: 181
+  - Face Position: (x: 218, y: 72, w: 185, h: 185)
+  - Yawning: Yawning
+
+Face ID: 182
+  - Eyes:
+    - Eye Position: (x: 246, y: 127, w: 44, h: 44), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 183
+  - Keypoints:
+    - Eye-to-eye distance: 49.21
+    - Nose-to-chin distance: 68.75
+    - Face rotation angle: -0.00
+
+Face ID: 184
+  - Face Position: (x: 226, y: 67, w: 193, h: 193)
+  - Yawning: Yawning
+
+Face ID: 186
+  - Keypoints:
+    - Eye-to-eye distance: 51.59
+    - Nose-to-chin distance: 73.96
+    - Face rotation angle: 0.03
+
+Face ID: 185
+  - Eyes:
+    - Eye Position: (x: 257, y: 124, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 340, y: 127, w: 40, h: 40), Label: Open
+
+Face ID: 187
+  - Face Position: (x: 237, y: 76, w: 192, h: 192)
+  - Yawning: Not Yawning
+
+Face ID: 189
+  - Keypoints:
+    - Eye-to-eye distance: 51.50
+    - Nose-to-chin distance: 70.78
+    - Face rotation angle: 0.03
+
+Face ID: 188
+  - Eyes:
+    - Eye Position: (x: 268, y: 133, w: 40, h: 40), Label: Open
+    - Eye Position: (x: 347, y: 131, w: 46, h: 46), Label: Open
+
+Face ID: 191
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 190
+  - Face Position: (x: 235, y: 68, w: 218, h: 218)
+  - Yawning: Not Yawning
+
+Face ID: 192
+  - Keypoints:
+    - Eye-to-eye distance: 56.12
+    - Nose-to-chin distance: 79.18
+    - Face rotation angle: -0.01
+
+Face ID: 193
+  - Face Position: (x: 239, y: 76, w: 215, h: 215)
+  - Yawning: Not Yawning
+
+Face ID: 195
+  - Keypoints:
+    - Eye-to-eye distance: 54.82
+    - Nose-to-chin distance: 76.11
+    - Face rotation angle: -0.01
+
+Face ID: 194
+  - Eyes:
+    - Eye Position: (x: 276, y: 137, w: 47, h: 47), Label: Open
+    - Eye Position: (x: 361, y: 134, w: 50, h: 50), Label: Open
+
+Face ID: 196
+  - Face Position: (x: 246, y: 73, w: 215, h: 215)
+  - Yawning: Not Yawning
+
+Face ID: 198
+  - Keypoints:
+    - Eye-to-eye distance: 56.04
+    - Nose-to-chin distance: 73.97
+    - Face rotation angle: 0.02
+
+Face ID: 197
+  - Eyes:
+    - Eye Position: (x: 283, y: 134, w: 47, h: 47), Label: Open
+    - Eye Position: (x: 406, y: 225, w: 47, h: 47), Label: Open
+
+Face ID: 199
+  - Face Position: (x: 232, y: 76, w: 210, h: 210)
+  - Yawning: Not Yawning
+
+Face ID: 201
+  - Keypoints:
+    - Eye-to-eye distance: 53.63
+    - Nose-to-chin distance: 75.39
+    - Face rotation angle: -0.00
+
+Face ID: 200
+  - Eyes:
+    - Eye Position: (x: 269, y: 135, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 352, y: 132, w: 50, h: 50), Label: Open
+
+Face ID: 202
+  - Face Position: (x: 235, y: 74, w: 209, h: 209)
+  - Yawning: Not Yawning
+
+Face ID: 204
+  - Keypoints:
+    - Eye-to-eye distance: 54.57
+    - Nose-to-chin distance: 74.15
+    - Face rotation angle: 0.00
+
+Face ID: 203
+  - Eyes:
+    - Eye Position: (x: 353, y: 133, w: 48, h: 48), Label: Open
+    - Eye Position: (x: 271, y: 135, w: 47, h: 47), Label: Open
+
+Face ID: 205
+  - Face Position: (x: 237, y: 63, w: 209, h: 209)
+  - Yawning: Yawning
+
+Face ID: 207
+  - Keypoints:
+    - Eye-to-eye distance: 55.89
+    - Nose-to-chin distance: 78.56
+    - Face rotation angle: 0.01
+
+Face ID: 206
+  - Eyes:
+    - Eye Position: (x: 272, y: 128, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 358, y: 127, w: 47, h: 47), Label: Open
+
+Face ID: 208
+  - Face Position: (x: 239, y: 62, w: 203, h: 203)
+  - Yawning: Yawning
+
+Face ID: 210
+  - Keypoints:
+    - Eye-to-eye distance: 51.28
+    - Nose-to-chin distance: 76.31
+    - Face rotation angle: 0.02
+
+Face ID: 209
+  - Eyes:
+    - Eye Position: (x: 274, y: 122, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 361, y: 124, w: 44, h: 44), Label: Closed
+
+Face ID: 211
+  - Face Position: (x: 245, y: 61, w: 197, h: 197)
+  - Yawning: Yawning
+
+Face ID: 213
+  - Keypoints:
+    - Eye-to-eye distance: 52.64
+    - Nose-to-chin distance: 75.51
+    - Face rotation angle: 0.04
+
+Face ID: 212
+  - Eyes:
+    - Eye Position: (x: 314, y: 173, w: 22, h: 22), Label: Open
+    - Eye Position: (x: 366, y: 124, w: 39, h: 39), Label: Closed
+
+Face ID: 214
+  - Face Position: (x: 251, y: 58, w: 195, h: 195)
+  - Yawning: Yawning
+
+Face ID: 216
+  - Keypoints:
+    - Eye-to-eye distance: 51.95
+    - Nose-to-chin distance: 73.50
+    - Face rotation angle: 0.03
+
+Face ID: 215
+  - Eyes:
+    - Eye Position: (x: 319, y: 168, w: 24, h: 24), Label: Open
+    - Eye Position: (x: 281, y: 116, w: 44, h: 44), Label: Open
+
+Face ID: 217
+  - Face Position: (x: 250, y: 57, w: 196, h: 196)
+  - Yawning: Yawning
+
+Face ID: 219
+  - Keypoints:
+    - Eye-to-eye distance: 51.06
+    - Nose-to-chin distance: 74.68
+    - Face rotation angle: 0.03
+
+Face ID: 218
+  - Eyes:
+    - Eye Position: (x: 371, y: 122, w: 36, h: 36), Label: Open
+    - Eye Position: (x: 281, y: 115, w: 44, h: 44), Label: Closed
+
+Face ID: 220
+  - Face Position: (x: 251, y: 55, w: 199, h: 199)
+  - Yawning: Yawning
+
+Face ID: 222
+  - Keypoints:
+    - Eye-to-eye distance: 50.27
+    - Nose-to-chin distance: 78.06
+    - Face rotation angle: 0.03
+
+Face ID: 221
+  - Eyes:
+    - Eye Position: (x: 322, y: 163, w: 24, h: 24), Label: Open
+    - Eye Position: (x: 284, y: 113, w: 44, h: 44), Label: Open
+
+Face ID: 223
+  - Face Position: (x: 258, y: 54, w: 189, h: 189)
+  - Yawning: Yawning
+
+Face ID: 224
+  - Eyes:
+    - Eye Position: (x: 285, y: 109, w: 43, h: 43), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 225
+  - Keypoints:
+    - Eye-to-eye distance: 48.97
+    - Nose-to-chin distance: 73.57
+    - Face rotation angle: 0.02
+
+Face ID: 226
+  - Face Position: (x: 257, y: 51, w: 191, h: 191)
+  - Yawning: Yawning
+
+Face ID: 227
+  - Eyes:
+    - Eye Position: (x: 288, y: 111, w: 40, h: 40), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 228
+  - Keypoints:
+    - Eye-to-eye distance: 47.71
+    - Nose-to-chin distance: 71.35
+    - Face rotation angle: 0.02
+
+Face ID: 229
+  - Face Position: (x: 257, y: 53, w: 191, h: 191)
+  - Yawning: Yawning
+
+Face ID: 230
+  - Eyes:
+    - Eye Position: (x: 287, y: 110, w: 43, h: 43), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 231
+  - Keypoints:
+    - Eye-to-eye distance: 48.64
+    - Nose-to-chin distance: 73.18
+    - Face rotation angle: 0.02
+
+Face ID: 232
+  - Face Position: (x: 246, y: 59, w: 194, h: 194)
+  - Yawning: Not Yawning
+
+Face ID: 234
+  - Keypoints:
+    - Eye-to-eye distance: 49.15
+    - Nose-to-chin distance: 74.31
+    - Face rotation angle: -0.01
+
+Face ID: 233
+  - Eyes:
+    - Eye Position: (x: 319, y: 168, w: 23, h: 23), Label: Open
+    - Eye Position: (x: 278, y: 121, w: 42, h: 42), Label: Closed
+
+Face ID: 235
+  - Face Position: (x: 248, y: 70, w: 196, h: 196)
+  - Yawning: Yawning
+
+Face ID: 237
+  - Keypoints:
+    - Eye-to-eye distance: 50.98
+    - Nose-to-chin distance: 74.91
+    - Face rotation angle: -0.04
+
+Face ID: 236
+  - Eyes:
+    - Eye Position: (x: 324, y: 181, w: 23, h: 23), Label: Closed
+    - Eye Position: (x: 278, y: 128, w: 45, h: 45), Label: Closed
+
+Face ID: 238
+  - Face Position: (x: 242, y: 71, w: 199, h: 199)
+  - Yawning: Not Yawning
+
+Face ID: 239
+  - Eyes:
+    - Eye Position: (x: 274, y: 136, w: 41, h: 41), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 240
+  - Keypoints:
+    - Eye-to-eye distance: 50.42
+    - Nose-to-chin distance: 71.71
+    - Face rotation angle: -0.06
+
+Face ID: 241
+  - Face Position: (x: 244, y: 77, w: 194, h: 194)
+  - Yawning: Not Yawning
+
+Face ID: 242
+  - Eyes:
+    - Eye Position: (x: 272, y: 140, w: 41, h: 41), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 243
+  - Keypoints:
+    - Eye-to-eye distance: 49.73
+    - Nose-to-chin distance: 70.93
+    - Face rotation angle: -0.06
+
+Face ID: 244
+  - Face Position: (x: 243, y: 79, w: 193, h: 193)
+  - Yawning: Yawning
+
+Face ID: 245
+  - Eyes:
+    - Eye Position: (x: 271, y: 143, w: 39, h: 39), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 246
+  - Keypoints:
+    - Eye-to-eye distance: 50.42
+    - Nose-to-chin distance: 73.90
+    - Face rotation angle: -0.06
+
+Face ID: 248
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 247
+  - Face Position: (x: 242, y: 81, w: 194, h: 194)
+  - Yawning: Yawning
+
+Face ID: 249
+  - Keypoints:
+    - Eye-to-eye distance: 50.76
+    - Nose-to-chin distance: 73.76
+    - Face rotation angle: -0.07
+
+Face ID: 251
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 250
+  - Face Position: (x: 241, y: 79, w: 196, h: 196)
+  - Yawning: Yawning
+
+Face ID: 252
+  - Keypoints:
+    - Eye-to-eye distance: 49.71
+    - Nose-to-chin distance: 71.28
+    - Face rotation angle: -0.07
+
+Face ID: 254
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 253
+  - Face Position: (x: 242, y: 80, w: 196, h: 196)
+  - Yawning: Yawning
+
+Face ID: 255
+  - Keypoints:
+    - Eye-to-eye distance: 51.12
+    - Nose-to-chin distance: 71.03
+    - Face rotation angle: -0.06
+
+Face ID: 257
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 256
+  - Face Position: (x: 242, y: 82, w: 195, h: 195)
+  - Yawning: Yawning
+
+Face ID: 258
+  - Keypoints:
+    - Eye-to-eye distance: 51.58
+    - Nose-to-chin distance: 70.66
+    - Face rotation angle: -0.07
+
+Face ID: 260
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 259
+  - Face Position: (x: 241, y: 83, w: 198, h: 198)
+  - Yawning: Yawning
+
+Face ID: 261
+  - Keypoints:
+    - Eye-to-eye distance: 50.55
+    - Nose-to-chin distance: 71.65
+    - Face rotation angle: -0.07
+
+Face ID: 262
+  - Face Position: (x: 241, y: 84, w: 198, h: 198)
+  - Yawning: Yawning
+
+Face ID: 263
+  - Eyes:
+    - Eye Position: (x: 273, y: 148, w: 40, h: 40), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 264
+  - Keypoints:
+    - Eye-to-eye distance: 51.21
+    - Nose-to-chin distance: 73.21
+    - Face rotation angle: -0.06
+
+Face ID: 265
+  - Face Position: (x: 239, y: 85, w: 203, h: 203)
+  - Yawning: Yawning
+
+Face ID: 266
+  - Eyes:
+    - Eye Position: (x: 272, y: 151, w: 39, h: 39), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 267
+  - Keypoints:
+    - Eye-to-eye distance: 52.38
+    - Nose-to-chin distance: 74.73
+    - Face rotation angle: -0.06
+
+Face ID: 268
+  - Face Position: (x: 238, y: 86, w: 203, h: 203)
+  - Yawning: Not Yawning
+
+Face ID: 269
+  - Eyes:
+    - Eye Position: (x: 272, y: 153, w: 39, h: 39), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 270
+  - Keypoints:
+    - Eye-to-eye distance: 52.18
+    - Nose-to-chin distance: 73.35
+    - Face rotation angle: -0.07
+
+Face ID: 272
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 271
+  - Face Position: (x: 239, y: 88, w: 202, h: 202)
+  - Yawning: Yawning
+
+Face ID: 273
+  - Keypoints:
+    - Eye-to-eye distance: 52.36
+    - Nose-to-chin distance: 71.00
+    - Face rotation angle: -0.07
+
+Face ID: 275
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 274
+  - Face Position: (x: 237, y: 90, w: 203, h: 203)
+  - Yawning: Yawning
+
+Face ID: 276
+  - Keypoints:
+    - Eye-to-eye distance: 53.06
+    - Nose-to-chin distance: 73.01
+    - Face rotation angle: -0.07
+
+Face ID: 278
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 277
+  - Face Position: (x: 236, y: 91, w: 204, h: 204)
+  - Yawning: Yawning
+
+Face ID: 279
+  - Keypoints:
+    - Eye-to-eye distance: 52.81
+    - Nose-to-chin distance: 72.41
+    - Face rotation angle: -0.06
+
+Face ID: 280
+  - Face Position: (x: 236, y: 93, w: 210, h: 210)
+  - Yawning: Not Yawning
+
+Face ID: 281
+  - Eyes:
+    - Eye Position: (x: 274, y: 159, w: 40, h: 40), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 282
+  - Keypoints:
+    - Eye-to-eye distance: 53.05
+    - Nose-to-chin distance: 74.04
+    - Face rotation angle: -0.05
+
+Face ID: 283
+  - Face Position: (x: 248, y: 67, w: 219, h: 219)
+  - Yawning: Yawning
+
+Face ID: 285
+  - Keypoints:
+    - Eye-to-eye distance: 54.19
+    - Nose-to-chin distance: 75.39
+    - Face rotation angle: 0.03
+
+Face ID: 284
+  - Eyes:
+    - Eye Position: (x: 289, y: 130, w: 47, h: 47), Label: Open
+    - Eye Position: (x: 376, y: 136, w: 47, h: 47), Label: Open
+
+Face ID: 286
+  - Face Position: (x: 242, y: 58, w: 213, h: 213)
+  - Yawning: Yawning
+
+Face ID: 288
+  - Keypoints:
+    - Eye-to-eye distance: 50.92
+    - Nose-to-chin distance: 74.70
+    - Face rotation angle: 0.02
+
+Face ID: 287
+  - Eyes:
+    - Eye Position: (x: 284, y: 125, w: 44, h: 44), Label: Closed
+    - Eye Position: (x: 319, y: 180, w: 24, h: 24), Label: Closed
+
+Face ID: 289
+  - Face Position: (x: 243, y: 51, w: 216, h: 216)
+  - Yawning: Yawning
+
+Face ID: 291
+  - Keypoints:
+    - Eye-to-eye distance: 50.24
+    - Nose-to-chin distance: 74.72
+    - Face rotation angle: 0.02
+
+Face ID: 290
+  - Eyes:
+    - Eye Position: (x: 319, y: 171, w: 25, h: 25), Label: Open
+    - Eye Position: (x: 283, y: 121, w: 45, h: 45), Label: Open
+
+Face ID: 292
+  - Face Position: (x: 246, y: 56, w: 200, h: 200)
+  - Yawning: Yawning
+
+Face ID: 294
+  - Keypoints:
+    - Eye-to-eye distance: 50.40
+    - Nose-to-chin distance: 74.13
+    - Face rotation angle: 0.02
+
+Face ID: 293
+  - Eyes:
+    - Eye Position: (x: 317, y: 166, w: 23, h: 23), Label: Open
+    - Eye Position: (x: 281, y: 122, w: 40, h: 40), Label: Open
+
+Face ID: 296
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 295
+  - Face Position: (x: 253, y: 56, w: 193, h: 193)
+  - Yawning: Yawning
+
+Face ID: 297
+  - Keypoints:
+    - Eye-to-eye distance: 50.51
+    - Nose-to-chin distance: 76.90
+    - Face rotation angle: 0.03
+
+Face ID: 298
+  - Face Position: (x: 255, y: 57, w: 189, h: 189)
+  - Yawning: Yawning
+
+Face ID: 299
+  - Eyes:
+    - Eye Position: (x: 320, y: 161, w: 25, h: 25), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 300
+  - Keypoints:
+    - Eye-to-eye distance: 49.70
+    - Nose-to-chin distance: 74.29
+    - Face rotation angle: 0.03
+
+Face ID: 301
+  - Face Position: (x: 257, y: 56, w: 187, h: 187)
+  - Yawning: Yawning
+
+Face ID: 302
+  - Eyes:
+    - Eye Position: (x: 321, y: 158, w: 25, h: 25), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 303
+  - Keypoints:
+    - Eye-to-eye distance: 48.92
+    - Nose-to-chin distance: 73.75
+    - Face rotation angle: 0.03
+
+Face ID: 304
+  - Face Position: (x: 245, y: 48, w: 212, h: 212)
+  - Yawning: Yawning
+
+Face ID: 306
+  - Keypoints:
+    - Eye-to-eye distance: 49.92
+    - Nose-to-chin distance: 78.98
+    - Face rotation angle: 0.02
+
+Face ID: 305
+  - Eyes:
+    - Eye Position: (x: 321, y: 166, w: 22, h: 22), Label: Open
+    - Eye Position: (x: 368, y: 116, w: 46, h: 46), Label: Closed
+
+Face ID: 307
+  - Face Position: (x: 254, y: 52, w: 217, h: 217)
+  - Yawning: Not Yawning
+
+Face ID: 309
+  - Keypoints:
+    - Eye-to-eye distance: 53.66
+    - Nose-to-chin distance: 76.10
+    - Face rotation angle: -0.00
+
+Face ID: 308
+  - Eyes:
+    - Eye Position: (x: 294, y: 119, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 384, y: 121, w: 43, h: 43), Label: Closed
+
+Face ID: 310
+  - Face Position: (x: 249, y: 57, w: 222, h: 222)
+  - Yawning: Not Yawning
+
+Face ID: 312
+  - Keypoints:
+    - Eye-to-eye distance: 54.37
+    - Nose-to-chin distance: 78.20
+    - Face rotation angle: -0.04
+
+Face ID: 311
+  - Eyes:
+    - Eye Position: (x: 382, y: 126, w: 45, h: 45), Label: Closed
+    - Eye Position: (x: 290, y: 130, w: 44, h: 44), Label: Open
+
+Face ID: 313
+  - Face Position: (x: 245, y: 80, w: 216, h: 216)
+  - Yawning: Not Yawning
+
+Face ID: 314
+  - Eyes:
+    - Eye Position: (x: 283, y: 148, w: 44, h: 44), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 315
+  - Keypoints:
+    - Eye-to-eye distance: 53.70
+    - Nose-to-chin distance: 77.92
+    - Face rotation angle: -0.03
+
+Face ID: 316
+  - Face Position: (x: 251, y: 81, w: 215, h: 215)
+  - Yawning: Not Yawning
+
+Face ID: 317
+  - Eyes:
+    - Eye Position: (x: 285, y: 145, w: 49, h: 49), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 318
+  - Keypoints:
+    - Eye-to-eye distance: 54.48
+    - Nose-to-chin distance: 77.39
+    - Face rotation angle: -0.03
+
+Face ID: 320
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 319
+  - Face Position: (x: 250, y: 83, w: 216, h: 216)
+  - Yawning: Not Yawning
+
+Face ID: 321
+  - Keypoints:
+    - Eye-to-eye distance: 53.66
+    - Nose-to-chin distance: 75.61
+    - Face rotation angle: -0.05
+
+Face ID: 323
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 322
+  - Face Position: (x: 249, y: 80, w: 217, h: 217)
+  - Yawning: Yawning
+
+Face ID: 324
+  - Keypoints:
+    - Eye-to-eye distance: 51.25
+    - Nose-to-chin distance: 73.05
+    - Face rotation angle: -0.05
+
+Face ID: 326
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 325
+  - Face Position: (x: 248, y: 78, w: 219, h: 219)
+  - Yawning: Yawning
+
+Face ID: 327
+  - Keypoints:
+    - Eye-to-eye distance: 53.02
+    - Nose-to-chin distance: 76.52
+    - Face rotation angle: -0.06
+
+Face ID: 328
+  - Face Position: (x: 253, y: 83, w: 213, h: 213)
+  - Yawning: Not Yawning
+
+Face ID: 330
+  - Keypoints:
+    - Eye-to-eye distance: 54.02
+    - Nose-to-chin distance: 76.11
+    - Face rotation angle: -0.03
+
+Face ID: 329
+  - Eyes:
+    - Eye Position: (x: 290, y: 149, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 380, y: 147, w: 44, h: 44), Label: Open
+
+Face ID: 332
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 331
+  - Face Position: (x: 255, y: 80, w: 212, h: 212)
+  - Yawning: Yawning
+
+Face ID: 333
+  - Keypoints:
+    - Eye-to-eye distance: 54.20
+    - Nose-to-chin distance: 76.77
+    - Face rotation angle: -0.03
+
+Face ID: 334
+  - Face Position: (x: 256, y: 78, w: 217, h: 217)
+  - Yawning: Not Yawning
+
+Face ID: 336
+  - Keypoints:
+    - Eye-to-eye distance: 54.48
+    - Nose-to-chin distance: 78.41
+    - Face rotation angle: -0.04
+
+Face ID: 335
+  - Eyes:
+    - Eye Position: (x: 382, y: 145, w: 47, h: 47), Label: Closed
+    - Eye Position: (x: 292, y: 151, w: 42, h: 42), Label: Closed
+
+Face ID: 337
+  - Face Position: (x: 255, y: 79, w: 217, h: 217)
+  - Yawning: Not Yawning
+
+Face ID: 338
+  - Eyes:
+    - Eye Position: (x: 293, y: 147, w: 44, h: 44), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 339
+  - Keypoints:
+    - Eye-to-eye distance: 54.22
+    - Nose-to-chin distance: 79.39
+    - Face rotation angle: -0.03
+
+Face ID: 340
+  - Face Position: (x: 254, y: 75, w: 220, h: 220)
+  - Yawning: Not Yawning
+
+Face ID: 341
+  - Eyes:
+    - Eye Position: (x: 295, y: 148, w: 44, h: 44), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 342
+  - Keypoints:
+    - Eye-to-eye distance: 54.29
+    - Nose-to-chin distance: 77.68
+    - Face rotation angle: -0.05
+
+Face ID: 344
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 343
+  - Face Position: (x: 258, y: 80, w: 212, h: 212)
+  - Yawning: Yawning
+
+Face ID: 345
+  - Keypoints:
+    - Eye-to-eye distance: 53.59
+    - Nose-to-chin distance: 77.47
+    - Face rotation angle: -0.03
+
+Face ID: 346
+  - Face Position: (x: 256, y: 79, w: 216, h: 216)
+  - Yawning: Yawning
+
+Face ID: 347
+  - Eyes:
+    - Eye Position: (x: 294, y: 148, w: 44, h: 44), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 348
+  - Keypoints:
+    - Eye-to-eye distance: 53.59
+    - Nose-to-chin distance: 79.63
+    - Face rotation angle: -0.04
+
+Face ID: 349
+  - Face Position: (x: 255, y: 77, w: 217, h: 217)
+  - Yawning: Not Yawning
+
+Face ID: 350
+  - Eyes:
+    - Eye Position: (x: 294, y: 148, w: 45, h: 45), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 351
+  - Keypoints:
+    - Eye-to-eye distance: 53.09
+    - Nose-to-chin distance: 77.34
+    - Face rotation angle: -0.04
+
+Face ID: 352
+  - Face Position: (x: 259, y: 82, w: 211, h: 211)
+  - Yawning: Yawning
+
+Face ID: 354
+  - Keypoints:
+    - Eye-to-eye distance: 54.29
+    - Nose-to-chin distance: 77.30
+    - Face rotation angle: -0.03
+
+Face ID: 353
+  - Eyes:
+    - Eye Position: (x: 383, y: 144, w: 48, h: 48), Label: Closed
+    - Eye Position: (x: 293, y: 146, w: 47, h: 47), Label: Closed
+
+Face ID: 356
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 355
+  - Face Position: (x: 257, y: 83, w: 211, h: 211)
+  - Yawning: Not Yawning
+
+Face ID: 357
+  - Keypoints:
+    - Eye-to-eye distance: 54.30
+    - Nose-to-chin distance: 76.70
+    - Face rotation angle: -0.02
+
+Face ID: 359
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 358
+  - Face Position: (x: 257, y: 83, w: 214, h: 214)
+  - Yawning: Not Yawning
+
+Face ID: 360
+  - Keypoints:
+    - Eye-to-eye distance: 53.55
+    - Nose-to-chin distance: 77.26
+    - Face rotation angle: -0.03
+
+Face ID: 362
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 361
+  - Face Position: (x: 257, y: 86, w: 214, h: 214)
+  - Yawning: Not Yawning
+
+Face ID: 363
+  - Keypoints:
+    - Eye-to-eye distance: 54.28
+    - Nose-to-chin distance: 79.24
+    - Face rotation angle: -0.03
+
+Face ID: 365
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 364
+  - Face Position: (x: 256, y: 79, w: 218, h: 218)
+  - Yawning: Yawning
+
+Face ID: 366
+  - Keypoints:
+    - Eye-to-eye distance: 51.04
+    - Nose-to-chin distance: 75.67
+    - Face rotation angle: -0.01
+
+Face ID: 367
+  - Face Position: (x: 257, y: 82, w: 218, h: 218)
+  - Yawning: Not Yawning
+
+Face ID: 368
+  - Eyes:
+    - Eye Position: (x: 386, y: 145, w: 45, h: 45), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 369
+  - Keypoints:
+    - Eye-to-eye distance: 54.65
+    - Nose-to-chin distance: 78.49
+    - Face rotation angle: -0.03
+
+Face ID: 371
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 370
+  - Face Position: (x: 258, y: 84, w: 213, h: 213)
+  - Yawning: Not Yawning
+
+Face ID: 372
+  - Keypoints:
+    - Eye-to-eye distance: 54.84
+    - Nose-to-chin distance: 77.61
+    - Face rotation angle: -0.03
+
+Face ID: 373
+  - Face Position: (x: 258, y: 83, w: 214, h: 214)
+  - Yawning: Not Yawning
+
+Face ID: 374
+  - Eyes:
+    - Eye Position: (x: 382, y: 142, w: 49, h: 49), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 375
+  - Keypoints:
+    - Eye-to-eye distance: 55.09
+    - Nose-to-chin distance: 77.47
+    - Face rotation angle: -0.03
+
+Face ID: 376
+  - Face Position: (x: 257, y: 84, w: 216, h: 216)
+  - Yawning: Not Yawning
+
+Face ID: 377
+  - Eyes:
+    - Eye Position: (x: 296, y: 150, w: 44, h: 44), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 378
+  - Keypoints:
+    - Eye-to-eye distance: 52.91
+    - Nose-to-chin distance: 78.28
+    - Face rotation angle: -0.03
+
+Face ID: 379
+  - Face Position: (x: 259, y: 82, w: 216, h: 216)
+  - Yawning: Not Yawning
+
+Face ID: 381
+  - Keypoints:
+    - Eye-to-eye distance: 55.98
+    - Nose-to-chin distance: 79.59
+    - Face rotation angle: -0.02
+
+Face ID: 380
+  - Eyes:
+    - Eye Position: (x: 384, y: 144, w: 48, h: 48), Label: Open
+    - Eye Position: (x: 293, y: 143, w: 53, h: 53), Label: Closed
+
+Face ID: 382
+  - Face Position: (x: 257, y: 84, w: 217, h: 217)
+  - Yawning: Not Yawning
+
+Face ID: 384
+  - Keypoints:
+    - Eye-to-eye distance: 55.12
+    - Nose-to-chin distance: 78.22
+    - Face rotation angle: -0.01
+
+Face ID: 383
+  - Eyes:
+    - Eye Position: (x: 296, y: 146, w: 50, h: 50), Label: Open
+    - Eye Position: (x: 385, y: 146, w: 49, h: 49), Label: Open
+
+Face ID: 385
+  - Face Position: (x: 258, y: 85, w: 219, h: 219)
+  - Yawning: Not Yawning
+
+Face ID: 387
+  - Keypoints:
+    - Eye-to-eye distance: 55.96
+    - Nose-to-chin distance: 76.97
+    - Face rotation angle: -0.02
+
+Face ID: 386
+  - Eyes:
+    - Eye Position: (x: 388, y: 150, w: 47, h: 47), Label: Open
+    - Eye Position: (x: 299, y: 150, w: 47, h: 47), Label: Open
+
+Face ID: 389
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 388
+  - Face Position: (x: 266, y: 88, w: 215, h: 215)
+  - Yawning: Not Yawning
+
+Face ID: 390
+  - Keypoints:
+    - Eye-to-eye distance: 55.39
+    - Nose-to-chin distance: 75.75
+    - Face rotation angle: 0.01
+
+Face ID: 392
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 391
+  - Face Position: (x: 266, y: 88, w: 215, h: 215)
+  - Yawning: Not Yawning
+
+Face ID: 393
+  - Keypoints:
+    - Eye-to-eye distance: 55.04
+    - Nose-to-chin distance: 77.69
+    - Face rotation angle: 0.01
+
+Face ID: 395
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 394
+  - Face Position: (x: 269, y: 87, w: 213, h: 213)
+  - Yawning: Yawning
+
+Face ID: 396
+  - Keypoints:
+    - Eye-to-eye distance: 54.14
+    - Nose-to-chin distance: 79.26
+    - Face rotation angle: 0.02
+
+Face ID: 397
+  - Face Position: (x: 274, y: 81, w: 212, h: 212)
+  - Yawning: Yawning
+
+Face ID: 399
+  - Keypoints:
+    - Eye-to-eye distance: 53.78
+    - Nose-to-chin distance: 75.77
+    - Face rotation angle: 0.04
+
+Face ID: 398
+  - Eyes:
+    - Eye Position: (x: 349, y: 204, w: 23, h: 23), Label: Closed
+    - Eye Position: (x: 406, y: 149, w: 42, h: 42), Label: Closed
+
+Face ID: 400
+  - Face Position: (x: 283, y: 76, w: 216, h: 216)
+  - Yawning: Yawning
+
+Face ID: 402
+  - Keypoints:
+    - Eye-to-eye distance: 53.17
+    - Nose-to-chin distance: 81.05
+    - Face rotation angle: 0.08
+
+Face ID: 401
+  - Eyes:
+    - Eye Position: (x: 360, y: 196, w: 25, h: 25), Label: Open
+    - Eye Position: (x: 322, y: 139, w: 46, h: 46), Label: Open
+
+Face ID: 404
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 403
+  - Face Position: (x: 292, y: 71, w: 220, h: 220)
+  - Yawning: Yawning
+
+Face ID: 405
+  - Keypoints:
+    - Eye-to-eye distance: 53.24
+    - Nose-to-chin distance: 82.62
+    - Face rotation angle: 0.10
+
+Face ID: 406
+  - Face Position: (x: 297, y: 72, w: 218, h: 218)
+  - Yawning: Yawning
+
+Face ID: 407
+  - Eyes:
+    - Eye Position: (x: 333, y: 131, w: 48, h: 48), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 408
+  - Keypoints:
+    - Eye-to-eye distance: 53.39
+    - Nose-to-chin distance: 85.13
+    - Face rotation angle: 0.11
+
+Face ID: 409
+  - Face Position: (x: 303, y: 72, w: 208, h: 208)
+  - Yawning: Yawning
+
+Face ID: 411
+  - Keypoints:
+    - Eye-to-eye distance: 52.93
+    - Nose-to-chin distance: 78.99
+    - Face rotation angle: 0.11
+
+Face ID: 410
+  - Eyes:
+    - Eye Position: (x: 376, y: 186, w: 25, h: 25), Label: Open
+    - Eye Position: (x: 338, y: 131, w: 43, h: 43), Label: Closed
+
+Face ID: 412
+  - Face Position: (x: 305, y: 68, w: 204, h: 204)
+  - Yawning: Yawning
+
+Face ID: 413
+  - Eyes:
+    - Eye Position: (x: 376, y: 179, w: 26, h: 26), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 414
+  - Keypoints:
+    - Eye-to-eye distance: 53.12
+    - Nose-to-chin distance: 79.42
+    - Face rotation angle: 0.10
+
+Face ID: 415
+  - Face Position: (x: 303, y: 65, w: 209, h: 209)
+  - Yawning: Yawning
+
+Face ID: 416
+  - Eyes:
+    - Eye Position: (x: 377, y: 179, w: 26, h: 26), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 417
+  - Keypoints:
+    - Eye-to-eye distance: 53.43
+    - Nose-to-chin distance: 78.75
+    - Face rotation angle: 0.12
+
+Face ID: 418
+  - Face Position: (x: 298, y: 63, w: 218, h: 218)
+  - Yawning: Yawning
+
+Face ID: 419
+  - Eyes:
+    - Eye Position: (x: 338, y: 124, w: 45, h: 45), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 420
+  - Keypoints:
+    - Eye-to-eye distance: 53.20
+    - Nose-to-chin distance: 82.38
+    - Face rotation angle: 0.12
+
+Face ID: 422
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 421
+  - Face Position: (x: 305, y: 69, w: 209, h: 209)
+  - Yawning: Yawning
+
+Face ID: 423
+  - Keypoints:
+    - Eye-to-eye distance: 53.75
+    - Nose-to-chin distance: 79.61
+    - Face rotation angle: 0.12
+
+Face ID: 424
+  - Face Position: (x: 304, y: 68, w: 210, h: 210)
+  - Yawning: Yawning
+
+Face ID: 426
+  - Keypoints:
+    - Eye-to-eye distance: 53.94
+    - Nose-to-chin distance: 79.44
+    - Face rotation angle: 0.12
+
+Face ID: 425
+  - Eyes:
+    - Eye Position: (x: 379, y: 181, w: 27, h: 27), Label: Open
+    - Eye Position: (x: 340, y: 126, w: 47, h: 47), Label: Open
+
+Face ID: 428
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 427
+  - Face Position: (x: 317, y: 77, w: 203, h: 203)
+  - Yawning: Yawning
+
+Face ID: 429
+  - Keypoints:
+    - Eye-to-eye distance: 52.12
+    - Nose-to-chin distance: 76.09
+    - Face rotation angle: 0.15
+
+Face ID: 431
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 430
+  - Face Position: (x: 311, y: 79, w: 210, h: 210)
+  - Yawning: Yawning
+
+Face ID: 432
+  - Keypoints:
+    - Eye-to-eye distance: 53.51
+    - Nose-to-chin distance: 80.24
+    - Face rotation angle: 0.16
+
+Face ID: 433
+  - Face Position: (x: 310, y: 83, w: 202, h: 202)
+  - Yawning: Yawning
+
+Face ID: 434
+  - Eyes:
+    - Eye Position: (x: 338, y: 135, w: 46, h: 46), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 435
+  - Keypoints:
+    - Eye-to-eye distance: 53.83
+    - Nose-to-chin distance: 80.78
+    - Face rotation angle: 0.15
+
+Face ID: 436
+  - Face Position: (x: 307, y: 84, w: 207, h: 207)
+  - Yawning: Yawning
+
+Face ID: 437
+  - Eyes:
+    - Eye Position: (x: 336, y: 137, w: 46, h: 46), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 438
+  - Keypoints:
+    - Eye-to-eye distance: 53.63
+    - Nose-to-chin distance: 80.94
+    - Face rotation angle: 0.16
+
+Face ID: 439
+  - Face Position: (x: 303, y: 85, w: 213, h: 213)
+  - Yawning: Yawning
+
+Face ID: 440
+  - Eyes:
+    - Eye Position: (x: 336, y: 141, w: 43, h: 43), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 441
+  - Keypoints:
+    - Eye-to-eye distance: 54.85
+    - Nose-to-chin distance: 83.91
+    - Face rotation angle: 0.16
+
+Face ID: 443
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 442
+  - Face Position: (x: 305, y: 94, w: 209, h: 209)
+  - Yawning: Yawning
+
+Face ID: 444
+  - Keypoints:
+    - Eye-to-eye distance: 55.41
+    - Nose-to-chin distance: 79.79
+    - Face rotation angle: 0.14
+
+Face ID: 446
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 445
+  - Face Position: (x: 310, y: 100, w: 212, h: 212)
+  - Yawning: Yawning
+
+Face ID: 447
+  - Keypoints:
+    - Eye-to-eye distance: 55.68
+    - Nose-to-chin distance: 81.65
+    - Face rotation angle: 0.12
+
+Face ID: 449
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 448
+  - Face Position: (x: 309, y: 102, w: 217, h: 217)
+  - Yawning: Yawning
+
+Face ID: 450
+  - Keypoints:
+    - Eye-to-eye distance: 56.45
+    - Nose-to-chin distance: 81.57
+    - Face rotation angle: 0.12
+
+Face ID: 451
+  - Face Position: (x: 307, y: 99, w: 222, h: 222)
+  - Yawning: Yawning
+
+Face ID: 452
+  - Eyes:
+    - Eye Position: (x: 346, y: 151, w: 54, h: 54), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 453
+  - Keypoints:
+    - Eye-to-eye distance: 55.97
+    - Nose-to-chin distance: 83.54
+    - Face rotation angle: 0.14
+
+Face ID: 454
+  - Face Position: (x: 324, y: 111, w: 204, h: 204)
+  - Yawning: Yawning
+
+Face ID: 455
+  - Eyes:
+    - Eye Position: (x: 354, y: 155, w: 49, h: 49), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 456
+  - Keypoints:
+    - Eye-to-eye distance: 53.17
+    - Nose-to-chin distance: 76.85
+    - Face rotation angle: 0.16
+
+Face ID: 457
+  - Face Position: (x: 319, y: 110, w: 223, h: 223)
+  - Yawning: Yawning
+
+Face ID: 458
+  - Eyes:
+    - Eye Position: (x: 357, y: 160, w: 52, h: 52), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 459
+  - Keypoints:
+    - Eye-to-eye distance: 56.45
+    - Nose-to-chin distance: 82.85
+    - Face rotation angle: 0.18
+
+Face ID: 460
+  - Face Position: (x: 319, y: 116, w: 226, h: 226)
+  - Yawning: Yawning
+
+Face ID: 461
+  - Eyes:
+    - Eye Position: (x: 361, y: 166, w: 48, h: 48), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 462
+  - Keypoints:
+    - Eye-to-eye distance: 54.54
+    - Nose-to-chin distance: 82.56
+    - Face rotation angle: 0.22
+
+Face ID: 463
+  - Face Position: (x: 331, y: 119, w: 227, h: 227)
+  - Yawning: Yawning
+
+Face ID: 464
+  - Eyes:
+    - Eye Position: (x: 373, y: 167, w: 48, h: 48), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 465
+  - Keypoints:
+    - Eye-to-eye distance: 54.57
+    - Nose-to-chin distance: 82.28
+    - Face rotation angle: 0.25
+
+Face ID: 467
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 466
+  - Face Position: (x: 338, y: 119, w: 216, h: 216)
+  - Yawning: Yawning
+
+Face ID: 468
+  - Keypoints:
+    - Eye-to-eye distance: 52.45
+    - Nose-to-chin distance: 79.35
+    - Face rotation angle: 0.26
+
+Face ID: 469
+  - Face Position: (x: 296, y: 91, w: 210, h: 210)
+  - Yawning: Yawning
+
+Face ID: 470
+  - Eyes:
+    - Eye Position: (x: 331, y: 151, w: 45, h: 45), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 471
+  - Keypoints:
+    - Eye-to-eye distance: 54.21
+    - Nose-to-chin distance: 77.78
+    - Face rotation angle: 0.08
+
+Face ID: 472
+  - Face Position: (x: 276, y: 99, w: 217, h: 217)
+  - Yawning: Not Yawning
+
+Face ID: 473
+  - Eyes:
+    - Eye Position: (x: 311, y: 162, w: 47, h: 47), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 474
+  - Keypoints:
+    - Eye-to-eye distance: 55.86
+    - Nose-to-chin distance: 78.56
+    - Face rotation angle: 0.01
+
+Face ID: 476
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 475
+  - Face Position: (x: 258, y: 110, w: 218, h: 218)
+  - Yawning: Not Yawning
+
+Face ID: 477
+  - Keypoints:
+    - Eye-to-eye distance: 58.44
+    - Nose-to-chin distance: 80.57
+    - Face rotation angle: -0.05
+
+Face ID: 479
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 478
+  - Face Position: (x: 251, y: 115, w: 222, h: 222)
+  - Yawning: Yawning
+
+Face ID: 480
+  - Keypoints:
+    - Eye-to-eye distance: 57.50
+    - Nose-to-chin distance: 78.46
+    - Face rotation angle: -0.05
+
+Face ID: 482
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 481
+  - Face Position: (x: 248, y: 116, w: 225, h: 225)
+  - Yawning: Yawning
+
+Face ID: 483
+  - Keypoints:
+    - Eye-to-eye distance: 57.91
+    - Nose-to-chin distance: 79.65
+    - Face rotation angle: -0.04
+
+Face ID: 484
+  - Face Position: (x: 244, y: 124, w: 220, h: 220)
+  - Yawning: Yawning
+
+Face ID: 485
+  - Eyes:
+    - Eye Position: (x: 364, y: 170, w: 58, h: 58), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 486
+  - Keypoints:
+    - Eye-to-eye distance: 56.75
+    - Nose-to-chin distance: 75.65
+    - Face rotation angle: -0.09
+
+Face ID: 487
+  - Face Position: (x: 238, y: 121, w: 224, h: 224)
+  - Yawning: Yawning
+
+Face ID: 488
+  - Eyes:
+    - Eye Position: (x: 359, y: 168, w: 61, h: 61), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 489
+  - Keypoints:
+    - Eye-to-eye distance: 57.36
+    - Nose-to-chin distance: 75.82
+    - Face rotation angle: -0.08
+
+Face ID: 491
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 490
+  - Face Position: (x: 240, y: 128, w: 223, h: 223)
+  - Yawning: Yawning
+
+Face ID: 492
+  - Keypoints:
+    - Eye-to-eye distance: 56.40
+    - Nose-to-chin distance: 75.17
+    - Face rotation angle: -0.06
+
+Face ID: 494
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 493
+  - Face Position: (x: 233, y: 134, w: 231, h: 231)
+  - Yawning: Yawning
+
+Face ID: 495
+  - Keypoints:
+    - Eye-to-eye distance: 56.16
+    - Nose-to-chin distance: 74.93
+    - Face rotation angle: -0.09
+
+Face ID: 497
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 496
+  - Face Position: (x: 216, y: 145, w: 224, h: 224)
+  - Yawning: Yawning
+
+Face ID: 498
+  - Keypoints:
+    - Eye-to-eye distance: 57.92
+    - Nose-to-chin distance: 75.15
+    - Face rotation angle: -0.14
+
+Face ID: 500
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 499
+  - Face Position: (x: 210, y: 148, w: 214, h: 214)
+  - Yawning: Yawning
+
+Face ID: 501
+  - Keypoints:
+    - Eye-to-eye distance: 52.56
+    - Nose-to-chin distance: 73.65
+    - Face rotation angle: -0.18
+
+Face ID: 503
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 502
+  - Face Position: (x: 214, y: 137, w: 219, h: 219)
+  - Yawning: Not Yawning
+
+Face ID: 504
+  - Keypoints:
+    - Eye-to-eye distance: 55.09
+    - Nose-to-chin distance: 73.45
+    - Face rotation angle: -0.17
+
+Face ID: 505
+  - Face Position: (x: 230, y: 110, w: 228, h: 228)
+  - Yawning: Not Yawning
+
+Face ID: 507
+  - Keypoints:
+    - Eye-to-eye distance: 57.61
+    - Nose-to-chin distance: 80.12
+    - Face rotation angle: -0.10
+
+Face ID: 506
+  - Eyes:
+    - Eye Position: (x: 357, y: 165, w: 53, h: 53), Label: Open
+    - Eye Position: (x: 269, y: 178, w: 52, h: 52), Label: Open
+
+Face ID: 508
+  - Face Position: (x: 279, y: 101, w: 210, h: 210)
+  - Yawning: Not Yawning
+
+Face ID: 510
+  - Keypoints:
+    - Eye-to-eye distance: 55.86
+    - Nose-to-chin distance: 78.22
+    - Face rotation angle: 0.01
+
+Face ID: 509
+  - Eyes:
+    - Eye Position: (x: 403, y: 161, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 313, y: 163, w: 42, h: 42), Label: Closed
+
+Face ID: 512
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 511
+  - Face Position: (x: 266, y: 106, w: 220, h: 220)
+  - Yawning: Not Yawning
+
+Face ID: 513
+  - Keypoints:
+    - Eye-to-eye distance: 58.86
+    - Nose-to-chin distance: 77.36
+    - Face rotation angle: -0.05
+
+Face ID: 515
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 514
+  - Face Position: (x: 259, y: 112, w: 224, h: 224)
+  - Yawning: Not Yawning
+
+Face ID: 516
+  - Keypoints:
+    - Eye-to-eye distance: 57.33
+    - Nose-to-chin distance: 80.19
+    - Face rotation angle: -0.09
+
+Face ID: 518
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 517
+  - Face Position: (x: 250, y: 114, w: 228, h: 228)
+  - Yawning: Not Yawning
+
+Face ID: 519
+  - Keypoints:
+    - Eye-to-eye distance: 57.91
+    - Nose-to-chin distance: 79.38
+    - Face rotation angle: -0.09
+
+Face ID: 521
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 520
+  - Face Position: (x: 243, y: 122, w: 219, h: 219)
+  - Yawning: Not Yawning
+
+Face ID: 522
+  - Keypoints:
+    - Eye-to-eye distance: 57.38
+    - Nose-to-chin distance: 74.67
+    - Face rotation angle: -0.17
+
+Face ID: 523
+  - Face Position: (x: 206, y: 131, w: 229, h: 229)
+  - Yawning: Yawning
+
+Face ID: 524
+  - Eyes:
+    - Eye Position: (x: 330, y: 183, w: 51, h: 51), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 525
+  - Keypoints:
+    - Eye-to-eye distance: 56.68
+    - Nose-to-chin distance: 75.48
+    - Face rotation angle: -0.22
+
+Face ID: 527
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 526
+  - Face Position: (x: 206, y: 163, w: 226, h: 226)
+  - Yawning: Yawning
+
+Face ID: 528
+  - Keypoints:
+    - Eye-to-eye distance: 53.64
+    - Nose-to-chin distance: 72.01
+    - Face rotation angle: -0.24
+
+Face ID: 530
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 529
+  - Face Position: (x: 200, y: 180, w: 222, h: 222)
+  - Yawning: Yawning
+
+Face ID: 531
+  - Keypoints:
+    - Eye-to-eye distance: 52.92
+    - Nose-to-chin distance: 73.39
+    - Face rotation angle: -0.24
+
+Face ID: 532
+  - Face Position: (x: 194, y: 137, w: 236, h: 236)
+  - Yawning: Not Yawning
+
+Face ID: 533
+  - Eyes:
+    - Eye Position: (x: 328, y: 187, w: 53, h: 53), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 534
+  - Keypoints:
+    - Eye-to-eye distance: 55.63
+    - Nose-to-chin distance: 81.44
+    - Face rotation angle: -0.14
+
+Face ID: 535
+  - Face Position: (x: 235, y: 108, w: 226, h: 226)
+  - Yawning: Not Yawning
+
+Face ID: 537
+  - Keypoints:
+    - Eye-to-eye distance: 57.27
+    - Nose-to-chin distance: 81.22
+    - Face rotation angle: -0.06
+
+Face ID: 536
+  - Eyes:
+    - Eye Position: (x: 364, y: 165, w: 53, h: 53), Label: Open
+    - Eye Position: (x: 276, y: 175, w: 50, h: 50), Label: Closed
+
+Face ID: 538
+  - Face Position: (x: 220, y: 118, w: 226, h: 226)
+  - Yawning: Not Yawning
+
+Face ID: 539
+  - Eyes:
+    - Eye Position: (x: 262, y: 186, w: 47, h: 47), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 540
+  - Keypoints:
+    - Eye-to-eye distance: 57.67
+    - Nose-to-chin distance: 81.65
+    - Face rotation angle: -0.11
+
+Face ID: 542
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 541
+  - Face Position: (x: 216, y: 118, w: 226, h: 226)
+  - Yawning: Not Yawning
+
+Face ID: 543
+  - Keypoints:
+    - Eye-to-eye distance: 57.09
+    - Nose-to-chin distance: 75.74
+    - Face rotation angle: -0.13
+
+Face ID: 545
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 544
+  - Face Position: (x: 211, y: 124, w: 226, h: 226)
+  - Yawning: Yawning
+
+Face ID: 546
+  - Keypoints:
+    - Eye-to-eye distance: 56.91
+    - Nose-to-chin distance: 77.92
+    - Face rotation angle: -0.14
+
+Face ID: 548
+  - Eyes:
+    - No eyes detected, considered closed
+
+Face ID: 547
+  - Face Position: (x: 210, y: 136, w: 223, h: 223)
+  - Yawning: Yawning
+
+Face ID: 549
+  - Keypoints:
+    - Eye-to-eye distance: 56.97
+    - Nose-to-chin distance: 74.17
+    - Face rotation angle: -0.13
+
+Face ID: 550
+  - Face Position: (x: 209, y: 149, w: 217, h: 217)
+  - Yawning: Yawning
+
+Face ID: 551
+  - Eyes:
+    - Eye Position: (x: 329, y: 196, w: 52, h: 52), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 552
+  - Keypoints:
+    - Eye-to-eye distance: 55.02
+    - Nose-to-chin distance: 72.69
+    - Face rotation angle: -0.15
+
+Face ID: 553
+  - Face Position: (x: 190, y: 135, w: 217, h: 217)
+  - Yawning: Yawning
+
+Face ID: 555
+  - Keypoints:
+    - Eye-to-eye distance: 50.20
+    - Nose-to-chin distance: 70.57
+    - Face rotation angle: -0.11
+
+Face ID: 554
+  - Eyes:
+    - Eye Position: (x: 301, y: 186, w: 47, h: 47), Label: Open
+    - Eye Position: (x: 226, y: 195, w: 54, h: 54), Label: Closed
+
+Face ID: 556
+  - Face Position: (x: 241, y: 139, w: 153, h: 153)
+  - Yawning: Not Yawning
+
+Face ID: 557
+  - Eyes:
+    - Eye Position: (x: 319, y: 181, w: 34, h: 34), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 558
+  - Keypoints:
+    - Eye-to-eye distance: 37.55
+    - Nose-to-chin distance: 59.60
+    - Face rotation angle: -0.13
+
+Face ID: 559
+  - Face Position: (x: 304, y: 181, w: 130, h: 130)
+  - Yawning: Yawning
+
+Face ID: 561
+  - Keypoints:
+    - Eye-to-eye distance: 32.15
+    - Nose-to-chin distance: 50.82
+    - Face rotation angle: 0.12
+
+Face ID: 560
+  - Eyes:
+    - Eye Position: (x: 324, y: 210, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 379, y: 223, w: 30, h: 30), Label: Open
+
+Face ID: 562
+  - Face Position: (x: 279, y: 216, w: 139, h: 139)
+  - Yawning: Yawning
+
+Face ID: 563
+  - Eyes:
+    - Eye Position: (x: 307, y: 260, w: 28, h: 28), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 564
+  - Keypoints:
+    - Eye-to-eye distance: 32.68
+    - Nose-to-chin distance: 45.54
+    - Face rotation angle: -0.09
+
+Face ID: 565
+  - Face Position: (x: 244, y: 182, w: 128, h: 128)
+  - Yawning: Yawning
+
+Face ID: 567
+  - Keypoints:
+    - Eye-to-eye distance: 31.28
+    - Nose-to-chin distance: 44.85
+    - Face rotation angle: -0.06
+
+Face ID: 566
+  - Eyes:
+    - Eye Position: (x: 315, y: 217, w: 31, h: 31), Label: Open
+    - Eye Position: (x: 266, y: 222, w: 29, h: 29), Label: Open
+
+Face ID: 568
+  - Face Position: (x: 224, y: 176, w: 134, h: 134)
+  - Yawning: Not Yawning
+
+Face ID: 570
+  - Keypoints:
+    - Eye-to-eye distance: 34.13
+    - Nose-to-chin distance: 46.29
+    - Face rotation angle: -0.00
+
+Face ID: 569
+  - Eyes:
+    - Eye Position: (x: 300, y: 214, w: 31, h: 31), Label: Open
+    - Eye Position: (x: 246, y: 213, w: 33, h: 33), Label: Open
+
+Face ID: 571
+  - Face Position: (x: 215, y: 171, w: 139, h: 139)
+  - Yawning: Not Yawning
+
+Face ID: 573
+  - Keypoints:
+    - Eye-to-eye distance: 35.09
+    - Nose-to-chin distance: 47.51
+    - Face rotation angle: 0.00
+
+Face ID: 572
+  - Eyes:
+    - Eye Position: (x: 240, y: 209, w: 34, h: 34), Label: Open
+    - Eye Position: (x: 294, y: 210, w: 31, h: 31), Label: Open
+
+Face ID: 574
+  - Face Position: (x: 210, y: 159, w: 149, h: 149)
+  - Yawning: Not Yawning
+
+Face ID: 576
+  - Keypoints:
+    - Eye-to-eye distance: 37.05
+    - Nose-to-chin distance: 51.45
+    - Face rotation angle: -0.03
+
+Face ID: 575
+  - Eyes:
+    - Eye Position: (x: 235, y: 202, w: 36, h: 36), Label: Open
+    - Eye Position: (x: 292, y: 200, w: 37, h: 37), Label: Open
+
+Face ID: 577
+  - Face Position: (x: 206, y: 126, w: 183, h: 183)
+  - Yawning: Not Yawning
+
+Face ID: 579
+  - Keypoints:
+    - Eye-to-eye distance: 47.62
+    - Nose-to-chin distance: 64.10
+    - Face rotation angle: 0.01
+
+Face ID: 578
+  - Eyes:
+    - Eye Position: (x: 307, y: 175, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 236, y: 176, w: 47, h: 47), Label: Open
+
+Face ID: 580
+  - Face Position: (x: 196, y: 89, w: 196, h: 196)
+  - Yawning: Not Yawning
+
+Face ID: 582
+  - Keypoints:
+    - Eye-to-eye distance: 50.81
+    - Nose-to-chin distance: 70.40
+    - Face rotation angle: -0.01
+
+Face ID: 581
+  - Eyes:
+    - Eye Position: (x: 305, y: 141, w: 52, h: 52), Label: Open
+    - Eye Position: (x: 229, y: 144, w: 51, h: 51), Label: Open
+
+Face ID: 583
+  - Face Position: (x: 168, y: 84, w: 188, h: 188)
+  - Yawning: Not Yawning
+
+Face ID: 585
+  - Keypoints:
+    - Eye-to-eye distance: 49.85
+    - Nose-to-chin distance: 69.48
+    - Face rotation angle: -0.00
+
+Face ID: 584
+  - Eyes:
+    - Eye Position: (x: 272, y: 132, w: 53, h: 53), Label: Open
+    - Eye Position: (x: 198, y: 135, w: 48, h: 48), Label: Open
+
+Face ID: 586
+  - Face Position: (x: 156, y: 97, w: 195, h: 195)
+  - Yawning: Not Yawning
+
+Face ID: 588
+  - Keypoints:
+    - Eye-to-eye distance: 49.65
+    - Nose-to-chin distance: 70.68
+    - Face rotation angle: -0.03
+
+Face ID: 587
+  - Eyes:
+    - Eye Position: (x: 262, y: 146, w: 53, h: 53), Label: Open
+    - Eye Position: (x: 188, y: 152, w: 48, h: 48), Label: Open
+
+Face ID: 589
+  - Face Position: (x: 199, y: 86, w: 188, h: 188)
+  - Yawning: Not Yawning
+
+Face ID: 591
+  - Keypoints:
+    - Eye-to-eye distance: 50.16
+    - Nose-to-chin distance: 68.97
+    - Face rotation angle: -0.00
+
+Face ID: 590
+  - Eyes:
+    - Eye Position: (x: 306, y: 136, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 228, y: 138, w: 49, h: 49), Label: Open
+
+Face ID: 592
+  - Face Position: (x: 160, y: 103, w: 191, h: 191)
+  - Yawning: Not Yawning
+
+Face ID: 594
+  - Keypoints:
+    - Eye-to-eye distance: 49.85
+    - Nose-to-chin distance: 70.20
+    - Face rotation angle: 0.01
+
+Face ID: 593
+  - Eyes:
+    - Eye Position: (x: 268, y: 153, w: 52, h: 52), Label: Open
+    - Eye Position: (x: 192, y: 155, w: 48, h: 48), Label: Open
+
+Face ID: 595
+  - Face Position: (x: 160, y: 90, w: 189, h: 189)
+  - Yawning: Not Yawning
+
+Face ID: 596
+  - Eyes:
+    - Eye Position: (x: 190, y: 143, w: 47, h: 47), Label: Open
+    - Eye Position: (x: 265, y: 141, w: 50, h: 50), Label: Open
+
+Face ID: 597
+  - Keypoints:
+    - Eye-to-eye distance: 48.84
+    - Nose-to-chin distance: 68.63
+    - Face rotation angle: -0.02
+
+Face ID: 598
+  - Face Position: (x: 201, y: 87, w: 187, h: 187)
+  - Yawning: Not Yawning
+
+Face ID: 600
+  - Keypoints:
+    - Eye-to-eye distance: 48.65
+    - Nose-to-chin distance: 67.54
+    - Face rotation angle: 0.01
+
+Face ID: 599
+  - Eyes:
+    - Eye Position: (x: 230, y: 140, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 306, y: 139, w: 48, h: 48), Label: Open
+
+Face ID: 601
+  - Face Position: (x: 166, y: 104, w: 192, h: 192)
+  - Yawning: Not Yawning
+
+Face ID: 603
+  - Keypoints:
+    - Eye-to-eye distance: 49.47
+    - Nose-to-chin distance: 67.31
+    - Face rotation angle: 0.04
+
+Face ID: 602
+  - Eyes:
+    - Eye Position: (x: 198, y: 155, w: 48, h: 48), Label: Open
+    - Eye Position: (x: 276, y: 156, w: 50, h: 50), Label: Open
+
+Face ID: 604
+  - Face Position: (x: 137, y: 94, w: 184, h: 184)
+  - Yawning: Not Yawning
+
+Face ID: 606
+  - Keypoints:
+    - Eye-to-eye distance: 49.02
+    - Nose-to-chin distance: 67.66
+    - Face rotation angle: 0.05
+
+Face ID: 605
+  - Eyes:
+    - Eye Position: (x: 169, y: 144, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 242, y: 144, w: 49, h: 49), Label: Open
+
+Face ID: 607
+  - Face Position: (x: 197, y: 110, w: 185, h: 185)
+  - Yawning: Not Yawning
+
+Face ID: 609
+  - Keypoints:
+    - Eye-to-eye distance: 50.28
+    - Nose-to-chin distance: 65.76
+    - Face rotation angle: 0.02
+
+Face ID: 608
+  - Eyes:
+    - Eye Position: (x: 221, y: 156, w: 50, h: 50), Label: Open
+    - Eye Position: (x: 299, y: 160, w: 48, h: 48), Label: Open
+
+Face ID: 610
+  - Face Position: (x: 177, y: 109, w: 191, h: 191)
+  - Yawning: Not Yawning
+
+Face ID: 612
+  - Keypoints:
+    - Eye-to-eye distance: 49.73
+    - Nose-to-chin distance: 65.22
+    - Face rotation angle: 0.01
+
+Face ID: 611
+  - Eyes:
+    - Eye Position: (x: 208, y: 159, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 284, y: 160, w: 50, h: 50), Label: Open
+
+Face ID: 613
+  - Face Position: (x: 168, y: 94, w: 186, h: 186)
+  - Yawning: Not Yawning
+
+Face ID: 615
+  - Keypoints:
+    - Eye-to-eye distance: 48.57
+    - Nose-to-chin distance: 71.91
+    - Face rotation angle: 0.01
+
+Face ID: 614
+  - Eyes:
+    - Eye Position: (x: 198, y: 144, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 273, y: 144, w: 50, h: 50), Label: Open
+
+Face ID: 616
+  - Face Position: (x: 159, y: 113, w: 185, h: 185)
+  - Yawning: Not Yawning
+
+Face ID: 618
+  - Keypoints:
+    - Eye-to-eye distance: 47.59
+    - Nose-to-chin distance: 67.03
+    - Face rotation angle: 0.01
+
+Face ID: 617
+  - Eyes:
+    - Eye Position: (x: 189, y: 163, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 259, y: 159, w: 53, h: 53), Label: Open
+
+Face ID: 619
+  - Face Position: (x: 169, y: 89, w: 186, h: 186)
+  - Yawning: Not Yawning
+
+Face ID: 621
+  - Keypoints:
+    - Eye-to-eye distance: 48.33
+    - Nose-to-chin distance: 71.19
+    - Face rotation angle: 0.03
+
+Face ID: 620
+  - Eyes:
+    - Eye Position: (x: 200, y: 140, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 275, y: 141, w: 47, h: 47), Label: Open
+
+Face ID: 622
+  - Face Position: (x: 154, y: 118, w: 184, h: 184)
+  - Yawning: Not Yawning
+
+Face ID: 624
+  - Keypoints:
+    - Eye-to-eye distance: 46.30
+    - Nose-to-chin distance: 66.24
+    - Face rotation angle: 0.04
+
+Face ID: 623
+  - Eyes:
+    - Eye Position: (x: 186, y: 165, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 253, y: 163, w: 51, h: 51), Label: Open
+
+Face ID: 625
+  - Face Position: (x: 183, y: 107, w: 180, h: 180)
+  - Yawning: Not Yawning
+
+Face ID: 627
+  - Keypoints:
+    - Eye-to-eye distance: 49.93
+    - Nose-to-chin distance: 64.91
+    - Face rotation angle: -0.04
+
+Face ID: 626
+  - Eyes:
+    - Eye Position: (x: 206, y: 158, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 282, y: 153, w: 46, h: 46), Label: Open
+
+Face ID: 628
+  - Face Position: (x: 148, y: 102, w: 176, h: 176)
+  - Yawning: Yawning
+
+Face ID: 630
+  - Keypoints:
+    - Eye-to-eye distance: 45.34
+    - Nose-to-chin distance: 65.27
+    - Face rotation angle: 0.04
+
+Face ID: 629
+  - Eyes:
+    - Eye Position: (x: 181, y: 153, w: 40, h: 40), Label: Open
+    - Eye Position: (x: 245, y: 147, w: 51, h: 51), Label: Open
+
+Face ID: 631
+  - Face Position: (x: 164, y: 102, w: 182, h: 182)
+  - Yawning: Not Yawning
+
+Face ID: 633
+  - Keypoints:
+    - Eye-to-eye distance: 48.59
+    - Nose-to-chin distance: 68.96
+    - Face rotation angle: -0.02
+
+Face ID: 632
+  - Eyes:
+    - Eye Position: (x: 192, y: 152, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 265, y: 150, w: 48, h: 48), Label: Open
+
+Face ID: 634
+  - Face Position: (x: 170, y: 105, w: 183, h: 183)
+  - Yawning: Not Yawning
+
+Face ID: 636
+  - Keypoints:
+    - Eye-to-eye distance: 48.70
+    - Nose-to-chin distance: 66.88
+    - Face rotation angle: -0.00
+
+Face ID: 635
+  - Eyes:
+    - Eye Position: (x: 198, y: 155, w: 47, h: 47), Label: Open
+    - Eye Position: (x: 274, y: 153, w: 48, h: 48), Label: Open
+
+Face ID: 637
+  - Face Position: (x: 168, y: 105, w: 185, h: 185)
+  - Yawning: Not Yawning
+
+Face ID: 639
+  - Keypoints:
+    - Eye-to-eye distance: 49.05
+    - Nose-to-chin distance: 66.13
+    - Face rotation angle: -0.00
+
+Face ID: 638
+  - Eyes:
+    - Eye Position: (x: 197, y: 156, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 272, y: 154, w: 48, h: 48), Label: Open
+
+Face ID: 640
+  - Face Position: (x: 168, y: 105, w: 186, h: 186)
+  - Yawning: Not Yawning
+
+Face ID: 642
+  - Keypoints:
+    - Eye-to-eye distance: 48.28
+    - Nose-to-chin distance: 67.71
+    - Face rotation angle: 0.01
+
+Face ID: 641
+  - Eyes:
+    - Eye Position: (x: 196, y: 153, w: 51, h: 51), Label: Open
+    - Eye Position: (x: 272, y: 152, w: 51, h: 51), Label: Open
+
+Face ID: 643
+  - Face Position: (x: 170, y: 106, w: 183, h: 183)
+  - Yawning: Not Yawning
+
+Face ID: 645
+  - Keypoints:
+    - Eye-to-eye distance: 48.20
+    - Nose-to-chin distance: 67.44
+    - Face rotation angle: 0.00
+
+Face ID: 644
+  - Eyes:
+    - Eye Position: (x: 271, y: 151, w: 52, h: 52), Label: Open
+    - Eye Position: (x: 198, y: 153, w: 50, h: 50), Label: Open
+
+Face ID: 646
+  - Face Position: (x: 131, y: 112, w: 171, h: 171)
+  - Yawning: Yawning
+
+Face ID: 648
+  - Keypoints:
+    - Eye-to-eye distance: 44.27
+    - Nose-to-chin distance: 65.13
+    - Face rotation angle: -0.06
+
+Face ID: 647
+  - Eyes:
+    - Eye Position: (x: 160, y: 162, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 220, y: 148, w: 56, h: 56), Label: Open
+
+Face ID: 649
+  - Face Position: (x: 170, y: 120, w: 186, h: 186)
+  - Yawning: Yawning
+
+Face ID: 651
+  - Keypoints:
+    - Eye-to-eye distance: 47.75
+    - Nose-to-chin distance: 67.68
+    - Face rotation angle: -0.01
+
+Face ID: 650
+  - Eyes:
+    - Eye Position: (x: 198, y: 166, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 273, y: 166, w: 52, h: 52), Label: Open
+
+Face ID: 652
+  - Face Position: (x: 221, y: 112, w: 181, h: 181)
+  - Yawning: Not Yawning
+
+Face ID: 654
+  - Keypoints:
+    - Eye-to-eye distance: 49.31
+    - Nose-to-chin distance: 64.29
+    - Face rotation angle: 0.01
+
+Face ID: 653
+  - Eyes:
+    - Eye Position: (x: 246, y: 160, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 322, y: 163, w: 45, h: 45), Label: Open
+
+Face ID: 655
+  - Face Position: (x: 230, y: 110, w: 175, h: 175)
+  - Yawning: Yawning
+
+Face ID: 657
+  - Keypoints:
+    - Eye-to-eye distance: 47.48
+    - Nose-to-chin distance: 63.71
+    - Face rotation angle: 0.00
+
+Face ID: 656
+  - Eyes:
+    - Eye Position: (x: 247, y: 147, w: 58, h: 58), Label: Closed
+    - Eye Position: (x: 323, y: 152, w: 53, h: 53), Label: Closed
+
+Face ID: 658
+  - Face Position: (x: 214, y: 100, w: 187, h: 187)
+  - Yawning: Yawning
+
+Face ID: 660
+  - Keypoints:
+    - Eye-to-eye distance: 41.69
+    - Nose-to-chin distance: 64.73
+    - Face rotation angle: -0.06
+
+Face ID: 659
+  - Eyes:
+    - Eye Position: (x: 266, y: 147, w: 58, h: 58), Label: Open
+    - Eye Position: (x: 340, y: 157, w: 41, h: 41), Label: Closed
+
+Face ID: 661
+  - Face Position: (x: 163, y: 106, w: 172, h: 172)
+  - Yawning: Yawning
+
+Face ID: 663
+  - Keypoints:
+    - Eye-to-eye distance: 42.25
+    - Nose-to-chin distance: 65.62
+    - Face rotation angle: 0.04
+
+Face ID: 662
+  - Eyes:
+    - Eye Position: (x: 257, y: 148, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 194, y: 153, w: 42, h: 42), Label: Open
+
+Face ID: 664
+  - Face Position: (x: 158, y: 104, w: 173, h: 173)
+  - Yawning: Yawning
+
+Face ID: 666
+  - Keypoints:
+    - Eye-to-eye distance: 42.54
+    - Nose-to-chin distance: 67.42
+    - Face rotation angle: 0.02
+
+Face ID: 665
+  - Eyes:
+    - Eye Position: (x: 186, y: 155, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 240, y: 145, w: 55, h: 55), Label: Open
+
+Face ID: 667
+  - Face Position: (x: 154, y: 98, w: 182, h: 182)
+  - Yawning: Yawning
+
+Face ID: 668
+  - Eyes:
+    - Eye Position: (x: 235, y: 140, w: 61, h: 61), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 669
+  - Keypoints:
+    - Eye-to-eye distance: 43.32
+    - Nose-to-chin distance: 70.40
+    - Face rotation angle: 0.01
+
+Face ID: 670
+  - Face Position: (x: 185, y: 98, w: 185, h: 185)
+  - Yawning: Not Yawning
+
+Face ID: 672
+  - Keypoints:
+    - Eye-to-eye distance: 48.60
+    - Nose-to-chin distance: 67.85
+    - Face rotation angle: 0.01
+
+Face ID: 671
+  - Eyes:
+    - Eye Position: (x: 213, y: 147, w: 50, h: 50), Label: Open
+    - Eye Position: (x: 288, y: 145, w: 52, h: 52), Label: Open
+
+Face ID: 673
+  - Face Position: (x: 190, y: 101, w: 182, h: 182)
+  - Yawning: Not Yawning
+
+Face ID: 675
+  - Keypoints:
+    - Eye-to-eye distance: 47.47
+    - Nose-to-chin distance: 67.94
+    - Face rotation angle: 0.02
+
+Face ID: 674
+  - Eyes:
+    - Eye Position: (x: 217, y: 148, w: 48, h: 48), Label: Open
+    - Eye Position: (x: 292, y: 146, w: 52, h: 52), Label: Open
+
+Face ID: 676
+  - Face Position: (x: 207, y: 98, w: 167, h: 167)
+  - Yawning: Yawning
+
+Face ID: 677
+  - Eyes:
+    - Eye Position: (x: 263, y: 146, w: 55, h: 55), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 678
+  - Keypoints:
+    - Eye-to-eye distance: 41.52
+    - Nose-to-chin distance: 73.90
+    - Face rotation angle: 0.02
+
+Face ID: 679
+  - Face Position: (x: 202, y: 107, w: 178, h: 178)
+  - Yawning: Not Yawning
+
+Face ID: 681
+  - Keypoints:
+    - Eye-to-eye distance: 48.48
+    - Nose-to-chin distance: 65.91
+    - Face rotation angle: 0.04
+
+Face ID: 680
+  - Eyes:
+    - Eye Position: (x: 226, y: 151, w: 51, h: 51), Label: Open
+    - Eye Position: (x: 303, y: 154, w: 48, h: 48), Label: Open
+
+Face ID: 682
+  - Face Position: (x: 176, y: 107, w: 176, h: 176)
+  - Yawning: Not Yawning
+
+Face ID: 684
+  - Keypoints:
+    - Eye-to-eye distance: 46.08
+    - Nose-to-chin distance: 64.85
+    - Face rotation angle: 0.06
+
+Face ID: 683
+  - Eyes:
+    - Eye Position: (x: 206, y: 153, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 278, y: 153, w: 51, h: 51), Label: Open
+
+Face ID: 685
+  - Face Position: (x: 159, y: 101, w: 182, h: 182)
+  - Yawning: Yawning
+
+Face ID: 687
+  - Keypoints:
+    - Eye-to-eye distance: 42.41
+    - Nose-to-chin distance: 67.70
+    - Face rotation angle: 0.09
+
+Face ID: 686
+  - Eyes:
+    - Eye Position: (x: 189, y: 153, w: 40, h: 40), Label: Closed
+    - Eye Position: (x: 244, y: 144, w: 59, h: 59), Label: Open
+
+Face ID: 688
+  - Face Position: (x: 166, y: 105, w: 175, h: 175)
+  - Yawning: Yawning
+
+Face ID: 690
+  - Keypoints:
+    - Eye-to-eye distance: 41.47
+    - Nose-to-chin distance: 65.14
+    - Face rotation angle: 0.09
+
+Face ID: 689
+  - Eyes:
+    - Eye Position: (x: 243, y: 144, w: 59, h: 59), Label: Open
+    - Eye Position: (x: 187, y: 152, w: 43, h: 43), Label: Closed
+
+Face ID: 691
+  - Face Position: (x: 180, y: 110, w: 177, h: 177)
+  - Yawning: Not Yawning
+
+Face ID: 693
+  - Keypoints:
+    - Eye-to-eye distance: 47.16
+    - Nose-to-chin distance: 68.27
+    - Face rotation angle: 0.02
+
+Face ID: 692
+  - Eyes:
+    - Eye Position: (x: 209, y: 157, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 282, y: 157, w: 48, h: 48), Label: Open
+
+Face ID: 694
+  - Face Position: (x: 169, y: 76, w: 203, h: 203)
+  - Yawning: Yawning
+
+Face ID: 696
+  - Keypoints:
+    - Eye-to-eye distance: 49.10
+    - Nose-to-chin distance: 78.84
+    - Face rotation angle: -0.01
+
+Face ID: 695
+  - Eyes:
+    - Eye Position: (x: 280, y: 129, w: 52, h: 52), Label: Open
+    - Eye Position: (x: 209, y: 132, w: 46, h: 46), Label: Open
+
+Face ID: 697
+  - Face Position: (x: 176, y: 82, w: 191, h: 191)
+  - Yawning: Yawning
+
+Face ID: 699
+  - Keypoints:
+    - Eye-to-eye distance: 47.38
+    - Nose-to-chin distance: 76.30
+    - Face rotation angle: 0.00
+
+Face ID: 698
+  - Eyes:
+    - Eye Position: (x: 281, y: 130, w: 51, h: 51), Label: Open
+    - Eye Position: (x: 211, y: 133, w: 45, h: 45), Label: Open
+
+Face ID: 700
+  - Face Position: (x: 187, y: 119, w: 181, h: 181)
+  - Yawning: Not Yawning
+
+Face ID: 702
+  - Keypoints:
+    - Eye-to-eye distance: 47.20
+    - Nose-to-chin distance: 67.11
+    - Face rotation angle: 0.03
+
+Face ID: 701
+  - Eyes:
+    - Eye Position: (x: 215, y: 166, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 287, y: 166, w: 49, h: 49), Label: Open
+
+Face ID: 703
+  - Face Position: (x: 183, y: 117, w: 178, h: 178)
+  - Yawning: Not Yawning
+
+Face ID: 705
+  - Keypoints:
+    - Eye-to-eye distance: 47.31
+    - Nose-to-chin distance: 63.68
+    - Face rotation angle: 0.00
+
+Face ID: 704
+  - Eyes:
+    - Eye Position: (x: 211, y: 167, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 285, y: 165, w: 45, h: 45), Label: Open
+
+Face ID: 706
+  - Face Position: (x: 167, y: 108, w: 192, h: 192)
+  - Yawning: Yawning
+
+Face ID: 708
+  - Keypoints:
+    - Eye-to-eye distance: 45.37
+    - Nose-to-chin distance: 65.73
+    - Face rotation angle: -0.20
+
+Face ID: 707
+  - Eyes:
+    - Eye Position: (x: 264, y: 149, w: 51, h: 51), Label: Open
+    - Eye Position: (x: 192, y: 167, w: 51, h: 51), Label: Open
+
+Face ID: 709
+  - Face Position: (x: 167, y: 107, w: 194, h: 194)
+  - Yawning: Yawning
+
+Face ID: 711
+  - Keypoints:
+    - Eye-to-eye distance: 47.43
+    - Nose-to-chin distance: 71.53
+    - Face rotation angle: 0.20
+
+Face ID: 710
+  - Eyes:
+    - Eye Position: (x: 205, y: 150, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 275, y: 163, w: 52, h: 52), Label: Open
+
+Face ID: 712
+  - Face Position: (x: 172, y: 109, w: 189, h: 189)
+  - Yawning: Not Yawning
+
+Face ID: 714
+  - Keypoints:
+    - Eye-to-eye distance: 46.87
+    - Nose-to-chin distance: 67.98
+    - Face rotation angle: 0.14
+
+Face ID: 713
+  - Eyes:
+    - Eye Position: (x: 208, y: 155, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 280, y: 164, w: 49, h: 49), Label: Open
+
+Face ID: 715
+  - Face Position: (x: 166, y: 110, w: 196, h: 196)
+  - Yawning: Yawning
+
+Face ID: 717
+  - Keypoints:
+    - Eye-to-eye distance: 46.48
+    - Nose-to-chin distance: 66.85
+    - Face rotation angle: -0.23
+
+Face ID: 716
+  - Eyes:
+    - Eye Position: (x: 191, y: 172, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 267, y: 153, w: 48, h: 48), Label: Open
+
+Face ID: 718
+  - Face Position: (x: 173, y: 114, w: 180, h: 180)
+  - Yawning: Yawning
+
+Face ID: 720
+  - Keypoints:
+    - Eye-to-eye distance: 44.81
+    - Nose-to-chin distance: 65.46
+    - Face rotation angle: 0.22
+
+Face ID: 719
+  - Eyes:
+    - Eye Position: (x: 206, y: 153, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 276, y: 167, w: 49, h: 49), Label: Open
+
+Face ID: 721
+  - Face Position: (x: 205, y: 112, w: 169, h: 169)
+  - Yawning: Not Yawning
+
+Face ID: 723
+  - Keypoints:
+    - Eye-to-eye distance: 48.10
+    - Nose-to-chin distance: 64.11
+    - Face rotation angle: -0.06
+
+Face ID: 722
+  - Eyes:
+    - Eye Position: (x: 300, y: 154, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 223, y: 159, w: 49, h: 49), Label: Open
+
+Face ID: 724
+  - Face Position: (x: 222, y: 114, w: 167, h: 167)
+  - Yawning: Yawning
+
+Face ID: 726
+  - Keypoints:
+    - Eye-to-eye distance: 45.04
+    - Nose-to-chin distance: 60.95
+    - Face rotation angle: 0.01
+
+Face ID: 725
+  - Eyes:
+    - Eye Position: (x: 241, y: 157, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 314, y: 161, w: 40, h: 40), Label: Open
+
+Face ID: 727
+  - Face Position: (x: 210, y: 116, w: 172, h: 172)
+  - Yawning: Not Yawning
+
+Face ID: 729
+  - Keypoints:
+    - Eye-to-eye distance: 47.87
+    - Nose-to-chin distance: 60.46
+    - Face rotation angle: -0.00
+
+Face ID: 728
+  - Eyes:
+    - Eye Position: (x: 306, y: 162, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 230, y: 159, w: 49, h: 49), Label: Open
+
+Face ID: 730
+  - Face Position: (x: 174, y: 111, w: 178, h: 178)
+  - Yawning: Not Yawning
+
+Face ID: 732
+  - Keypoints:
+    - Eye-to-eye distance: 46.46
+    - Nose-to-chin distance: 65.66
+    - Face rotation angle: 0.06
+
+Face ID: 731
+  - Eyes:
+    - Eye Position: (x: 203, y: 157, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 276, y: 162, w: 46, h: 46), Label: Open
+
+Face ID: 733
+  - Face Position: (x: 169, y: 112, w: 167, h: 167)
+  - Yawning: Not Yawning
+
+Face ID: 735
+  - Keypoints:
+    - Eye-to-eye distance: 41.30
+    - Nose-to-chin distance: 64.25
+    - Face rotation angle: 0.11
+
+Face ID: 734
+  - Eyes:
+    - Eye Position: (x: 201, y: 157, w: 39, h: 39), Label: Open
+    - Eye Position: (x: 263, y: 156, w: 49, h: 49), Label: Open
+
+Face ID: 736
+  - Face Position: (x: 172, y: 116, w: 167, h: 167)
+  - Yawning: Not Yawning
+
+Face ID: 738
+  - Keypoints:
+    - Eye-to-eye distance: 43.17
+    - Nose-to-chin distance: 64.18
+    - Face rotation angle: 0.07
+
+Face ID: 737
+  - Eyes:
+    - Eye Position: (x: 200, y: 160, w: 42, h: 42), Label: Open
+    - Eye Position: (x: 267, y: 160, w: 47, h: 47), Label: Open
+
+Face ID: 739
+  - Face Position: (x: 172, y: 114, w: 173, h: 173)
+  - Yawning: Not Yawning
+
+Face ID: 741
+  - Keypoints:
+    - Eye-to-eye distance: 45.41
+    - Nose-to-chin distance: 63.25
+    - Face rotation angle: 0.09
+
+Face ID: 740
+  - Eyes:
+    - Eye Position: (x: 202, y: 159, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 269, y: 162, w: 47, h: 47), Label: Open
+
+Face ID: 742
+  - Face Position: (x: 182, y: 111, w: 173, h: 173)
+  - Yawning: Not Yawning
+
+Face ID: 744
+  - Keypoints:
+    - Eye-to-eye distance: 45.62
+    - Nose-to-chin distance: 66.85
+    - Face rotation angle: 0.07
+
+Face ID: 743
+  - Eyes:
+    - Eye Position: (x: 283, y: 159, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 211, y: 156, w: 44, h: 44), Label: Open
+
+Face ID: 745
+  - Face Position: (x: 204, y: 112, w: 171, h: 171)
+  - Yawning: Not Yawning
+
+Face ID: 747
+  - Keypoints:
+    - Eye-to-eye distance: 47.65
+    - Nose-to-chin distance: 62.84
+    - Face rotation angle: 0.03
+
+Face ID: 746
+  - Eyes:
+    - Eye Position: (x: 304, y: 161, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 228, y: 157, w: 47, h: 47), Label: Open
+
+Face ID: 748
+  - Face Position: (x: 209, y: 114, w: 172, h: 172)
+  - Yawning: Not Yawning
+
+Face ID: 750
+  - Keypoints:
+    - Eye-to-eye distance: 47.60
+    - Nose-to-chin distance: 63.39
+    - Face rotation angle: 0.02
+
+Face ID: 749
+  - Eyes:
+    - Eye Position: (x: 306, y: 162, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 231, y: 157, w: 48, h: 48), Label: Open
+
+Face ID: 751
+  - Face Position: (x: 230, y: 118, w: 177, h: 177)
+  - Yawning: Yawning
+
+Face ID: 753
+  - Keypoints:
+    - Eye-to-eye distance: 45.71
+    - Nose-to-chin distance: 63.97
+    - Face rotation angle: 0.03
+
+Face ID: 752
+  - Eyes:
+    - Eye Position: (x: 330, y: 169, w: 40, h: 40), Label: Open
+    - Eye Position: (x: 257, y: 161, w: 48, h: 48), Label: Open
+
+Face ID: 754
+  - Face Position: (x: 247, y: 118, w: 170, h: 170)
+  - Yawning: Yawning
+
+Face ID: 756
+  - Keypoints:
+    - Eye-to-eye distance: 43.59
+    - Nose-to-chin distance: 63.74
+    - Face rotation angle: 0.03
+
+Face ID: 755
+  - Eyes:
+    - Eye Position: (x: 274, y: 159, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 346, y: 171, w: 33, h: 33), Label: Open
+
+Face ID: 757
+  - Face Position: (x: 188, y: 113, w: 173, h: 173)
+  - Yawning: Yawning
+
+Face ID: 759
+  - Keypoints:
+    - Eye-to-eye distance: 40.32
+    - Nose-to-chin distance: 64.70
+    - Face rotation angle: 0.32
+
+Face ID: 758
+  - Eyes:
+    - Eye Position: (x: 225, y: 145, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 288, y: 166, w: 51, h: 51), Label: Open
+
+Face ID: 760
+  - Face Position: (x: 190, y: 104, w: 183, h: 183)
+  - Yawning: Yawning
+
+Face ID: 762
+  - Keypoints:
+    - Eye-to-eye distance: 44.12
+    - Nose-to-chin distance: 64.72
+    - Face rotation angle: -0.21
+
+Face ID: 761
+  - Eyes:
+    - Eye Position: (x: 289, y: 146, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 215, y: 163, w: 45, h: 45), Label: Open
+
+Face ID: 763
+  - Face Position: (x: 189, y: 105, w: 190, h: 190)
+  - Yawning: Not Yawning
+
+Face ID: 765
+  - Keypoints:
+    - Eye-to-eye distance: 45.28
+    - Nose-to-chin distance: 68.03
+    - Face rotation angle: -0.24
+
+Face ID: 764
+  - Eyes:
+    - Eye Position: (x: 217, y: 165, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 291, y: 147, w: 43, h: 43), Label: Open
+
+Face ID: 766
+  - Face Position: (x: 196, y: 111, w: 192, h: 192)
+  - Yawning: Yawning
+
+Face ID: 768
+  - Keypoints:
+    - Eye-to-eye distance: 44.53
+    - Nose-to-chin distance: 68.74
+    - Face rotation angle: 0.33
+
+Face ID: 767
+  - Eyes:
+    - Eye Position: (x: 303, y: 174, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 236, y: 148, w: 45, h: 45), Label: Open
+
+Face ID: 769
+  - Face Position: (x: 197, y: 115, w: 172, h: 172)
+  - Yawning: Not Yawning
+
+Face ID: 771
+  - Keypoints:
+    - Eye-to-eye distance: 45.41
+    - Nose-to-chin distance: 62.54
+    - Face rotation angle: -0.07
+
+Face ID: 770
+  - Eyes:
+    - Eye Position: (x: 222, y: 164, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 293, y: 158, w: 45, h: 45), Label: Open
+
+Face ID: 772
+  - Face Position: (x: 188, y: 113, w: 170, h: 170)
+  - Yawning: Not Yawning
+
+Face ID: 774
+  - Keypoints:
+    - Eye-to-eye distance: 44.20
+    - Nose-to-chin distance: 60.30
+    - Face rotation angle: -0.09
+
+Face ID: 773
+  - Eyes:
+    - Eye Position: (x: 212, y: 164, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 283, y: 156, w: 45, h: 45), Label: Open
+
+Face ID: 775
+  - Face Position: (x: 192, y: 109, w: 192, h: 192)
+  - Yawning: Yawning
+
+Face ID: 777
+  - Keypoints:
+    - Eye-to-eye distance: 46.07
+    - Nose-to-chin distance: 69.13
+    - Face rotation angle: 0.31
+
+Face ID: 776
+  - Eyes:
+    - Eye Position: (x: 235, y: 148, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 301, y: 172, w: 47, h: 47), Label: Open
+
+Face ID: 778
+  - Face Position: (x: 202, y: 113, w: 173, h: 173)
+  - Yawning: Not Yawning
+
+Face ID: 780
+  - Keypoints:
+    - Eye-to-eye distance: 46.19
+    - Nose-to-chin distance: 63.25
+    - Face rotation angle: 0.02
+
+Face ID: 779
+  - Eyes:
+    - Eye Position: (x: 228, y: 161, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 300, y: 161, w: 44, h: 44), Label: Open
+
+Face ID: 781
+  - Face Position: (x: 200, y: 113, w: 168, h: 168)
+  - Yawning: Not Yawning
+
+Face ID: 783
+  - Keypoints:
+    - Eye-to-eye distance: 45.89
+    - Nose-to-chin distance: 62.57
+    - Face rotation angle: 0.02
+
+Face ID: 782
+  - Eyes:
+    - Eye Position: (x: 223, y: 159, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 293, y: 159, w: 46, h: 46), Label: Open
+
+Face ID: 784
+  - Face Position: (x: 201, y: 113, w: 171, h: 171)
+  - Yawning: Not Yawning
+
+Face ID: 786
+  - Keypoints:
+    - Eye-to-eye distance: 46.66
+    - Nose-to-chin distance: 63.31
+    - Face rotation angle: 0.03
+
+Face ID: 785
+  - Eyes:
+    - Eye Position: (x: 225, y: 159, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 297, y: 161, w: 44, h: 44), Label: Open
+
+Face ID: 787
+  - Face Position: (x: 199, y: 112, w: 172, h: 172)
+  - Yawning: Not Yawning
+
+Face ID: 789
+  - Keypoints:
+    - Eye-to-eye distance: 45.58
+    - Nose-to-chin distance: 62.73
+    - Face rotation angle: 0.04
+
+Face ID: 788
+  - Eyes:
+    - Eye Position: (x: 225, y: 158, w: 45, h: 45), Label: Open
+    - Eye Position: (x: 295, y: 160, w: 45, h: 45), Label: Open
+
+Face ID: 790
+  - Face Position: (x: 197, y: 112, w: 175, h: 175)
+  - Yawning: Not Yawning
+
+Face ID: 792
+  - Keypoints:
+    - Eye-to-eye distance: 46.31
+    - Nose-to-chin distance: 64.33
+    - Face rotation angle: 0.04
+
+Face ID: 791
+  - Eyes:
+    - Eye Position: (x: 297, y: 161, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 225, y: 159, w: 44, h: 44), Label: Open
+
+Face ID: 793
+  - Face Position: (x: 197, y: 113, w: 173, h: 173)
+  - Yawning: Not Yawning
+
+Face ID: 795
+  - Keypoints:
+    - Eye-to-eye distance: 45.50
+    - Nose-to-chin distance: 64.05
+    - Face rotation angle: 0.04
+
+Face ID: 794
+  - Eyes:
+    - Eye Position: (x: 224, y: 160, w: 43, h: 43), Label: Open
+    - Eye Position: (x: 295, y: 161, w: 44, h: 44), Label: Open
+
+Face ID: 796
+  - Face Position: (x: 194, y: 82, w: 183, h: 183)
+  - Yawning: Yawning
+
+Face ID: 798
+  - Keypoints:
+    - Eye-to-eye distance: 50.97
+    - Nose-to-chin distance: 72.68
+    - Face rotation angle: 0.06
+
+Face ID: 797
+  - Eyes:
+    - Eye Position: (x: 225, y: 134, w: 46, h: 46), Label: Open
+    - Eye Position: (x: 295, y: 138, w: 46, h: 46), Label: Open
+
+Face ID: 799
+  - Face Position: (x: 196, y: 79, w: 184, h: 184)
+  - Yawning: Yawning
+
+Face ID: 801
+  - Keypoints:
+    - Eye-to-eye distance: 48.96
+    - Nose-to-chin distance: 70.13
+    - Face rotation angle: 0.06
+
+Face ID: 800
+  - Eyes:
+    - Eye Position: (x: 300, y: 134, w: 47, h: 47), Label: Open
+    - Eye Position: (x: 228, y: 129, w: 48, h: 48), Label: Open
+
+Face ID: 802
+  - Face Position: (x: 190, y: 121, w: 183, h: 183)
+  - Yawning: Not Yawning
+
+Face ID: 804
+  - Keypoints:
+    - Eye-to-eye distance: 48.58
+    - Nose-to-chin distance: 68.36
+    - Face rotation angle: 0.01
+
+Face ID: 803
+  - Eyes:
+    - Eye Position: (x: 221, y: 173, w: 44, h: 44), Label: Open
+    - Eye Position: (x: 296, y: 174, w: 44, h: 44), Label: Open
+
+Face ID: 805
+  - Face Position: (x: 272, y: 87, w: 161, h: 161)
+  - Yawning: Not Yawning
+
+Face ID: 807
+  - Keypoints:
+    - Eye-to-eye distance: 41.00
+    - Nose-to-chin distance: 60.80
+    - Face rotation angle: -0.01
+
+Face ID: 806
+  - Eyes:
+    - Eye Position: (x: 365, y: 136, w: 37, h: 37), Label: Open
+    - Eye Position: (x: 302, y: 134, w: 38, h: 38), Label: Open
+
+Face ID: 808
+  - Face Position: (x: 210, y: 194, w: 111, h: 111)
+  - Yawning: Yawning
+
+Face ID: 809
+  - Eyes:
+    - Eye Position: (x: 268, y: 220, w: 27, h: 27), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 810
+  - Keypoints:
+    - Eye-to-eye distance: 25.70
+    - Nose-to-chin distance: 40.38
+    - Face rotation angle: -0.25
+
+Face ID: 811
+  - Face Position: (x: 358, y: 198, w: 134, h: 134)
+  - Yawning: Not Yawning
+
+Face ID: 812
+  - Eyes:
+    - Eye Position: (x: 376, y: 223, w: 41, h: 41), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 813
+  - Keypoints:
+    - Eye-to-eye distance: 34.15
+    - Nose-to-chin distance: 47.82
+    - Face rotation angle: 0.10
+
+Face ID: 814
+  - Face Position: (x: 457, y: 159, w: 142, h: 142)
+  - Yawning: Yawning
+
+Face ID: 815
+  - Eyes:
+    - Eye Position: (x: 482, y: 191, w: 37, h: 37), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 816
+  - Keypoints:
+    - Eye-to-eye distance: 37.68
+    - Nose-to-chin distance: 54.99
+    - Face rotation angle: 0.13
+
+Face ID: 817
+  - Face Position: (x: 311, y: 130, w: 137, h: 137)
+  - Yawning: Yawning
+
+Face ID: 818
+  - Eyes:
+    - Eye Position: (x: 383, y: 163, w: 34, h: 34), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 819
+  - Keypoints:
+    - Eye-to-eye distance: 32.41
+    - Nose-to-chin distance: 51.43
+    - Face rotation angle: -0.18
+
+Face ID: 820
+  - Face Position: (x: 313, y: 191, w: 142, h: 142)
+  - Yawning: Not Yawning
+
+Face ID: 822
+  - Keypoints:
+    - Eye-to-eye distance: 38.08
+    - Nose-to-chin distance: 48.53
+    - Face rotation angle: 0.02
+
+Face ID: 821
+  - Eyes:
+    - Eye Position: (x: 334, y: 221, w: 41, h: 41), Label: Open
+    - Eye Position: (x: 389, y: 221, w: 43, h: 43), Label: Open
+
+Face ID: 823
+  - Face Position: (x: 345, y: 161, w: 128, h: 128)
+  - Yawning: Not Yawning
+
+Face ID: 825
+  - Keypoints:
+    - Eye-to-eye distance: 33.49
+    - Nose-to-chin distance: 49.57
+    - Face rotation angle: -0.02
+
+Face ID: 824
+  - Eyes:
+    - Eye Position: (x: 417, y: 198, w: 28, h: 28), Label: Open
+    - Eye Position: (x: 365, y: 198, w: 31, h: 31), Label: Open
+
+Face ID: 826
+  - Face Position: (x: 331, y: 222, w: 131, h: 131)
+  - Yawning: Yawning
+
+Face ID: 828
+  - Keypoints:
+    - Eye-to-eye distance: 31.94
+    - Nose-to-chin distance: 42.56
+    - Face rotation angle: 0.19
+
+Face ID: 827
+  - Eyes:
+    - Eye Position: (x: 352, y: 246, w: 38, h: 38), Label: Closed
+    - Eye Position: (x: 398, y: 253, w: 40, h: 40), Label: Open
+
+Face ID: 829
+  - Face Position: (x: 208, y: 185, w: 143, h: 143)
+  - Yawning: Yawning
+
+Face ID: 830
+  - Eyes:
+    - Eye Position: (x: 226, y: 208, w: 47, h: 47), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 831
+  - Keypoints:
+    - Eye-to-eye distance: 37.19
+    - Nose-to-chin distance: 54.68
+    - Face rotation angle: 0.13
+
+Face ID: 832
+  - Face Position: (x: 79, y: 164, w: 125, h: 125)
+  - Yawning: Not Yawning
+
+Face ID: 834
+  - Keypoints:
+    - Eye-to-eye distance: 31.31
+    - Nose-to-chin distance: 46.10
+    - Face rotation angle: 0.05
+
+Face ID: 833
+  - Eyes:
+    - Eye Position: (x: 100, y: 199, w: 32, h: 32), Label: Open
+    - Eye Position: (x: 155, y: 205, w: 26, h: 26), Label: Open
+
+Face ID: 835
+  - Face Position: (x: 10, y: 228, w: 128, h: 128)
+  - Yawning: Yawning
+
+Face ID: 836
+  - Eyes:
+    - Eye Position: (x: 49, y: 253, w: 45, h: 45), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 837
+  - Keypoints:
+    - Eye-to-eye distance: 28.60
+    - Nose-to-chin distance: 46.88
+    - Face rotation angle: -0.00
+
+Face ID: 838
+  - Face Position: (x: 35, y: 247, w: 174, h: 174)
+  - Yawning: Not Yawning
+
+Face ID: 840
+  - Keypoints:
+    - Eye-to-eye distance: 38.98
+    - Nose-to-chin distance: 61.97
+    - Face rotation angle: 0.09
+
+Face ID: 839
+  - Eyes:
+    - Eye Position: (x: 74, y: 295, w: 36, h: 36), Label: Open
+    - Eye Position: (x: 117, y: 287, w: 54, h: 54), Label: Open
+
+Face ID: 841
+  - Face Position: (x: 178, y: 103, w: 168, h: 168)
+  - Yawning: Yawning
+
+Face ID: 842
+  - Eyes:
+    - Eye Position: (x: 259, y: 149, w: 40, h: 40), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 843
+  - Keypoints:
+    - Eye-to-eye distance: 33.52
+    - Nose-to-chin distance: 58.39
+    - Face rotation angle: -0.04
+
+Face ID: 844
+  - Face Position: (x: 267, y: 84, w: 136, h: 136)
+  - Yawning: Not Yawning
+
+Face ID: 846
+  - Keypoints:
+    - Eye-to-eye distance: 32.95
+    - Nose-to-chin distance: 51.65
+    - Face rotation angle: -0.13
+
+Face ID: 845
+  - Eyes:
+    - Eye Position: (x: 345, y: 119, w: 32, h: 32), Label: Open
+    - Eye Position: (x: 286, y: 127, w: 32, h: 32), Label: Open
+
+Face ID: 847
+  - Face Position: (x: 285, y: 139, w: 147, h: 147)
+  - Yawning: Yawning
+
+Face ID: 848
+  - Eyes:
+    - Eye Position: (x: 305, y: 181, w: 43, h: 43), Label: Open
+    - One eye detected, considered the other as closed
+
+Face ID: 849
+  - Keypoints:
+    - Eye-to-eye distance: 33.88
+    - Nose-to-chin distance: 50.85
+    - Face rotation angle: -0.20
+
+Face ID: 850
+  - Face Position: (x: 226, y: 187, w: 140, h: 140)
+  - Yawning: Yawning
+
+Face ID: 852
+  - Keypoints:
+    - Eye-to-eye distance: 32.92
+    - Nose-to-chin distance: 47.20
+    - Face rotation angle: 0.04
+
+Face ID: 851
+  - Eyes:
+    - Eye Position: (x: 255, y: 223, w: 29, h: 29), Label: Closed
+    - Eye Position: (x: 294, y: 217, w: 42, h: 42), Label: Closed
+
+Face ID: 853
+  - Face Position: (x: 254, y: 126, w: 140, h: 140)
+  - Yawning: Yawning
+
+Face ID: 855
+  - Keypoints:
+    - Eye-to-eye distance: 34.87
+    - Nose-to-chin distance: 50.16
+    - Face rotation angle: -0.11
+
+Face ID: 854
+  - Eyes:
+    - Eye Position: (x: 330, y: 161, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 274, y: 172, w: 33, h: 33), Label: Open
+
+Face ID: 856
+  - Face Position: (x: 252, y: 156, w: 151, h: 151)
+  - Yawning: Yawning
+
+Face ID: 858
+  - Keypoints:
+    - Eye-to-eye distance: 36.05
+    - Nose-to-chin distance: 52.06
+    - Face rotation angle: 0.28
+
+Face ID: 857
+  - Eyes:
+    - Eye Position: (x: 284, y: 183, w: 39, h: 39), Label: Closed
+    - Eye Position: (x: 336, y: 196, w: 43, h: 43), Label: Open
+
+Face ID: 859
+  - Face Position: (x: 229, y: 153, w: 179, h: 179)
+  - Yawning: Not Yawning
+
+Face ID: 861
+  - Keypoints:
+    - Eye-to-eye distance: 40.47
+    - Nose-to-chin distance: 59.28
+    - Face rotation angle: -0.29
+
+Face ID: 860
+  - Eyes:
+    - Eye Position: (x: 316, y: 187, w: 48, h: 48), Label: Open
+    - Eye Position: (x: 265, y: 214, w: 39, h: 39), Label: Open
+
+Face ID: 862
+  - Face Position: (x: 276, y: 113, w: 184, h: 184)
+  - Yawning: Not Yawning
+
+Face ID: 864
+  - Keypoints:
+    - Eye-to-eye distance: 49.94
+    - Nose-to-chin distance: 70.74
+    - Face rotation angle: 0.09
+
+Face ID: 863
+  - Eyes:
+    - Eye Position: (x: 303, y: 157, w: 49, h: 49), Label: Open
+    - Eye Position: (x: 379, y: 167, w: 47, h: 47), Label: Open
+
+Face ID: 865
+  - Face Position: (x: 247, y: 151, w: 209, h: 209)
+  - Yawning: Not Yawning
+
+Face ID: 867
+  - Keypoints:
+    - Eye-to-eye distance: 54.01
+    - Nose-to-chin distance: 75.38
+    - Face rotation angle: -0.07
+
+Face ID: 866
+  - Eyes:
+    - Eye Position: (x: 359, y: 195, w: 55, h: 55), Label: Open
+    - Eye Position: (x: 280, y: 203, w: 53, h: 53), Label: Open
+
+Face ID: 868
+  - Face Position: (x: 252, y: 130, w: 198, h: 198)
+  - Yawning: Not Yawning
+
+Face ID: 870
+  - Keypoints:
+    - Eye-to-eye distance: 52.86
+    - Nose-to-chin distance: 73.11
+    - Face rotation angle: -0.03
+
+Face ID: 869
+  - Eyes:
+    - Eye Position: (x: 360, y: 177, w: 56, h: 56), Label: Open
+    - Eye Position: (x: 282, y: 184, w: 53, h: 53), Label: Open
+
+Face ID: 871
+  - Face Position: (x: 253, y: 122, w: 203, h: 203)
+  - Yawning: Not Yawning
+
+Face ID: 873
+  - Keypoints:
+    - Eye-to-eye distance: 53.26
+    - Nose-to-chin distance: 71.92
+    - Face rotation angle: -0.03
+
+Face ID: 872
+  - Eyes:
+    - Eye Position: (x: 367, y: 176, w: 51, h: 51), Label: Open
+    - Eye Position: (x: 285, y: 182, w: 48, h: 48), Label: Open
+
+Face ID: 874
+  - Face Position: (x: 303, y: 140, w: 137, h: 137)
+  - Yawning: Not Yawning
+
+Face ID: 876
+  - Keypoints:
+    - Eye-to-eye distance: 37.32
+    - Nose-to-chin distance: 48.57
+    - Face rotation angle: -0.01
+
+Face ID: 875
+  - Eyes:
+    - Eye Position: (x: 322, y: 176, w: 38, h: 38), Label: Open
+    - Eye Position: (x: 377, y: 175, w: 37, h: 37), Label: Open
+
+Face ID: 877
+  - Face Position: (x: 317, y: 142, w: 130, h: 130)
+  - Yawning: Not Yawning
+
+Face ID: 879
+  - Keypoints:
+    - Eye-to-eye distance: 35.89
+    - Nose-to-chin distance: 48.72
+    - Face rotation angle: -0.02
+
+Face ID: 878
+  - Eyes:
+    - Eye Position: (x: 389, y: 175, w: 35, h: 35), Label: Open
+    - Eye Position: (x: 334, y: 177, w: 34, h: 34), Label: Open
+
+Face ID: 880
+  - Face Position: (x: 324, y: 139, w: 134, h: 134)
+  - Yawning: Not Yawning
+
+Face ID: 882
+  - Keypoints:
+    - Eye-to-eye distance: 36.30
+    - Nose-to-chin distance: 47.83
+    - Face rotation angle: -0.02
+
+Face ID: 881
+  - Eyes:
+    - Eye Position: (x: 344, y: 174, w: 36, h: 36), Label: Open
+    - Eye Position: (x: 400, y: 175, w: 35, h: 35), Label: Open
+
+Face ID: 883
+  - Face Position: (x: 345, y: 150, w: 143, h: 143)
+  - Yawning: Yawning
+
+Face ID: 884
+  - Eyes:
+    - Eye Position: (x: 379, y: 192, w: 30, h: 30), Label: Closed
+    - One eye detected, considered the other as closed
+
+Face ID: 885
+  - Keypoints:
+    - Eye-to-eye distance: 33.63
+    - Nose-to-chin distance: 45.83
+    - Face rotation angle: 0.03
+

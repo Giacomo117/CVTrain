@@ -9715,3 +9715,1197 @@
 {"Face ID": 325, "Face Position": {"x": 274, "y": 222, "w": 103, "h": 103}, "Yawning": "Yawning"}
 {"Face ID": 326, "Eyes": [{"Eye Position": {"x": 302, "y": 244, "w": 34, "h": 34}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
 {"Face ID": 327, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 22.430599212646484, "Nose-to-chin distance": 38.784828186035156, "Face rotation angle": 0.042696982622146606}}
+{"Face ID": 3, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 25.270544052124023, "Nose-to-chin distance": 42.0680046081543, "Face rotation angle": -0.028197169303894043}}
+{"Face ID": 1, "Face Position": {"x": 395, "y": 201, "w": 124, "h": 124}, "Yawning": "Yawning"}
+{"Face ID": 2, "Eyes": [{"Eye Position": {"x": 431, "y": 230, "w": 39, "h": 39}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 4, "Face Position": {"x": 395, "y": 208, "w": 119, "h": 119}, "Yawning": "Yawning"}
+{"Face ID": 6, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 28.998390197753906, "Nose-to-chin distance": 42.54865264892578, "Face rotation angle": 0.0583702027797699}}
+{"Face ID": 5, "Eyes": [{"Eye Position": {"x": 466, "y": 243, "w": 25, "h": 25}, "Label": "Closed"}, {"Eye Position": {"x": 415, "y": 230, "w": 42, "h": 42}, "Label": "Open"}]}
+{"Face ID": 7, "Face Position": {"x": 370, "y": 204, "w": 119, "h": 119}, "Yawning": "Yawning"}
+{"Face ID": 8, "Eyes": [{"Eye Position": {"x": 390, "y": 237, "w": 25, "h": 25}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 9, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.17202377319336, "Nose-to-chin distance": 44.36354446411133, "Face rotation angle": 0.03042924590408802}}
+{"Face ID": 10, "Face Position": {"x": 370, "y": 204, "w": 117, "h": 117}, "Yawning": "Not Yawning"}
+{"Face ID": 12, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.321962356567383, "Nose-to-chin distance": 43.989776611328125, "Face rotation angle": 0.03610977157950401}}
+{"Face ID": 11, "Eyes": [{"Eye Position": {"x": 387, "y": 235, "w": 29, "h": 29}, "Label": "Open"}, {"Eye Position": {"x": 440, "y": 238, "w": 24, "h": 24}, "Label": "Open"}]}
+{"Face ID": 13, "Face Position": {"x": 374, "y": 204, "w": 117, "h": 117}, "Yawning": "Not Yawning"}
+{"Face ID": 15, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.15639305114746, "Nose-to-chin distance": 45.088829040527344, "Face rotation angle": 0.02102889120578766}}
+{"Face ID": 14, "Eyes": [{"Eye Position": {"x": 390, "y": 234, "w": 29, "h": 29}, "Label": "Open"}, {"Eye Position": {"x": 441, "y": 238, "w": 23, "h": 23}, "Label": "Open"}]}
+{"Face ID": 16, "Face Position": {"x": 374, "y": 203, "w": 119, "h": 119}, "Yawning": "Not Yawning"}
+{"Face ID": 18, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.066944122314453, "Nose-to-chin distance": 45.15352249145508, "Face rotation angle": 0.02694820985198021}}
+{"Face ID": 17, "Eyes": [{"Eye Position": {"x": 394, "y": 237, "w": 24, "h": 24}, "Label": "Open"}, {"Eye Position": {"x": 444, "y": 239, "w": 23, "h": 23}, "Label": "Open"}]}
+{"Face ID": 19, "Face Position": {"x": 377, "y": 199, "w": 122, "h": 122}, "Yawning": "Not Yawning"}
+{"Face ID": 20, "Eyes": [{"Eye Position": {"x": 396, "y": 230, "w": 33, "h": 33}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 21, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.278484344482422, "Nose-to-chin distance": 44.7381477355957, "Face rotation angle": 0.03226427733898163}}
+{"Face ID": 22, "Face Position": {"x": 381, "y": 201, "w": 120, "h": 120}, "Yawning": "Not Yawning"}
+{"Face ID": 23, "Eyes": [{"Eye Position": {"x": 398, "y": 229, "w": 35, "h": 35}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 24, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 30.842350006103516, "Nose-to-chin distance": 46.10492706298828, "Face rotation angle": 0.0416182316839695}}
+{"Face ID": 25, "Face Position": {"x": 380, "y": 200, "w": 121, "h": 121}, "Yawning": "Not Yawning"}
+{"Face ID": 26, "Eyes": [{"Eye Position": {"x": 398, "y": 229, "w": 36, "h": 36}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 27, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 30.517776489257812, "Nose-to-chin distance": 44.084266662597656, "Face rotation angle": 0.02773137390613556}}
+{"Face ID": 28, "Face Position": {"x": 380, "y": 200, "w": 121, "h": 121}, "Yawning": "Not Yawning"}
+{"Face ID": 30, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 30.90218162536621, "Nose-to-chin distance": 44.96738815307617, "Face rotation angle": 0.038738105446100235}}
+{"Face ID": 29, "Eyes": [{"Eye Position": {"x": 397, "y": 229, "w": 34, "h": 34}, "Label": "Closed"}, {"Eye Position": {"x": 447, "y": 232, "w": 30, "h": 30}, "Label": "Open"}]}
+{"Face ID": 31, "Face Position": {"x": 379, "y": 202, "w": 120, "h": 120}, "Yawning": "Not Yawning"}
+{"Face ID": 33, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 30.990930557250977, "Nose-to-chin distance": 45.17820739746094, "Face rotation angle": 0.04059860482811928}}
+{"Face ID": 32, "Eyes": [{"Eye Position": {"x": 399, "y": 236, "w": 24, "h": 24}, "Label": "Open"}, {"Eye Position": {"x": 447, "y": 238, "w": 24, "h": 24}, "Label": "Open"}]}
+{"Face ID": 34, "Face Position": {"x": 381, "y": 202, "w": 119, "h": 119}, "Yawning": "Not Yawning"}
+{"Face ID": 35, "Eyes": [{"Eye Position": {"x": 398, "y": 231, "w": 35, "h": 35}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 36, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 30.67637825012207, "Nose-to-chin distance": 44.585723876953125, "Face rotation angle": 0.03720403462648392}}
+{"Face ID": 37, "Face Position": {"x": 380, "y": 201, "w": 122, "h": 122}, "Yawning": "Not Yawning"}
+{"Face ID": 39, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.373058319091797, "Nose-to-chin distance": 45.53065872192383, "Face rotation angle": 0.04043678939342499}}
+{"Face ID": 38, "Eyes": [{"Eye Position": {"x": 398, "y": 231, "w": 33, "h": 33}, "Label": "Open"}, {"Eye Position": {"x": 447, "y": 234, "w": 30, "h": 30}, "Label": "Open"}]}
+{"Face ID": 40, "Face Position": {"x": 401, "y": 202, "w": 121, "h": 121}, "Yawning": "Yawning"}
+{"Face ID": 41, "Eyes": [{"Eye Position": {"x": 440, "y": 229, "w": 40, "h": 40}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 42, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 24.61467170715332, "Nose-to-chin distance": 40.90463638305664, "Face rotation angle": 0.05028628557920456}}
+{"Face ID": 43, "Face Position": {"x": 414, "y": 205, "w": 121, "h": 121}, "Yawning": "Yawning"}
+{"Face ID": 44, "Eyes": [{"Eye Position": {"x": 454, "y": 234, "w": 38, "h": 38}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 45, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 24.40387725830078, "Nose-to-chin distance": 43.18799591064453, "Face rotation angle": 0.10671813786029816}}
+{"Face ID": 47, "Eyes": [{"Eye Position": {"x": 456, "y": 232, "w": 42, "h": 42}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 46, "Face Position": {"x": 421, "y": 209, "w": 113, "h": 113}, "Yawning": "Not Yawning"}
+{"Face ID": 48, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 23.124164581298828, "Nose-to-chin distance": 41.1307487487793, "Face rotation angle": 0.11536359786987305}}
+{"Face ID": 49, "Face Position": {"x": 414, "y": 206, "w": 107, "h": 107}, "Yawning": "Yawning"}
+{"Face ID": 50, "Eyes": [{"Eye Position": {"x": 454, "y": 230, "w": 42, "h": 42}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 51, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 20.824228286743164, "Nose-to-chin distance": 42.535091400146484, "Face rotation angle": 0.13236844539642334}}
+{"Face ID": 52, "Face Position": {"x": 416, "y": 203, "w": 122, "h": 122}, "Yawning": "Yawning"}
+{"Face ID": 53, "Eyes": [{"Eye Position": {"x": 455, "y": 229, "w": 42, "h": 42}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 54, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 23.744277954101562, "Nose-to-chin distance": 41.07819366455078, "Face rotation angle": 0.09230861812829971}}
+{"Face ID": 55, "Face Position": {"x": 418, "y": 204, "w": 123, "h": 123}, "Yawning": "Yawning"}
+{"Face ID": 56, "Eyes": [{"Eye Position": {"x": 456, "y": 228, "w": 44, "h": 44}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 57, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 23.970552444458008, "Nose-to-chin distance": 42.76691436767578, "Face rotation angle": 0.08309333771467209}}
+{"Face ID": 58, "Face Position": {"x": 410, "y": 205, "w": 112, "h": 112}, "Yawning": "Yawning"}
+{"Face ID": 59, "Eyes": [{"Eye Position": {"x": 458, "y": 231, "w": 43, "h": 43}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 60, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 19.69500732421875, "Nose-to-chin distance": 39.09872817993164, "Face rotation angle": 0.10444691777229309}}
+{"Face ID": 61, "Face Position": {"x": 414, "y": 206, "w": 118, "h": 118}, "Yawning": "Yawning"}
+{"Face ID": 62, "Eyes": [{"Eye Position": {"x": 457, "y": 232, "w": 42, "h": 42}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 63, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 22.77210235595703, "Nose-to-chin distance": 42.32976531982422, "Face rotation angle": 0.10704619437456131}}
+{"Face ID": 64, "Face Position": {"x": 411, "y": 205, "w": 119, "h": 119}, "Yawning": "Yawning"}
+{"Face ID": 65, "Eyes": [{"Eye Position": {"x": 452, "y": 232, "w": 43, "h": 43}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 66, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 22.896526336669922, "Nose-to-chin distance": 40.07464599609375, "Face rotation angle": 0.09194803982973099}}
+{"Face ID": 67, "Face Position": {"x": 411, "y": 209, "w": 114, "h": 114}, "Yawning": "Yawning"}
+{"Face ID": 68, "Eyes": [{"Eye Position": {"x": 454, "y": 238, "w": 39, "h": 39}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 69, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 22.399873733520508, "Nose-to-chin distance": 40.91904830932617, "Face rotation angle": 0.08050119876861572}}
+{"Face ID": 70, "Face Position": {"x": 418, "y": 212, "w": 112, "h": 112}, "Yawning": "Yawning"}
+{"Face ID": 71, "Eyes": [{"Eye Position": {"x": 455, "y": 240, "w": 37, "h": 37}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 72, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 23.56981086730957, "Nose-to-chin distance": 39.48438262939453, "Face rotation angle": 0.10311718285083771}}
+{"Face ID": 73, "Face Position": {"x": 410, "y": 210, "w": 118, "h": 118}, "Yawning": "Yawning"}
+{"Face ID": 74, "Eyes": [{"Eye Position": {"x": 448, "y": 237, "w": 42, "h": 42}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 75, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 23.817729949951172, "Nose-to-chin distance": 42.811038970947266, "Face rotation angle": 0.09544770419597626}}
+{"Face ID": 77, "Eyes": [{"Eye Position": {"x": 439, "y": 233, "w": 38, "h": 38}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 76, "Face Position": {"x": 403, "y": 206, "w": 124, "h": 124}, "Yawning": "Yawning"}
+{"Face ID": 78, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 25.89152717590332, "Nose-to-chin distance": 44.341548919677734, "Face rotation angle": 0.10826718062162399}}
+{"Face ID": 80, "Eyes": [{"Eye Position": {"x": 442, "y": 234, "w": 40, "h": 40}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 79, "Face Position": {"x": 404, "y": 207, "w": 119, "h": 119}, "Yawning": "Yawning"}
+{"Face ID": 81, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 23.891834259033203, "Nose-to-chin distance": 42.20872116088867, "Face rotation angle": 0.11264371871948242}}
+{"Face ID": 82, "Face Position": {"x": 412, "y": 210, "w": 121, "h": 121}, "Yawning": "Yawning"}
+{"Face ID": 83, "Eyes": [{"Eye Position": {"x": 452, "y": 238, "w": 42, "h": 42}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 84, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 25.215301513671875, "Nose-to-chin distance": 42.88566207885742, "Face rotation angle": 0.12523528933525085}}
+{"Face ID": 85, "Face Position": {"x": 416, "y": 209, "w": 121, "h": 121}, "Yawning": "Yawning"}
+{"Face ID": 86, "Eyes": [{"Eye Position": {"x": 457, "y": 239, "w": 40, "h": 40}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 87, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 24.438383102416992, "Nose-to-chin distance": 41.28309631347656, "Face rotation angle": 0.12692692875862122}}
+{"Face ID": 89, "Eyes": [{"Eye Position": {"x": 389, "y": 234, "w": 33, "h": 33}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 88, "Face Position": {"x": 372, "y": 200, "w": 127, "h": 127}, "Yawning": "Yawning"}
+{"Face ID": 90, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 33.36515426635742, "Nose-to-chin distance": 46.090240478515625, "Face rotation angle": -0.056641433387994766}}
+{"Face ID": 91, "Face Position": {"x": 396, "y": 197, "w": 132, "h": 132}, "Yawning": "Not Yawning"}
+{"Face ID": 92, "Eyes": [{"Eye Position": {"x": 473, "y": 234, "w": 29, "h": 29}, "Label": "Open"}, {"Eye Position": {"x": 416, "y": 231, "w": 35, "h": 35}, "Label": "Open"}]}
+{"Face ID": 93, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.29361343383789, "Nose-to-chin distance": 45.445068359375, "Face rotation angle": 0.00641793804243207}}
+{"Face ID": 94, "Face Position": {"x": 395, "y": 200, "w": 136, "h": 136}, "Yawning": "Yawning"}
+{"Face ID": 96, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 33.75709533691406, "Nose-to-chin distance": 48.259368896484375, "Face rotation angle": -0.002484289463609457}}
+{"Face ID": 95, "Eyes": [{"Eye Position": {"x": 413, "y": 231, "w": 37, "h": 37}, "Label": "Open"}, {"Eye Position": {"x": 468, "y": 230, "w": 38, "h": 38}, "Label": "Open"}]}
+{"Face ID": 97, "Face Position": {"x": 394, "y": 203, "w": 131, "h": 131}, "Yawning": "Yawning"}
+{"Face ID": 99, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.81238555908203, "Nose-to-chin distance": 46.711978912353516, "Face rotation angle": 0.013324291445314884}}
+{"Face ID": 98, "Eyes": [{"Eye Position": {"x": 466, "y": 233, "w": 36, "h": 36}, "Label": "Open"}, {"Eye Position": {"x": 412, "y": 233, "w": 36, "h": 36}, "Label": "Open"}]}
+{"Face ID": 100, "Face Position": {"x": 395, "y": 202, "w": 130, "h": 130}, "Yawning": "Not Yawning"}
+{"Face ID": 102, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.91341781616211, "Nose-to-chin distance": 45.68665313720703, "Face rotation angle": 0.017181145027279854}}
+{"Face ID": 101, "Eyes": [{"Eye Position": {"x": 414, "y": 234, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 468, "y": 234, "w": 36, "h": 36}, "Label": "Open"}]}
+{"Face ID": 103, "Face Position": {"x": 394, "y": 201, "w": 133, "h": 133}, "Yawning": "Yawning"}
+{"Face ID": 104, "Eyes": [{"Eye Position": {"x": 411, "y": 232, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 469, "y": 235, "w": 30, "h": 30}, "Label": "Open"}]}
+{"Face ID": 105, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.44405746459961, "Nose-to-chin distance": 46.27741241455078, "Face rotation angle": 0.008615611121058464}}
+{"Face ID": 106, "Face Position": {"x": 395, "y": 201, "w": 133, "h": 133}, "Yawning": "Yawning"}
+{"Face ID": 107, "Eyes": [{"Eye Position": {"x": 473, "y": 238, "w": 26, "h": 26}, "Label": "Open"}, {"Eye Position": {"x": 414, "y": 233, "w": 33, "h": 33}, "Label": "Open"}]}
+{"Face ID": 108, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.40643310546875, "Nose-to-chin distance": 47.35757827758789, "Face rotation angle": 0.0022906099911779165}}
+{"Face ID": 109, "Face Position": {"x": 394, "y": 201, "w": 134, "h": 134}, "Yawning": "Yawning"}
+{"Face ID": 111, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.0904426574707, "Nose-to-chin distance": 47.121395111083984, "Face rotation angle": 0.009135587140917778}}
+{"Face ID": 110, "Eyes": [{"Eye Position": {"x": 414, "y": 235, "w": 32, "h": 32}, "Label": "Open"}, {"Eye Position": {"x": 470, "y": 234, "w": 33, "h": 33}, "Label": "Open"}]}
+{"Face ID": 112, "Face Position": {"x": 393, "y": 200, "w": 136, "h": 136}, "Yawning": "Yawning"}
+{"Face ID": 114, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 35.12528610229492, "Nose-to-chin distance": 48.466461181640625, "Face rotation angle": 0.006089602597057819}}
+{"Face ID": 113, "Eyes": [{"Eye Position": {"x": 411, "y": 230, "w": 38, "h": 38}, "Label": "Open"}, {"Eye Position": {"x": 464, "y": 229, "w": 39, "h": 39}, "Label": "Open"}]}
+{"Face ID": 115, "Face Position": {"x": 394, "y": 200, "w": 133, "h": 133}, "Yawning": "Yawning"}
+{"Face ID": 117, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.348323822021484, "Nose-to-chin distance": 48.145469665527344, "Face rotation angle": 0.005301546771079302}}
+{"Face ID": 116, "Eyes": [{"Eye Position": {"x": 413, "y": 232, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 466, "y": 232, "w": 35, "h": 35}, "Label": "Open"}]}
+{"Face ID": 118, "Face Position": {"x": 395, "y": 203, "w": 131, "h": 131}, "Yawning": "Yawning"}
+{"Face ID": 120, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.02193069458008, "Nose-to-chin distance": 48.44479751586914, "Face rotation angle": -0.0025456808507442474}}
+{"Face ID": 119, "Eyes": [{"Eye Position": {"x": 411, "y": 231, "w": 37, "h": 37}, "Label": "Open"}, {"Eye Position": {"x": 467, "y": 232, "w": 35, "h": 35}, "Label": "Open"}]}
+{"Face ID": 121, "Face Position": {"x": 395, "y": 200, "w": 133, "h": 133}, "Yawning": "Not Yawning"}
+{"Face ID": 123, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.786033630371094, "Nose-to-chin distance": 48.318084716796875, "Face rotation angle": 0.006464824080467224}}
+{"Face ID": 122, "Eyes": [{"Eye Position": {"x": 412, "y": 233, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 467, "y": 231, "w": 35, "h": 35}, "Label": "Open"}]}
+{"Face ID": 124, "Face Position": {"x": 395, "y": 202, "w": 132, "h": 132}, "Yawning": "Yawning"}
+{"Face ID": 126, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 33.848304748535156, "Nose-to-chin distance": 47.90803527832031, "Face rotation angle": 0.0014601392904296517}}
+{"Face ID": 125, "Eyes": [{"Eye Position": {"x": 412, "y": 232, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 467, "y": 229, "w": 38, "h": 38}, "Label": "Open"}]}
+{"Face ID": 127, "Face Position": {"x": 395, "y": 200, "w": 134, "h": 134}, "Yawning": "Yawning"}
+{"Face ID": 129, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.604881286621094, "Nose-to-chin distance": 47.1971549987793, "Face rotation angle": 0.02082284353673458}}
+{"Face ID": 128, "Eyes": [{"Eye Position": {"x": 415, "y": 234, "w": 33, "h": 33}, "Label": "Open"}, {"Eye Position": {"x": 471, "y": 234, "w": 32, "h": 32}, "Label": "Open"}]}
+{"Face ID": 130, "Face Position": {"x": 396, "y": 201, "w": 134, "h": 134}, "Yawning": "Yawning"}
+{"Face ID": 132, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 35.344600677490234, "Nose-to-chin distance": 46.981163024902344, "Face rotation angle": 0.008403860032558441}}
+{"Face ID": 131, "Eyes": [{"Eye Position": {"x": 472, "y": 235, "w": 32, "h": 32}, "Label": "Open"}, {"Eye Position": {"x": 415, "y": 233, "w": 36, "h": 36}, "Label": "Open"}]}
+{"Face ID": 133, "Face Position": {"x": 395, "y": 201, "w": 133, "h": 133}, "Yawning": "Yawning"}
+{"Face ID": 135, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 35.16709518432617, "Nose-to-chin distance": 47.1585807800293, "Face rotation angle": 0.02444845251739025}}
+{"Face ID": 134, "Eyes": [{"Eye Position": {"x": 415, "y": 234, "w": 34, "h": 34}, "Label": "Open"}, {"Eye Position": {"x": 473, "y": 235, "w": 32, "h": 32}, "Label": "Open"}]}
+{"Face ID": 136, "Face Position": {"x": 395, "y": 201, "w": 133, "h": 133}, "Yawning": "Yawning"}
+{"Face ID": 138, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.28056716918945, "Nose-to-chin distance": 47.6614990234375, "Face rotation angle": 0.015938010066747665}}
+{"Face ID": 137, "Eyes": [{"Eye Position": {"x": 415, "y": 232, "w": 36, "h": 36}, "Label": "Open"}, {"Eye Position": {"x": 468, "y": 232, "w": 37, "h": 37}, "Label": "Open"}]}
+{"Face ID": 139, "Face Position": {"x": 396, "y": 201, "w": 132, "h": 132}, "Yawning": "Not Yawning"}
+{"Face ID": 141, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.12516403198242, "Nose-to-chin distance": 46.06114196777344, "Face rotation angle": 0.014362243935465813}}
+{"Face ID": 140, "Eyes": [{"Eye Position": {"x": 469, "y": 234, "w": 32, "h": 32}, "Label": "Open"}, {"Eye Position": {"x": 414, "y": 232, "w": 36, "h": 36}, "Label": "Open"}]}
+{"Face ID": 142, "Face Position": {"x": 395, "y": 198, "w": 137, "h": 137}, "Yawning": "Yawning"}
+{"Face ID": 144, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.28206253051758, "Nose-to-chin distance": 46.41093063354492, "Face rotation angle": 0.01659347303211689}}
+{"Face ID": 143, "Eyes": [{"Eye Position": {"x": 416, "y": 232, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 475, "y": 235, "w": 31, "h": 31}, "Label": "Open"}]}
+{"Face ID": 145, "Face Position": {"x": 396, "y": 200, "w": 135, "h": 135}, "Yawning": "Yawning"}
+{"Face ID": 147, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.47537612915039, "Nose-to-chin distance": 46.86534118652344, "Face rotation angle": 0.024647772312164307}}
+{"Face ID": 146, "Eyes": [{"Eye Position": {"x": 416, "y": 232, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 474, "y": 236, "w": 30, "h": 30}, "Label": "Open"}]}
+{"Face ID": 149, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 148, "Face Position": {"x": 411, "y": 218, "w": 128, "h": 128}, "Yawning": "Yawning"}
+{"Face ID": 150, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 26.839500427246094, "Nose-to-chin distance": 46.082733154296875, "Face rotation angle": 0.10549911111593246}}
+{"Face ID": 152, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 151, "Face Position": {"x": 405, "y": 218, "w": 125, "h": 125}, "Yawning": "Yawning"}
+{"Face ID": 153, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 25.9388427734375, "Nose-to-chin distance": 42.247222900390625, "Face rotation angle": 0.11471037566661835}}
+{"Face ID": 155, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 154, "Face Position": {"x": 420, "y": 220, "w": 126, "h": 126}, "Yawning": "Yawning"}
+{"Face ID": 156, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 26.151395797729492, "Nose-to-chin distance": 42.09084701538086, "Face rotation angle": 0.13746607303619385}}
+{"Face ID": 158, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 157, "Face Position": {"x": 437, "y": 226, "w": 107, "h": 107}, "Yawning": "Not Yawning"}
+{"Face ID": 159, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 22.653762817382812, "Nose-to-chin distance": 42.046504974365234, "Face rotation angle": 0.14722572267055511}}
+{"Face ID": 161, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 160, "Face Position": {"x": 435, "y": 224, "w": 114, "h": 114}, "Yawning": "Not Yawning"}
+{"Face ID": 162, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 23.712982177734375, "Nose-to-chin distance": 44.073974609375, "Face rotation angle": 0.0955318883061409}}
+{"Face ID": 164, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 163, "Face Position": {"x": 428, "y": 217, "w": 124, "h": 124}, "Yawning": "Yawning"}
+{"Face ID": 165, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 28.858922958374023, "Nose-to-chin distance": 48.65291976928711, "Face rotation angle": 0.15608708560466766}}
+{"Face ID": 166, "Face Position": {"x": 416, "y": 209, "w": 130, "h": 130}, "Yawning": "Yawning"}
+{"Face ID": 167, "Eyes": [{"Eye Position": {"x": 444, "y": 240, "w": 32, "h": 32}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 168, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 32.13264465332031, "Nose-to-chin distance": 45.25270080566406, "Face rotation angle": 0.1399299055337906}}
+{"Face ID": 169, "Face Position": {"x": 390, "y": 201, "w": 129, "h": 129}, "Yawning": "Yawning"}
+{"Face ID": 170, "Eyes": [{"Eye Position": {"x": 405, "y": 225, "w": 42, "h": 42}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 171, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.014808654785156, "Nose-to-chin distance": 49.14140319824219, "Face rotation angle": 0.015046362765133381}}
+{"Face ID": 172, "Face Position": {"x": 317, "y": 158, "w": 152, "h": 152}, "Yawning": "Yawning"}
+{"Face ID": 174, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 38.80332946777344, "Nose-to-chin distance": 50.93764114379883, "Face rotation angle": -0.08256517350673676}}
+{"Face ID": 173, "Eyes": [{"Eye Position": {"x": 399, "y": 192, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 341, "y": 199, "w": 39, "h": 39}, "Label": "Open"}]}
+{"Face ID": 175, "Face Position": {"x": 266, "y": 126, "w": 242, "h": 242}, "Yawning": "Yawning"}
+{"Face ID": 176, "Eyes": [{"Eye Position": {"x": 313, "y": 195, "w": 48, "h": 48}, "Label": "Open"}, {"Eye Position": {"x": 402, "y": 188, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 177, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 60.713043212890625, "Nose-to-chin distance": 81.57891082763672, "Face rotation angle": -0.024044448509812355}}
+{"Face ID": 178, "Face Position": {"x": 305, "y": 136, "w": 245, "h": 245}, "Yawning": "Not Yawning"}
+{"Face ID": 179, "Eyes": [{"Eye Position": {"x": 357, "y": 203, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 446, "y": 201, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 180, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 59.2680549621582, "Nose-to-chin distance": 82.5801010131836, "Face rotation angle": 0.009445606730878353}}
+{"Face ID": 181, "Face Position": {"x": 311, "y": 139, "w": 240, "h": 240}, "Yawning": "Not Yawning"}
+{"Face ID": 183, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 58.483070373535156, "Nose-to-chin distance": 80.67526245117188, "Face rotation angle": 0.012353596277534962}}
+{"Face ID": 182, "Eyes": [{"Eye Position": {"x": 359, "y": 204, "w": 48, "h": 48}, "Label": "Open"}, {"Eye Position": {"x": 447, "y": 201, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 184, "Face Position": {"x": 308, "y": 138, "w": 238, "h": 238}, "Yawning": "Not Yawning"}
+{"Face ID": 186, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.79472351074219, "Nose-to-chin distance": 79.6232681274414, "Face rotation angle": 0.009553336538374424}}
+{"Face ID": 185, "Eyes": [{"Eye Position": {"x": 358, "y": 205, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 444, "y": 200, "w": 53, "h": 53}, "Label": "Open"}]}
+{"Face ID": 187, "Face Position": {"x": 310, "y": 138, "w": 241, "h": 241}, "Yawning": "Not Yawning"}
+{"Face ID": 189, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 58.406864166259766, "Nose-to-chin distance": 80.60408782958984, "Face rotation angle": 0.006632923148572445}}
+{"Face ID": 188, "Eyes": [{"Eye Position": {"x": 445, "y": 200, "w": 52, "h": 52}, "Label": "Open"}, {"Eye Position": {"x": 359, "y": 204, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 190, "Face Position": {"x": 311, "y": 139, "w": 237, "h": 237}, "Yawning": "Not Yawning"}
+{"Face ID": 192, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.27565002441406, "Nose-to-chin distance": 80.48407745361328, "Face rotation angle": 0.01099708117544651}}
+{"Face ID": 191, "Eyes": [{"Eye Position": {"x": 448, "y": 201, "w": 50, "h": 50}, "Label": "Open"}, {"Eye Position": {"x": 359, "y": 203, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 193, "Face Position": {"x": 311, "y": 139, "w": 244, "h": 244}, "Yawning": "Not Yawning"}
+{"Face ID": 195, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.926368713378906, "Nose-to-chin distance": 82.98908233642578, "Face rotation angle": 0.006824133452028036}}
+{"Face ID": 194, "Eyes": [{"Eye Position": {"x": 448, "y": 199, "w": 53, "h": 53}, "Label": "Open"}, {"Eye Position": {"x": 360, "y": 203, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 196, "Face Position": {"x": 311, "y": 139, "w": 240, "h": 240}, "Yawning": "Not Yawning"}
+{"Face ID": 198, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.12947082519531, "Nose-to-chin distance": 82.26654052734375, "Face rotation angle": 0.005326895508915186}}
+{"Face ID": 197, "Eyes": [{"Eye Position": {"x": 445, "y": 199, "w": 53, "h": 53}, "Label": "Open"}, {"Eye Position": {"x": 356, "y": 199, "w": 55, "h": 55}, "Label": "Open"}]}
+{"Face ID": 199, "Face Position": {"x": 392, "y": 122, "w": 211, "h": 211}, "Yawning": "Not Yawning"}
+{"Face ID": 201, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.98353576660156, "Nose-to-chin distance": 78.79816436767578, "Face rotation angle": 0.02581959031522274}}
+{"Face ID": 200, "Eyes": [{"Eye Position": {"x": 429, "y": 173, "w": 51, "h": 51}, "Label": "Open"}, {"Eye Position": {"x": 517, "y": 175, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 202, "Face Position": {"x": 436, "y": 141, "w": 187, "h": 187}, "Yawning": "Yawning"}
+{"Face ID": 204, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.185359954833984, "Nose-to-chin distance": 74.60304260253906, "Face rotation angle": 0.06592169404029846}}
+{"Face ID": 203, "Eyes": [{"Eye Position": {"x": 460, "y": 183, "w": 52, "h": 52}, "Label": "Open"}, {"Eye Position": {"x": 551, "y": 192, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 205, "Face Position": {"x": 412, "y": 143, "w": 204, "h": 204}, "Yawning": "Not Yawning"}
+{"Face ID": 207, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.400482177734375, "Nose-to-chin distance": 76.26325225830078, "Face rotation angle": 0.04501073807477951}}
+{"Face ID": 206, "Eyes": [{"Eye Position": {"x": 447, "y": 192, "w": 51, "h": 51}, "Label": "Open"}, {"Eye Position": {"x": 535, "y": 192, "w": 53, "h": 53}, "Label": "Open"}]}
+{"Face ID": 208, "Face Position": {"x": 400, "y": 146, "w": 213, "h": 213}, "Yawning": "Not Yawning"}
+{"Face ID": 210, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.518550872802734, "Nose-to-chin distance": 75.98619842529297, "Face rotation angle": 0.023632679134607315}}
+{"Face ID": 209, "Eyes": [{"Eye Position": {"x": 437, "y": 197, "w": 51, "h": 51}, "Label": "Open"}, {"Eye Position": {"x": 523, "y": 197, "w": 53, "h": 53}, "Label": "Open"}]}
+{"Face ID": 211, "Face Position": {"x": 353, "y": 155, "w": 208, "h": 208}, "Yawning": "Yawning"}
+{"Face ID": 213, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.831626892089844, "Nose-to-chin distance": 66.4442138671875, "Face rotation angle": 0.02973431721329689}}
+{"Face ID": 212, "Eyes": [{"Eye Position": {"x": 473, "y": 207, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 393, "y": 211, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 214, "Face Position": {"x": 370, "y": 163, "w": 190, "h": 190}, "Yawning": "Yawning"}
+{"Face ID": 216, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.74175262451172, "Nose-to-chin distance": 60.808170318603516, "Face rotation angle": 0.032234467566013336}}
+{"Face ID": 215, "Eyes": [{"Eye Position": {"x": 467, "y": 208, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 382, "y": 214, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 217, "Face Position": {"x": 358, "y": 160, "w": 206, "h": 206}, "Yawning": "Yawning"}
+{"Face ID": 219, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.95941162109375, "Nose-to-chin distance": 67.24829864501953, "Face rotation angle": 0.005978285800665617}}
+{"Face ID": 218, "Eyes": [{"Eye Position": {"x": 468, "y": 210, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 383, "y": 213, "w": 47, "h": 47}, "Label": "Closed"}]}
+{"Face ID": 220, "Face Position": {"x": 342, "y": 156, "w": 221, "h": 221}, "Yawning": "Yawning"}
+{"Face ID": 222, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.488609313964844, "Nose-to-chin distance": 71.27200317382812, "Face rotation angle": 0.0014035472413524985}}
+{"Face ID": 221, "Eyes": [{"Eye Position": {"x": 466, "y": 210, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 382, "y": 214, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 223, "Face Position": {"x": 344, "y": 157, "w": 218, "h": 218}, "Yawning": "Yawning"}
+{"Face ID": 225, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.348243713378906, "Nose-to-chin distance": 71.65986633300781, "Face rotation angle": 0.0130307013168931}}
+{"Face ID": 224, "Eyes": [{"Eye Position": {"x": 501, "y": 315, "w": 53, "h": 53}, "Label": "Closed"}, {"Eye Position": {"x": 467, "y": 210, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 226, "Face Position": {"x": 341, "y": 157, "w": 220, "h": 220}, "Yawning": "Yawning"}
+{"Face ID": 228, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.351139068603516, "Nose-to-chin distance": 71.91045379638672, "Face rotation angle": -0.002811099635437131}}
+{"Face ID": 227, "Eyes": [{"Eye Position": {"x": 501, "y": 315, "w": 55, "h": 55}, "Label": "Closed"}, {"Eye Position": {"x": 467, "y": 211, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 229, "Face Position": {"x": 344, "y": 158, "w": 214, "h": 214}, "Yawning": "Yawning"}
+{"Face ID": 231, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.3543815612793, "Nose-to-chin distance": 68.74176025390625, "Face rotation angle": -0.005240089725703001}}
+{"Face ID": 230, "Eyes": [{"Eye Position": {"x": 383, "y": 214, "w": 48, "h": 48}, "Label": "Open"}, {"Eye Position": {"x": 465, "y": 209, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 232, "Face Position": {"x": 348, "y": 159, "w": 215, "h": 215}, "Yawning": "Yawning"}
+{"Face ID": 234, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.43535614013672, "Nose-to-chin distance": 72.8851089477539, "Face rotation angle": 0.012752576731145382}}
+{"Face ID": 233, "Eyes": [{"Eye Position": {"x": 502, "y": 316, "w": 53, "h": 53}, "Label": "Closed"}, {"Eye Position": {"x": 464, "y": 209, "w": 52, "h": 52}, "Label": "Open"}]}
+{"Face ID": 235, "Face Position": {"x": 338, "y": 147, "w": 222, "h": 222}, "Yawning": "Yawning"}
+{"Face ID": 237, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.23823928833008, "Nose-to-chin distance": 71.34629821777344, "Face rotation angle": 0.0027322706300765276}}
+{"Face ID": 236, "Eyes": [{"Eye Position": {"x": 461, "y": 203, "w": 50, "h": 50}, "Label": "Open"}, {"Eye Position": {"x": 377, "y": 207, "w": 51, "h": 51}, "Label": "Closed"}]}
+{"Face ID": 238, "Face Position": {"x": 309, "y": 128, "w": 174, "h": 174}, "Yawning": "Yawning"}
+{"Face ID": 240, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.01930236816406, "Nose-to-chin distance": 62.82061767578125, "Face rotation angle": -0.16231925785541534}}
+{"Face ID": 239, "Eyes": [{"Eye Position": {"x": 335, "y": 184, "w": 38, "h": 38}, "Label": "Closed"}, {"Eye Position": {"x": 405, "y": 169, "w": 41, "h": 41}, "Label": "Open"}]}
+{"Face ID": 241, "Face Position": {"x": 306, "y": 163, "w": 140, "h": 140}, "Yawning": "Yawning"}
+{"Face ID": 242, "Eyes": [{"Eye Position": {"x": 396, "y": 188, "w": 47, "h": 47}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 243, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 17.976470947265625, "Nose-to-chin distance": 31.07767105102539, "Face rotation angle": 0.0476997047662735}}
+{"Face ID": 244, "Face Position": {"x": 449, "y": 172, "w": 138, "h": 138}, "Yawning": "Not Yawning"}
+{"Face ID": 245, "Eyes": [{"Eye Position": {"x": 478, "y": 207, "w": 36, "h": 36}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 246, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.13484001159668, "Nose-to-chin distance": 53.41039276123047, "Face rotation angle": -0.07290869951248169}}
+{"Face ID": 247, "Face Position": {"x": 398, "y": 177, "w": 130, "h": 130}, "Yawning": "Not Yawning"}
+{"Face ID": 249, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.1585693359375, "Nose-to-chin distance": 45.920501708984375, "Face rotation angle": -0.03534124046564102}}
+{"Face ID": 248, "Eyes": [{"Eye Position": {"x": 478, "y": 216, "w": 24, "h": 24}, "Label": "Closed"}, {"Eye Position": {"x": 416, "y": 209, "w": 36, "h": 36}, "Label": "Open"}]}
+{"Face ID": 250, "Face Position": {"x": 363, "y": 193, "w": 136, "h": 136}, "Yawning": "Not Yawning"}
+{"Face ID": 251, "Eyes": [{"Eye Position": {"x": 381, "y": 229, "w": 37, "h": 37}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 252, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.906463623046875, "Nose-to-chin distance": 45.32225799560547, "Face rotation angle": -0.0894308090209961}}
+{"Face ID": 254, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 253, "Face Position": {"x": 384, "y": 199, "w": 131, "h": 131}, "Yawning": "Yawning"}
+{"Face ID": 255, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.831647872924805, "Nose-to-chin distance": 41.532833099365234, "Face rotation angle": -0.013025511987507343}}
+{"Face ID": 257, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 256, "Face Position": {"x": 413, "y": 211, "w": 118, "h": 118}, "Yawning": "Yawning"}
+{"Face ID": 258, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 26.333091735839844, "Nose-to-chin distance": 39.51028823852539, "Face rotation angle": 0.09066135436296463}}
+{"Face ID": 260, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 259, "Face Position": {"x": 420, "y": 206, "w": 124, "h": 124}, "Yawning": "Yawning"}
+{"Face ID": 261, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 26.54369354248047, "Nose-to-chin distance": 43.403343200683594, "Face rotation angle": 0.10358092933893204}}
+{"Face ID": 263, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 262, "Face Position": {"x": 448, "y": 208, "w": 126, "h": 126}, "Yawning": "Yawning"}
+{"Face ID": 264, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 26.528793334960938, "Nose-to-chin distance": 43.34121322631836, "Face rotation angle": 0.13276004791259766}}
+{"Face ID": 266, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 265, "Face Position": {"x": 450, "y": 201, "w": 132, "h": 132}, "Yawning": "Yawning"}
+{"Face ID": 267, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 28.47892189025879, "Nose-to-chin distance": 41.914520263671875, "Face rotation angle": 0.07427982240915298}}
+{"Face ID": 269, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 268, "Face Position": {"x": 445, "y": 197, "w": 124, "h": 124}, "Yawning": "Not Yawning"}
+{"Face ID": 270, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 24.857006072998047, "Nose-to-chin distance": 43.37527847290039, "Face rotation angle": 0.06409307569265366}}
+{"Face ID": 272, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 271, "Face Position": {"x": 447, "y": 200, "w": 148, "h": 148}, "Yawning": "Yawning"}
+{"Face ID": 273, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 28.530996322631836, "Nose-to-chin distance": 43.85707092285156, "Face rotation angle": 0.1759403795003891}}
+{"Face ID": 274, "Face Position": {"x": 395, "y": 200, "w": 127, "h": 127}, "Yawning": "Not Yawning"}
+{"Face ID": 276, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.72513771057129, "Nose-to-chin distance": 46.3968620300293, "Face rotation angle": 0.034042783081531525}}
+{"Face ID": 275, "Eyes": [{"Eye Position": {"x": 468, "y": 240, "w": 24, "h": 24}, "Label": "Open"}, {"Eye Position": {"x": 416, "y": 232, "w": 32, "h": 32}, "Label": "Open"}]}
+{"Face ID": 277, "Face Position": {"x": 325, "y": 205, "w": 128, "h": 128}, "Yawning": "Not Yawning"}
+{"Face ID": 279, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 32.91081237792969, "Nose-to-chin distance": 43.08426284790039, "Face rotation angle": -0.029789606109261513}}
+{"Face ID": 278, "Eyes": [{"Eye Position": {"x": 347, "y": 242, "w": 30, "h": 30}, "Label": "Open"}, {"Eye Position": {"x": 402, "y": 240, "w": 28, "h": 28}, "Label": "Open"}]}
+{"Face ID": 280, "Face Position": {"x": 299, "y": 211, "w": 141, "h": 141}, "Yawning": "Not Yawning"}
+{"Face ID": 282, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 36.9986572265625, "Nose-to-chin distance": 46.258827209472656, "Face rotation angle": -0.03986053168773651}}
+{"Face ID": 281, "Eyes": [{"Eye Position": {"x": 376, "y": 244, "w": 37, "h": 37}, "Label": "Open"}, {"Eye Position": {"x": 320, "y": 251, "w": 32, "h": 32}, "Label": "Open"}]}
+{"Face ID": 283, "Face Position": {"x": 316, "y": 209, "w": 148, "h": 148}, "Yawning": "Not Yawning"}
+{"Face ID": 285, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 38.36338424682617, "Nose-to-chin distance": 47.19572448730469, "Face rotation angle": -0.02915714494884014}}
+{"Face ID": 284, "Eyes": [{"Eye Position": {"x": 398, "y": 246, "w": 37, "h": 37}, "Label": "Open"}, {"Eye Position": {"x": 339, "y": 250, "w": 35, "h": 35}, "Label": "Open"}]}
+{"Face ID": 286, "Face Position": {"x": 316, "y": 212, "w": 142, "h": 142}, "Yawning": "Not Yawning"}
+{"Face ID": 288, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 37.17817687988281, "Nose-to-chin distance": 48.6828727722168, "Face rotation angle": -0.03155611455440521}}
+{"Face ID": 287, "Eyes": [{"Eye Position": {"x": 396, "y": 246, "w": 36, "h": 36}, "Label": "Open"}, {"Eye Position": {"x": 337, "y": 251, "w": 35, "h": 35}, "Label": "Closed"}]}
+{"Face ID": 289, "Face Position": {"x": 317, "y": 211, "w": 145, "h": 145}, "Yawning": "Yawning"}
+{"Face ID": 290, "Eyes": [{"Eye Position": {"x": 337, "y": 249, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 393, "y": 241, "w": 40, "h": 40}, "Label": "Open"}]}
+{"Face ID": 291, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 37.606693267822266, "Nose-to-chin distance": 49.31760787963867, "Face rotation angle": -0.032609954476356506}}
+{"Face ID": 292, "Face Position": {"x": 326, "y": 200, "w": 128, "h": 128}, "Yawning": "Not Yawning"}
+{"Face ID": 293, "Eyes": [{"Eye Position": {"x": 342, "y": 231, "w": 35, "h": 35}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 294, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 33.48689270019531, "Nose-to-chin distance": 46.07831954956055, "Face rotation angle": -0.030861588194966316}}
+{"Face ID": 295, "Face Position": {"x": 342, "y": 192, "w": 114, "h": 114}, "Yawning": "Not Yawning"}
+{"Face ID": 296, "Eyes": [{"Eye Position": {"x": 359, "y": 214, "w": 45, "h": 45}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 297, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 27.050813674926758, "Nose-to-chin distance": 41.27655792236328, "Face rotation angle": -0.062452517449855804}}
+{"Face ID": 298, "Face Position": {"x": 375, "y": 184, "w": 120, "h": 120}, "Yawning": "Not Yawning"}
+{"Face ID": 299, "Eyes": [{"Eye Position": {"x": 408, "y": 212, "w": 35, "h": 35}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 300, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 24.553131103515625, "Nose-to-chin distance": 40.81206130981445, "Face rotation angle": 0.02556903101503849}}
+{"Face ID": 301, "Face Position": {"x": 372, "y": 180, "w": 129, "h": 129}, "Yawning": "Yawning"}
+{"Face ID": 302, "Eyes": [{"Eye Position": {"x": 408, "y": 212, "w": 36, "h": 36}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 303, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 27.30236053466797, "Nose-to-chin distance": 44.84684371948242, "Face rotation angle": 0.04207440838217735}}
+{"Face ID": 304, "Face Position": {"x": 383, "y": 187, "w": 121, "h": 121}, "Yawning": "Yawning"}
+{"Face ID": 305, "Eyes": [{"Eye Position": {"x": 409, "y": 217, "w": 30, "h": 30}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 306, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 26.831647872924805, "Nose-to-chin distance": 44.26570510864258, "Face rotation angle": 0.07391118258237839}}
+{"Face ID": 307, "Face Position": {"x": 368, "y": 189, "w": 118, "h": 118}, "Yawning": "Not Yawning"}
+{"Face ID": 308, "Eyes": [{"Eye Position": {"x": 387, "y": 221, "w": 28, "h": 28}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 309, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 30.591533660888672, "Nose-to-chin distance": 44.49584197998047, "Face rotation angle": 0.008162310346961021}}
+{"Face ID": 3, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 32.146888732910156, "Nose-to-chin distance": 44.363990783691406, "Face rotation angle": -0.19398833811283112}}
+{"Face ID": 1, "Face Position": {"x": 332, "y": 176, "w": 127, "h": 127}, "Yawning": "Yawning"}
+{"Face ID": 2, "Eyes": [{"Eye Position": {"x": 347, "y": 216, "w": 32, "h": 32}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 4, "Face Position": {"x": 234, "y": 113, "w": 188, "h": 188}, "Yawning": "Yawning"}
+{"Face ID": 6, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.34394836425781, "Nose-to-chin distance": 68.4248046875, "Face rotation angle": -0.0342029444873333}}
+{"Face ID": 5, "Eyes": [{"Eye Position": {"x": 262, "y": 167, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 341, "y": 164, "w": 43, "h": 43}, "Label": "Open"}]}
+{"Face ID": 7, "Face Position": {"x": 236, "y": 116, "w": 191, "h": 191}, "Yawning": "Yawning"}
+{"Face ID": 9, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.95456314086914, "Nose-to-chin distance": 70.94810485839844, "Face rotation angle": -0.01307495404034853}}
+{"Face ID": 8, "Eyes": [{"Eye Position": {"x": 267, "y": 169, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 346, "y": 164, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 10, "Face Position": {"x": 239, "y": 115, "w": 191, "h": 191}, "Yawning": "Yawning"}
+{"Face ID": 12, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.106143951416016, "Nose-to-chin distance": 68.89784240722656, "Face rotation angle": -0.013926781713962555}}
+{"Face ID": 11, "Eyes": [{"Eye Position": {"x": 269, "y": 168, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 347, "y": 166, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 13, "Face Position": {"x": 223, "y": 112, "w": 193, "h": 193}, "Yawning": "Yawning"}
+{"Face ID": 15, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.01373291015625, "Nose-to-chin distance": 69.1901626586914, "Face rotation angle": -0.04851904511451721}}
+{"Face ID": 14, "Eyes": [{"Eye Position": {"x": 255, "y": 168, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 331, "y": 162, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 16, "Face Position": {"x": 177, "y": 114, "w": 195, "h": 195}, "Yawning": "Yawning"}
+{"Face ID": 18, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.621551513671875, "Nose-to-chin distance": 68.43258666992188, "Face rotation angle": -0.012398541904985905}}
+{"Face ID": 17, "Eyes": [{"Eye Position": {"x": 212, "y": 173, "w": 42, "h": 42}, "Label": "Open"}, {"Eye Position": {"x": 289, "y": 167, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 19, "Face Position": {"x": 202, "y": 104, "w": 198, "h": 198}, "Yawning": "Not Yawning"}
+{"Face ID": 21, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.95830154418945, "Nose-to-chin distance": 68.65217590332031, "Face rotation angle": 0.12205535918474197}}
+{"Face ID": 20, "Eyes": [{"Eye Position": {"x": 241, "y": 155, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 318, "y": 162, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 22, "Face Position": {"x": 253, "y": 114, "w": 196, "h": 196}, "Yawning": "Yawning"}
+{"Face ID": 24, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.66139602661133, "Nose-to-chin distance": 69.5906982421875, "Face rotation angle": 0.03197573497891426}}
+{"Face ID": 23, "Eyes": [{"Eye Position": {"x": 285, "y": 168, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 365, "y": 170, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 25, "Face Position": {"x": 233, "y": 107, "w": 188, "h": 188}, "Yawning": "Yawning"}
+{"Face ID": 27, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.72583770751953, "Nose-to-chin distance": 66.08672332763672, "Face rotation angle": -0.1060735359787941}}
+{"Face ID": 26, "Eyes": [{"Eye Position": {"x": 338, "y": 152, "w": 47, "h": 47}, "Label": "Open"}, {"Eye Position": {"x": 259, "y": 163, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 28, "Face Position": {"x": 205, "y": 108, "w": 194, "h": 194}, "Yawning": "Not Yawning"}
+{"Face ID": 30, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.165531158447266, "Nose-to-chin distance": 69.85283660888672, "Face rotation angle": 0.15776582062244415}}
+{"Face ID": 29, "Eyes": [{"Eye Position": {"x": 241, "y": 156, "w": 42, "h": 42}, "Label": "Open"}, {"Eye Position": {"x": 318, "y": 167, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 31, "Face Position": {"x": 268, "y": 121, "w": 178, "h": 178}, "Yawning": "Yawning"}
+{"Face ID": 33, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.465171813964844, "Nose-to-chin distance": 67.75878143310547, "Face rotation angle": 0.11390655487775803}}
+{"Face ID": 32, "Eyes": [{"Eye Position": {"x": 291, "y": 164, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 368, "y": 170, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 34, "Face Position": {"x": 229, "y": 108, "w": 192, "h": 192}, "Yawning": "Yawning"}
+{"Face ID": 36, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.31270217895508, "Nose-to-chin distance": 69.53299713134766, "Face rotation angle": -0.13505645096302032}}
+{"Face ID": 35, "Eyes": [{"Eye Position": {"x": 258, "y": 168, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 336, "y": 153, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 37, "Face Position": {"x": 222, "y": 111, "w": 187, "h": 187}, "Yawning": "Yawning"}
+{"Face ID": 39, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.576534271240234, "Nose-to-chin distance": 68.23099517822266, "Face rotation angle": 0.08493450284004211}}
+{"Face ID": 38, "Eyes": [{"Eye Position": {"x": 254, "y": 161, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 329, "y": 165, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 40, "Face Position": {"x": 234, "y": 110, "w": 194, "h": 194}, "Yawning": "Yawning"}
+{"Face ID": 42, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.61362075805664, "Nose-to-chin distance": 69.62622833251953, "Face rotation angle": 0.06705021858215332}}
+{"Face ID": 41, "Eyes": [{"Eye Position": {"x": 268, "y": 163, "w": 42, "h": 42}, "Label": "Open"}, {"Eye Position": {"x": 348, "y": 166, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 43, "Face Position": {"x": 235, "y": 110, "w": 196, "h": 196}, "Yawning": "Yawning"}
+{"Face ID": 45, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.117881774902344, "Nose-to-chin distance": 70.49496459960938, "Face rotation angle": 0.024097135290503502}}
+{"Face ID": 44, "Eyes": [{"Eye Position": {"x": 270, "y": 163, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 347, "y": 164, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 46, "Face Position": {"x": 234, "y": 110, "w": 198, "h": 198}, "Yawning": "Yawning"}
+{"Face ID": 48, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.344852447509766, "Nose-to-chin distance": 71.01602172851562, "Face rotation angle": 0.03524347022175789}}
+{"Face ID": 47, "Eyes": [{"Eye Position": {"x": 270, "y": 163, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 348, "y": 164, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 49, "Face Position": {"x": 239, "y": 112, "w": 192, "h": 192}, "Yawning": "Not Yawning"}
+{"Face ID": 51, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.35224533081055, "Nose-to-chin distance": 69.2461929321289, "Face rotation angle": -0.005379779729992151}}
+{"Face ID": 50, "Eyes": [{"Eye Position": {"x": 350, "y": 164, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 269, "y": 164, "w": 45, "h": 45}, "Label": "Closed"}]}
+{"Face ID": 52, "Face Position": {"x": 230, "y": 106, "w": 186, "h": 186}, "Yawning": "Not Yawning"}
+{"Face ID": 54, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.01626205444336, "Nose-to-chin distance": 63.64129638671875, "Face rotation angle": -0.028461052104830742}}
+{"Face ID": 53, "Eyes": [{"Eye Position": {"x": 334, "y": 152, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 261, "y": 157, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 55, "Face Position": {"x": 232, "y": 107, "w": 182, "h": 182}, "Yawning": "Yawning"}
+{"Face ID": 57, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.92998123168945, "Nose-to-chin distance": 63.31550979614258, "Face rotation angle": -0.023108743131160736}}
+{"Face ID": 56, "Eyes": [{"Eye Position": {"x": 262, "y": 157, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 334, "y": 151, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 58, "Face Position": {"x": 238, "y": 107, "w": 182, "h": 182}, "Yawning": "Yawning"}
+{"Face ID": 60, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.35903549194336, "Nose-to-chin distance": 65.25078582763672, "Face rotation angle": -0.01140968780964613}}
+{"Face ID": 59, "Eyes": [{"Eye Position": {"x": 265, "y": 157, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 340, "y": 151, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 61, "Face Position": {"x": 245, "y": 103, "w": 183, "h": 183}, "Yawning": "Not Yawning"}
+{"Face ID": 63, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.5842399597168, "Nose-to-chin distance": 65.63837432861328, "Face rotation angle": -0.003062714356929064}}
+{"Face ID": 62, "Eyes": [{"Eye Position": {"x": 273, "y": 153, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 346, "y": 150, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 64, "Face Position": {"x": 235, "y": 107, "w": 182, "h": 182}, "Yawning": "Yawning"}
+{"Face ID": 66, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.58070373535156, "Nose-to-chin distance": 64.32823944091797, "Face rotation angle": -0.0029180641286075115}}
+{"Face ID": 65, "Eyes": [{"Eye Position": {"x": 264, "y": 156, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 338, "y": 153, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 67, "Face Position": {"x": 230, "y": 102, "w": 186, "h": 186}, "Yawning": "Yawning"}
+{"Face ID": 69, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.82634735107422, "Nose-to-chin distance": 66.27387237548828, "Face rotation angle": -0.021190045401453972}}
+{"Face ID": 68, "Eyes": [{"Eye Position": {"x": 261, "y": 154, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 336, "y": 152, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 70, "Face Position": {"x": 227, "y": 112, "w": 179, "h": 179}, "Yawning": "Not Yawning"}
+{"Face ID": 72, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.58282470703125, "Nose-to-chin distance": 63.55122756958008, "Face rotation angle": -0.029050366953015327}}
+{"Face ID": 71, "Eyes": [{"Eye Position": {"x": 255, "y": 161, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 328, "y": 155, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 73, "Face Position": {"x": 187, "y": 108, "w": 219, "h": 219}, "Yawning": "Yawning"}
+{"Face ID": 74, "Eyes": [{"Eye Position": {"x": 311, "y": 171, "w": 46, "h": 46}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 75, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 41.05581283569336, "Nose-to-chin distance": 62.930335998535156, "Face rotation angle": -0.016844412311911583}}
+{"Face ID": 76, "Face Position": {"x": 206, "y": 124, "w": 173, "h": 173}, "Yawning": "Not Yawning"}
+{"Face ID": 78, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 42.77291488647461, "Nose-to-chin distance": 59.04081726074219, "Face rotation angle": -0.11217425018548965}}
+{"Face ID": 77, "Eyes": [{"Eye Position": {"x": 235, "y": 171, "w": 44, "h": 44}, "Label": "Closed"}, {"Eye Position": {"x": 293, "y": 160, "w": 54, "h": 54}, "Label": "Open"}]}
+{"Face ID": 79, "Face Position": {"x": 205, "y": 115, "w": 182, "h": 182}, "Yawning": "Not Yawning"}
+{"Face ID": 81, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.73484802246094, "Nose-to-chin distance": 66.27790832519531, "Face rotation angle": -0.04485783725976944}}
+{"Face ID": 80, "Eyes": [{"Eye Position": {"x": 235, "y": 165, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 305, "y": 157, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 82, "Face Position": {"x": 204, "y": 111, "w": 187, "h": 187}, "Yawning": "Not Yawning"}
+{"Face ID": 84, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.87239456176758, "Nose-to-chin distance": 64.28174591064453, "Face rotation angle": -0.043684933334589005}}
+{"Face ID": 83, "Eyes": [{"Eye Position": {"x": 306, "y": 157, "w": 50, "h": 50}, "Label": "Open"}, {"Eye Position": {"x": 238, "y": 164, "w": 47, "h": 47}, "Label": "Closed"}]}
+{"Face ID": 85, "Face Position": {"x": 206, "y": 113, "w": 184, "h": 184}, "Yawning": "Yawning"}
+{"Face ID": 87, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.688472747802734, "Nose-to-chin distance": 65.05451965332031, "Face rotation angle": -0.04830676689743996}}
+{"Face ID": 86, "Eyes": [{"Eye Position": {"x": 237, "y": 164, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 306, "y": 157, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 88, "Face Position": {"x": 204, "y": 110, "w": 188, "h": 188}, "Yawning": "Yawning"}
+{"Face ID": 90, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.168312072753906, "Nose-to-chin distance": 66.08943176269531, "Face rotation angle": -0.04516071081161499}}
+{"Face ID": 89, "Eyes": [{"Eye Position": {"x": 237, "y": 163, "w": 46, "h": 46}, "Label": "Closed"}, {"Eye Position": {"x": 308, "y": 157, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 91, "Face Position": {"x": 206, "y": 112, "w": 185, "h": 185}, "Yawning": "Yawning"}
+{"Face ID": 93, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.30882263183594, "Nose-to-chin distance": 63.47966766357422, "Face rotation angle": -0.045084912329912186}}
+{"Face ID": 92, "Eyes": [{"Eye Position": {"x": 307, "y": 156, "w": 51, "h": 51}, "Label": "Open"}, {"Eye Position": {"x": 236, "y": 163, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 94, "Face Position": {"x": 204, "y": 104, "w": 181, "h": 181}, "Yawning": "Not Yawning"}
+{"Face ID": 95, "Eyes": [{"Eye Position": {"x": 235, "y": 156, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 305, "y": 150, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 96, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.97822570800781, "Nose-to-chin distance": 60.1576042175293, "Face rotation angle": -0.052217233926057816}}
+{"Face ID": 97, "Face Position": {"x": 228, "y": 128, "w": 162, "h": 162}, "Yawning": "Not Yawning"}
+{"Face ID": 99, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 43.140472412109375, "Nose-to-chin distance": 57.08631896972656, "Face rotation angle": -0.00936894491314888}}
+{"Face ID": 98, "Eyes": [{"Eye Position": {"x": 252, "y": 172, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 316, "y": 169, "w": 43, "h": 43}, "Label": "Open"}]}
+{"Face ID": 100, "Face Position": {"x": 228, "y": 143, "w": 163, "h": 163}, "Yawning": "Not Yawning"}
+{"Face ID": 102, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.39740753173828, "Nose-to-chin distance": 58.04663848876953, "Face rotation angle": -0.014607539400458336}}
+{"Face ID": 101, "Eyes": [{"Eye Position": {"x": 250, "y": 181, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 315, "y": 177, "w": 47, "h": 47}, "Label": "Closed"}]}
+{"Face ID": 103, "Face Position": {"x": 229, "y": 104, "w": 162, "h": 162}, "Yawning": "Not Yawning"}
+{"Face ID": 105, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 42.422977447509766, "Nose-to-chin distance": 56.65426254272461, "Face rotation angle": -0.02205534279346466}}
+{"Face ID": 104, "Eyes": [{"Eye Position": {"x": 255, "y": 152, "w": 39, "h": 39}, "Label": "Open"}, {"Eye Position": {"x": 318, "y": 148, "w": 42, "h": 42}, "Label": "Open"}]}
+{"Face ID": 106, "Face Position": {"x": 230, "y": 92, "w": 167, "h": 167}, "Yawning": "Not Yawning"}
+{"Face ID": 108, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.96202087402344, "Nose-to-chin distance": 62.905948638916016, "Face rotation angle": -0.009642007760703564}}
+{"Face ID": 107, "Eyes": [{"Eye Position": {"x": 258, "y": 141, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 325, "y": 138, "w": 43, "h": 43}, "Label": "Open"}]}
+{"Face ID": 109, "Face Position": {"x": 232, "y": 95, "w": 165, "h": 165}, "Yawning": "Not Yawning"}
+{"Face ID": 111, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.29029083251953, "Nose-to-chin distance": 60.4316520690918, "Face rotation angle": -0.019579846411943436}}
+{"Face ID": 110, "Eyes": [{"Eye Position": {"x": 326, "y": 139, "w": 42, "h": 42}, "Label": "Open"}, {"Eye Position": {"x": 258, "y": 142, "w": 42, "h": 42}, "Label": "Open"}]}
+{"Face ID": 112, "Face Position": {"x": 232, "y": 95, "w": 165, "h": 165}, "Yawning": "Not Yawning"}
+{"Face ID": 114, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.01483917236328, "Nose-to-chin distance": 58.945899963378906, "Face rotation angle": -0.007560333237051964}}
+{"Face ID": 113, "Eyes": [{"Eye Position": {"x": 258, "y": 142, "w": 42, "h": 42}, "Label": "Open"}, {"Eye Position": {"x": 326, "y": 140, "w": 42, "h": 42}, "Label": "Open"}]}
+{"Face ID": 115, "Face Position": {"x": 231, "y": 89, "w": 169, "h": 169}, "Yawning": "Not Yawning"}
+{"Face ID": 117, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.23427963256836, "Nose-to-chin distance": 60.42375564575195, "Face rotation angle": 0.002006943104788661}}
+{"Face ID": 116, "Eyes": [{"Eye Position": {"x": 327, "y": 136, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 259, "y": 138, "w": 41, "h": 41}, "Label": "Open"}]}
+{"Face ID": 118, "Face Position": {"x": 237, "y": 105, "w": 171, "h": 171}, "Yawning": "Not Yawning"}
+{"Face ID": 120, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.069732666015625, "Nose-to-chin distance": 59.040306091308594, "Face rotation angle": 0.005152005236595869}}
+{"Face ID": 119, "Eyes": [{"Eye Position": {"x": 263, "y": 151, "w": 42, "h": 42}, "Label": "Open"}, {"Eye Position": {"x": 332, "y": 149, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 121, "Face Position": {"x": 235, "y": 98, "w": 175, "h": 175}, "Yawning": "Not Yawning"}
+{"Face ID": 123, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.914039611816406, "Nose-to-chin distance": 60.01670455932617, "Face rotation angle": -0.02745821513235569}}
+{"Face ID": 122, "Eyes": [{"Eye Position": {"x": 263, "y": 150, "w": 42, "h": 42}, "Label": "Open"}, {"Eye Position": {"x": 332, "y": 147, "w": 43, "h": 43}, "Label": "Open"}]}
+{"Face ID": 124, "Face Position": {"x": 232, "y": 82, "w": 169, "h": 169}, "Yawning": "Not Yawning"}
+{"Face ID": 126, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.237937927246094, "Nose-to-chin distance": 62.325016021728516, "Face rotation angle": -0.006165537517517805}}
+{"Face ID": 125, "Eyes": [{"Eye Position": {"x": 258, "y": 130, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 328, "y": 128, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 127, "Face Position": {"x": 229, "y": 83, "w": 174, "h": 174}, "Yawning": "Not Yawning"}
+{"Face ID": 129, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.023658752441406, "Nose-to-chin distance": 64.15020751953125, "Face rotation angle": -0.0043525006622076035}}
+{"Face ID": 128, "Eyes": [{"Eye Position": {"x": 257, "y": 133, "w": 42, "h": 42}, "Label": "Open"}, {"Eye Position": {"x": 328, "y": 131, "w": 42, "h": 42}, "Label": "Open"}]}
+{"Face ID": 130, "Face Position": {"x": 230, "y": 86, "w": 169, "h": 169}, "Yawning": "Not Yawning"}
+{"Face ID": 132, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.85765838623047, "Nose-to-chin distance": 61.7563591003418, "Face rotation angle": 0.001509985770098865}}
+{"Face ID": 131, "Eyes": [{"Eye Position": {"x": 256, "y": 134, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 327, "y": 134, "w": 42, "h": 42}, "Label": "Open"}]}
+{"Face ID": 133, "Face Position": {"x": 230, "y": 85, "w": 172, "h": 172}, "Yawning": "Not Yawning"}
+{"Face ID": 135, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.10185241699219, "Nose-to-chin distance": 64.63792419433594, "Face rotation angle": 0.001831643981859088}}
+{"Face ID": 134, "Eyes": [{"Eye Position": {"x": 256, "y": 134, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 327, "y": 131, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 136, "Face Position": {"x": 233, "y": 86, "w": 172, "h": 172}, "Yawning": "Not Yawning"}
+{"Face ID": 138, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.68852233886719, "Nose-to-chin distance": 64.16000366210938, "Face rotation angle": 0.005598105024546385}}
+{"Face ID": 137, "Eyes": [{"Eye Position": {"x": 259, "y": 134, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 329, "y": 132, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 139, "Face Position": {"x": 232, "y": 97, "w": 155, "h": 155}, "Yawning": "Not Yawning"}
+{"Face ID": 141, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 42.12672805786133, "Nose-to-chin distance": 56.06605911254883, "Face rotation angle": -0.007183442357927561}}
+{"Face ID": 140, "Eyes": [{"Eye Position": {"x": 254, "y": 137, "w": 42, "h": 42}, "Label": "Closed"}, {"Eye Position": {"x": 317, "y": 135, "w": 43, "h": 43}, "Label": "Open"}]}
+{"Face ID": 142, "Face Position": {"x": 233, "y": 99, "w": 157, "h": 157}, "Yawning": "Yawning"}
+{"Face ID": 144, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 41.55958938598633, "Nose-to-chin distance": 61.51369094848633, "Face rotation angle": -0.006373110227286816}}
+{"Face ID": 143, "Eyes": [{"Eye Position": {"x": 263, "y": 148, "w": 27, "h": 27}, "Label": "Open"}, {"Eye Position": {"x": 320, "y": 138, "w": 41, "h": 41}, "Label": "Open"}]}
+{"Face ID": 145, "Face Position": {"x": 227, "y": 83, "w": 172, "h": 172}, "Yawning": "Not Yawning"}
+{"Face ID": 147, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.85480880737305, "Nose-to-chin distance": 60.109535217285156, "Face rotation angle": -0.017160292714834213}}
+{"Face ID": 146, "Eyes": [{"Eye Position": {"x": 323, "y": 131, "w": 40, "h": 40}, "Label": "Open"}, {"Eye Position": {"x": 257, "y": 135, "w": 37, "h": 37}, "Label": "Open"}]}
+{"Face ID": 148, "Face Position": {"x": 217, "y": 65, "w": 189, "h": 189}, "Yawning": "Yawning"}
+{"Face ID": 150, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.91928482055664, "Nose-to-chin distance": 70.35192108154297, "Face rotation angle": -0.0059208557941019535}}
+{"Face ID": 149, "Eyes": [{"Eye Position": {"x": 327, "y": 120, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 250, "y": 123, "w": 43, "h": 43}, "Label": "Open"}]}
+{"Face ID": 151, "Face Position": {"x": 214, "y": 64, "w": 201, "h": 201}, "Yawning": "Not Yawning"}
+{"Face ID": 153, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.10075759887695, "Nose-to-chin distance": 72.3566665649414, "Face rotation angle": -0.017162993550300598}}
+{"Face ID": 152, "Eyes": [{"Eye Position": {"x": 249, "y": 124, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 330, "y": 121, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 154, "Face Position": {"x": 216, "y": 67, "w": 200, "h": 200}, "Yawning": "Yawning"}
+{"Face ID": 156, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.8508186340332, "Nose-to-chin distance": 73.48661804199219, "Face rotation angle": -0.01672632433474064}}
+{"Face ID": 155, "Eyes": [{"Eye Position": {"x": 251, "y": 125, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 331, "y": 123, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 157, "Face Position": {"x": 217, "y": 65, "w": 201, "h": 201}, "Yawning": "Yawning"}
+{"Face ID": 159, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.619266510009766, "Nose-to-chin distance": 76.32550811767578, "Face rotation angle": -0.00046291365288197994}}
+{"Face ID": 158, "Eyes": [{"Eye Position": {"x": 252, "y": 126, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 332, "y": 125, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 160, "Face Position": {"x": 209, "y": 66, "w": 194, "h": 194}, "Yawning": "Yawning"}
+{"Face ID": 162, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.95452117919922, "Nose-to-chin distance": 67.1673583984375, "Face rotation angle": -0.004606893286108971}}
+{"Face ID": 161, "Eyes": [{"Eye Position": {"x": 277, "y": 180, "w": 23, "h": 23}, "Label": "Open"}, {"Eye Position": {"x": 323, "y": 122, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 163, "Face Position": {"x": 204, "y": 69, "w": 191, "h": 191}, "Yawning": "Yawning"}
+{"Face ID": 165, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.685302734375, "Nose-to-chin distance": 68.6780014038086, "Face rotation angle": -0.004105123225599527}}
+{"Face ID": 164, "Eyes": [{"Eye Position": {"x": 317, "y": 124, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 234, "y": 126, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 166, "Face Position": {"x": 207, "y": 68, "w": 192, "h": 192}, "Yawning": "Yawning"}
+{"Face ID": 168, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.95317459106445, "Nose-to-chin distance": 69.61388397216797, "Face rotation angle": 0.0038748120423406363}}
+{"Face ID": 167, "Eyes": [{"Eye Position": {"x": 238, "y": 126, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 321, "y": 125, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 169, "Face Position": {"x": 206, "y": 66, "w": 196, "h": 196}, "Yawning": "Yawning"}
+{"Face ID": 171, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.19305419921875, "Nose-to-chin distance": 67.82971954345703, "Face rotation angle": 0.01123872771859169}}
+{"Face ID": 170, "Eyes": [{"Eye Position": {"x": 238, "y": 126, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 322, "y": 126, "w": 42, "h": 42}, "Label": "Open"}]}
+{"Face ID": 172, "Face Position": {"x": 206, "y": 74, "w": 188, "h": 188}, "Yawning": "Yawning"}
+{"Face ID": 173, "Eyes": [{"Eye Position": {"x": 235, "y": 133, "w": 42, "h": 42}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 174, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.838966369628906, "Nose-to-chin distance": 69.10626220703125, "Face rotation angle": 0.0027327467687427998}}
+{"Face ID": 176, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 175, "Face Position": {"x": 208, "y": 75, "w": 189, "h": 189}, "Yawning": "Yawning"}
+{"Face ID": 177, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.87108612060547, "Nose-to-chin distance": 72.15998077392578, "Face rotation angle": -0.004991790745407343}}
+{"Face ID": 178, "Face Position": {"x": 210, "y": 70, "w": 197, "h": 197}, "Yawning": "Yawning"}
+{"Face ID": 179, "Eyes": [{"Eye Position": {"x": 243, "y": 136, "w": 37, "h": 37}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 180, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.781646728515625, "Nose-to-chin distance": 70.49446105957031, "Face rotation angle": -0.00805298238992691}}
+{"Face ID": 181, "Face Position": {"x": 218, "y": 72, "w": 185, "h": 185}, "Yawning": "Yawning"}
+{"Face ID": 182, "Eyes": [{"Eye Position": {"x": 246, "y": 127, "w": 44, "h": 44}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 183, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.206443786621094, "Nose-to-chin distance": 68.7545394897461, "Face rotation angle": -0.003287038067355752}}
+{"Face ID": 184, "Face Position": {"x": 226, "y": 67, "w": 193, "h": 193}, "Yawning": "Yawning"}
+{"Face ID": 186, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.59419631958008, "Nose-to-chin distance": 73.9605712890625, "Face rotation angle": 0.02557004615664482}}
+{"Face ID": 185, "Eyes": [{"Eye Position": {"x": 257, "y": 124, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 340, "y": 127, "w": 40, "h": 40}, "Label": "Open"}]}
+{"Face ID": 187, "Face Position": {"x": 237, "y": 76, "w": 192, "h": 192}, "Yawning": "Not Yawning"}
+{"Face ID": 189, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.502906799316406, "Nose-to-chin distance": 70.7821273803711, "Face rotation angle": 0.03403441607952118}}
+{"Face ID": 188, "Eyes": [{"Eye Position": {"x": 268, "y": 133, "w": 40, "h": 40}, "Label": "Open"}, {"Eye Position": {"x": 347, "y": 131, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 191, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 190, "Face Position": {"x": 235, "y": 68, "w": 218, "h": 218}, "Yawning": "Not Yawning"}
+{"Face ID": 192, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 56.11920166015625, "Nose-to-chin distance": 79.18154907226562, "Face rotation angle": -0.008730263449251652}}
+{"Face ID": 193, "Face Position": {"x": 239, "y": 76, "w": 215, "h": 215}, "Yawning": "Not Yawning"}
+{"Face ID": 195, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.819786071777344, "Nose-to-chin distance": 76.10560607910156, "Face rotation angle": -0.01021653600037098}}
+{"Face ID": 194, "Eyes": [{"Eye Position": {"x": 276, "y": 137, "w": 47, "h": 47}, "Label": "Open"}, {"Eye Position": {"x": 361, "y": 134, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 196, "Face Position": {"x": 246, "y": 73, "w": 215, "h": 215}, "Yawning": "Not Yawning"}
+{"Face ID": 198, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 56.04393005371094, "Nose-to-chin distance": 73.97035217285156, "Face rotation angle": 0.02217397466301918}}
+{"Face ID": 197, "Eyes": [{"Eye Position": {"x": 283, "y": 134, "w": 47, "h": 47}, "Label": "Open"}, {"Eye Position": {"x": 406, "y": 225, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 199, "Face Position": {"x": 232, "y": 76, "w": 210, "h": 210}, "Yawning": "Not Yawning"}
+{"Face ID": 201, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.62791442871094, "Nose-to-chin distance": 75.39424896240234, "Face rotation angle": -0.002487939316779375}}
+{"Face ID": 200, "Eyes": [{"Eye Position": {"x": 269, "y": 135, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 352, "y": 132, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 202, "Face Position": {"x": 235, "y": 74, "w": 209, "h": 209}, "Yawning": "Not Yawning"}
+{"Face ID": 204, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.56842803955078, "Nose-to-chin distance": 74.15369415283203, "Face rotation angle": 0.0004529952711891383}}
+{"Face ID": 203, "Eyes": [{"Eye Position": {"x": 353, "y": 133, "w": 48, "h": 48}, "Label": "Open"}, {"Eye Position": {"x": 271, "y": 135, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 205, "Face Position": {"x": 237, "y": 63, "w": 209, "h": 209}, "Yawning": "Yawning"}
+{"Face ID": 207, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.88655090332031, "Nose-to-chin distance": 78.56098175048828, "Face rotation angle": 0.01407824270427227}}
+{"Face ID": 206, "Eyes": [{"Eye Position": {"x": 272, "y": 128, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 358, "y": 127, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 208, "Face Position": {"x": 239, "y": 62, "w": 203, "h": 203}, "Yawning": "Yawning"}
+{"Face ID": 210, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.28094482421875, "Nose-to-chin distance": 76.3132553100586, "Face rotation angle": 0.02008705772459507}}
+{"Face ID": 209, "Eyes": [{"Eye Position": {"x": 274, "y": 122, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 361, "y": 124, "w": 44, "h": 44}, "Label": "Closed"}]}
+{"Face ID": 211, "Face Position": {"x": 245, "y": 61, "w": 197, "h": 197}, "Yawning": "Yawning"}
+{"Face ID": 213, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.64445495605469, "Nose-to-chin distance": 75.50958251953125, "Face rotation angle": 0.03612499684095383}}
+{"Face ID": 212, "Eyes": [{"Eye Position": {"x": 314, "y": 173, "w": 22, "h": 22}, "Label": "Open"}, {"Eye Position": {"x": 366, "y": 124, "w": 39, "h": 39}, "Label": "Closed"}]}
+{"Face ID": 214, "Face Position": {"x": 251, "y": 58, "w": 195, "h": 195}, "Yawning": "Yawning"}
+{"Face ID": 216, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.951351165771484, "Nose-to-chin distance": 73.50127410888672, "Face rotation angle": 0.03340696543455124}}
+{"Face ID": 215, "Eyes": [{"Eye Position": {"x": 319, "y": 168, "w": 24, "h": 24}, "Label": "Open"}, {"Eye Position": {"x": 281, "y": 116, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 217, "Face Position": {"x": 250, "y": 57, "w": 196, "h": 196}, "Yawning": "Yawning"}
+{"Face ID": 219, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.055641174316406, "Nose-to-chin distance": 74.67728424072266, "Face rotation angle": 0.02835003100335598}}
+{"Face ID": 218, "Eyes": [{"Eye Position": {"x": 371, "y": 122, "w": 36, "h": 36}, "Label": "Open"}, {"Eye Position": {"x": 281, "y": 115, "w": 44, "h": 44}, "Label": "Closed"}]}
+{"Face ID": 220, "Face Position": {"x": 251, "y": 55, "w": 199, "h": 199}, "Yawning": "Yawning"}
+{"Face ID": 222, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.26701736450195, "Nose-to-chin distance": 78.06214141845703, "Face rotation angle": 0.025930117815732956}}
+{"Face ID": 221, "Eyes": [{"Eye Position": {"x": 322, "y": 163, "w": 24, "h": 24}, "Label": "Open"}, {"Eye Position": {"x": 284, "y": 113, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 223, "Face Position": {"x": 258, "y": 54, "w": 189, "h": 189}, "Yawning": "Yawning"}
+{"Face ID": 224, "Eyes": [{"Eye Position": {"x": 285, "y": 109, "w": 43, "h": 43}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 225, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.97330856323242, "Nose-to-chin distance": 73.5656509399414, "Face rotation angle": 0.02313453145325184}}
+{"Face ID": 226, "Face Position": {"x": 257, "y": 51, "w": 191, "h": 191}, "Yawning": "Yawning"}
+{"Face ID": 227, "Eyes": [{"Eye Position": {"x": 288, "y": 111, "w": 40, "h": 40}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 228, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.71421813964844, "Nose-to-chin distance": 71.34832000732422, "Face rotation angle": 0.02432348020374775}}
+{"Face ID": 229, "Face Position": {"x": 257, "y": 53, "w": 191, "h": 191}, "Yawning": "Yawning"}
+{"Face ID": 230, "Eyes": [{"Eye Position": {"x": 287, "y": 110, "w": 43, "h": 43}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 231, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.64175796508789, "Nose-to-chin distance": 73.18287658691406, "Face rotation angle": 0.023258674889802933}}
+{"Face ID": 232, "Face Position": {"x": 246, "y": 59, "w": 194, "h": 194}, "Yawning": "Not Yawning"}
+{"Face ID": 234, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.15498733520508, "Nose-to-chin distance": 74.30856323242188, "Face rotation angle": -0.012636374682188034}}
+{"Face ID": 233, "Eyes": [{"Eye Position": {"x": 319, "y": 168, "w": 23, "h": 23}, "Label": "Open"}, {"Eye Position": {"x": 278, "y": 121, "w": 42, "h": 42}, "Label": "Closed"}]}
+{"Face ID": 235, "Face Position": {"x": 248, "y": 70, "w": 196, "h": 196}, "Yawning": "Yawning"}
+{"Face ID": 237, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.982383728027344, "Nose-to-chin distance": 74.9067611694336, "Face rotation angle": -0.036467041820287704}}
+{"Face ID": 236, "Eyes": [{"Eye Position": {"x": 324, "y": 181, "w": 23, "h": 23}, "Label": "Closed"}, {"Eye Position": {"x": 278, "y": 128, "w": 45, "h": 45}, "Label": "Closed"}]}
+{"Face ID": 238, "Face Position": {"x": 242, "y": 71, "w": 199, "h": 199}, "Yawning": "Not Yawning"}
+{"Face ID": 239, "Eyes": [{"Eye Position": {"x": 274, "y": 136, "w": 41, "h": 41}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 240, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.41998291015625, "Nose-to-chin distance": 71.71282196044922, "Face rotation angle": -0.05945291742682457}}
+{"Face ID": 241, "Face Position": {"x": 244, "y": 77, "w": 194, "h": 194}, "Yawning": "Not Yawning"}
+{"Face ID": 242, "Eyes": [{"Eye Position": {"x": 272, "y": 140, "w": 41, "h": 41}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 243, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.728214263916016, "Nose-to-chin distance": 70.9272232055664, "Face rotation angle": -0.06010144203901291}}
+{"Face ID": 244, "Face Position": {"x": 243, "y": 79, "w": 193, "h": 193}, "Yawning": "Yawning"}
+{"Face ID": 245, "Eyes": [{"Eye Position": {"x": 271, "y": 143, "w": 39, "h": 39}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 246, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.42170715332031, "Nose-to-chin distance": 73.8984603881836, "Face rotation angle": -0.0649292841553688}}
+{"Face ID": 248, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 247, "Face Position": {"x": 242, "y": 81, "w": 194, "h": 194}, "Yawning": "Yawning"}
+{"Face ID": 249, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.76314926147461, "Nose-to-chin distance": 73.75982666015625, "Face rotation angle": -0.0680578351020813}}
+{"Face ID": 251, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 250, "Face Position": {"x": 241, "y": 79, "w": 196, "h": 196}, "Yawning": "Yawning"}
+{"Face ID": 252, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.709197998046875, "Nose-to-chin distance": 71.27617645263672, "Face rotation angle": -0.06514392048120499}}
+{"Face ID": 254, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 253, "Face Position": {"x": 242, "y": 80, "w": 196, "h": 196}, "Yawning": "Yawning"}
+{"Face ID": 255, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.11988830566406, "Nose-to-chin distance": 71.0273666381836, "Face rotation angle": -0.05552443489432335}}
+{"Face ID": 257, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 256, "Face Position": {"x": 242, "y": 82, "w": 195, "h": 195}, "Yawning": "Yawning"}
+{"Face ID": 258, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.58311080932617, "Nose-to-chin distance": 70.66194915771484, "Face rotation angle": -0.06869193911552429}}
+{"Face ID": 260, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 259, "Face Position": {"x": 241, "y": 83, "w": 198, "h": 198}, "Yawning": "Yawning"}
+{"Face ID": 261, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.551448822021484, "Nose-to-chin distance": 71.64606475830078, "Face rotation angle": -0.06848367303609848}}
+{"Face ID": 262, "Face Position": {"x": 241, "y": 84, "w": 198, "h": 198}, "Yawning": "Yawning"}
+{"Face ID": 263, "Eyes": [{"Eye Position": {"x": 273, "y": 148, "w": 40, "h": 40}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 264, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.212528228759766, "Nose-to-chin distance": 73.21454620361328, "Face rotation angle": -0.06064622476696968}}
+{"Face ID": 265, "Face Position": {"x": 239, "y": 85, "w": 203, "h": 203}, "Yawning": "Yawning"}
+{"Face ID": 266, "Eyes": [{"Eye Position": {"x": 272, "y": 151, "w": 39, "h": 39}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 267, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.38109588623047, "Nose-to-chin distance": 74.72643280029297, "Face rotation angle": -0.061260372400283813}}
+{"Face ID": 268, "Face Position": {"x": 238, "y": 86, "w": 203, "h": 203}, "Yawning": "Not Yawning"}
+{"Face ID": 269, "Eyes": [{"Eye Position": {"x": 272, "y": 153, "w": 39, "h": 39}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 270, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.179622650146484, "Nose-to-chin distance": 73.35214233398438, "Face rotation angle": -0.07086843997240067}}
+{"Face ID": 272, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 271, "Face Position": {"x": 239, "y": 88, "w": 202, "h": 202}, "Yawning": "Yawning"}
+{"Face ID": 273, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.35616683959961, "Nose-to-chin distance": 70.99723815917969, "Face rotation angle": -0.06708372384309769}}
+{"Face ID": 275, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 274, "Face Position": {"x": 237, "y": 90, "w": 203, "h": 203}, "Yawning": "Yawning"}
+{"Face ID": 276, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.05760192871094, "Nose-to-chin distance": 73.0056381225586, "Face rotation angle": -0.06608026474714279}}
+{"Face ID": 278, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 277, "Face Position": {"x": 236, "y": 91, "w": 204, "h": 204}, "Yawning": "Yawning"}
+{"Face ID": 279, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.81169128417969, "Nose-to-chin distance": 72.4141845703125, "Face rotation angle": -0.0632782131433487}}
+{"Face ID": 280, "Face Position": {"x": 236, "y": 93, "w": 210, "h": 210}, "Yawning": "Not Yawning"}
+{"Face ID": 281, "Eyes": [{"Eye Position": {"x": 274, "y": 159, "w": 40, "h": 40}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 282, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.048431396484375, "Nose-to-chin distance": 74.03621673583984, "Face rotation angle": -0.050682369619607925}}
+{"Face ID": 283, "Face Position": {"x": 248, "y": 67, "w": 219, "h": 219}, "Yawning": "Yawning"}
+{"Face ID": 285, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.18878936767578, "Nose-to-chin distance": 75.38723754882812, "Face rotation angle": 0.0336175300180912}}
+{"Face ID": 284, "Eyes": [{"Eye Position": {"x": 289, "y": 130, "w": 47, "h": 47}, "Label": "Open"}, {"Eye Position": {"x": 376, "y": 136, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 286, "Face Position": {"x": 242, "y": 58, "w": 213, "h": 213}, "Yawning": "Yawning"}
+{"Face ID": 288, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.916175842285156, "Nose-to-chin distance": 74.69874572753906, "Face rotation angle": 0.02149202860891819}}
+{"Face ID": 287, "Eyes": [{"Eye Position": {"x": 284, "y": 125, "w": 44, "h": 44}, "Label": "Closed"}, {"Eye Position": {"x": 319, "y": 180, "w": 24, "h": 24}, "Label": "Closed"}]}
+{"Face ID": 289, "Face Position": {"x": 243, "y": 51, "w": 216, "h": 216}, "Yawning": "Yawning"}
+{"Face ID": 291, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.244754791259766, "Nose-to-chin distance": 74.7239990234375, "Face rotation angle": 0.01874145306646824}}
+{"Face ID": 290, "Eyes": [{"Eye Position": {"x": 319, "y": 171, "w": 25, "h": 25}, "Label": "Open"}, {"Eye Position": {"x": 283, "y": 121, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 292, "Face Position": {"x": 246, "y": 56, "w": 200, "h": 200}, "Yawning": "Yawning"}
+{"Face ID": 294, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.402645111083984, "Nose-to-chin distance": 74.12627410888672, "Face rotation angle": 0.019312242045998573}}
+{"Face ID": 293, "Eyes": [{"Eye Position": {"x": 317, "y": 166, "w": 23, "h": 23}, "Label": "Open"}, {"Eye Position": {"x": 281, "y": 122, "w": 40, "h": 40}, "Label": "Open"}]}
+{"Face ID": 296, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 295, "Face Position": {"x": 253, "y": 56, "w": 193, "h": 193}, "Yawning": "Yawning"}
+{"Face ID": 297, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.50569534301758, "Nose-to-chin distance": 76.90484619140625, "Face rotation angle": 0.03110707923769951}}
+{"Face ID": 298, "Face Position": {"x": 255, "y": 57, "w": 189, "h": 189}, "Yawning": "Yawning"}
+{"Face ID": 299, "Eyes": [{"Eye Position": {"x": 320, "y": 161, "w": 25, "h": 25}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 300, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.703155517578125, "Nose-to-chin distance": 74.28523254394531, "Face rotation angle": 0.031442124396562576}}
+{"Face ID": 301, "Face Position": {"x": 257, "y": 56, "w": 187, "h": 187}, "Yawning": "Yawning"}
+{"Face ID": 302, "Eyes": [{"Eye Position": {"x": 321, "y": 158, "w": 25, "h": 25}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 303, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.923133850097656, "Nose-to-chin distance": 73.75170135498047, "Face rotation angle": 0.031934235244989395}}
+{"Face ID": 304, "Face Position": {"x": 245, "y": 48, "w": 212, "h": 212}, "Yawning": "Yawning"}
+{"Face ID": 306, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.915340423583984, "Nose-to-chin distance": 78.97636413574219, "Face rotation angle": 0.019117699936032295}}
+{"Face ID": 305, "Eyes": [{"Eye Position": {"x": 321, "y": 166, "w": 22, "h": 22}, "Label": "Open"}, {"Eye Position": {"x": 368, "y": 116, "w": 46, "h": 46}, "Label": "Closed"}]}
+{"Face ID": 307, "Face Position": {"x": 254, "y": 52, "w": 217, "h": 217}, "Yawning": "Not Yawning"}
+{"Face ID": 309, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.656028747558594, "Nose-to-chin distance": 76.10016632080078, "Face rotation angle": -0.004858395084738731}}
+{"Face ID": 308, "Eyes": [{"Eye Position": {"x": 294, "y": 119, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 384, "y": 121, "w": 43, "h": 43}, "Label": "Closed"}]}
+{"Face ID": 310, "Face Position": {"x": 249, "y": 57, "w": 222, "h": 222}, "Yawning": "Not Yawning"}
+{"Face ID": 312, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.37197494506836, "Nose-to-chin distance": 78.20198059082031, "Face rotation angle": -0.037082333117723465}}
+{"Face ID": 311, "Eyes": [{"Eye Position": {"x": 382, "y": 126, "w": 45, "h": 45}, "Label": "Closed"}, {"Eye Position": {"x": 290, "y": 130, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 313, "Face Position": {"x": 245, "y": 80, "w": 216, "h": 216}, "Yawning": "Not Yawning"}
+{"Face ID": 314, "Eyes": [{"Eye Position": {"x": 283, "y": 148, "w": 44, "h": 44}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 315, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.697994232177734, "Nose-to-chin distance": 77.92218780517578, "Face rotation angle": -0.03394879028201103}}
+{"Face ID": 316, "Face Position": {"x": 251, "y": 81, "w": 215, "h": 215}, "Yawning": "Not Yawning"}
+{"Face ID": 317, "Eyes": [{"Eye Position": {"x": 285, "y": 145, "w": 49, "h": 49}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 318, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.47990798950195, "Nose-to-chin distance": 77.38676452636719, "Face rotation angle": -0.02859288640320301}}
+{"Face ID": 320, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 319, "Face Position": {"x": 250, "y": 83, "w": 216, "h": 216}, "Yawning": "Not Yawning"}
+{"Face ID": 321, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.658382415771484, "Nose-to-chin distance": 75.60948181152344, "Face rotation angle": -0.04527594894170761}}
+{"Face ID": 323, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 322, "Face Position": {"x": 249, "y": 80, "w": 217, "h": 217}, "Yawning": "Yawning"}
+{"Face ID": 324, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.2465705871582, "Nose-to-chin distance": 73.04601287841797, "Face rotation angle": -0.0454687625169754}}
+{"Face ID": 326, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 325, "Face Position": {"x": 248, "y": 78, "w": 219, "h": 219}, "Yawning": "Yawning"}
+{"Face ID": 327, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.0171012878418, "Nose-to-chin distance": 76.52204895019531, "Face rotation angle": -0.05591787025332451}}
+{"Face ID": 328, "Face Position": {"x": 253, "y": 83, "w": 213, "h": 213}, "Yawning": "Not Yawning"}
+{"Face ID": 330, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.02491760253906, "Nose-to-chin distance": 76.11479949951172, "Face rotation angle": -0.029255900532007217}}
+{"Face ID": 329, "Eyes": [{"Eye Position": {"x": 290, "y": 149, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 380, "y": 147, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 332, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 331, "Face Position": {"x": 255, "y": 80, "w": 212, "h": 212}, "Yawning": "Yawning"}
+{"Face ID": 333, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.20237350463867, "Nose-to-chin distance": 76.76904296875, "Face rotation angle": -0.028991958126425743}}
+{"Face ID": 334, "Face Position": {"x": 256, "y": 78, "w": 217, "h": 217}, "Yawning": "Not Yawning"}
+{"Face ID": 336, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.482059478759766, "Nose-to-chin distance": 78.41206359863281, "Face rotation angle": -0.03801913559436798}}
+{"Face ID": 335, "Eyes": [{"Eye Position": {"x": 382, "y": 145, "w": 47, "h": 47}, "Label": "Closed"}, {"Eye Position": {"x": 292, "y": 151, "w": 42, "h": 42}, "Label": "Closed"}]}
+{"Face ID": 337, "Face Position": {"x": 255, "y": 79, "w": 217, "h": 217}, "Yawning": "Not Yawning"}
+{"Face ID": 338, "Eyes": [{"Eye Position": {"x": 293, "y": 147, "w": 44, "h": 44}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 339, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.22439193725586, "Nose-to-chin distance": 79.38652801513672, "Face rotation angle": -0.03280230239033699}}
+{"Face ID": 340, "Face Position": {"x": 254, "y": 75, "w": 220, "h": 220}, "Yawning": "Not Yawning"}
+{"Face ID": 341, "Eyes": [{"Eye Position": {"x": 295, "y": 148, "w": 44, "h": 44}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 342, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.291500091552734, "Nose-to-chin distance": 77.67841339111328, "Face rotation angle": -0.0534004308283329}}
+{"Face ID": 344, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 343, "Face Position": {"x": 258, "y": 80, "w": 212, "h": 212}, "Yawning": "Yawning"}
+{"Face ID": 345, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.59402847290039, "Nose-to-chin distance": 77.4657974243164, "Face rotation angle": -0.029865173622965813}}
+{"Face ID": 346, "Face Position": {"x": 256, "y": 79, "w": 216, "h": 216}, "Yawning": "Yawning"}
+{"Face ID": 347, "Eyes": [{"Eye Position": {"x": 294, "y": 148, "w": 44, "h": 44}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 348, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.59231185913086, "Nose-to-chin distance": 79.63200378417969, "Face rotation angle": -0.03902163356542587}}
+{"Face ID": 349, "Face Position": {"x": 255, "y": 77, "w": 217, "h": 217}, "Yawning": "Not Yawning"}
+{"Face ID": 350, "Eyes": [{"Eye Position": {"x": 294, "y": 148, "w": 45, "h": 45}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 351, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.0876579284668, "Nose-to-chin distance": 77.34210205078125, "Face rotation angle": -0.04403529316186905}}
+{"Face ID": 352, "Face Position": {"x": 259, "y": 82, "w": 211, "h": 211}, "Yawning": "Yawning"}
+{"Face ID": 354, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.28567123413086, "Nose-to-chin distance": 77.3005142211914, "Face rotation angle": -0.03262914717197418}}
+{"Face ID": 353, "Eyes": [{"Eye Position": {"x": 383, "y": 144, "w": 48, "h": 48}, "Label": "Closed"}, {"Eye Position": {"x": 293, "y": 146, "w": 47, "h": 47}, "Label": "Closed"}]}
+{"Face ID": 356, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 355, "Face Position": {"x": 257, "y": 83, "w": 211, "h": 211}, "Yawning": "Not Yawning"}
+{"Face ID": 357, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.29948806762695, "Nose-to-chin distance": 76.69892120361328, "Face rotation angle": -0.02040904574096203}}
+{"Face ID": 359, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 358, "Face Position": {"x": 257, "y": 83, "w": 214, "h": 214}, "Yawning": "Not Yawning"}
+{"Face ID": 360, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.55418395996094, "Nose-to-chin distance": 77.25653076171875, "Face rotation angle": -0.028176572173833847}}
+{"Face ID": 362, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 361, "Face Position": {"x": 257, "y": 86, "w": 214, "h": 214}, "Yawning": "Not Yawning"}
+{"Face ID": 363, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.279788970947266, "Nose-to-chin distance": 79.23887634277344, "Face rotation angle": -0.02653461880981922}}
+{"Face ID": 365, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 364, "Face Position": {"x": 256, "y": 79, "w": 218, "h": 218}, "Yawning": "Yawning"}
+{"Face ID": 366, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 51.03656768798828, "Nose-to-chin distance": 75.67207336425781, "Face rotation angle": -0.014267096295952797}}
+{"Face ID": 367, "Face Position": {"x": 257, "y": 82, "w": 218, "h": 218}, "Yawning": "Not Yawning"}
+{"Face ID": 368, "Eyes": [{"Eye Position": {"x": 386, "y": 145, "w": 45, "h": 45}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 369, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.65166091918945, "Nose-to-chin distance": 78.48973083496094, "Face rotation angle": -0.03316173329949379}}
+{"Face ID": 371, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 370, "Face Position": {"x": 258, "y": 84, "w": 213, "h": 213}, "Yawning": "Not Yawning"}
+{"Face ID": 372, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.84055709838867, "Nose-to-chin distance": 77.60626220703125, "Face rotation angle": -0.02698579430580139}}
+{"Face ID": 373, "Face Position": {"x": 258, "y": 83, "w": 214, "h": 214}, "Yawning": "Not Yawning"}
+{"Face ID": 374, "Eyes": [{"Eye Position": {"x": 382, "y": 142, "w": 49, "h": 49}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 375, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.094791412353516, "Nose-to-chin distance": 77.46875, "Face rotation angle": -0.0323420986533165}}
+{"Face ID": 376, "Face Position": {"x": 257, "y": 84, "w": 216, "h": 216}, "Yawning": "Not Yawning"}
+{"Face ID": 377, "Eyes": [{"Eye Position": {"x": 296, "y": 150, "w": 44, "h": 44}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 378, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.9080696105957, "Nose-to-chin distance": 78.28067779541016, "Face rotation angle": -0.027374204248189926}}
+{"Face ID": 379, "Face Position": {"x": 259, "y": 82, "w": 216, "h": 216}, "Yawning": "Not Yawning"}
+{"Face ID": 381, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.98430633544922, "Nose-to-chin distance": 79.59082794189453, "Face rotation angle": -0.0180160254240036}}
+{"Face ID": 380, "Eyes": [{"Eye Position": {"x": 384, "y": 144, "w": 48, "h": 48}, "Label": "Open"}, {"Eye Position": {"x": 293, "y": 143, "w": 53, "h": 53}, "Label": "Closed"}]}
+{"Face ID": 382, "Face Position": {"x": 257, "y": 84, "w": 217, "h": 217}, "Yawning": "Not Yawning"}
+{"Face ID": 384, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.11663055419922, "Nose-to-chin distance": 78.2207260131836, "Face rotation angle": -0.005226312670856714}}
+{"Face ID": 383, "Eyes": [{"Eye Position": {"x": 296, "y": 146, "w": 50, "h": 50}, "Label": "Open"}, {"Eye Position": {"x": 385, "y": 146, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 385, "Face Position": {"x": 258, "y": 85, "w": 219, "h": 219}, "Yawning": "Not Yawning"}
+{"Face ID": 387, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.955970764160156, "Nose-to-chin distance": 76.9680404663086, "Face rotation angle": -0.018893279135227203}}
+{"Face ID": 386, "Eyes": [{"Eye Position": {"x": 388, "y": 150, "w": 47, "h": 47}, "Label": "Open"}, {"Eye Position": {"x": 299, "y": 150, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 389, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 388, "Face Position": {"x": 266, "y": 88, "w": 215, "h": 215}, "Yawning": "Not Yawning"}
+{"Face ID": 390, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.39059066772461, "Nose-to-chin distance": 75.7500991821289, "Face rotation angle": 0.005639027804136276}}
+{"Face ID": 392, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 391, "Face Position": {"x": 266, "y": 88, "w": 215, "h": 215}, "Yawning": "Not Yawning"}
+{"Face ID": 393, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.037837982177734, "Nose-to-chin distance": 77.68976593017578, "Face rotation angle": 0.009985029697418213}}
+{"Face ID": 395, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 394, "Face Position": {"x": 269, "y": 87, "w": 213, "h": 213}, "Yawning": "Yawning"}
+{"Face ID": 396, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.14281463623047, "Nose-to-chin distance": 79.26158905029297, "Face rotation angle": 0.01871989667415619}}
+{"Face ID": 397, "Face Position": {"x": 274, "y": 81, "w": 212, "h": 212}, "Yawning": "Yawning"}
+{"Face ID": 399, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.78084182739258, "Nose-to-chin distance": 75.76793670654297, "Face rotation angle": 0.04304932802915573}}
+{"Face ID": 398, "Eyes": [{"Eye Position": {"x": 349, "y": 204, "w": 23, "h": 23}, "Label": "Closed"}, {"Eye Position": {"x": 406, "y": 149, "w": 42, "h": 42}, "Label": "Closed"}]}
+{"Face ID": 400, "Face Position": {"x": 283, "y": 76, "w": 216, "h": 216}, "Yawning": "Yawning"}
+{"Face ID": 402, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.168697357177734, "Nose-to-chin distance": 81.0450668334961, "Face rotation angle": 0.07796843349933624}}
+{"Face ID": 401, "Eyes": [{"Eye Position": {"x": 360, "y": 196, "w": 25, "h": 25}, "Label": "Open"}, {"Eye Position": {"x": 322, "y": 139, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 404, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 403, "Face Position": {"x": 292, "y": 71, "w": 220, "h": 220}, "Yawning": "Yawning"}
+{"Face ID": 405, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.236968994140625, "Nose-to-chin distance": 82.6192855834961, "Face rotation angle": 0.10480525344610214}}
+{"Face ID": 406, "Face Position": {"x": 297, "y": 72, "w": 218, "h": 218}, "Yawning": "Yawning"}
+{"Face ID": 407, "Eyes": [{"Eye Position": {"x": 333, "y": 131, "w": 48, "h": 48}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 408, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.39009475708008, "Nose-to-chin distance": 85.12777709960938, "Face rotation angle": 0.11478002369403839}}
+{"Face ID": 409, "Face Position": {"x": 303, "y": 72, "w": 208, "h": 208}, "Yawning": "Yawning"}
+{"Face ID": 411, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.932491302490234, "Nose-to-chin distance": 78.99016571044922, "Face rotation angle": 0.1121884360909462}}
+{"Face ID": 410, "Eyes": [{"Eye Position": {"x": 376, "y": 186, "w": 25, "h": 25}, "Label": "Open"}, {"Eye Position": {"x": 338, "y": 131, "w": 43, "h": 43}, "Label": "Closed"}]}
+{"Face ID": 412, "Face Position": {"x": 305, "y": 68, "w": 204, "h": 204}, "Yawning": "Yawning"}
+{"Face ID": 413, "Eyes": [{"Eye Position": {"x": 376, "y": 179, "w": 26, "h": 26}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 414, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.12431335449219, "Nose-to-chin distance": 79.41886138916016, "Face rotation angle": 0.0998205840587616}}
+{"Face ID": 415, "Face Position": {"x": 303, "y": 65, "w": 209, "h": 209}, "Yawning": "Yawning"}
+{"Face ID": 416, "Eyes": [{"Eye Position": {"x": 377, "y": 179, "w": 26, "h": 26}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 417, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.42634582519531, "Nose-to-chin distance": 78.75100708007812, "Face rotation angle": 0.11541194468736649}}
+{"Face ID": 418, "Face Position": {"x": 298, "y": 63, "w": 218, "h": 218}, "Yawning": "Yawning"}
+{"Face ID": 419, "Eyes": [{"Eye Position": {"x": 338, "y": 124, "w": 45, "h": 45}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 420, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.199188232421875, "Nose-to-chin distance": 82.3849105834961, "Face rotation angle": 0.12359210103750229}}
+{"Face ID": 422, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 421, "Face Position": {"x": 305, "y": 69, "w": 209, "h": 209}, "Yawning": "Yawning"}
+{"Face ID": 423, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.75054168701172, "Nose-to-chin distance": 79.60840606689453, "Face rotation angle": 0.12107013911008835}}
+{"Face ID": 424, "Face Position": {"x": 304, "y": 68, "w": 210, "h": 210}, "Yawning": "Yawning"}
+{"Face ID": 426, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.93587875366211, "Nose-to-chin distance": 79.44220733642578, "Face rotation angle": 0.11518769711256027}}
+{"Face ID": 425, "Eyes": [{"Eye Position": {"x": 379, "y": 181, "w": 27, "h": 27}, "Label": "Open"}, {"Eye Position": {"x": 340, "y": 126, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 428, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 427, "Face Position": {"x": 317, "y": 77, "w": 203, "h": 203}, "Yawning": "Yawning"}
+{"Face ID": 429, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.12458419799805, "Nose-to-chin distance": 76.08863830566406, "Face rotation angle": 0.14753985404968262}}
+{"Face ID": 431, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 430, "Face Position": {"x": 311, "y": 79, "w": 210, "h": 210}, "Yawning": "Yawning"}
+{"Face ID": 432, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.50910949707031, "Nose-to-chin distance": 80.23761749267578, "Face rotation angle": 0.15503378212451935}}
+{"Face ID": 433, "Face Position": {"x": 310, "y": 83, "w": 202, "h": 202}, "Yawning": "Yawning"}
+{"Face ID": 434, "Eyes": [{"Eye Position": {"x": 338, "y": 135, "w": 46, "h": 46}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 435, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.828712463378906, "Nose-to-chin distance": 80.77883911132812, "Face rotation angle": 0.14943735301494598}}
+{"Face ID": 436, "Face Position": {"x": 307, "y": 84, "w": 207, "h": 207}, "Yawning": "Yawning"}
+{"Face ID": 437, "Eyes": [{"Eye Position": {"x": 336, "y": 137, "w": 46, "h": 46}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 438, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.62672424316406, "Nose-to-chin distance": 80.94171905517578, "Face rotation angle": 0.1555221527814865}}
+{"Face ID": 439, "Face Position": {"x": 303, "y": 85, "w": 213, "h": 213}, "Yawning": "Yawning"}
+{"Face ID": 440, "Eyes": [{"Eye Position": {"x": 336, "y": 141, "w": 43, "h": 43}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 441, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.845333099365234, "Nose-to-chin distance": 83.91094970703125, "Face rotation angle": 0.16378413140773773}}
+{"Face ID": 443, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 442, "Face Position": {"x": 305, "y": 94, "w": 209, "h": 209}, "Yawning": "Yawning"}
+{"Face ID": 444, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.40932083129883, "Nose-to-chin distance": 79.79019165039062, "Face rotation angle": 0.13937605917453766}}
+{"Face ID": 446, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 445, "Face Position": {"x": 310, "y": 100, "w": 212, "h": 212}, "Yawning": "Yawning"}
+{"Face ID": 447, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.683624267578125, "Nose-to-chin distance": 81.65398406982422, "Face rotation angle": 0.12194538861513138}}
+{"Face ID": 449, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 448, "Face Position": {"x": 309, "y": 102, "w": 217, "h": 217}, "Yawning": "Yawning"}
+{"Face ID": 450, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 56.44804763793945, "Nose-to-chin distance": 81.56546020507812, "Face rotation angle": 0.12458641082048416}}
+{"Face ID": 451, "Face Position": {"x": 307, "y": 99, "w": 222, "h": 222}, "Yawning": "Yawning"}
+{"Face ID": 452, "Eyes": [{"Eye Position": {"x": 346, "y": 151, "w": 54, "h": 54}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 453, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.96781539916992, "Nose-to-chin distance": 83.54243469238281, "Face rotation angle": 0.13879109919071198}}
+{"Face ID": 454, "Face Position": {"x": 324, "y": 111, "w": 204, "h": 204}, "Yawning": "Yawning"}
+{"Face ID": 455, "Eyes": [{"Eye Position": {"x": 354, "y": 155, "w": 49, "h": 49}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 456, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.174476623535156, "Nose-to-chin distance": 76.85147857666016, "Face rotation angle": 0.15992358326911926}}
+{"Face ID": 457, "Face Position": {"x": 319, "y": 110, "w": 223, "h": 223}, "Yawning": "Yawning"}
+{"Face ID": 458, "Eyes": [{"Eye Position": {"x": 357, "y": 160, "w": 52, "h": 52}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 459, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 56.44706726074219, "Nose-to-chin distance": 82.84770202636719, "Face rotation angle": 0.17526935040950775}}
+{"Face ID": 460, "Face Position": {"x": 319, "y": 116, "w": 226, "h": 226}, "Yawning": "Yawning"}
+{"Face ID": 461, "Eyes": [{"Eye Position": {"x": 361, "y": 166, "w": 48, "h": 48}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 462, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.5378303527832, "Nose-to-chin distance": 82.56427001953125, "Face rotation angle": 0.2210768461227417}}
+{"Face ID": 463, "Face Position": {"x": 331, "y": 119, "w": 227, "h": 227}, "Yawning": "Yawning"}
+{"Face ID": 464, "Eyes": [{"Eye Position": {"x": 373, "y": 167, "w": 48, "h": 48}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 465, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.56687545776367, "Nose-to-chin distance": 82.2806167602539, "Face rotation angle": 0.25296974182128906}}
+{"Face ID": 467, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 466, "Face Position": {"x": 338, "y": 119, "w": 216, "h": 216}, "Yawning": "Yawning"}
+{"Face ID": 468, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.454715728759766, "Nose-to-chin distance": 79.35325622558594, "Face rotation angle": 0.25579580664634705}}
+{"Face ID": 469, "Face Position": {"x": 296, "y": 91, "w": 210, "h": 210}, "Yawning": "Yawning"}
+{"Face ID": 470, "Eyes": [{"Eye Position": {"x": 331, "y": 151, "w": 45, "h": 45}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 471, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.208011627197266, "Nose-to-chin distance": 77.78412628173828, "Face rotation angle": 0.07540973275899887}}
+{"Face ID": 472, "Face Position": {"x": 276, "y": 99, "w": 217, "h": 217}, "Yawning": "Not Yawning"}
+{"Face ID": 473, "Eyes": [{"Eye Position": {"x": 311, "y": 162, "w": 47, "h": 47}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 474, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.857975006103516, "Nose-to-chin distance": 78.56498718261719, "Face rotation angle": 0.01136061456054449}}
+{"Face ID": 476, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 475, "Face Position": {"x": 258, "y": 110, "w": 218, "h": 218}, "Yawning": "Not Yawning"}
+{"Face ID": 477, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 58.437416076660156, "Nose-to-chin distance": 80.57386779785156, "Face rotation angle": -0.04512421041727066}}
+{"Face ID": 479, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 478, "Face Position": {"x": 251, "y": 115, "w": 222, "h": 222}, "Yawning": "Yawning"}
+{"Face ID": 480, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.495948791503906, "Nose-to-chin distance": 78.45848083496094, "Face rotation angle": -0.04856403172016144}}
+{"Face ID": 482, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 481, "Face Position": {"x": 248, "y": 116, "w": 225, "h": 225}, "Yawning": "Yawning"}
+{"Face ID": 483, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.91163635253906, "Nose-to-chin distance": 79.65286254882812, "Face rotation angle": -0.03873603418469429}}
+{"Face ID": 484, "Face Position": {"x": 244, "y": 124, "w": 220, "h": 220}, "Yawning": "Yawning"}
+{"Face ID": 485, "Eyes": [{"Eye Position": {"x": 364, "y": 170, "w": 58, "h": 58}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 486, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 56.75173568725586, "Nose-to-chin distance": 75.64952850341797, "Face rotation angle": -0.0852462574839592}}
+{"Face ID": 487, "Face Position": {"x": 238, "y": 121, "w": 224, "h": 224}, "Yawning": "Yawning"}
+{"Face ID": 488, "Eyes": [{"Eye Position": {"x": 359, "y": 168, "w": 61, "h": 61}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 489, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.361045837402344, "Nose-to-chin distance": 75.81981658935547, "Face rotation angle": -0.0847606435418129}}
+{"Face ID": 491, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 490, "Face Position": {"x": 240, "y": 128, "w": 223, "h": 223}, "Yawning": "Yawning"}
+{"Face ID": 492, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 56.39542770385742, "Nose-to-chin distance": 75.17034912109375, "Face rotation angle": -0.056820597499608994}}
+{"Face ID": 494, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 493, "Face Position": {"x": 233, "y": 134, "w": 231, "h": 231}, "Yawning": "Yawning"}
+{"Face ID": 495, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 56.16221237182617, "Nose-to-chin distance": 74.927978515625, "Face rotation angle": -0.08747442066669464}}
+{"Face ID": 497, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 496, "Face Position": {"x": 216, "y": 145, "w": 224, "h": 224}, "Yawning": "Yawning"}
+{"Face ID": 498, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.91774368286133, "Nose-to-chin distance": 75.15225982666016, "Face rotation angle": -0.1392730474472046}}
+{"Face ID": 500, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 499, "Face Position": {"x": 210, "y": 148, "w": 214, "h": 214}, "Yawning": "Yawning"}
+{"Face ID": 501, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.56455993652344, "Nose-to-chin distance": 73.65179443359375, "Face rotation angle": -0.18389292061328888}}
+{"Face ID": 503, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 502, "Face Position": {"x": 214, "y": 137, "w": 219, "h": 219}, "Yawning": "Not Yawning"}
+{"Face ID": 504, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.09299850463867, "Nose-to-chin distance": 73.45085144042969, "Face rotation angle": -0.17323637008666992}}
+{"Face ID": 505, "Face Position": {"x": 230, "y": 110, "w": 228, "h": 228}, "Yawning": "Not Yawning"}
+{"Face ID": 507, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.61066818237305, "Nose-to-chin distance": 80.1214599609375, "Face rotation angle": -0.09564065933227539}}
+{"Face ID": 506, "Eyes": [{"Eye Position": {"x": 357, "y": 165, "w": 53, "h": 53}, "Label": "Open"}, {"Eye Position": {"x": 269, "y": 178, "w": 52, "h": 52}, "Label": "Open"}]}
+{"Face ID": 508, "Face Position": {"x": 279, "y": 101, "w": 210, "h": 210}, "Yawning": "Not Yawning"}
+{"Face ID": 510, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.862770080566406, "Nose-to-chin distance": 78.21916198730469, "Face rotation angle": 0.009062620811164379}}
+{"Face ID": 509, "Eyes": [{"Eye Position": {"x": 403, "y": 161, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 313, "y": 163, "w": 42, "h": 42}, "Label": "Closed"}]}
+{"Face ID": 512, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 511, "Face Position": {"x": 266, "y": 106, "w": 220, "h": 220}, "Yawning": "Not Yawning"}
+{"Face ID": 513, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 58.85541915893555, "Nose-to-chin distance": 77.360107421875, "Face rotation angle": -0.05146356299519539}}
+{"Face ID": 515, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 514, "Face Position": {"x": 259, "y": 112, "w": 224, "h": 224}, "Yawning": "Not Yawning"}
+{"Face ID": 516, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.32746124267578, "Nose-to-chin distance": 80.1887435913086, "Face rotation angle": -0.086085245013237}}
+{"Face ID": 518, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 517, "Face Position": {"x": 250, "y": 114, "w": 228, "h": 228}, "Yawning": "Not Yawning"}
+{"Face ID": 519, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.909358978271484, "Nose-to-chin distance": 79.38008880615234, "Face rotation angle": -0.08825840801000595}}
+{"Face ID": 521, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 520, "Face Position": {"x": 243, "y": 122, "w": 219, "h": 219}, "Yawning": "Not Yawning"}
+{"Face ID": 522, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.37606430053711, "Nose-to-chin distance": 74.674072265625, "Face rotation angle": -0.1691611260175705}}
+{"Face ID": 523, "Face Position": {"x": 206, "y": 131, "w": 229, "h": 229}, "Yawning": "Yawning"}
+{"Face ID": 524, "Eyes": [{"Eye Position": {"x": 330, "y": 183, "w": 51, "h": 51}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 525, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 56.68315124511719, "Nose-to-chin distance": 75.47913360595703, "Face rotation angle": -0.22321264445781708}}
+{"Face ID": 527, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 526, "Face Position": {"x": 206, "y": 163, "w": 226, "h": 226}, "Yawning": "Yawning"}
+{"Face ID": 528, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.64016342163086, "Nose-to-chin distance": 72.01122283935547, "Face rotation angle": -0.2356317639350891}}
+{"Face ID": 530, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 529, "Face Position": {"x": 200, "y": 180, "w": 222, "h": 222}, "Yawning": "Yawning"}
+{"Face ID": 531, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.918190002441406, "Nose-to-chin distance": 73.38936614990234, "Face rotation angle": -0.23575544357299805}}
+{"Face ID": 532, "Face Position": {"x": 194, "y": 137, "w": 236, "h": 236}, "Yawning": "Not Yawning"}
+{"Face ID": 533, "Eyes": [{"Eye Position": {"x": 328, "y": 187, "w": 53, "h": 53}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 534, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.628868103027344, "Nose-to-chin distance": 81.4356689453125, "Face rotation angle": -0.14245541393756866}}
+{"Face ID": 535, "Face Position": {"x": 235, "y": 108, "w": 226, "h": 226}, "Yawning": "Not Yawning"}
+{"Face ID": 537, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.27335739135742, "Nose-to-chin distance": 81.22349548339844, "Face rotation angle": -0.06262040138244629}}
+{"Face ID": 536, "Eyes": [{"Eye Position": {"x": 364, "y": 165, "w": 53, "h": 53}, "Label": "Open"}, {"Eye Position": {"x": 276, "y": 175, "w": 50, "h": 50}, "Label": "Closed"}]}
+{"Face ID": 538, "Face Position": {"x": 220, "y": 118, "w": 226, "h": 226}, "Yawning": "Not Yawning"}
+{"Face ID": 539, "Eyes": [{"Eye Position": {"x": 262, "y": 186, "w": 47, "h": 47}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 540, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.672515869140625, "Nose-to-chin distance": 81.64612579345703, "Face rotation angle": -0.10799667239189148}}
+{"Face ID": 542, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 541, "Face Position": {"x": 216, "y": 118, "w": 226, "h": 226}, "Yawning": "Not Yawning"}
+{"Face ID": 543, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 57.09341049194336, "Nose-to-chin distance": 75.73712158203125, "Face rotation angle": -0.1253724843263626}}
+{"Face ID": 545, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 544, "Face Position": {"x": 211, "y": 124, "w": 226, "h": 226}, "Yawning": "Yawning"}
+{"Face ID": 546, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 56.914146423339844, "Nose-to-chin distance": 77.91727447509766, "Face rotation angle": -0.14410538971424103}}
+{"Face ID": 548, "Eyes": ["No eyes detected, considered closed"]}
+{"Face ID": 547, "Face Position": {"x": 210, "y": 136, "w": 223, "h": 223}, "Yawning": "Yawning"}
+{"Face ID": 549, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 56.97056198120117, "Nose-to-chin distance": 74.17195892333984, "Face rotation angle": -0.12826956808567047}}
+{"Face ID": 550, "Face Position": {"x": 209, "y": 149, "w": 217, "h": 217}, "Yawning": "Yawning"}
+{"Face ID": 551, "Eyes": [{"Eye Position": {"x": 329, "y": 196, "w": 52, "h": 52}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 552, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 55.01576232910156, "Nose-to-chin distance": 72.69461059570312, "Face rotation angle": -0.14565947651863098}}
+{"Face ID": 553, "Face Position": {"x": 190, "y": 135, "w": 217, "h": 217}, "Yawning": "Yawning"}
+{"Face ID": 555, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.198184967041016, "Nose-to-chin distance": 70.56827545166016, "Face rotation angle": -0.10802512615919113}}
+{"Face ID": 554, "Eyes": [{"Eye Position": {"x": 301, "y": 186, "w": 47, "h": 47}, "Label": "Open"}, {"Eye Position": {"x": 226, "y": 195, "w": 54, "h": 54}, "Label": "Closed"}]}
+{"Face ID": 556, "Face Position": {"x": 241, "y": 139, "w": 153, "h": 153}, "Yawning": "Not Yawning"}
+{"Face ID": 557, "Eyes": [{"Eye Position": {"x": 319, "y": 181, "w": 34, "h": 34}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 558, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 37.55144500732422, "Nose-to-chin distance": 59.60390090942383, "Face rotation angle": -0.12508520483970642}}
+{"Face ID": 559, "Face Position": {"x": 304, "y": 181, "w": 130, "h": 130}, "Yawning": "Yawning"}
+{"Face ID": 561, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 32.151100158691406, "Nose-to-chin distance": 50.82340621948242, "Face rotation angle": 0.12448321282863617}}
+{"Face ID": 560, "Eyes": [{"Eye Position": {"x": 324, "y": 210, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 379, "y": 223, "w": 30, "h": 30}, "Label": "Open"}]}
+{"Face ID": 562, "Face Position": {"x": 279, "y": 216, "w": 139, "h": 139}, "Yawning": "Yawning"}
+{"Face ID": 563, "Eyes": [{"Eye Position": {"x": 307, "y": 260, "w": 28, "h": 28}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 564, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 32.67795944213867, "Nose-to-chin distance": 45.536651611328125, "Face rotation angle": -0.09234429895877838}}
+{"Face ID": 565, "Face Position": {"x": 244, "y": 182, "w": 128, "h": 128}, "Yawning": "Yawning"}
+{"Face ID": 567, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.277889251708984, "Nose-to-chin distance": 44.8502311706543, "Face rotation angle": -0.061647139489650726}}
+{"Face ID": 566, "Eyes": [{"Eye Position": {"x": 315, "y": 217, "w": 31, "h": 31}, "Label": "Open"}, {"Eye Position": {"x": 266, "y": 222, "w": 29, "h": 29}, "Label": "Open"}]}
+{"Face ID": 568, "Face Position": {"x": 224, "y": 176, "w": 134, "h": 134}, "Yawning": "Not Yawning"}
+{"Face ID": 570, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.133514404296875, "Nose-to-chin distance": 46.288509368896484, "Face rotation angle": -0.0037765393499284983}}
+{"Face ID": 569, "Eyes": [{"Eye Position": {"x": 300, "y": 214, "w": 31, "h": 31}, "Label": "Open"}, {"Eye Position": {"x": 246, "y": 213, "w": 33, "h": 33}, "Label": "Open"}]}
+{"Face ID": 571, "Face Position": {"x": 215, "y": 171, "w": 139, "h": 139}, "Yawning": "Not Yawning"}
+{"Face ID": 573, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 35.08740234375, "Nose-to-chin distance": 47.512168884277344, "Face rotation angle": 0.0018830288900062442}}
+{"Face ID": 572, "Eyes": [{"Eye Position": {"x": 240, "y": 209, "w": 34, "h": 34}, "Label": "Open"}, {"Eye Position": {"x": 294, "y": 210, "w": 31, "h": 31}, "Label": "Open"}]}
+{"Face ID": 574, "Face Position": {"x": 210, "y": 159, "w": 149, "h": 149}, "Yawning": "Not Yawning"}
+{"Face ID": 576, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 37.050907135009766, "Nose-to-chin distance": 51.445682525634766, "Face rotation angle": -0.03292829915881157}}
+{"Face ID": 575, "Eyes": [{"Eye Position": {"x": 235, "y": 202, "w": 36, "h": 36}, "Label": "Open"}, {"Eye Position": {"x": 292, "y": 200, "w": 37, "h": 37}, "Label": "Open"}]}
+{"Face ID": 577, "Face Position": {"x": 206, "y": 126, "w": 183, "h": 183}, "Yawning": "Not Yawning"}
+{"Face ID": 579, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.62147903442383, "Nose-to-chin distance": 64.10102081298828, "Face rotation angle": 0.01035481970757246}}
+{"Face ID": 578, "Eyes": [{"Eye Position": {"x": 307, "y": 175, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 236, "y": 176, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 580, "Face Position": {"x": 196, "y": 89, "w": 196, "h": 196}, "Yawning": "Not Yawning"}
+{"Face ID": 582, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.8056755065918, "Nose-to-chin distance": 70.39836120605469, "Face rotation angle": -0.008589724078774452}}
+{"Face ID": 581, "Eyes": [{"Eye Position": {"x": 305, "y": 141, "w": 52, "h": 52}, "Label": "Open"}, {"Eye Position": {"x": 229, "y": 144, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 583, "Face Position": {"x": 168, "y": 84, "w": 188, "h": 188}, "Yawning": "Not Yawning"}
+{"Face ID": 585, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.845497131347656, "Nose-to-chin distance": 69.48379516601562, "Face rotation angle": -0.0025496904272586107}}
+{"Face ID": 584, "Eyes": [{"Eye Position": {"x": 272, "y": 132, "w": 53, "h": 53}, "Label": "Open"}, {"Eye Position": {"x": 198, "y": 135, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 586, "Face Position": {"x": 156, "y": 97, "w": 195, "h": 195}, "Yawning": "Not Yawning"}
+{"Face ID": 588, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.6543083190918, "Nose-to-chin distance": 70.67597961425781, "Face rotation angle": -0.030115997418761253}}
+{"Face ID": 587, "Eyes": [{"Eye Position": {"x": 262, "y": 146, "w": 53, "h": 53}, "Label": "Open"}, {"Eye Position": {"x": 188, "y": 152, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 589, "Face Position": {"x": 199, "y": 86, "w": 188, "h": 188}, "Yawning": "Not Yawning"}
+{"Face ID": 591, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.15817642211914, "Nose-to-chin distance": 68.96732330322266, "Face rotation angle": -0.0002798763453029096}}
+{"Face ID": 590, "Eyes": [{"Eye Position": {"x": 306, "y": 136, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 228, "y": 138, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 592, "Face Position": {"x": 160, "y": 103, "w": 191, "h": 191}, "Yawning": "Not Yawning"}
+{"Face ID": 594, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.84518814086914, "Nose-to-chin distance": 70.20252990722656, "Face rotation angle": 0.010903727263212204}}
+{"Face ID": 593, "Eyes": [{"Eye Position": {"x": 268, "y": 153, "w": 52, "h": 52}, "Label": "Open"}, {"Eye Position": {"x": 192, "y": 155, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 595, "Face Position": {"x": 160, "y": 90, "w": 189, "h": 189}, "Yawning": "Not Yawning"}
+{"Face ID": 596, "Eyes": [{"Eye Position": {"x": 190, "y": 143, "w": 47, "h": 47}, "Label": "Open"}, {"Eye Position": {"x": 265, "y": 141, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 597, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.83739471435547, "Nose-to-chin distance": 68.6311264038086, "Face rotation angle": -0.022464187815785408}}
+{"Face ID": 598, "Face Position": {"x": 201, "y": 87, "w": 187, "h": 187}, "Yawning": "Not Yawning"}
+{"Face ID": 600, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.64579391479492, "Nose-to-chin distance": 67.53961181640625, "Face rotation angle": 0.013591796159744263}}
+{"Face ID": 599, "Eyes": [{"Eye Position": {"x": 230, "y": 140, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 306, "y": 139, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 601, "Face Position": {"x": 166, "y": 104, "w": 192, "h": 192}, "Yawning": "Not Yawning"}
+{"Face ID": 603, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.47041702270508, "Nose-to-chin distance": 67.30657958984375, "Face rotation angle": 0.03748456388711929}}
+{"Face ID": 602, "Eyes": [{"Eye Position": {"x": 198, "y": 155, "w": 48, "h": 48}, "Label": "Open"}, {"Eye Position": {"x": 276, "y": 156, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 604, "Face Position": {"x": 137, "y": 94, "w": 184, "h": 184}, "Yawning": "Not Yawning"}
+{"Face ID": 606, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.024234771728516, "Nose-to-chin distance": 67.65511322021484, "Face rotation angle": 0.04614049196243286}}
+{"Face ID": 605, "Eyes": [{"Eye Position": {"x": 169, "y": 144, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 242, "y": 144, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 607, "Face Position": {"x": 197, "y": 110, "w": 185, "h": 185}, "Yawning": "Not Yawning"}
+{"Face ID": 609, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.2769660949707, "Nose-to-chin distance": 65.75726318359375, "Face rotation angle": 0.020631207153201103}}
+{"Face ID": 608, "Eyes": [{"Eye Position": {"x": 221, "y": 156, "w": 50, "h": 50}, "Label": "Open"}, {"Eye Position": {"x": 299, "y": 160, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 610, "Face Position": {"x": 177, "y": 109, "w": 191, "h": 191}, "Yawning": "Not Yawning"}
+{"Face ID": 612, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.726810455322266, "Nose-to-chin distance": 65.22001647949219, "Face rotation angle": 0.01410370972007513}}
+{"Face ID": 611, "Eyes": [{"Eye Position": {"x": 208, "y": 159, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 284, "y": 160, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 613, "Face Position": {"x": 168, "y": 94, "w": 186, "h": 186}, "Yawning": "Not Yawning"}
+{"Face ID": 615, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.57442855834961, "Nose-to-chin distance": 71.91132354736328, "Face rotation angle": 0.01412919070571661}}
+{"Face ID": 614, "Eyes": [{"Eye Position": {"x": 198, "y": 144, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 273, "y": 144, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 616, "Face Position": {"x": 159, "y": 113, "w": 185, "h": 185}, "Yawning": "Not Yawning"}
+{"Face ID": 618, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.59150695800781, "Nose-to-chin distance": 67.03026580810547, "Face rotation angle": 0.010157416574656963}}
+{"Face ID": 617, "Eyes": [{"Eye Position": {"x": 189, "y": 163, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 259, "y": 159, "w": 53, "h": 53}, "Label": "Open"}]}
+{"Face ID": 619, "Face Position": {"x": 169, "y": 89, "w": 186, "h": 186}, "Yawning": "Not Yawning"}
+{"Face ID": 621, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.32687759399414, "Nose-to-chin distance": 71.18985748291016, "Face rotation angle": 0.027508005499839783}}
+{"Face ID": 620, "Eyes": [{"Eye Position": {"x": 200, "y": 140, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 275, "y": 141, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 622, "Face Position": {"x": 154, "y": 118, "w": 184, "h": 184}, "Yawning": "Not Yawning"}
+{"Face ID": 624, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.29765701293945, "Nose-to-chin distance": 66.24032592773438, "Face rotation angle": 0.03859088942408562}}
+{"Face ID": 623, "Eyes": [{"Eye Position": {"x": 186, "y": 165, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 253, "y": 163, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 625, "Face Position": {"x": 183, "y": 107, "w": 180, "h": 180}, "Yawning": "Not Yawning"}
+{"Face ID": 627, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.9310302734375, "Nose-to-chin distance": 64.90873718261719, "Face rotation angle": -0.04381130635738373}}
+{"Face ID": 626, "Eyes": [{"Eye Position": {"x": 206, "y": 158, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 282, "y": 153, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 628, "Face Position": {"x": 148, "y": 102, "w": 176, "h": 176}, "Yawning": "Yawning"}
+{"Face ID": 630, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.338043212890625, "Nose-to-chin distance": 65.2726058959961, "Face rotation angle": 0.03671303763985634}}
+{"Face ID": 629, "Eyes": [{"Eye Position": {"x": 181, "y": 153, "w": 40, "h": 40}, "Label": "Open"}, {"Eye Position": {"x": 245, "y": 147, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 631, "Face Position": {"x": 164, "y": 102, "w": 182, "h": 182}, "Yawning": "Not Yawning"}
+{"Face ID": 633, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.587100982666016, "Nose-to-chin distance": 68.95671844482422, "Face rotation angle": -0.020763035863637924}}
+{"Face ID": 632, "Eyes": [{"Eye Position": {"x": 192, "y": 152, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 265, "y": 150, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 634, "Face Position": {"x": 170, "y": 105, "w": 183, "h": 183}, "Yawning": "Not Yawning"}
+{"Face ID": 636, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.70499038696289, "Nose-to-chin distance": 66.87872314453125, "Face rotation angle": -0.00039035940426401794}}
+{"Face ID": 635, "Eyes": [{"Eye Position": {"x": 198, "y": 155, "w": 47, "h": 47}, "Label": "Open"}, {"Eye Position": {"x": 274, "y": 153, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 637, "Face Position": {"x": 168, "y": 105, "w": 185, "h": 185}, "Yawning": "Not Yawning"}
+{"Face ID": 639, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.054317474365234, "Nose-to-chin distance": 66.13185119628906, "Face rotation angle": -0.003834123257547617}}
+{"Face ID": 638, "Eyes": [{"Eye Position": {"x": 197, "y": 156, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 272, "y": 154, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 640, "Face Position": {"x": 168, "y": 105, "w": 186, "h": 186}, "Yawning": "Not Yawning"}
+{"Face ID": 642, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.2781867980957, "Nose-to-chin distance": 67.70759582519531, "Face rotation angle": 0.007877553813159466}}
+{"Face ID": 641, "Eyes": [{"Eye Position": {"x": 196, "y": 153, "w": 51, "h": 51}, "Label": "Open"}, {"Eye Position": {"x": 272, "y": 152, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 643, "Face Position": {"x": 170, "y": 106, "w": 183, "h": 183}, "Yawning": "Not Yawning"}
+{"Face ID": 645, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.195865631103516, "Nose-to-chin distance": 67.44209289550781, "Face rotation angle": 0.001615924877114594}}
+{"Face ID": 644, "Eyes": [{"Eye Position": {"x": 271, "y": 151, "w": 52, "h": 52}, "Label": "Open"}, {"Eye Position": {"x": 198, "y": 153, "w": 50, "h": 50}, "Label": "Open"}]}
+{"Face ID": 646, "Face Position": {"x": 131, "y": 112, "w": 171, "h": 171}, "Yawning": "Yawning"}
+{"Face ID": 648, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.27361297607422, "Nose-to-chin distance": 65.12993621826172, "Face rotation angle": -0.0570739321410656}}
+{"Face ID": 647, "Eyes": [{"Eye Position": {"x": 160, "y": 162, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 220, "y": 148, "w": 56, "h": 56}, "Label": "Open"}]}
+{"Face ID": 649, "Face Position": {"x": 170, "y": 120, "w": 186, "h": 186}, "Yawning": "Yawning"}
+{"Face ID": 651, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.752113342285156, "Nose-to-chin distance": 67.67923736572266, "Face rotation angle": -0.006113189272582531}}
+{"Face ID": 650, "Eyes": [{"Eye Position": {"x": 198, "y": 166, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 273, "y": 166, "w": 52, "h": 52}, "Label": "Open"}]}
+{"Face ID": 652, "Face Position": {"x": 221, "y": 112, "w": 181, "h": 181}, "Yawning": "Not Yawning"}
+{"Face ID": 654, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.31196975708008, "Nose-to-chin distance": 64.29198455810547, "Face rotation angle": 0.010296281427145004}}
+{"Face ID": 653, "Eyes": [{"Eye Position": {"x": 246, "y": 160, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 322, "y": 163, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 655, "Face Position": {"x": 230, "y": 110, "w": 175, "h": 175}, "Yawning": "Yawning"}
+{"Face ID": 657, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.48080825805664, "Nose-to-chin distance": 63.70823287963867, "Face rotation angle": 0.002784974640235305}}
+{"Face ID": 656, "Eyes": [{"Eye Position": {"x": 247, "y": 147, "w": 58, "h": 58}, "Label": "Closed"}, {"Eye Position": {"x": 323, "y": 152, "w": 53, "h": 53}, "Label": "Closed"}]}
+{"Face ID": 658, "Face Position": {"x": 214, "y": 100, "w": 187, "h": 187}, "Yawning": "Yawning"}
+{"Face ID": 660, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 41.68589401245117, "Nose-to-chin distance": 64.72667694091797, "Face rotation angle": -0.05852178856730461}}
+{"Face ID": 659, "Eyes": [{"Eye Position": {"x": 266, "y": 147, "w": 58, "h": 58}, "Label": "Open"}, {"Eye Position": {"x": 340, "y": 157, "w": 41, "h": 41}, "Label": "Closed"}]}
+{"Face ID": 661, "Face Position": {"x": 163, "y": 106, "w": 172, "h": 172}, "Yawning": "Yawning"}
+{"Face ID": 663, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 42.247493743896484, "Nose-to-chin distance": 65.61808013916016, "Face rotation angle": 0.041706632822752}}
+{"Face ID": 662, "Eyes": [{"Eye Position": {"x": 257, "y": 148, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 194, "y": 153, "w": 42, "h": 42}, "Label": "Open"}]}
+{"Face ID": 664, "Face Position": {"x": 158, "y": 104, "w": 173, "h": 173}, "Yawning": "Yawning"}
+{"Face ID": 666, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 42.537994384765625, "Nose-to-chin distance": 67.41922760009766, "Face rotation angle": 0.017947925254702568}}
+{"Face ID": 665, "Eyes": [{"Eye Position": {"x": 186, "y": 155, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 240, "y": 145, "w": 55, "h": 55}, "Label": "Open"}]}
+{"Face ID": 667, "Face Position": {"x": 154, "y": 98, "w": 182, "h": 182}, "Yawning": "Yawning"}
+{"Face ID": 668, "Eyes": [{"Eye Position": {"x": 235, "y": 140, "w": 61, "h": 61}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 669, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 43.315975189208984, "Nose-to-chin distance": 70.39797973632812, "Face rotation angle": 0.008546806871891022}}
+{"Face ID": 670, "Face Position": {"x": 185, "y": 98, "w": 185, "h": 185}, "Yawning": "Not Yawning"}
+{"Face ID": 672, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.5958366394043, "Nose-to-chin distance": 67.85283660888672, "Face rotation angle": 0.005964032839983702}}
+{"Face ID": 671, "Eyes": [{"Eye Position": {"x": 213, "y": 147, "w": 50, "h": 50}, "Label": "Open"}, {"Eye Position": {"x": 288, "y": 145, "w": 52, "h": 52}, "Label": "Open"}]}
+{"Face ID": 673, "Face Position": {"x": 190, "y": 101, "w": 182, "h": 182}, "Yawning": "Not Yawning"}
+{"Face ID": 675, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.468021392822266, "Nose-to-chin distance": 67.93751525878906, "Face rotation angle": 0.022966697812080383}}
+{"Face ID": 674, "Eyes": [{"Eye Position": {"x": 217, "y": 148, "w": 48, "h": 48}, "Label": "Open"}, {"Eye Position": {"x": 292, "y": 146, "w": 52, "h": 52}, "Label": "Open"}]}
+{"Face ID": 676, "Face Position": {"x": 207, "y": 98, "w": 167, "h": 167}, "Yawning": "Yawning"}
+{"Face ID": 677, "Eyes": [{"Eye Position": {"x": 263, "y": 146, "w": 55, "h": 55}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 678, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 41.51873016357422, "Nose-to-chin distance": 73.90444946289062, "Face rotation angle": 0.015887273475527763}}
+{"Face ID": 679, "Face Position": {"x": 202, "y": 107, "w": 178, "h": 178}, "Yawning": "Not Yawning"}
+{"Face ID": 681, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.482913970947266, "Nose-to-chin distance": 65.9076156616211, "Face rotation angle": 0.03859361633658409}}
+{"Face ID": 680, "Eyes": [{"Eye Position": {"x": 226, "y": 151, "w": 51, "h": 51}, "Label": "Open"}, {"Eye Position": {"x": 303, "y": 154, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 682, "Face Position": {"x": 176, "y": 107, "w": 176, "h": 176}, "Yawning": "Not Yawning"}
+{"Face ID": 684, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.076656341552734, "Nose-to-chin distance": 64.84512329101562, "Face rotation angle": 0.055458810180425644}}
+{"Face ID": 683, "Eyes": [{"Eye Position": {"x": 206, "y": 153, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 278, "y": 153, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 685, "Face Position": {"x": 159, "y": 101, "w": 182, "h": 182}, "Yawning": "Yawning"}
+{"Face ID": 687, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 42.40968704223633, "Nose-to-chin distance": 67.69822692871094, "Face rotation angle": 0.09089379757642746}}
+{"Face ID": 686, "Eyes": [{"Eye Position": {"x": 189, "y": 153, "w": 40, "h": 40}, "Label": "Closed"}, {"Eye Position": {"x": 244, "y": 144, "w": 59, "h": 59}, "Label": "Open"}]}
+{"Face ID": 688, "Face Position": {"x": 166, "y": 105, "w": 175, "h": 175}, "Yawning": "Yawning"}
+{"Face ID": 690, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 41.46757888793945, "Nose-to-chin distance": 65.14187622070312, "Face rotation angle": 0.08662224560976028}}
+{"Face ID": 689, "Eyes": [{"Eye Position": {"x": 243, "y": 144, "w": 59, "h": 59}, "Label": "Open"}, {"Eye Position": {"x": 187, "y": 152, "w": 43, "h": 43}, "Label": "Closed"}]}
+{"Face ID": 691, "Face Position": {"x": 180, "y": 110, "w": 177, "h": 177}, "Yawning": "Not Yawning"}
+{"Face ID": 693, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.16437911987305, "Nose-to-chin distance": 68.27143096923828, "Face rotation angle": 0.023884136229753494}}
+{"Face ID": 692, "Eyes": [{"Eye Position": {"x": 209, "y": 157, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 282, "y": 157, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 694, "Face Position": {"x": 169, "y": 76, "w": 203, "h": 203}, "Yawning": "Yawning"}
+{"Face ID": 696, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.09526824951172, "Nose-to-chin distance": 78.8404541015625, "Face rotation angle": -0.006485189311206341}}
+{"Face ID": 695, "Eyes": [{"Eye Position": {"x": 280, "y": 129, "w": 52, "h": 52}, "Label": "Open"}, {"Eye Position": {"x": 209, "y": 132, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 697, "Face Position": {"x": 176, "y": 82, "w": 191, "h": 191}, "Yawning": "Yawning"}
+{"Face ID": 699, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.38022232055664, "Nose-to-chin distance": 76.30101776123047, "Face rotation angle": 0.004045277833938599}}
+{"Face ID": 698, "Eyes": [{"Eye Position": {"x": 281, "y": 130, "w": 51, "h": 51}, "Label": "Open"}, {"Eye Position": {"x": 211, "y": 133, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 700, "Face Position": {"x": 187, "y": 119, "w": 181, "h": 181}, "Yawning": "Not Yawning"}
+{"Face ID": 702, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.20148849487305, "Nose-to-chin distance": 67.11106872558594, "Face rotation angle": 0.03102654032409191}}
+{"Face ID": 701, "Eyes": [{"Eye Position": {"x": 215, "y": 166, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 287, "y": 166, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 703, "Face Position": {"x": 183, "y": 117, "w": 178, "h": 178}, "Yawning": "Not Yawning"}
+{"Face ID": 705, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.305877685546875, "Nose-to-chin distance": 63.679264068603516, "Face rotation angle": 0.0022775689139962196}}
+{"Face ID": 704, "Eyes": [{"Eye Position": {"x": 211, "y": 167, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 285, "y": 165, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 706, "Face Position": {"x": 167, "y": 108, "w": 192, "h": 192}, "Yawning": "Yawning"}
+{"Face ID": 708, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.36904525756836, "Nose-to-chin distance": 65.72621154785156, "Face rotation angle": -0.20226038992404938}}
+{"Face ID": 707, "Eyes": [{"Eye Position": {"x": 264, "y": 149, "w": 51, "h": 51}, "Label": "Open"}, {"Eye Position": {"x": 192, "y": 167, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 709, "Face Position": {"x": 167, "y": 107, "w": 194, "h": 194}, "Yawning": "Yawning"}
+{"Face ID": 711, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.42612838745117, "Nose-to-chin distance": 71.52983093261719, "Face rotation angle": 0.20177868008613586}}
+{"Face ID": 710, "Eyes": [{"Eye Position": {"x": 205, "y": 150, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 275, "y": 163, "w": 52, "h": 52}, "Label": "Open"}]}
+{"Face ID": 712, "Face Position": {"x": 172, "y": 109, "w": 189, "h": 189}, "Yawning": "Not Yawning"}
+{"Face ID": 714, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.870059967041016, "Nose-to-chin distance": 67.98492431640625, "Face rotation angle": 0.13754244148731232}}
+{"Face ID": 713, "Eyes": [{"Eye Position": {"x": 208, "y": 155, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 280, "y": 164, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 715, "Face Position": {"x": 166, "y": 110, "w": 196, "h": 196}, "Yawning": "Yawning"}
+{"Face ID": 717, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.48265838623047, "Nose-to-chin distance": 66.85281372070312, "Face rotation angle": -0.23066826164722443}}
+{"Face ID": 716, "Eyes": [{"Eye Position": {"x": 191, "y": 172, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 267, "y": 153, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 718, "Face Position": {"x": 173, "y": 114, "w": 180, "h": 180}, "Yawning": "Yawning"}
+{"Face ID": 720, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.81026077270508, "Nose-to-chin distance": 65.45940399169922, "Face rotation angle": 0.22210533916950226}}
+{"Face ID": 719, "Eyes": [{"Eye Position": {"x": 206, "y": 153, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 276, "y": 167, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 721, "Face Position": {"x": 205, "y": 112, "w": 169, "h": 169}, "Yawning": "Not Yawning"}
+{"Face ID": 723, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.09575271606445, "Nose-to-chin distance": 64.10566711425781, "Face rotation angle": -0.058147866278886795}}
+{"Face ID": 722, "Eyes": [{"Eye Position": {"x": 300, "y": 154, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 223, "y": 159, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 724, "Face Position": {"x": 222, "y": 114, "w": 167, "h": 167}, "Yawning": "Yawning"}
+{"Face ID": 726, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.0440788269043, "Nose-to-chin distance": 60.95128631591797, "Face rotation angle": 0.005747304297983646}}
+{"Face ID": 725, "Eyes": [{"Eye Position": {"x": 241, "y": 157, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 314, "y": 161, "w": 40, "h": 40}, "Label": "Open"}]}
+{"Face ID": 727, "Face Position": {"x": 210, "y": 116, "w": 172, "h": 172}, "Yawning": "Not Yawning"}
+{"Face ID": 729, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.86642837524414, "Nose-to-chin distance": 60.45700454711914, "Face rotation angle": -0.00026139841065742075}}
+{"Face ID": 728, "Eyes": [{"Eye Position": {"x": 306, "y": 162, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 230, "y": 159, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 730, "Face Position": {"x": 174, "y": 111, "w": 178, "h": 178}, "Yawning": "Not Yawning"}
+{"Face ID": 732, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.464805603027344, "Nose-to-chin distance": 65.66452026367188, "Face rotation angle": 0.06458953768014908}}
+{"Face ID": 731, "Eyes": [{"Eye Position": {"x": 203, "y": 157, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 276, "y": 162, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 733, "Face Position": {"x": 169, "y": 112, "w": 167, "h": 167}, "Yawning": "Not Yawning"}
+{"Face ID": 735, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 41.29978942871094, "Nose-to-chin distance": 64.25401306152344, "Face rotation angle": 0.11109346151351929}}
+{"Face ID": 734, "Eyes": [{"Eye Position": {"x": 201, "y": 157, "w": 39, "h": 39}, "Label": "Open"}, {"Eye Position": {"x": 263, "y": 156, "w": 49, "h": 49}, "Label": "Open"}]}
+{"Face ID": 736, "Face Position": {"x": 172, "y": 116, "w": 167, "h": 167}, "Yawning": "Not Yawning"}
+{"Face ID": 738, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 43.1745719909668, "Nose-to-chin distance": 64.17951965332031, "Face rotation angle": 0.0697900801897049}}
+{"Face ID": 737, "Eyes": [{"Eye Position": {"x": 200, "y": 160, "w": 42, "h": 42}, "Label": "Open"}, {"Eye Position": {"x": 267, "y": 160, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 739, "Face Position": {"x": 172, "y": 114, "w": 173, "h": 173}, "Yawning": "Not Yawning"}
+{"Face ID": 741, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.41267013549805, "Nose-to-chin distance": 63.25178146362305, "Face rotation angle": 0.08871761709451675}}
+{"Face ID": 740, "Eyes": [{"Eye Position": {"x": 202, "y": 159, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 269, "y": 162, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 742, "Face Position": {"x": 182, "y": 111, "w": 173, "h": 173}, "Yawning": "Not Yawning"}
+{"Face ID": 744, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.61743927001953, "Nose-to-chin distance": 66.84703063964844, "Face rotation angle": 0.06977599114179611}}
+{"Face ID": 743, "Eyes": [{"Eye Position": {"x": 283, "y": 159, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 211, "y": 156, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 745, "Face Position": {"x": 204, "y": 112, "w": 171, "h": 171}, "Yawning": "Not Yawning"}
+{"Face ID": 747, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.64701461791992, "Nose-to-chin distance": 62.837284088134766, "Face rotation angle": 0.0340949222445488}}
+{"Face ID": 746, "Eyes": [{"Eye Position": {"x": 304, "y": 161, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 228, "y": 157, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 748, "Face Position": {"x": 209, "y": 114, "w": 172, "h": 172}, "Yawning": "Not Yawning"}
+{"Face ID": 750, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 47.600486755371094, "Nose-to-chin distance": 63.39458465576172, "Face rotation angle": 0.01943931169807911}}
+{"Face ID": 749, "Eyes": [{"Eye Position": {"x": 306, "y": 162, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 231, "y": 157, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 751, "Face Position": {"x": 230, "y": 118, "w": 177, "h": 177}, "Yawning": "Yawning"}
+{"Face ID": 753, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.70683288574219, "Nose-to-chin distance": 63.9748649597168, "Face rotation angle": 0.025929955765604973}}
+{"Face ID": 752, "Eyes": [{"Eye Position": {"x": 330, "y": 169, "w": 40, "h": 40}, "Label": "Open"}, {"Eye Position": {"x": 257, "y": 161, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 754, "Face Position": {"x": 247, "y": 118, "w": 170, "h": 170}, "Yawning": "Yawning"}
+{"Face ID": 756, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 43.587738037109375, "Nose-to-chin distance": 63.73743438720703, "Face rotation angle": 0.032795947045087814}}
+{"Face ID": 755, "Eyes": [{"Eye Position": {"x": 274, "y": 159, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 346, "y": 171, "w": 33, "h": 33}, "Label": "Open"}]}
+{"Face ID": 757, "Face Position": {"x": 188, "y": 113, "w": 173, "h": 173}, "Yawning": "Yawning"}
+{"Face ID": 759, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 40.32102584838867, "Nose-to-chin distance": 64.69721984863281, "Face rotation angle": 0.3169427514076233}}
+{"Face ID": 758, "Eyes": [{"Eye Position": {"x": 225, "y": 145, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 288, "y": 166, "w": 51, "h": 51}, "Label": "Open"}]}
+{"Face ID": 760, "Face Position": {"x": 190, "y": 104, "w": 183, "h": 183}, "Yawning": "Yawning"}
+{"Face ID": 762, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.11832809448242, "Nose-to-chin distance": 64.7188949584961, "Face rotation angle": -0.21316316723823547}}
+{"Face ID": 761, "Eyes": [{"Eye Position": {"x": 289, "y": 146, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 215, "y": 163, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 763, "Face Position": {"x": 189, "y": 105, "w": 190, "h": 190}, "Yawning": "Not Yawning"}
+{"Face ID": 765, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.282508850097656, "Nose-to-chin distance": 68.02937316894531, "Face rotation angle": -0.24254140257835388}}
+{"Face ID": 764, "Eyes": [{"Eye Position": {"x": 217, "y": 165, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 291, "y": 147, "w": 43, "h": 43}, "Label": "Open"}]}
+{"Face ID": 766, "Face Position": {"x": 196, "y": 111, "w": 192, "h": 192}, "Yawning": "Yawning"}
+{"Face ID": 768, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.530601501464844, "Nose-to-chin distance": 68.73716735839844, "Face rotation angle": 0.3272860646247864}}
+{"Face ID": 767, "Eyes": [{"Eye Position": {"x": 303, "y": 174, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 236, "y": 148, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 769, "Face Position": {"x": 197, "y": 115, "w": 172, "h": 172}, "Yawning": "Not Yawning"}
+{"Face ID": 771, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.411170959472656, "Nose-to-chin distance": 62.540557861328125, "Face rotation angle": -0.0686521828174591}}
+{"Face ID": 770, "Eyes": [{"Eye Position": {"x": 222, "y": 164, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 293, "y": 158, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 772, "Face Position": {"x": 188, "y": 113, "w": 170, "h": 170}, "Yawning": "Not Yawning"}
+{"Face ID": 774, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 44.20353698730469, "Nose-to-chin distance": 60.304988861083984, "Face rotation angle": -0.09126715362071991}}
+{"Face ID": 773, "Eyes": [{"Eye Position": {"x": 212, "y": 164, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 283, "y": 156, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 775, "Face Position": {"x": 192, "y": 109, "w": 192, "h": 192}, "Yawning": "Yawning"}
+{"Face ID": 777, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.07117462158203, "Nose-to-chin distance": 69.131591796875, "Face rotation angle": 0.30933937430381775}}
+{"Face ID": 776, "Eyes": [{"Eye Position": {"x": 235, "y": 148, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 301, "y": 172, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 778, "Face Position": {"x": 202, "y": 113, "w": 173, "h": 173}, "Yawning": "Not Yawning"}
+{"Face ID": 780, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.1914176940918, "Nose-to-chin distance": 63.245758056640625, "Face rotation angle": 0.016029024496674538}}
+{"Face ID": 779, "Eyes": [{"Eye Position": {"x": 228, "y": 161, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 300, "y": 161, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 781, "Face Position": {"x": 200, "y": 113, "w": 168, "h": 168}, "Yawning": "Not Yawning"}
+{"Face ID": 783, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.88695526123047, "Nose-to-chin distance": 62.57166290283203, "Face rotation angle": 0.024406133219599724}}
+{"Face ID": 782, "Eyes": [{"Eye Position": {"x": 223, "y": 159, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 293, "y": 159, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 784, "Face Position": {"x": 201, "y": 113, "w": 171, "h": 171}, "Yawning": "Not Yawning"}
+{"Face ID": 786, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.659080505371094, "Nose-to-chin distance": 63.31125259399414, "Face rotation angle": 0.032325729727745056}}
+{"Face ID": 785, "Eyes": [{"Eye Position": {"x": 225, "y": 159, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 297, "y": 161, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 787, "Face Position": {"x": 199, "y": 112, "w": 172, "h": 172}, "Yawning": "Not Yawning"}
+{"Face ID": 789, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.583251953125, "Nose-to-chin distance": 62.72897720336914, "Face rotation angle": 0.04201287776231766}}
+{"Face ID": 788, "Eyes": [{"Eye Position": {"x": 225, "y": 158, "w": 45, "h": 45}, "Label": "Open"}, {"Eye Position": {"x": 295, "y": 160, "w": 45, "h": 45}, "Label": "Open"}]}
+{"Face ID": 790, "Face Position": {"x": 197, "y": 112, "w": 175, "h": 175}, "Yawning": "Not Yawning"}
+{"Face ID": 792, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 46.31149673461914, "Nose-to-chin distance": 64.3304214477539, "Face rotation angle": 0.03520315885543823}}
+{"Face ID": 791, "Eyes": [{"Eye Position": {"x": 297, "y": 161, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 225, "y": 159, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 793, "Face Position": {"x": 197, "y": 113, "w": 173, "h": 173}, "Yawning": "Not Yawning"}
+{"Face ID": 795, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 45.49726867675781, "Nose-to-chin distance": 64.04647827148438, "Face rotation angle": 0.04300638288259506}}
+{"Face ID": 794, "Eyes": [{"Eye Position": {"x": 224, "y": 160, "w": 43, "h": 43}, "Label": "Open"}, {"Eye Position": {"x": 295, "y": 161, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 796, "Face Position": {"x": 194, "y": 82, "w": 183, "h": 183}, "Yawning": "Yawning"}
+{"Face ID": 798, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 50.96525955200195, "Nose-to-chin distance": 72.68026733398438, "Face rotation angle": 0.06332802027463913}}
+{"Face ID": 797, "Eyes": [{"Eye Position": {"x": 225, "y": 134, "w": 46, "h": 46}, "Label": "Open"}, {"Eye Position": {"x": 295, "y": 138, "w": 46, "h": 46}, "Label": "Open"}]}
+{"Face ID": 799, "Face Position": {"x": 196, "y": 79, "w": 184, "h": 184}, "Yawning": "Yawning"}
+{"Face ID": 801, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.962955474853516, "Nose-to-chin distance": 70.12657165527344, "Face rotation angle": 0.06388622522354126}}
+{"Face ID": 800, "Eyes": [{"Eye Position": {"x": 300, "y": 134, "w": 47, "h": 47}, "Label": "Open"}, {"Eye Position": {"x": 228, "y": 129, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 802, "Face Position": {"x": 190, "y": 121, "w": 183, "h": 183}, "Yawning": "Not Yawning"}
+{"Face ID": 804, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 48.58082962036133, "Nose-to-chin distance": 68.35859680175781, "Face rotation angle": 0.005562261678278446}}
+{"Face ID": 803, "Eyes": [{"Eye Position": {"x": 221, "y": 173, "w": 44, "h": 44}, "Label": "Open"}, {"Eye Position": {"x": 296, "y": 174, "w": 44, "h": 44}, "Label": "Open"}]}
+{"Face ID": 805, "Face Position": {"x": 272, "y": 87, "w": 161, "h": 161}, "Yawning": "Not Yawning"}
+{"Face ID": 807, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 40.99617385864258, "Nose-to-chin distance": 60.80482864379883, "Face rotation angle": -0.010032083839178085}}
+{"Face ID": 806, "Eyes": [{"Eye Position": {"x": 365, "y": 136, "w": 37, "h": 37}, "Label": "Open"}, {"Eye Position": {"x": 302, "y": 134, "w": 38, "h": 38}, "Label": "Open"}]}
+{"Face ID": 808, "Face Position": {"x": 210, "y": 194, "w": 111, "h": 111}, "Yawning": "Yawning"}
+{"Face ID": 809, "Eyes": [{"Eye Position": {"x": 268, "y": 220, "w": 27, "h": 27}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 810, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 25.704309463500977, "Nose-to-chin distance": 40.37699508666992, "Face rotation angle": -0.25240904092788696}}
+{"Face ID": 811, "Face Position": {"x": 358, "y": 198, "w": 134, "h": 134}, "Yawning": "Not Yawning"}
+{"Face ID": 812, "Eyes": [{"Eye Position": {"x": 376, "y": 223, "w": 41, "h": 41}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 813, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.15134811401367, "Nose-to-chin distance": 47.81527328491211, "Face rotation angle": 0.09935948997735977}}
+{"Face ID": 814, "Face Position": {"x": 457, "y": 159, "w": 142, "h": 142}, "Yawning": "Yawning"}
+{"Face ID": 815, "Eyes": [{"Eye Position": {"x": 482, "y": 191, "w": 37, "h": 37}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 816, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 37.68017578125, "Nose-to-chin distance": 54.99330139160156, "Face rotation angle": 0.12958361208438873}}
+{"Face ID": 817, "Face Position": {"x": 311, "y": 130, "w": 137, "h": 137}, "Yawning": "Yawning"}
+{"Face ID": 818, "Eyes": [{"Eye Position": {"x": 383, "y": 163, "w": 34, "h": 34}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 819, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 32.411102294921875, "Nose-to-chin distance": 51.431602478027344, "Face rotation angle": -0.18092955648899078}}
+{"Face ID": 820, "Face Position": {"x": 313, "y": 191, "w": 142, "h": 142}, "Yawning": "Not Yawning"}
+{"Face ID": 822, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 38.08246994018555, "Nose-to-chin distance": 48.53186798095703, "Face rotation angle": 0.017833096906542778}}
+{"Face ID": 821, "Eyes": [{"Eye Position": {"x": 334, "y": 221, "w": 41, "h": 41}, "Label": "Open"}, {"Eye Position": {"x": 389, "y": 221, "w": 43, "h": 43}, "Label": "Open"}]}
+{"Face ID": 823, "Face Position": {"x": 345, "y": 161, "w": 128, "h": 128}, "Yawning": "Not Yawning"}
+{"Face ID": 825, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 33.48970413208008, "Nose-to-chin distance": 49.56879425048828, "Face rotation angle": -0.01799365133047104}}
+{"Face ID": 824, "Eyes": [{"Eye Position": {"x": 417, "y": 198, "w": 28, "h": 28}, "Label": "Open"}, {"Eye Position": {"x": 365, "y": 198, "w": 31, "h": 31}, "Label": "Open"}]}
+{"Face ID": 826, "Face Position": {"x": 331, "y": 222, "w": 131, "h": 131}, "Yawning": "Yawning"}
+{"Face ID": 828, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.938894271850586, "Nose-to-chin distance": 42.55855178833008, "Face rotation angle": 0.1937866359949112}}
+{"Face ID": 827, "Eyes": [{"Eye Position": {"x": 352, "y": 246, "w": 38, "h": 38}, "Label": "Closed"}, {"Eye Position": {"x": 398, "y": 253, "w": 40, "h": 40}, "Label": "Open"}]}
+{"Face ID": 829, "Face Position": {"x": 208, "y": 185, "w": 143, "h": 143}, "Yawning": "Yawning"}
+{"Face ID": 830, "Eyes": [{"Eye Position": {"x": 226, "y": 208, "w": 47, "h": 47}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 831, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 37.18638229370117, "Nose-to-chin distance": 54.67768096923828, "Face rotation angle": 0.13284578919410706}}
+{"Face ID": 832, "Face Position": {"x": 79, "y": 164, "w": 125, "h": 125}, "Yawning": "Not Yawning"}
+{"Face ID": 834, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 31.312658309936523, "Nose-to-chin distance": 46.099609375, "Face rotation angle": 0.051817283034324646}}
+{"Face ID": 833, "Eyes": [{"Eye Position": {"x": 100, "y": 199, "w": 32, "h": 32}, "Label": "Open"}, {"Eye Position": {"x": 155, "y": 205, "w": 26, "h": 26}, "Label": "Open"}]}
+{"Face ID": 835, "Face Position": {"x": 10, "y": 228, "w": 128, "h": 128}, "Yawning": "Yawning"}
+{"Face ID": 836, "Eyes": [{"Eye Position": {"x": 49, "y": 253, "w": 45, "h": 45}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 837, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 28.600221633911133, "Nose-to-chin distance": 46.87645721435547, "Face rotation angle": -0.0038776330184191465}}
+{"Face ID": 838, "Face Position": {"x": 35, "y": 247, "w": 174, "h": 174}, "Yawning": "Not Yawning"}
+{"Face ID": 840, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 38.97615432739258, "Nose-to-chin distance": 61.97359085083008, "Face rotation angle": 0.09418771415948868}}
+{"Face ID": 839, "Eyes": [{"Eye Position": {"x": 74, "y": 295, "w": 36, "h": 36}, "Label": "Open"}, {"Eye Position": {"x": 117, "y": 287, "w": 54, "h": 54}, "Label": "Open"}]}
+{"Face ID": 841, "Face Position": {"x": 178, "y": 103, "w": 168, "h": 168}, "Yawning": "Yawning"}
+{"Face ID": 842, "Eyes": [{"Eye Position": {"x": 259, "y": 149, "w": 40, "h": 40}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 843, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 33.520294189453125, "Nose-to-chin distance": 58.393550872802734, "Face rotation angle": -0.04469742998480797}}
+{"Face ID": 844, "Face Position": {"x": 267, "y": 84, "w": 136, "h": 136}, "Yawning": "Not Yawning"}
+{"Face ID": 846, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 32.9509391784668, "Nose-to-chin distance": 51.65269088745117, "Face rotation angle": -0.12885524332523346}}
+{"Face ID": 845, "Eyes": [{"Eye Position": {"x": 345, "y": 119, "w": 32, "h": 32}, "Label": "Open"}, {"Eye Position": {"x": 286, "y": 127, "w": 32, "h": 32}, "Label": "Open"}]}
+{"Face ID": 847, "Face Position": {"x": 285, "y": 139, "w": 147, "h": 147}, "Yawning": "Yawning"}
+{"Face ID": 848, "Eyes": [{"Eye Position": {"x": 305, "y": 181, "w": 43, "h": 43}, "Label": "Open"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 849, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 33.88237380981445, "Nose-to-chin distance": 50.84872055053711, "Face rotation angle": -0.19795595109462738}}
+{"Face ID": 850, "Face Position": {"x": 226, "y": 187, "w": 140, "h": 140}, "Yawning": "Yawning"}
+{"Face ID": 852, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 32.9163932800293, "Nose-to-chin distance": 47.20220184326172, "Face rotation angle": 0.03760095685720444}}
+{"Face ID": 851, "Eyes": [{"Eye Position": {"x": 255, "y": 223, "w": 29, "h": 29}, "Label": "Closed"}, {"Eye Position": {"x": 294, "y": 217, "w": 42, "h": 42}, "Label": "Closed"}]}
+{"Face ID": 853, "Face Position": {"x": 254, "y": 126, "w": 140, "h": 140}, "Yawning": "Yawning"}
+{"Face ID": 855, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 34.8665771484375, "Nose-to-chin distance": 50.16105270385742, "Face rotation angle": -0.10792110115289688}}
+{"Face ID": 854, "Eyes": [{"Eye Position": {"x": 330, "y": 161, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 274, "y": 172, "w": 33, "h": 33}, "Label": "Open"}]}
+{"Face ID": 856, "Face Position": {"x": 252, "y": 156, "w": 151, "h": 151}, "Yawning": "Yawning"}
+{"Face ID": 858, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 36.05031204223633, "Nose-to-chin distance": 52.05606460571289, "Face rotation angle": 0.27504265308380127}}
+{"Face ID": 857, "Eyes": [{"Eye Position": {"x": 284, "y": 183, "w": 39, "h": 39}, "Label": "Closed"}, {"Eye Position": {"x": 336, "y": 196, "w": 43, "h": 43}, "Label": "Open"}]}
+{"Face ID": 859, "Face Position": {"x": 229, "y": 153, "w": 179, "h": 179}, "Yawning": "Not Yawning"}
+{"Face ID": 861, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 40.471527099609375, "Nose-to-chin distance": 59.27899169921875, "Face rotation angle": -0.2934247851371765}}
+{"Face ID": 860, "Eyes": [{"Eye Position": {"x": 316, "y": 187, "w": 48, "h": 48}, "Label": "Open"}, {"Eye Position": {"x": 265, "y": 214, "w": 39, "h": 39}, "Label": "Open"}]}
+{"Face ID": 862, "Face Position": {"x": 276, "y": 113, "w": 184, "h": 184}, "Yawning": "Not Yawning"}
+{"Face ID": 864, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 49.93730545043945, "Nose-to-chin distance": 70.743408203125, "Face rotation angle": 0.09108098596334457}}
+{"Face ID": 863, "Eyes": [{"Eye Position": {"x": 303, "y": 157, "w": 49, "h": 49}, "Label": "Open"}, {"Eye Position": {"x": 379, "y": 167, "w": 47, "h": 47}, "Label": "Open"}]}
+{"Face ID": 865, "Face Position": {"x": 247, "y": 151, "w": 209, "h": 209}, "Yawning": "Not Yawning"}
+{"Face ID": 867, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 54.00566101074219, "Nose-to-chin distance": 75.38097381591797, "Face rotation angle": -0.06712693721055984}}
+{"Face ID": 866, "Eyes": [{"Eye Position": {"x": 359, "y": 195, "w": 55, "h": 55}, "Label": "Open"}, {"Eye Position": {"x": 280, "y": 203, "w": 53, "h": 53}, "Label": "Open"}]}
+{"Face ID": 868, "Face Position": {"x": 252, "y": 130, "w": 198, "h": 198}, "Yawning": "Not Yawning"}
+{"Face ID": 870, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 52.86115264892578, "Nose-to-chin distance": 73.10692596435547, "Face rotation angle": -0.03126067668199539}}
+{"Face ID": 869, "Eyes": [{"Eye Position": {"x": 360, "y": 177, "w": 56, "h": 56}, "Label": "Open"}, {"Eye Position": {"x": 282, "y": 184, "w": 53, "h": 53}, "Label": "Open"}]}
+{"Face ID": 871, "Face Position": {"x": 253, "y": 122, "w": 203, "h": 203}, "Yawning": "Not Yawning"}
+{"Face ID": 873, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 53.260528564453125, "Nose-to-chin distance": 71.91584777832031, "Face rotation angle": -0.02908146008849144}}
+{"Face ID": 872, "Eyes": [{"Eye Position": {"x": 367, "y": 176, "w": 51, "h": 51}, "Label": "Open"}, {"Eye Position": {"x": 285, "y": 182, "w": 48, "h": 48}, "Label": "Open"}]}
+{"Face ID": 874, "Face Position": {"x": 303, "y": 140, "w": 137, "h": 137}, "Yawning": "Not Yawning"}
+{"Face ID": 876, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 37.31734848022461, "Nose-to-chin distance": 48.57368850708008, "Face rotation angle": -0.005701220594346523}}
+{"Face ID": 875, "Eyes": [{"Eye Position": {"x": 322, "y": 176, "w": 38, "h": 38}, "Label": "Open"}, {"Eye Position": {"x": 377, "y": 175, "w": 37, "h": 37}, "Label": "Open"}]}
+{"Face ID": 877, "Face Position": {"x": 317, "y": 142, "w": 130, "h": 130}, "Yawning": "Not Yawning"}
+{"Face ID": 879, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 35.891658782958984, "Nose-to-chin distance": 48.722469329833984, "Face rotation angle": -0.01871381886303425}}
+{"Face ID": 878, "Eyes": [{"Eye Position": {"x": 389, "y": 175, "w": 35, "h": 35}, "Label": "Open"}, {"Eye Position": {"x": 334, "y": 177, "w": 34, "h": 34}, "Label": "Open"}]}
+{"Face ID": 880, "Face Position": {"x": 324, "y": 139, "w": 134, "h": 134}, "Yawning": "Not Yawning"}
+{"Face ID": 882, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 36.30485153198242, "Nose-to-chin distance": 47.829158782958984, "Face rotation angle": -0.022803883999586105}}
+{"Face ID": 881, "Eyes": [{"Eye Position": {"x": 344, "y": 174, "w": 36, "h": 36}, "Label": "Open"}, {"Eye Position": {"x": 400, "y": 175, "w": 35, "h": 35}, "Label": "Open"}]}
+{"Face ID": 883, "Face Position": {"x": 345, "y": 150, "w": 143, "h": 143}, "Yawning": "Yawning"}
+{"Face ID": 884, "Eyes": [{"Eye Position": {"x": 379, "y": 192, "w": 30, "h": 30}, "Label": "Closed"}, "One eye detected, considered the other as closed"]}
+{"Face ID": 885, "Keypoints": [], "Geometrics": {"Eye-to-eye distance": 33.633174896240234, "Nose-to-chin distance": 45.82572555541992, "Face rotation angle": 0.02882690727710724}}

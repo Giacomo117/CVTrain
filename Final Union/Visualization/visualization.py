@@ -14,8 +14,8 @@ import json
 log_buffer = deque(maxlen=450)  # Assuming 30 frames per second
 
 # Load the trained models
-yawn_model = load_model('Models/yawn_detection_model_mobilenet.h5')
-eyes_model = load_model('Models/eyes_model.h5')
+yawn_model = load_model('C:/Users/39329/PycharmProjects/CVprova1/Final Union/Models/yawn_detection_model_mobilenet.h5')
+eyes_model = load_model('C:/Users/39329/PycharmProjects/CVprova1/Final Union/Models/eyes_model.h5')
 
 model = resnet50(weights='DEFAULT')
 for param in model.parameters():
@@ -27,7 +27,7 @@ model.fc = nn.Linear(in_features=2048, out_features=136)
 model = model.to('cpu')
 
 # Load the model checkpoint
-checkpoint = torch.load(r"Models/model.pth",
+checkpoint = torch.load("C:/Users/39329/PycharmProjects/CVprova1/Final Union/Models/model.pth",
                         map_location=torch.device('cpu'))
 # Load model weights state_dict
 model.load_state_dict(checkpoint['model_state_dict'])
@@ -462,7 +462,7 @@ def compute_metrics():
         print(f"Avg Yawn Rate: {avg_yawn_rate:.2f}, Avg Eye Open Rate: {avg_eye_open_rate:.2f}, Avg Face Rotation Angle: {relative_rotation_angle:.2f}")
 
         # Determine the display message based on metrics
-        if avg_yawn_rate > 0.5:
+        if (avg_eye_open_rate < 0.45) or avg_yawn_rate > 0.85 or relative_rotation_angle > 9.00:
             metrics_display = "Driver is drowsy"
         elif relative_rotation_angle > 0.15 and avg_yawn_rate > 0.3 and avg_eye_open_rate < 0.5:
             metrics_display = "Driver may be falling asleep"

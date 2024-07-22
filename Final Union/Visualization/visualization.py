@@ -5,7 +5,6 @@ from tensorflow.keras.models import load_model
 import numpy as np
 import cv2
 import torch
-from facenet_pytorch import MTCNN
 from torchvision.models import resnet50
 
 import json
@@ -31,9 +30,6 @@ model.load_state_dict(checkpoint['model_state_dict'])
 
 # Execute model evaluation
 model.eval()
-
-# create the MTCNN model, `keep_all=True` returns all the detected faces
-mtcnn = MTCNN(keep_all=True, device='cpu')
 
 # Load the Haar Cascade classifier for face and eye detection
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
@@ -77,77 +73,99 @@ keypoints_data = {}  # To store face_id: keypoints
 face_id_counter = 0
 
 # Function to read frames from the webcam
-def capture_frames():
-    global current_frame, should_terminate
-    cap = cv2.VideoCapture(0)
-    if not cap.isOpened():
-        print("Error: Could not open webcam.")
-        exit()
+def log_face_details(face_id, x, y, w, h, yawn_label):
+    log_message = f"Face ID: {face_id}\n"
+    log_message += f"  - Face Position: (x: {x}, y: {y}, w: {w}, h: {h})\n"
+    log_message += f"  - Yawning: {yawn_label}\n"
 
-    while not should_terminate:
-        ret, frame = cap.read()
-        if not ret:
-            print("Error: Could not read frame.")
-            break
-        with frame_lock:
-            current_frame = frame.copy()
+    with open(logging_file_path, 'a') as log_file:
+        log_file.write(log_message)
+        log_file.write("\n")
 
-        # Display the frame
-        with result_lock:
-            if current_frame is not None:
-                frame_display = current_frame.copy()
-                for (x, y, w, h), yawn_label in faces_data.values():
-                    # Calculate the radius for the rounded corners
-                    radius = int(0.15 * min(w, h))
+    log_data = {
+        "Face ID": face_id,
+        "Face Position": {"x": int(x), "y": int(y), "w": int(w), "h": int(h)},
+        "Yawning": yawn_label,
+    }
+    with open(json_logging_file_path, 'a') as json_log_file:
+        json.dump(log_data, json_log_file)
+        json_log_file.write("\n")
 
-                    # Draw the four sides of the rectangle
-                    cv2.line(frame_display, (x + radius, y), (x + w - radius, y), (55, 215, 255), 2)
-                    cv2.line(frame_display, (x + radius, y + h), (x + w - radius, y + h), (55, 215, 255), 2)
-                    cv2.line(frame_display, (x, y + radius), (x, y + h - radius), (55, 215, 255), 2)
-                    cv2.line(frame_display, (x + w, y + radius), (x + w, y + h - radius), (55, 215, 255), 2)
+def log_eye_details(face_id, eye_list):
+    log_message = f"Face ID: {face_id}\n"
+    log_message += f"  - Eyes:\n"
+    if eye_list:
+        for (ex, ey, ew, eh), eye_label in eye_list:
+            log_message += f"    - Eye Position: (x: {ex}, y: {ey}, w: {ew}, h: {eh}), Label: {eye_label}\n"
+    else:
+        log_message += "    - No eyes detected, considered closed\n"
+    if len(eye_list) == 1:
+        log_message += "    - One eye detected, considered the other as closed\n"
 
-                    # Draw the four rounded corners
-                    cv2.ellipse(frame_display, (x + radius, y + radius), (radius, radius), 180, 0, 90, (55, 215, 255), 2)
-                    cv2.ellipse(frame_display, (x + w - radius, y + radius), (radius, radius), 270, 0, 90, (55, 215, 255), 2)
-                    cv2.ellipse(frame_display, (x + radius, y + h - radius), (radius, radius), 90, 0, 90, (55, 215, 255), 2)
-                    cv2.ellipse(frame_display, (x + w - radius, y + h - radius), (radius, radius), 0, 0, 90, (55, 215, 255), 2)
-                    cv2.putText(frame_display, yawn_label, (x, y-10), cv2.FONT_HERSHEY_COMPLEX, 0.9, (55, 215, 255), 2, cv2.LINE_AA)
+    with open(logging_file_path, 'a') as log_file:
+        log_file.write(log_message)
+        log_file.write("\n")
 
-                for eye_list in eyes_data.values():
-                    for (ex, ey, ew, eh), eye_label in eye_list:
-                        radius = int(0.15 * min(ew, eh))
+    log_data = {
+        "Face ID": face_id,
+        "Eyes": []
+    }
+    if eye_list:
+        for (ex, ey, ew, eh), eye_label in eye_list:
+            log_data["Eyes"].append({
+                "Eye Position": {"x": int(ex), "y": int(ey), "w": int(ew), "h": int(eh)},
+                "Label": eye_label
+            })
+    else:
+        log_data["Eyes"].append("No eyes detected, considered closed")
+    if len(eye_list) == 1:
+        log_data["Eyes"].append("One eye detected, considered the other as closed")
+    with open(json_logging_file_path, 'a') as json_log_file:
+        json.dump(log_data, json_log_file)
+        json_log_file.write("\n")
 
-                        # Top horizontal line
-                        cv2.line(frame_display, (ex + radius, ey), (ex + ew - radius, ey), (200, 200, 200), 2)
-                        # Bottom horizontal line
-                        cv2.line(frame_display, (ex + radius, ey + eh), (ex + ew - radius, ey + eh), (200, 200, 200), 2)
-                        # Left vertical line
-                        cv2.line(frame_display, (ex, ey + radius), (ex, ey + eh - radius), (200, 200, 200), 2)
-                        # Right vertical line
-                        cv2.line(frame_display, (ex + ew, ey + radius), (ex + ew, ey + eh - radius), (200, 200, 200), 2)
+def log_keypoints_details(face_id, keypoints):
+    log_message = f"Face ID: {face_id}\n"
+    log_message += f"  - Keypoints:\n"
+    if len(keypoints) > 0:
+        # for (kx, ky) in keypoints:
+        #     log_message += f"    - Keypoint Position: (x: {kx}, y: {ky})\n"
+        eye_to_eye_distance = np.linalg.norm(np.array(keypoints[42]) - np.array(keypoints[39]))
+        nose_to_chin_distance = np.linalg.norm(np.array(keypoints[33]) - np.array(keypoints[8]))
+        log_message += f"    - Eye-to-eye distance: {eye_to_eye_distance:.2f}\n"
+        log_message += f"    - Nose-to-chin distance: {nose_to_chin_distance:.2f}\n"
+        
+        #compute face rotation angle
+        left_eye_center = np.array(keypoints[39])
+        right_eye_center = np.array(keypoints[42])
+        face_rotation_angle = np.arctan((right_eye_center[1] - left_eye_center[1]) / (right_eye_center[0] - left_eye_center[0]))
+        log_message += f"    - Face rotation angle: {face_rotation_angle:.2f}\n"
+        
+    else:
+        log_message += "    - No keypoints detected\n"
 
-                        # Top-left corner
-                        cv2.ellipse(frame_display, (ex + radius, ey + radius), (radius, radius), 180, 0, 90, (200, 200, 200), 2)
-                        # Top-right corner
-                        cv2.ellipse(frame_display, (ex + ew - radius, ey + radius), (radius, radius), 270, 0, 90, (200, 200, 200), 2)
-                        # Bottom-left corner
-                        cv2.ellipse(frame_display, (ex + radius, ey + eh - radius), (radius, radius), 90, 0, 90, (200, 200, 200), 2)
-                        # Bottom-right corner
-                        cv2.ellipse(frame_display, (ex + ew - radius, ey + eh - radius), (radius, radius), 0, 0, 90, (200, 200, 200), 2)
-                        cv2.putText(frame_display, eye_label, (ex, ey-10), cv2.FONT_HERSHEY_COMPLEX, 0.5, (200, 200, 200), 2, cv2.LINE_AA)
+    with open(logging_file_path, 'a') as log_file:
+        log_file.write(log_message)
+        log_file.write("\n")
 
-                for keypoints in keypoints_data.values():
-                    for (x, y) in keypoints:
-                        cv2.circle(frame_display, (int(x), int(y)), 2, (0, 0, 255), -1, cv2.LINE_AA)
-
-                cv2.imshow('Yawn, Eyes, and Keypoints Detection', frame_display)
-
-        if cv2.waitKey(1) & 0xFF == ord('q'):
-            should_terminate = True
-            break
-
-    cap.release()
-    cv2.destroyAllWindows()
+    log_data = {
+        "Face ID": face_id,
+        "Keypoints": []
+    }
+    if len(keypoints) > 0:
+        for (kx, ky) in keypoints:
+            log_data["Keypoints"].append({"x": float(kx), "y": float(ky)})
+        eye_to_eye_distance = float(np.linalg.norm(np.array(keypoints[42]) - np.array(keypoints[39])))
+        nose_to_chin_distance = float(np.linalg.norm(np.array(keypoints[33]) - np.array(keypoints[8])))
+        log_data["Geometrics"] = {
+            "Eye-to-eye distance": eye_to_eye_distance,
+            "Nose-to-chin distance": nose_to_chin_distance
+        }
+    else:
+        log_data["Keypoints"].append("No keypoints detected")
+    with open(json_logging_file_path, 'a') as json_log_file:
+        json.dump(log_data, json_log_file)
+        json_log_file.write("\n")
 
 def process_face(faces, frame):
     global faces_data, face_id_counter
@@ -162,6 +180,7 @@ def process_face(faces, frame):
         yawn_label = get_yawn_class_label(yawn_class)
 
         new_faces_data[face_id] = ((x, y, w, h), yawn_label)
+        log_face_details(face_id, x, y, w, h, yawn_label)
     
     with result_lock:
         faces_data = new_faces_data
@@ -185,8 +204,8 @@ def process_eyes(faces, frame, gray):
             eye_label = get_eye_class_label(prediction[0])
 
             eye_list.append(((x+ex, y+ey, ew, eh), eye_label))
-
         new_eyes_data[face_id] = eye_list
+        log_eye_details(face_id, eye_list)
 
     with result_lock:
         eyes_data = new_eyes_data
@@ -219,90 +238,66 @@ def process_keypoints(faces, frame):
                 p[1] += y
 
             new_keypoints_data[face_id] = keypoints
+            log_keypoints_details(face_id, keypoints)
     
     with result_lock:
         keypoints_data = new_keypoints_data
 
-# Function to log the details
-def log_details():
-    with result_lock:
-        for face_id, ((x, y, w, h), yawn_label) in faces_data.items():
-            eye_list = eyes_data.get(face_id, [])
-            keypoints = keypoints_data.get(face_id, [])
-            
-            # Prepare log message as a text file
-            log_message = f"Face ID: {face_id}\n"
-            log_message += f"  - Face Position: (x: {x}, y: {y}, w: {w}, h: {h})\n"
-            log_message += f"  - Yawning: {yawn_label}\n"
-            log_message += f"  - Eyes:\n"
-            if eye_list:
-                for (ex, ey, ew, eh), eye_label in eye_list:
-                    log_message += f"    - Eye Position: (x: {ex}, y: {ey}, w: {ew}, h: {eh}), Label: {eye_label}\n"
-            else:
-                log_message += "    - No eyes detected, considered closed\n"
-            
-            if len(eye_list) == 1:
-                log_message += "    - One eye detected, considered the other as closed\n"
+# Function to read frames from the webcam
+def capture_frames():
+    global current_frame, should_terminate
+    cap = cv2.VideoCapture(0)
+    if not cap.isOpened():
+        print("Error: Could not open webcam.")
+        exit()
 
-            log_message += f"  - Keypoints:\n"
-            if len(keypoints) > 0:
-                for (kx, ky) in keypoints:
-                    log_message += f"    - Keypoint Position: (x: {kx}, y: {ky})\n"
+    while not should_terminate:
+        ret, frame = cap.read()
+        if not ret:
+            print("Error: Could not read frame.")
+            break
+        with frame_lock:
+            current_frame = frame.copy()
 
-                # Example geometric description
-                eye_to_eye_distance = np.linalg.norm(np.array(keypoints[42]) - np.array(keypoints[39]))
-                nose_to_chin_distance = np.linalg.norm(np.array(keypoints[33]) - np.array(keypoints[8]))
-                log_message += f"    - Eye-to-eye distance: {eye_to_eye_distance:.2f}\n"
-                log_message += f"    - Nose-to-chin distance: {nose_to_chin_distance:.2f}\n"
-            else:
-                log_message += "    - No keypoints detected\n"
-            
-            print("log_message: ", log_message)
-            with open(logging_file_path, 'a') as log_file:
-                log_file.write(log_message)
-                log_file.write("\n")
-                log_file.close()
+        # Display the frame
+        with result_lock:
+            if current_frame is not None:
+                frame_display = current_frame.copy()
+                for (x, y, w, h), yawn_label in faces_data.values():
+                    # Calculate the radius for the rounded corners
+                    radius = int(0.15 * min(w, h))
 
-            # Prepare the log message as a dictionary for JSON serialization
-            log_data = {
-                "Face ID": face_id,
-                "Face Position": {"x": int(x), "y": int(y), "w": int(w), "h": int(h)},
-                "Yawning": yawn_label,
-                "Eyes": [],
-                "Keypoints": []
-            }
-            
-            if eye_list:
-                for (ex, ey, ew, eh), eye_label in eye_list:
-                    log_data["Eyes"].append({
-                        "Eye Position": {"x": int(ex), "y": int(ey), "w": int(ew), "h": int(eh)},
-                        "Label": eye_label
-                    })
-            else:
-                log_data["Eyes"].append("No eyes detected, considered closed")
-            
-            if len(eye_list) == 1:
-                log_data["Eyes"].append("One eye detected, considered the other as closed")
-            
-            if keypoints:
-                for (kx, ky) in keypoints:
-                    log_data["Keypoints"].append({"x": float(kx), "y": float(ky)})
-                
-                # Example geometric description
-                eye_to_eye_distance = float(np.linalg.norm(np.array(keypoints[42]) - np.array(keypoints[39])))
-                nose_to_chin_distance = float(np.linalg.norm(np.array(keypoints[33]) - np.array(keypoints[8])))
-                log_data["Geometrics"] = {
-                    "Eye-to-eye distance": eye_to_eye_distance,
-                    "Nose-to-chin distance": nose_to_chin_distance
-                }
-            else:
-                log_data["Keypoints"].append("No keypoints detected")
-            
-            # Write the structured log data to the JSON log file
-            with open(json_logging_file_path, 'a') as json_log_file:
-                json.dump(log_data, json_log_file)
-                json_log_file.write("\n")  # For readability in the JSON log file
-                json_log_file.close()
+                    # Draw the four sides of the rectangle
+                    cv2.line(frame_display, (x + radius, y), (x + w - radius, y), (55, 215, 255), 2)
+                    cv2.line(frame_display, (x + radius, y + h), (x + w - radius, y + h), (55, 215, 255), 2)
+                    cv2.line(frame_display, (x, y + radius), (x, y + h - radius), (55, 215, 255), 2)
+                    cv2.line(frame_display, (x + w, y + radius), (x + w, y + h - radius), (55, 215, 255), 2)
+
+                    # Draw the four corners of the rectangle
+                    cv2.ellipse(frame_display, (x + radius, y + radius), (radius, radius), 180.0, 0, 90, (55, 215, 255), 2)
+                    cv2.ellipse(frame_display, (x + w - radius, y + radius), (radius, radius), 270.0, 0, 90, (55, 215, 255), 2)
+                    cv2.ellipse(frame_display, (x + radius, y + h - radius), (radius, radius), 90.0, 0, 90, (55, 215, 255), 2)
+                    cv2.ellipse(frame_display, (x + w - radius, y + h - radius), (radius, radius), 0.0, 0, 90, (55, 215, 255), 2)
+
+                    # Display the yawn label
+                    cv2.putText(frame_display, f"Yawning: {yawn_label}", (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
+
+                for eye_list in eyes_data.values():
+                    for (ex, ey, ew, eh), eye_label in eye_list:
+                        cv2.rectangle(frame_display, (ex, ey), (ex + ew, ey + eh), (0, 255, 0), 2)
+                        cv2.putText(frame_display, f"{eye_label}", (ex, ey-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 255), 2)
+
+                for keypoints in keypoints_data.values():
+                    for (kx, ky) in keypoints:
+                        cv2.circle(frame_display, (int(kx), int(ky)), 2, (0, 0, 255), -1)
+
+                cv2.imshow('Webcam Feed', frame_display)
+
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            should_terminate = True
+
+    cap.release()
+    cv2.destroyAllWindows()
 
 # Function to process frames
 def process_frames():
@@ -328,8 +323,6 @@ def process_frames():
         face_thread.join()
         eye_thread.join()
         keypoints_thread.join()
-
-        log_details()
 
 should_terminate = False
 # Start the threads

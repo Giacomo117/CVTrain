@@ -27,7 +27,7 @@ model.fc = nn.Linear(in_features=2048, out_features=136)
 model = model.to('cpu')
 
 # Load the model checkpoint
-checkpoint = torch.load(r"Models\model.pth",
+checkpoint = torch.load(r"Models/model.pth",
                         map_location=torch.device('cpu'))
 # Load model weights state_dict
 model.load_state_dict(checkpoint['model_state_dict'])
@@ -415,8 +415,14 @@ def compute_metrics():
             num_faces += 1
 
         if num_faces > 0:
-            avg_yawn_rate = total_yawns / num_faces
-            avg_eye_open_rate = total_eye_open / (total_eye_open + total_eye_closed)
+            if(total_yawns > 0):
+                avg_yawn_rate = total_yawns / num_faces
+            else:
+                avg_yawn_rate = 0
+            if(total_eye_open + total_eye_closed > 0):
+                avg_eye_open_rate = total_eye_open / (total_eye_open + total_eye_closed)
+            else:
+                avg_eye_open_rate = 0
             relative_rotation_angle /= num_faces
             relative_rotation_angle = abs(relative_rotation_angle - first_rotation_entry["Geometrics"]["Face rotation angle"])
         else:
@@ -424,6 +430,8 @@ def compute_metrics():
             avg_eye_open_rate = 0
             avg_face_rotation_angle = 0
 
+        if(avg_face_rotation_angle is None):
+            avg_face_rotation_angle = 0
         # metrics = {
         #     "Average Yawn Rate": avg_yawn_rate,
         #     "Average Eye Open Rate": avg_eye_open_rate,
@@ -434,9 +442,9 @@ def compute_metrics():
         # metrics_display = f"Avg Yawn Rate: {avg_yawn_rate:.2f}, Avg Eye Open Rate: {avg_eye_open_rate:.2f}, Avg Face Rotation Angle: {avg_face_rotation_angle:.2f}"
         if(avg_yawn_rate > 0.5 or avg_eye_open_rate < 0.8):
             metrics_display = "Driver is drowsy"
-        elif(relative_rotation_angle > 0.15 and avg_yawn_rate > 0.3 and avg_eye_open_rate < 0.5):
+        elif(avg_face_rotation_angle > 0.15 and avg_yawn_rate > 0.3 and avg_eye_open_rate < 0.5):
             metrics_display = "Driver may be falling asleep"
-        elif total_rotation_angle > 0.5 and relative_rotation_angle < 0.1 and avg_yawn_rate < 0.3 and avg_eye_open_rate > 0.8:
+        elif total_rotation_angle > 0.5 and avg_face_rotation_angle < 0.1 and avg_yawn_rate < 0.3 and avg_eye_open_rate > 0.8:
             metrics_display = "Driver is focused"
         if (avg_eye_open_rate < 0.5):
             metrics_display = "Driver may be falling asleep"

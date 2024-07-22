@@ -513,3 +513,7 @@ capture_thread.join()
 process_thread.join()
 metrics_thread.join()
 display_thread.join()
+
+# close the log file, adding the missin parenthesis in the json
+with open(json_logging_file_path, 'a') as json_log_file:
+    json_log_file.write("}")

@@ -7,7 +7,7 @@ import numpy as np
 import cv2
 import torch
 from torchvision.models import resnet50
-
+import math
 import json
 
 # Global variables for circular buffer
@@ -354,11 +354,18 @@ def process_frames():
             frame = current_frame.copy()
 
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(40, 40))
+        faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(100, 100))
 
-        face_thread = threading.Thread(target=process_face, args=(faces, frame))
-        eye_thread = threading.Thread(target=process_eyes, args=(faces, frame, gray))
-        keypoints_thread = threading.Thread(target=process_keypoints, args=(faces, frame))
+        # Sort faces based on area (w * h) in descending order and select the largest one
+        if len(faces) > 0:
+            faces = sorted(faces, key=lambda x: x[2] * x[3], reverse=True)
+            largest_face = faces[0:1]  # Take only the largest face
+        else:
+            largest_face = []
+
+        face_thread = threading.Thread(target=process_face, args=(largest_face, frame))
+        eye_thread = threading.Thread(target=process_eyes, args=(largest_face, frame, gray))
+        keypoints_thread = threading.Thread(target=process_keypoints, args=(largest_face, frame))
 
         face_thread.start()
         eye_thread.start()
@@ -372,6 +379,7 @@ def process_frames():
 def compute_metrics():
     global metrics_display, should_terminate
     while not should_terminate:
+        time.sleep(1)
         # Ensure the buffer isn't empty
         if not log_buffer:
             continue
@@ -387,67 +395,84 @@ def compute_metrics():
         total_rotation_angle = 0.0
 
         num_faces = 0
+        num_yawn_entries = 0
+        num_eye_entries = 0
+        num_rotation_entries = 0
 
-        first_rotation_entry = None
-
-        for timestamp, log_entry in buffer_snapshot:
-            if "Geometrics" in log_entry and "Face rotation angle" in log_entry["Geometrics"]:
-                first_rotation_entry = log_entry
-                break
+        first_rotation_angle = None
 
         for timestamp, log_entry in buffer_snapshot:
             if "Yawning" in log_entry:
+                num_faces += 1
                 if log_entry["Yawning"] == "Yawning":
                     total_yawns += 1
+                num_yawn_entries += 1
 
             if "Eyes" in log_entry:
+                num_faces += 1
+                # Track if both eyes are open in this log entry
+                both_eyes_open = True
                 for eye in log_entry["Eyes"]:
                     if isinstance(eye, dict):
-                        if eye["Label"] == "Open":
-                            total_eye_open += 1
-                        else:
-                            total_eye_closed += 1
+                        if "Label" not in eye or eye["Label"] == "Closed":
+                            both_eyes_open = False
+                            break
+                    else:
+                        both_eyes_open = False
+                        break
 
-            if "Geometrics" in log_entry:
-                total_rotation_angle += abs(log_entry["Geometrics"]["Face rotation angle"])
-                relative_rotation_angle += log_entry["Geometrics"]["Face rotation angle"]
+                # if there's just one eye, or less than two eyes, consider the other eye closed
+                if len(log_entry["Eyes"]) < 2:
+                    both_eyes_open = False
+                
+                if both_eyes_open:
+                    total_eye_open += 1
+                else:
+                    total_eye_closed += 1
+                num_eye_entries += 1
 
-            num_faces += 1
+            if "Geometrics" in log_entry and "Face rotation angle" in log_entry["Geometrics"]:
+                num_faces += 1
+                face_rotation_angle = log_entry["Geometrics"]["Face rotation angle"]
+                if first_rotation_angle is None:
+                    first_rotation_angle = face_rotation_angle
+                total_rotation_angle += abs(face_rotation_angle)
+                relative_rotation_angle += face_rotation_angle
+                num_rotation_entries += 1
 
         if num_faces > 0:
-            if(total_yawns > 0):
-                avg_yawn_rate = total_yawns / num_faces
+            avg_yawn_rate = total_yawns / num_yawn_entries if num_yawn_entries > 0 else 0
+            avg_eye_open_rate = total_eye_open / num_eye_entries if num_eye_entries > 0 else 0
+            avg_rotation_angle = relative_rotation_angle / num_rotation_entries if num_rotation_entries > 0 else 0
+
+            if first_rotation_angle is not None:
+                relative_rotation_angle = abs(relative_rotation_angle - first_rotation_angle)
             else:
-                avg_yawn_rate = 0
-            if(total_eye_open + total_eye_closed > 0):
-                avg_eye_open_rate = total_eye_open / (total_eye_open + total_eye_closed)
-            else:
-                avg_eye_open_rate = 0
-            relative_rotation_angle /= num_faces
-            relative_rotation_angle = abs(relative_rotation_angle - first_rotation_entry["Geometrics"]["Face rotation angle"])
+                relative_rotation_angle = 0
         else:
             avg_yawn_rate = 0
             avg_eye_open_rate = 0
-            avg_face_rotation_angle = 0
 
-        if(avg_face_rotation_angle is None):
-            avg_face_rotation_angle = 0
-        # metrics = {
-        #     "Average Yawn Rate": avg_yawn_rate,
-        #     "Average Eye Open Rate": avg_eye_open_rate,
-        #     "Average Face Rotation Angle": avg_face_rotation_angle
-        # }
+        # Handle possible NaN or None values
+        avg_yawn_rate = avg_yawn_rate if not math.isnan(avg_yawn_rate) else 0
+        avg_eye_open_rate = avg_eye_open_rate if not math.isnan(avg_eye_open_rate) else 0
+        relative_rotation_angle = relative_rotation_angle if not math.isnan(relative_rotation_angle) else 0
 
-        # # Prepare the metrics display string
-        # metrics_display = f"Avg Yawn Rate: {avg_yawn_rate:.2f}, Avg Eye Open Rate: {avg_eye_open_rate:.2f}, Avg Face Rotation Angle: {avg_face_rotation_angle:.2f}"
-        if(avg_yawn_rate > 0.5 or avg_eye_open_rate < 0.8):
+        # Prepare the metrics display string
+        print(f"Avg Yawn Rate: {avg_yawn_rate:.2f}, Avg Eye Open Rate: {avg_eye_open_rate:.2f}, Avg Face Rotation Angle: {relative_rotation_angle:.2f}")
+
+        # Determine the display message based on metrics
+        if avg_yawn_rate > 0.5:
             metrics_display = "Driver is drowsy"
-        elif(avg_face_rotation_angle > 0.15 and avg_yawn_rate > 0.3 and avg_eye_open_rate < 0.5):
+        elif relative_rotation_angle > 0.15 and avg_yawn_rate > 0.3 and avg_eye_open_rate < 0.5:
             metrics_display = "Driver may be falling asleep"
-        elif total_rotation_angle > 0.5 and avg_face_rotation_angle < 0.1 and avg_yawn_rate < 0.3 and avg_eye_open_rate > 0.8:
+        elif total_rotation_angle > 0.5 and relative_rotation_angle < 0.1 and avg_yawn_rate < 0.3 and avg_eye_open_rate > 0.8:
             metrics_display = "Driver is focused"
-        if (avg_eye_open_rate < 0.5):
+        elif avg_eye_open_rate < 0.5:
             metrics_display = "Driver may be falling asleep"
+        else:
+            metrics_display = ""
+
 
 # Function to display the frame with alerts
 def display_frame():

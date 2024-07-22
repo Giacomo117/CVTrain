@@ -14,8 +14,8 @@ import json
 log_buffer = deque(maxlen=450)  # Assuming 30 frames per second
 
 # Load the trained models
-yawn_model = load_model('C:/Users/39329/PycharmProjects/CVprova1/Final Union/Models/yawn_detection_model_mobilenet.h5')
-eyes_model = load_model('C:/Users/39329/PycharmProjects/CVprova1/Final Union/Models/eyes_model.h5')
+yawn_model = load_model('Models/yawn_detection_model_mobilenet.h5')
+eyes_model = load_model('Models/eyes_model.h5')
 
 model = resnet50(weights='DEFAULT')
 for param in model.parameters():
@@ -27,7 +27,7 @@ model.fc = nn.Linear(in_features=2048, out_features=136)
 model = model.to('cpu')
 
 # Load the model checkpoint
-checkpoint = torch.load("C:/Users/39329/PycharmProjects/CVprova1/Final Union/Models/model.pth",
+checkpoint = torch.load("Models/model.pth",
                         map_location=torch.device('cpu'))
 # Load model weights state_dict
 model.load_state_dict(checkpoint['model_state_dict'])

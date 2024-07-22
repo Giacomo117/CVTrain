@@ -1,5 +1,6 @@
 import threading
-import tensorflow as tf
+import time
+from collections import deque
 import torch.nn as nn
 from tensorflow.keras.models import load_model
 import numpy as np
@@ -8,6 +9,9 @@ import torch
 from torchvision.models import resnet50
 
 import json
+
+# Global variables for circular buffer
+log_buffer = deque(maxlen=450)  # Assuming 30 frames per second
 
 # Load the trained models
 yawn_model = load_model('Models/yawn_detection_model_mobilenet.h5')
@@ -38,6 +42,8 @@ eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml
 
 logging_file_path = 'detection_log.txt'
 json_logging_file_path = 'detection_log.json'
+should_terminate = False
+metrics_display = ""
 
 # Function to preprocess the input frame for the yawn detection model
 def preprocess_for_yawn(frame):
@@ -72,6 +78,17 @@ eyes_data = {}   # To store face_id: [(eye_rect, eye_label), ...]
 keypoints_data = {}  # To store face_id: keypoints
 face_id_counter = 0
 
+# Function to add log entries to the circular buffer
+def add_log_to_buffer(log_data):
+    timestamp = time.time()
+    log_buffer.append((timestamp, log_data))
+
+# Function to remove old entries
+def remove_old_entries():
+    current_time = time.time()
+    while log_buffer and (current_time - log_buffer[0][0]) > 15:
+        log_buffer.popleft()
+
 # Function to read frames from the webcam
 def log_face_details(face_id, x, y, w, h, yawn_label):
     log_message = f"Face ID: {face_id}\n"
@@ -90,6 +107,9 @@ def log_face_details(face_id, x, y, w, h, yawn_label):
     with open(json_logging_file_path, 'a') as json_log_file:
         json.dump(log_data, json_log_file)
         json_log_file.write("\n")
+
+    add_log_to_buffer(log_data)
+    remove_old_entries()
 
 def log_eye_details(face_id, eye_list):
     log_message = f"Face ID: {face_id}\n"
@@ -124,6 +144,9 @@ def log_eye_details(face_id, eye_list):
         json.dump(log_data, json_log_file)
         json_log_file.write("\n")
 
+    add_log_to_buffer(log_data)
+    remove_old_entries()
+
 def log_keypoints_details(face_id, keypoints):
     log_message = f"Face ID: {face_id}\n"
     log_message += f"  - Keypoints:\n"
@@ -153,19 +176,29 @@ def log_keypoints_details(face_id, keypoints):
         "Keypoints": []
     }
     if len(keypoints) > 0:
-        for (kx, ky) in keypoints:
-            log_data["Keypoints"].append({"x": float(kx), "y": float(ky)})
+        # for (kx, ky) in keypoints:
+        #     log_data["Keypoints"].append({"x": float(kx), "y": float(ky)})
         eye_to_eye_distance = float(np.linalg.norm(np.array(keypoints[42]) - np.array(keypoints[39])))
         nose_to_chin_distance = float(np.linalg.norm(np.array(keypoints[33]) - np.array(keypoints[8])))
+        # add face rotation angle to log data
+        left_eye_center = np.array(keypoints[39])
+        right_eye_center = np.array(keypoints[42])
+        face_rotation_angle = np.arctan((right_eye_center[1] - left_eye_center[1]) / (right_eye_center[0] - left_eye_center[0]))
+        # convert the face rotation angle to a float
+        face_rotation_angle = float(face_rotation_angle)
         log_data["Geometrics"] = {
             "Eye-to-eye distance": eye_to_eye_distance,
-            "Nose-to-chin distance": nose_to_chin_distance
+            "Nose-to-chin distance": nose_to_chin_distance,
+            "Face rotation angle": face_rotation_angle
         }
     else:
         log_data["Keypoints"].append("No keypoints detected")
     with open(json_logging_file_path, 'a') as json_log_file:
         json.dump(log_data, json_log_file)
         json_log_file.write("\n")
+
+    add_log_to_buffer(log_data)
+    remove_old_entries()
 
 def process_face(faces, frame):
     global faces_data, face_id_counter
@@ -299,6 +332,17 @@ def capture_frames():
     cap.release()
     cv2.destroyAllWindows()
 
+# Function to retrieve the last 15 seconds of logs
+def get_recent_logs():
+    with result_lock:
+        return list(log_buffer)
+
+# Periodically call this function to clean up old log entries
+def periodic_cleanup():
+    while not should_terminate:
+        time.sleep(1)
+        remove_old_entries()
+
 # Function to process frames
 def process_frames():
     global faces_data, eyes_data, keypoints_data, face_id_counter, should_terminate
@@ -324,13 +368,115 @@ def process_frames():
         eye_thread.join()
         keypoints_thread.join()
 
-should_terminate = False
-# Start the threads
+
+def compute_metrics():
+    global metrics_display, should_terminate
+    while not should_terminate:
+        # Ensure the buffer isn't empty
+        if not log_buffer:
+            continue
+
+        with result_lock:
+            buffer_snapshot = list(log_buffer)
+
+        # Initialize metrics
+        total_yawns = 0
+        total_eye_open = 0
+        total_eye_closed = 0
+        relative_rotation_angle = 0.0
+        total_rotation_angle = 0.0
+
+        num_faces = 0
+
+        first_rotation_entry = None
+
+        for timestamp, log_entry in buffer_snapshot:
+            if "Geometrics" in log_entry and "Face rotation angle" in log_entry["Geometrics"]:
+                first_rotation_entry = log_entry
+                break
+
+        for timestamp, log_entry in buffer_snapshot:
+            if "Yawning" in log_entry:
+                if log_entry["Yawning"] == "Yawning":
+                    total_yawns += 1
+
+            if "Eyes" in log_entry:
+                for eye in log_entry["Eyes"]:
+                    if isinstance(eye, dict):
+                        if eye["Label"] == "Open":
+                            total_eye_open += 1
+                        else:
+                            total_eye_closed += 1
+
+            if "Geometrics" in log_entry:
+                total_rotation_angle += abs(log_entry["Geometrics"]["Face rotation angle"])
+                relative_rotation_angle += log_entry["Geometrics"]["Face rotation angle"]
+
+            num_faces += 1
+
+        if num_faces > 0:
+            avg_yawn_rate = total_yawns / num_faces
+            avg_eye_open_rate = total_eye_open / (total_eye_open + total_eye_closed)
+            relative_rotation_angle /= num_faces
+            relative_rotation_angle = abs(relative_rotation_angle - first_rotation_entry["Geometrics"]["Face rotation angle"])
+        else:
+            avg_yawn_rate = 0
+            avg_eye_open_rate = 0
+            avg_face_rotation_angle = 0
+
+        # metrics = {
+        #     "Average Yawn Rate": avg_yawn_rate,
+        #     "Average Eye Open Rate": avg_eye_open_rate,
+        #     "Average Face Rotation Angle": avg_face_rotation_angle
+        # }
+
+        # # Prepare the metrics display string
+        # metrics_display = f"Avg Yawn Rate: {avg_yawn_rate:.2f}, Avg Eye Open Rate: {avg_eye_open_rate:.2f}, Avg Face Rotation Angle: {avg_face_rotation_angle:.2f}"
+        if(avg_yawn_rate > 0.5 or avg_eye_open_rate < 0.8):
+            metrics_display = "Driver is drowsy"
+        elif(relative_rotation_angle > 0.15 and avg_yawn_rate > 0.3 and avg_eye_open_rate < 0.5):
+            metrics_display = "Driver may be falling asleep"
+        elif total_rotation_angle > 0.5 and relative_rotation_angle < 0.1 and avg_yawn_rate < 0.3 and avg_eye_open_rate > 0.8:
+            metrics_display = "Driver is focused"
+        if (avg_eye_open_rate < 0.5):
+            metrics_display = "Driver may be falling asleep"
+
+# Function to display the frame with alerts
+def display_frame():
+    global metrics_display, should_terminate
+    while not should_terminate:
+        with frame_lock:
+            if current_frame is not None:
+                frame = current_frame.copy()
+            else:
+                continue
+
+        # Add the metrics display to the frame
+        if metrics_display:
+            cv2.putText(frame, metrics_display, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2, cv2.LINE_AA)
+
+        # Display the frame
+        cv2.imshow('Driver Monitoring System', frame)
+
+        if cv2.waitKey(1) & 0xFF == ord('q'):
+            break
+
+    cv2.destroyAllWindows()
+
+# Create threads for capturing and processing frames
 capture_thread = threading.Thread(target=capture_frames)
 process_thread = threading.Thread(target=process_frames)
+metrics_thread = threading.Thread(target=compute_metrics)
+display_thread = threading.Thread(target=display_frame)
 
+# Start the threads
 capture_thread.start()
 process_thread.start()
+metrics_thread.start()
+display_thread.start()
 
+# Wait for the threads to finish (they won't in this case)
 capture_thread.join()
 process_thread.join()
+metrics_thread.join()
+display_thread.join()

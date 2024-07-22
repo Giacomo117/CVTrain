@@ -1,5 +1,5 @@
 ## Folder structure
-The YawnDD folder contains everything needed to deal with [YasDD](https://ieee-dataport.org/open-access/yawdd-yawning-detection-dataset) dataset basic training.
+The YawnDD folder contains everything needed to deal with [YawDD](https://ieee-dataport.org/open-access/yawdd-yawning-detection-dataset) dataset basic training.
 
 ### Training
 Training contains 3 relevant scripts and one txt. The 3 scripts are:
